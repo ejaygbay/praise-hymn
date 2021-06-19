@@ -34,19 +34,50 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <meta name="color-scheme" content="light dark">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/materialize.min.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="shortcut icon" href="./img/cordova-android-icon.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
         <title>Praise Hymn</title>
     </head>
     <body>
         <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+            <nav style="background:azure">
+                <div class="nav-wrapper">
+                    <!-- <a href="#!" class="brand-logo">Logo</a> -->
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i style="color: black; font-size: 36px;" class="material-icons">menu</i></a>
+                    
+                    <ul class="sidenav" id="mobile-demo">
+                        <li>
+                            <div class="user-view">
+                                <div class="background" style="background: antiquewhite;">
+                                    <!-- <img src="./img/cordova-android-icon.png"> -->
+                                </div>
+                                <a href="#"><img class="circle" src="./img/cordova-android-icon.png"></a>
+                                <a href="#"><span class="white-text name" style="color: black !important; font-size: 24px;">Emmanuel Jaygbay</span></a>
+                                <a href="#"><span class="white-text email" style="color: black !important; font-size: px;">emmanueljaygbay@gmail.com</span></a>
+                            </div>
+                        </li>
+                        <li><a class="waves-effect" href="#songs"><i class="material-icons">music_note</i>Songs</a></li>
+                        <li><div class="divider"></div></li>
+                        <li><a class="waves-effect" href="#!"><i class="material-icons">favorite</i>Favorite</a></li>
+                        <li><div class="divider"></div></li>
+                        <li><a class="waves-effect" href="#!"><i class="material-icons">settings</i>Setting</a></li>
+                        <li><div class="divider"></div></li>
+                        <li><a class="waves-effect" href="#!"><i class="material-icons">info</i>About</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div id="songs">
+                songs
             </div>
+            
         </div>
         <script src="cordova.js"></script>
+        <script src="js/materialize.min.js"></script>
         <script src="js/index.js"></script>
     </body>
 </html>
