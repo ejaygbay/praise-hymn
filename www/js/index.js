@@ -20,6 +20,82 @@
 // Wait for the deviceready event before using any of Cordova's device APIs.
 // See https://cordova.apache.org/docs/en/latest/cordova/events/events.html#deviceready
 document.addEventListener('deviceready', onDeviceReady, false);
+let songs = {
+    glory: {
+        title: "To God Be The Glory",
+        stanzas: {
+            1: `To God be the glory, great things He hath done,
+            So loved He the world that He gave us His Son,
+            Who yielded His life our redemption to win,
+            And opened the life-gate that all may go in.`,
+            2: `Oh, perfect redemption, the purchase of blood,
+            To every believer the promise of God;
+            The vilest offender who truly believes,
+            That moment from Jesus a pardon receives.`,
+            3: `Great things He hath taught us, great things He hath done,
+            And great our rejoicing through Jesus the Son;
+            But purer, and higher, and greater will be
+            Our wonder, our transport when Jesus we see.`
+        },
+        chorus: `Praise the Lord, praise the Lord, Let the earth hear His voice;
+        Praise the Lord, praise the Lord, Let the people rejoice; Oh, come to the Father,
+        through Jesus the Son, And give Him the glory; great things He hath done.`
+    },
+    heaven: {
+        title: "When We All Get To Heaven",
+        stanzas: {
+            1: `Sing the wondrous love of Jesus
+            Sing His mercy and His grace;
+            In the mansion bright and blessed
+            He’ll prepare for us a place.`,
+            2: `While we walk the pilgrim pathway
+            Clouds will overspread the ski;
+            But when trav’ling days are over
+            Not a shadow, not a sigh.`,
+            3: `Let us then be true and faithful
+            Trusting, serving every day;
+            Just one glimpse of Him in glory
+            Will the toils of life repay.`,
+            4: `Onward to the prize before us!
+            Soon his beauty we’ll behold
+            Soon the pearly gates will open
+            We shall tread the streets of gold`
+        },
+        chorus: `When we all get to heaven,
+        What a day of rejoicing that will be!
+        When we all see Jesus,
+        We’ll sing and shout the victory!`
+    },
+    faith: {
+        title: "Faith Of Our Father",
+        stanzas: {
+            1: `Faith of our fathers, living still
+            In spite of dungeon, fire and sword,
+            O how our hearts beat high with joy
+            Whene’er we hear that glorious word!
+            Faith of our fathers! holy faith!
+            We will be true to thee till death!`,
+            2: `Our fathers, chained in prisons dark,
+            Were still in heart and conscience free;
+            And blest would be their children’s fate,
+            If they, like them should die for thee:
+            Faith of our fathers! holy faith!
+            We will be true to thee till death!`,
+            3: `Faith of our fathers, we will strive
+            To win all nations unto thee;
+            And through the truth that comes from God
+            Mankind shall then indeed be free.
+            Faith of our fathers! holy faith!
+            We will be true to thee till death!`,
+            4: `Faith of our fathers, we will love
+            Both friend and foe in all our strife,
+            And preach thee, too, as love knows how
+            By kindly words and virtuous life.
+            Faith of our fathers! holy faith!
+            We will be true to thee till death!`
+        }
+    }
+}
 
 function onDeviceReady() {
     // Cordova is now initialized. Have fun!
@@ -33,27 +109,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Sidenav.init(elems, "edge");
 });
 
-
-// Or with jQuery
-
-// $(document).ready(function(){
-// $('.sidenav').sidenav();
-
-// document.querySelectorAll('.division').forEach(ele => {
-//     ele.addEventListener("click", e => {
-//         // instance.close();
-//         $('.sidenav').close();
-//     })
-// })
-
-// document.querySelector('#close').addEventListener("click", e => {
-//     var elem = document.querySelectorAll('.sidenav');
-//     var instance = M.Sidenav.getInstance(elem);
-//     // var instances = M.Sidenav.init(elems, "edge");
-//     instance.close();
-// })
-
-// });
 
 document.querySelector("#hamburger").addEventListener("click", e => {
     showMenu();
@@ -133,3 +188,59 @@ const showIcon = (show) => {
 const hideIcon = (hide) => {
     document.querySelector(hide).style = "display: none";
 }
+
+document.querySelectorAll(".song-title").forEach(ele => {
+    ele.addEventListener("click", e => {
+        let id = e.target.id;
+        let song_lyrics_keys = Object.keys(songs[id]);
+        let stanzas = songs[id].stanzas;
+        let song_ele = document.querySelector(".song");
+        let stanzas_keys = Object.keys(stanzas);
+        let title = `<h5>${songs[id].title}</h5>`;
+
+        song_ele.innerHTML = "";
+        song_ele.insertAdjacentHTML("beforeend", title);
+
+        if (song_lyrics_keys.includes("chorus")) {
+            let stanza1 = `<div class="stanza">
+                <span>1</span>
+                <article>
+                    ${stanzas[1]}
+                </article>
+            </div>`;
+
+            let chorus = `<div class="stanza">
+                <span>Chorus</span>
+                <article>
+                    ${songs[id].chorus}
+                </article>
+            </div>`;
+
+            song_ele.insertAdjacentHTML("beforeend", stanza1);
+            song_ele.insertAdjacentHTML("beforeend", chorus);
+
+            for (let i = 1; i < stanzas_keys.length; i++) {
+                let html = `<div class="stanza">
+                    <span>${i + 1}</span>
+                    <article>
+                        ${stanzas[i]}
+                    </article>
+                </div>`;
+                song_ele.insertAdjacentHTML("beforeend", html);
+            }
+        } else {
+            stanzas_keys.forEach((ele, index) => {
+                let html = `<div class="stanza">
+                    <span>${index + 1}</span>
+                    <article>
+                        ${stanzas[ele]}
+                    </article>
+                </div>`;
+                song_ele.insertAdjacentHTML("beforeend", html);
+            })
+        }
+
+        document.querySelector(`.show`).classList.remove('show');
+        document.querySelector(`.song`).classList.add("show");
+    })
+})
