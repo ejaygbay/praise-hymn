@@ -97,17 +97,19 @@ document.querySelectorAll(".play").forEach(ele => {
             playing.classList.remove("is-playing");
             showIcon(`.${previous_parent_class} .play`);
             hideIcon(`.${previous_parent_class} .stop`);
-        } else {
-            previous_parent_class = parent_class;
         }
 
-        showIcon(`.${parent_class} .stop`);
-        hideIcon(`.${parent_class} .play`);
+        previous_parent_class = parent_class;
 
         document.querySelector(`#${parent_class}-song`).classList.add("is-playing");
         document.querySelector(`#${parent_class}-song`).play();
+        showIcon(`.${parent_class} .stop`);
+        hideIcon(`.${parent_class} .play`);
 
-
+        document.querySelector(".is-playing").onended = function() {
+            showIcon(`.${parent_class} .play`);
+            hideIcon(`.${parent_class} .stop`);
+        }
     })
 })
 
