@@ -33,6 +33,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Sidenav.init(elems, "edge");
 });
 
+document.querySelector("#play").addEventListener("click", e => {
+    document.querySelector("#to-god-be-the-glory").play();
+})
+
 // Or with jQuery
 
 // $(document).ready(function(){

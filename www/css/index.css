@@ -75,6 +75,8 @@ body {
 
 .songs {
     background: whitesmoke;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .favorites {
@@ -91,4 +93,12 @@ body {
 
 h5 {
     text-align: center;
+}
+
+tbody {
+    font-size: 1.4em;
+}
+
+td .action-icons {
+    font-size: 32px;
 }
