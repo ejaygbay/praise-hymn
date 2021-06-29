@@ -28,13 +28,58 @@ function onDeviceReady() {
     document.getElementById('deviceready').classList.add('ready');
 }
 
-// document.addEventListener('DOMContentLoaded', function() {
-//     var elems = document.querySelectorAll('.sidenav');
-//     var instances = M.Sidenav.init(elems, options);
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, "edge");
+});
+
+// Or with jQuery
+
+// $(document).ready(function(){
+// $('.sidenav').sidenav();
+
+// document.querySelectorAll('.division').forEach(ele => {
+//     ele.addEventListener("click", e => {
+//         // instance.close();
+//         $('.sidenav').close();
+//     })
+// })
+
+// document.querySelector('#close').addEventListener("click", e => {
+//     var elem = document.querySelectorAll('.sidenav');
+//     var instance = M.Sidenav.getInstance(elem);
+//     // var instances = M.Sidenav.init(elems, "edge");
+//     instance.close();
+// })
+
 // });
 
-  // Or with jQuery
+document.querySelector("#hamburger").addEventListener("click", e => {
+    showMenu();
+})
 
-$(document).ready(function(){
-    $('.sidenav').sidenav();
-});
+let menu_items = document.querySelectorAll(".menu-item");
+menu_items.forEach(ele => {
+    ele.addEventListener("click", e => {
+        document.querySelector(".sidenav").style = "transform: translateX(0%);";
+        displayContent(e.target.id);
+    })
+})
+
+const displayContent = (ele_class) => {
+    document.querySelector(`.show`).classList.remove('show');
+    document.querySelector(`.${ele_class}`).classList.add("show");
+    if (document.querySelector(".sidenav-overlay")) {
+        hideMenu();
+    }
+}
+
+const showMenu = () => {
+    document.querySelector(".sidenav").style = "transform: translateX(0%);";
+    document.querySelector(".sidenav-overlay").style = "display: block; opacity: 1;";
+}
+
+const hideMenu = () => {
+    document.querySelector(".sidenav").style = "transform: translateX(-105%);";
+    document.querySelector(".sidenav-overlay").style = "display: none; opacity: 0;";
+}

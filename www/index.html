@@ -18,9 +18,10 @@
     under the License.
 -->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <!--
+
+<head>
+    <meta charset="utf-8">
+    <!--
         Customize this policy to fit your own app's needs. For more guidance, see:
             https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
         Some notes:
@@ -29,55 +30,74 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-        <meta name="color-scheme" content="light dark">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/materialize.min.css">
-        <link rel="stylesheet" href="css/index.css">
-        <link rel="shortcut icon" href="./img/cordova-android-icon.png" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="./img/cordova-android-icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-        <title>Praise Hymn</title>
-    </head>
-    <body>
-        <div class="app">
-            <nav style="background:azure">
-                <div class="nav-wrapper">
-                    <!-- <a href="#!" class="brand-logo">Logo</a> -->
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i style="color: black; font-size: 36px;" class="material-icons">menu</i></a>
-                    
-                    <ul class="sidenav" id="mobile-demo">
-                        <li>
-                            <div class="user-view">
-                                <div class="background" style="background: antiquewhite;">
-                                    <!-- <img src="./img/cordova-android-icon.png"> -->
-                                </div>
-                                <a href="#"><img class="circle" src="./img/cordova-android-icon.png"></a>
-                                <a href="#"><span class="white-text name" style="color: black !important; font-size: 24px;">Emmanuel Jaygbay</span></a>
-                                <a href="#"><span class="white-text email" style="color: black !important; font-size: px;">emmanueljaygbay@gmail.com</span></a>
+    <title>Praise Hymn</title>
+</head>
+
+<body>
+    <div class="app">
+        <nav id="menu" style="background:azure">
+            <div class="nav-wrapper">
+                <!-- <a href="#!" class="brand-logo">Logo</a> -->
+                <a href="#" id="hamburger" data-target="sidebar-menu" class="sidenav-trigger"><i style="color: black; font-size: 36px;" class="material-icons">menu</i></a>
+
+                <ul class="sidenav" id="sidebar-menu">
+                    <li>
+                        <div class="user-view">
+                            <div class="background" style="background: antiquewhite;">
+                                <!-- <img src="./img/cordova-android-icon.png"> -->
                             </div>
-                        </li>
-                        <li><a class="waves-effect" href="#songs"><i class="material-icons">music_note</i>Songs</a></li>
-                        <li><div class="divider"></div></li>
-                        <li><a class="waves-effect" href="#!"><i class="material-icons">favorite</i>Favorite</a></li>
-                        <li><div class="divider"></div></li>
-                        <li><a class="waves-effect" href="#!"><i class="material-icons">settings</i>Setting</a></li>
-                        <li><div class="divider"></div></li>
-                        <li><a class="waves-effect" href="#!"><i class="material-icons">info</i>About</a></li>
-                    </ul>
-                </div>
-            </nav>
-
-            <div id="songs">
-                songs
+                            <a href="#"><img class="circle" src="./img/cordova-android-icon.png"></a>
+                            <a href="#"><span class="white-text name" style="color: black !important; font-size: 24px;">Emmanuel Jaygbay</span></a>
+                            <a href="#"><span class="white-text email" style="color: black !important; font-size: px;">emmanueljaygbay@gmail.com</span></a>
+                        </div>
+                    </li>
+                    <li><a class="waves-effect menu-item" id="songs" href="#!"><i class="material-icons">music_note</i>Songs</a></li>
+                    <li>
+                        <div class="divider"></div>
+                    </li>
+                    <li><a class="waves-effect menu-item" id="favorites" href="#!"><i class="material-icons">favorite</i>Favorite</a></li>
+                    <li>
+                        <div class="divider"></div>
+                    </li>
+                    <li><a class="waves-effect menu-item" id="settings" href="#!"><i class="material-icons">settings</i>Setting</a></li>
+                    <li>
+                        <div class="divider"></div>
+                    </li>
+                    <li><a class="waves-effect menu-item" id="about" href="#!"><i class="material-icons">info</i>About</a></li>
+                </ul>
             </div>
-            
-        </div>
-        <script src="cordova.js"></script>
-        <script src="js/materialize.min.js"></script>
-        <script src="js/index.js"></script>
-    </body>
+        </nav>
+
+        <main id="main-content">
+            <section class="section songs show">
+                <h5>SONGS</h5>
+            </section>
+            <section class="section favorites">
+                <h5>FAVORITES</h5>
+            </section>
+            <section class="section settings">
+                <h5>SETTINGS</h5>
+            </section>
+            <section class="section about">
+                <h5>ABOUT</h5>
+            </section>
+        </main>
+
+    </div>
+    <script src="cordova.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
 </html>
