@@ -33,9 +33,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Sidenav.init(elems, "edge");
 });
 
-document.querySelector("#play").addEventListener("click", e => {
-    document.querySelector("#to-god-be-the-glory").play();
-})
 
 // Or with jQuery
 
@@ -86,4 +83,51 @@ const showMenu = () => {
 const hideMenu = () => {
     document.querySelector(".sidenav").style = "transform: translateX(-105%);";
     document.querySelector(".sidenav-overlay").style = "display: none; opacity: 0;";
+}
+
+let previous_parent_class = "";
+document.querySelectorAll(".play").forEach(ele => {
+    ele.addEventListener("click", e => {
+        let playing = document.querySelector(".is-playing");
+        let parent_class = e.target.parentElement.className;
+
+        if (playing) {
+            playing.pause();
+            playing.currentTime = 0;
+            playing.classList.remove("is-playing");
+            showIcon(`.${previous_parent_class} .play`);
+            hideIcon(`.${previous_parent_class} .stop`);
+        } else {
+            previous_parent_class = parent_class;
+        }
+
+        showIcon(`.${parent_class} .stop`);
+        hideIcon(`.${parent_class} .play`);
+
+        document.querySelector(`#${parent_class}-song`).classList.add("is-playing");
+        document.querySelector(`#${parent_class}-song`).play();
+
+
+    })
+})
+
+document.querySelectorAll(".stop").forEach(ele => {
+    ele.addEventListener("click", e => {
+        let playing = document.querySelector(".is-playing");
+        let parent_class = e.target.parentElement.className;
+
+        playing.pause();
+        playing.currentTime = 0;
+        playing.classList.remove("is-playing");
+        showIcon(`.${parent_class} .play`);
+        hideIcon(`.${parent_class} .stop`);
+    })
+})
+
+const showIcon = (show) => {
+    document.querySelector(show).style = "display: block";
+}
+
+const hideIcon = (hide) => {
+    document.querySelector(hide).style = "display: none";
 }

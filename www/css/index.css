@@ -67,6 +67,8 @@ body {
 .section {
     height: 100%;
     display: none;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .show {
@@ -75,8 +77,10 @@ body {
 
 .songs {
     background: whitesmoke;
-    padding-right: 20px;
-    padding-left: 20px;
+}
+
+.song {
+    background: lightseagreen;
 }
 
 .favorites {
@@ -101,4 +105,8 @@ tbody {
 
 td .action-icons {
     font-size: 32px;
+}
+
+td .stop {
+    display: none;
 }
