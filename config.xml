@@ -18,19 +18,19 @@
     <platform name="android">
         <allow-intent href="market:*" />
 
-        <splash src="res/screen/android/android-icon.png" density="land-hdpi" />
-        <splash src="res/screen/android/android-icon.png" density="land-ldpi" />
-        <splash src="res/screen/android/android-icon.png" density="land-mdpi" />
-        <splash src="res/screen/android/android-icon.png" density="land-xhdpi" />
-        <splash src="res/screen/android/android-icon.png" density="land-xxhdpi" />
-        <splash src="res/screen/android/android-icon.png" density="land-xxxhdpi" />
+        <!-- <splash src="res/screen/android/icon-48.png" density="land-hdpi" />
+        <splash src="res/screen/android/icon-72.png" density="land-ldpi" />
+        <splash src="res/screen/android/icon-96.png" density="land-mdpi" />
+        <splash src="res/screen/android/icon-144.png" density="land-xhdpi" /> -->
+        <!-- <splash src="res/screen/android/icon-192.png" density="land-xxhdpi" /> -->
+        <!-- <splash src="res/screen/android/android-icon.png" density="land-xxxhdpi" /> -->
 
-        <splash src="res/screen/android/android-icon.png" density="port-hdpi" />
-        <splash src="res/screen/android/android-icon.png" density="port-ldpi" />
-        <splash src="res/screen/android/android-icon.png" density="port-mdpi" />
-        <splash src="res/screen/android/android-icon.png" density="port-xhdpi" />
-        <splash src="res/screen/android/android-icon.png" density="port-xxhdpi" />
-        <splash src="res/screen/android/android-icon.png" density="port-xxxhdpi" /> 
+        <icon src="res/screen/android/icon-96.png" />
+        <icon density="mdpi" src="res/screen/android/icon-48.png" />
+        <icon density="hdpi" src="res/screen/android/icon-72.png" />
+        <icon density="xhdpi" src="res/screen/android/icon-96.png" />
+        <icon density="xxhdpi" src="res/screen/android/icon-144.png" />
+        <icon density="xxxhdpi" src="res/screen/android/icon-192.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
