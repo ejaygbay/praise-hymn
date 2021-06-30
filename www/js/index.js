@@ -97,6 +97,8 @@ let songs = {
     }
 }
 
+let favorites = [];
+
 function onDeviceReady() {
     // Cordova is now initialized. Have fun!
 
@@ -242,5 +244,23 @@ document.querySelectorAll(".song-title").forEach(ele => {
 
         document.querySelector(`.show`).classList.remove('show');
         document.querySelector(`.song`).classList.add("show");
+    })
+})
+
+document.querySelectorAll(".like").forEach(ele => {
+    ele.addEventListener("click", e => {
+        let parent_class = e.target.parentElement.className;
+        favorites.splice(favorites.indexOf(parent_class.split("-")[0].trim()), 1);
+        hideIcon(`.${parent_class} .like`);
+        showIcon(`.${parent_class} .unlike`);
+    })
+})
+
+document.querySelectorAll(".unlike").forEach(ele => {
+    ele.addEventListener("click", e => {
+        let parent_class = e.target.parentElement.className;
+        favorites.push(parent_class.split("-")[0].trim())
+        hideIcon(`.${parent_class} .unlike`);
+        showIcon(`.${parent_class} .like`);
     })
 })

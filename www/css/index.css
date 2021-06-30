@@ -121,6 +121,7 @@ td .action-icons {
     font-size: 32px;
 }
 
-td .stop {
+td .stop,
+td .like {
     display: none;
 }
