@@ -18,19 +18,38 @@
     <platform name="android">
         <allow-intent href="market:*" />
 
-        <!-- <splash src="res/screen/android/icon-48.png" density="land-hdpi" />
-        <splash src="res/screen/android/icon-72.png" density="land-ldpi" />
-        <splash src="res/screen/android/icon-96.png" density="land-mdpi" />
-        <splash src="res/screen/android/icon-144.png" density="land-xhdpi" /> -->
-        <!-- <splash src="res/screen/android/icon-192.png" density="land-xxhdpi" /> -->
-        <!-- <splash src="res/screen/android/android-icon.png" density="land-xxxhdpi" /> -->
+        <!-- App Icon -->
+        <icon src="res/icon/android/icon-192.png" />
+        <icon density="mdpi" src="res/icon/android/icon-48.png" />
+        <icon density="hdpi" src="res/icon/android/icon-72.png" />
+        <icon density="xhdpi" src="res/icon/android/icon-96.png" />
+        <icon density="xxhdpi" src="res/icon/android/icon-144.png" />
+        <icon density="xxxhdpi" src="res/icon/android/icon-192.png" />
 
-        <icon src="res/screen/android/icon-96.png" />
-        <icon density="mdpi" src="res/screen/android/icon-48.png" />
-        <icon density="hdpi" src="res/screen/android/icon-72.png" />
-        <icon density="xhdpi" src="res/screen/android/icon-96.png" />
-        <icon density="xxhdpi" src="res/screen/android/icon-144.png" />
-        <icon density="xxxhdpi" src="res/screen/android/icon-192.png" />
+        <!-- Splash screen -->
+        
+        <!-- Default -->
+        <splash src="res/screen/android/splash-port/hdpi.png" density="hdpi"/>
+        <splash src="res/screen/android/splash-port/ldpi.png" density="ldpi"/>
+        <splash src="res/screen/android/splash-port/mdpi.png" density="mdpi"/>
+        <splash src="res/screen/android/splash-port/xhdpi.png" density="xhdpi"/>
+        <splash src="res/screen/android/splash-port/xxhdpi.png" density="xxhdpi"/>
+
+        <!-- Landscape -->
+        <splash src="res/screen/android/splash-land/hdpi.png" density="land-hdpi" />
+        <splash src="res/screen/android/splash-land/ldpi.png" density="land-ldpi" />
+        <splash src="res/screen/android/splash-land/mdpi.png" density="land-mdpi" />
+        <splash src="res/screen/android/splash-land/xhdpi.png" density="land-xhdpi" />
+        <splash src="res/screen/android/splash-land/xxhdpi.png" density="land-xxhdpi" />
+        <splash src="res/screen/android/splash-land/xxxhdpi.png" density="land-xxxhdpi" />
+
+        <!-- Portrait -->
+        <splash src="res/screen/android/splash-port/hdpi.png" density="port-hdpi" />
+        <splash src="res/screen/android/splash-port/ldpi.png" density="port-ldpi" />
+        <splash src="res/screen/android/splash-port/mdpi.png" density="port-mdpi" />
+        <splash src="res/screen/android/splash-port/xhdpi.png" density="port-xhdpi" />
+        <splash src="res/screen/android/splash-port/xxhdpi.png" density="port-xxhdpi" />
+        <splash src="res/screen/android/splash-port/xxxhdpi.png" density="port-xxxhdpi" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

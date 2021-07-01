@@ -98,7 +98,7 @@ body {
 }
 
 .favorites {
-    background: pink;
+    background: transparent;
 }
 
 .settings {
@@ -124,4 +124,8 @@ td .action-icons {
 td .stop,
 td .like {
     display: none;
+}
+
+.like {
+    margin-top: -4px;
 }

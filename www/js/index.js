@@ -39,7 +39,8 @@ let songs = {
         },
         chorus: `Praise the Lord, praise the Lord, Let the earth hear His voice;
         Praise the Lord, praise the Lord, Let the people rejoice; Oh, come to the Father,
-        through Jesus the Son, And give Him the glory; great things He hath done.`
+        through Jesus the Son, And give Him the glory; great things He hath done.`,
+        like: false
     },
     heaven: {
         title: "When We All Get To Heaven",
@@ -64,7 +65,8 @@ let songs = {
         chorus: `When we all get to heaven,
         What a day of rejoicing that will be!
         When we all see Jesus,
-        We’ll sing and shout the victory!`
+        We’ll sing and shout the victory!`,
+        like: true
     },
     faith: {
         title: "Faith Of Our Father",
@@ -92,11 +94,12 @@ let songs = {
             And preach thee, too, as love knows how
             By kindly words and virtuous life.
             Faith of our fathers! holy faith!
-            We will be true to thee till death!`
+            We will be true to thee till death!`,
+            like: false
         }
     }
 }
-
+let songs_keys = Object.keys(songs);
 let favorites = [];
 
 function onDeviceReady() {
@@ -105,6 +108,34 @@ function onDeviceReady() {
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
 }
+
+const displayFavoriteSongs = (selector) => {
+    findFavoritSongs();
+    document.querySelector(selector).innerHTML = "";
+    favorites.forEach((ele, index) => {
+        let html = `<tr class="${ele}-favorite-tr">
+            <td>${index + 1}.</td>
+            <td class="song-title" id=${ele}>${songs[ele].title}</td>
+            <td class=${ele}>
+                <span class="material-icons play action-icons">play_arrow</span>
+                <span class="material-icons stop action-icons">stop</span>
+            </td>
+            <td class=${ele}-favorite>
+                <span class="material-icons action-icons like" style="display: block">favorite</span>
+                <span class="material-icons action-icons unlike" style="display: none">favorite_border</span>
+            </td>
+        </tr>`;
+        document.querySelector(selector).insertAdjacentHTML("beforeend", html);
+    })
+
+    addEventToSongTitle();
+    addEventToPlayIcon('favorites');
+    addEventToStopIcon('favorites');
+    addEventToLikeIcon('favorites');
+    addEventToUnlikeIcon('favorites');
+}
+
+
 
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
@@ -124,12 +155,19 @@ menu_items.forEach(ele => {
     })
 })
 
-const displayContent = (ele_class) => {
+const displayContent = (selector) => {
     document.querySelector(`.show`).classList.remove('show');
-    document.querySelector(`.${ele_class}`).classList.add("show");
+    document.querySelector(`.${selector}`).classList.add("show");
     if (document.querySelector(".sidenav-overlay")) {
         hideMenu();
     }
+
+    if (selector === "songs") {
+        displaySongs(".songs tbody");
+    } else if (selector === "favorites") {
+        displayFavoriteSongs(".favorites tbody");
+    }
+    findFavoritSongs();
 }
 
 const showMenu = () => {
@@ -142,46 +180,136 @@ const hideMenu = () => {
     document.querySelector(".sidenav-overlay").style = "display: none; opacity: 0;";
 }
 
-let previous_parent_class = "";
-document.querySelectorAll(".play").forEach(ele => {
-    ele.addEventListener("click", e => {
-        let playing = document.querySelector(".is-playing");
-        let parent_class = e.target.parentElement.className;
+const addEventToSongTitle = () => {
+    document.querySelectorAll(".song-title").forEach(ele => {
+        ele.addEventListener("click", e => {
+            let id = e.target.id;
+            let song_lyrics_keys = Object.keys(songs[id]);
+            let stanzas = songs[id].stanzas;
+            let song_ele = document.querySelector(".song");
+            let stanzas_keys = Object.keys(stanzas);
+            let title = `<h5>${songs[id].title}</h5>`;
 
-        if (playing) {
+            song_ele.innerHTML = "";
+            song_ele.insertAdjacentHTML("beforeend", title);
+
+            if (song_lyrics_keys.includes("chorus")) {
+                let stanza1 = `<div class="stanza">
+                <span>1</span>
+                <article>
+                    ${stanzas[1]}
+                </article>
+            </div>`;
+
+                let chorus = `<div class="stanza">
+                <span>Chorus</span>
+                <article>
+                    ${songs[id].chorus}
+                </article>
+            </div>`;
+
+                song_ele.insertAdjacentHTML("beforeend", stanza1);
+                song_ele.insertAdjacentHTML("beforeend", chorus);
+
+                for (let i = 1; i < stanzas_keys.length; i++) {
+                    let html = `<div class="stanza">
+                    <span>${i + 1}</span>
+                    <article>
+                        ${stanzas[i]}
+                    </article>
+                </div>`;
+                    song_ele.insertAdjacentHTML("beforeend", html);
+                }
+            } else {
+                stanzas_keys.forEach((ele, index) => {
+                    let html = `<div class="stanza">
+                    <span>${index + 1}</span>
+                    <article>
+                        ${stanzas[ele]}
+                    </article>
+                </div>`;
+                    song_ele.insertAdjacentHTML("beforeend", html);
+                })
+            }
+
+            document.querySelector(`.show`).classList.remove('show');
+            document.querySelector(`.song`).classList.add("show");
+        })
+    })
+}
+
+const addEventToPlayIcon = (section) => {
+    let previous_parent_class = "";
+    document.querySelectorAll(".play").forEach(ele => {
+        ele.addEventListener("click", e => {
+            let playing = document.querySelector(".is-playing");
+            let parent_class = e.target.parentElement.className;
+
+            if (playing) {
+                playing.pause();
+                playing.currentTime = 0;
+                playing.classList.remove("is-playing");
+                showIcon(`.${section} .${previous_parent_class} .play`);
+                hideIcon(`.${section} .${previous_parent_class} .stop`);
+            }
+
+            previous_parent_class = parent_class;
+
+            document.querySelector(`#${parent_class}-song`).classList.add("is-playing");
+            document.querySelector(`#${parent_class}-song`).play();
+            showIcon(`.${section} .${parent_class} .stop`);
+            hideIcon(`.${section} .${parent_class} .play`);
+
+            document.querySelector(".is-playing").onended = function() {
+                showIcon(`.${section} .${parent_class} .play`);
+                hideIcon(`.${section} .${parent_class} .stop`);
+            }
+        })
+    })
+}
+
+const addEventToStopIcon = (section) => {
+    document.querySelectorAll(".stop").forEach(ele => {
+        ele.addEventListener("click", e => {
+            let playing = document.querySelector(".is-playing");
+            let parent_class = e.target.parentElement.className;
+
             playing.pause();
             playing.currentTime = 0;
             playing.classList.remove("is-playing");
-            showIcon(`.${previous_parent_class} .play`);
-            hideIcon(`.${previous_parent_class} .stop`);
-        }
-
-        previous_parent_class = parent_class;
-
-        document.querySelector(`#${parent_class}-song`).classList.add("is-playing");
-        document.querySelector(`#${parent_class}-song`).play();
-        showIcon(`.${parent_class} .stop`);
-        hideIcon(`.${parent_class} .play`);
-
-        document.querySelector(".is-playing").onended = function() {
-            showIcon(`.${parent_class} .play`);
-            hideIcon(`.${parent_class} .stop`);
-        }
+            showIcon(`.${section} .${parent_class} .play`);
+            hideIcon(`.${section} .${parent_class} .stop`);
+        })
     })
-})
+}
 
-document.querySelectorAll(".stop").forEach(ele => {
-    ele.addEventListener("click", e => {
-        let playing = document.querySelector(".is-playing");
-        let parent_class = e.target.parentElement.className;
-
-        playing.pause();
-        playing.currentTime = 0;
-        playing.classList.remove("is-playing");
-        showIcon(`.${parent_class} .play`);
-        hideIcon(`.${parent_class} .stop`);
+const addEventToUnlikeIcon = (section) => {
+    document.querySelectorAll(".unlike").forEach(ele => {
+        ele.addEventListener("click", e => {
+            let parent_class = e.target.parentElement.className;
+            songs[parent_class.split("-")[0].trim()].like = true;
+            hideIcon(`.${section} .${parent_class} .unlike`);
+            showIcon(`.${section} .${parent_class} .like`);
+        })
     })
-})
+    findFavoritSongs();
+}
+
+const addEventToLikeIcon = (section) => {
+    document.querySelectorAll(".like").forEach(ele => {
+        ele.addEventListener("click", e => {
+            let parent_class = e.target.parentElement.className;
+            songs[parent_class.split("-")[0].trim()].like = false;
+            hideIcon(`.${section} .${parent_class} .like`);
+            showIcon(`.${section} .${parent_class} .unlike`);
+
+            if (section === "favorites") {
+                hideIcon(`.${section} .${parent_class}-tr`);
+            }
+        })
+    })
+    findFavoritSongs();
+}
 
 const showIcon = (show) => {
     document.querySelector(show).style = "display: block";
@@ -191,76 +319,42 @@ const hideIcon = (hide) => {
     document.querySelector(hide).style = "display: none";
 }
 
-document.querySelectorAll(".song-title").forEach(ele => {
-    ele.addEventListener("click", e => {
-        let id = e.target.id;
-        let song_lyrics_keys = Object.keys(songs[id]);
-        let stanzas = songs[id].stanzas;
-        let song_ele = document.querySelector(".song");
-        let stanzas_keys = Object.keys(stanzas);
-        let title = `<h5>${songs[id].title}</h5>`;
-
-        song_ele.innerHTML = "";
-        song_ele.insertAdjacentHTML("beforeend", title);
-
-        if (song_lyrics_keys.includes("chorus")) {
-            let stanza1 = `<div class="stanza">
-                <span>1</span>
-                <article>
-                    ${stanzas[1]}
-                </article>
-            </div>`;
-
-            let chorus = `<div class="stanza">
-                <span>Chorus</span>
-                <article>
-                    ${songs[id].chorus}
-                </article>
-            </div>`;
-
-            song_ele.insertAdjacentHTML("beforeend", stanza1);
-            song_ele.insertAdjacentHTML("beforeend", chorus);
-
-            for (let i = 1; i < stanzas_keys.length; i++) {
-                let html = `<div class="stanza">
-                    <span>${i + 1}</span>
-                    <article>
-                        ${stanzas[i]}
-                    </article>
-                </div>`;
-                song_ele.insertAdjacentHTML("beforeend", html);
-            }
-        } else {
-            stanzas_keys.forEach((ele, index) => {
-                let html = `<div class="stanza">
-                    <span>${index + 1}</span>
-                    <article>
-                        ${stanzas[ele]}
-                    </article>
-                </div>`;
-                song_ele.insertAdjacentHTML("beforeend", html);
-            })
+const findFavoritSongs = () => {
+    favorites = [];
+    songs_keys.forEach(ele => {
+        if (songs[ele].like) {
+            favorites.push(ele);
         }
-
-        document.querySelector(`.show`).classList.remove('show');
-        document.querySelector(`.song`).classList.add("show");
     })
-})
+}
 
-document.querySelectorAll(".like").forEach(ele => {
-    ele.addEventListener("click", e => {
-        let parent_class = e.target.parentElement.className;
-        favorites.splice(favorites.indexOf(parent_class.split("-")[0].trim()), 1);
-        hideIcon(`.${parent_class} .like`);
-        showIcon(`.${parent_class} .unlike`);
+const displaySongs = (selector) => {
+    document.querySelector(selector).innerHTML = "";
+    songs_keys.forEach((ele, index) => {
+        let like_and_unlike = `<span class="material-icons action-icons like">favorite</span>
+            <span class="material-icons action-icons unlike">favorite_border</span>`;
+        if (songs[ele].like) {
+            like_and_unlike = `<span class="material-icons action-icons like" style="display: block">favorite</span>
+            <span class="material-icons action-icons unlike" style="display: none">favorite_border</span>`;
+        }
+        let html = `<tr>
+        <td>${index + 1}.</td>
+        <td class="song-title" id=${ele}>${songs[ele].title}</td>
+        <td class=${ele}>
+            <span class="material-icons play action-icons">play_arrow</span>
+            <span class="material-icons stop action-icons">stop</span>
+        </td>
+        <td class=${ele}-favorite>
+            ${like_and_unlike}
+        </td>
+    </tr>`;
+        document.querySelector(selector).insertAdjacentHTML("beforeend", html);
     })
-})
+    addEventToSongTitle();
+    addEventToPlayIcon('songs');
+    addEventToStopIcon('songs');
+    addEventToLikeIcon('songs');
+    addEventToUnlikeIcon('songs');
 
-document.querySelectorAll(".unlike").forEach(ele => {
-    ele.addEventListener("click", e => {
-        let parent_class = e.target.parentElement.className;
-        favorites.push(parent_class.split("-")[0].trim())
-        hideIcon(`.${parent_class} .unlike`);
-        showIcon(`.${parent_class} .like`);
-    })
-})
+}
+displaySongs(".songs tbody");
