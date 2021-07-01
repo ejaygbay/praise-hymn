@@ -94,13 +94,15 @@ let songs = {
             And preach thee, too, as love knows how
             By kindly words and virtuous life.
             Faith of our fathers! holy faith!
-            We will be true to thee till death!`,
-            like: false
-        }
+            We will be true to thee till death!`
+        },
+        like: false
     }
 }
 let songs_keys = Object.keys(songs);
 let favorites = [];
+let previous_section = "";
+let current_section = "songs";
 
 function onDeviceReady() {
     // Cordova is now initialized. Have fun!
@@ -109,9 +111,9 @@ function onDeviceReady() {
     document.getElementById('deviceready').classList.add('ready');
 }
 
-const displayFavoriteSongs = (selector) => {
+const displayFavoriteSongs = (section_selector) => {
     findFavoritSongs();
-    document.querySelector(selector).innerHTML = "";
+    document.querySelector(section_selector).innerHTML = "";
     favorites.forEach((ele, index) => {
         let html = `<tr class="${ele}-favorite-tr">
             <td>${index + 1}.</td>
@@ -125,7 +127,7 @@ const displayFavoriteSongs = (selector) => {
                 <span class="material-icons action-icons unlike" style="display: none">favorite_border</span>
             </td>
         </tr>`;
-        document.querySelector(selector).insertAdjacentHTML("beforeend", html);
+        document.querySelector(section_selector).insertAdjacentHTML("beforeend", html);
     })
 
     addEventToSongTitle();
@@ -150,21 +152,23 @@ document.querySelector("#hamburger").addEventListener("click", e => {
 let menu_items = document.querySelectorAll(".menu-item");
 menu_items.forEach(ele => {
     ele.addEventListener("click", e => {
+        previous_section = current_section;
         document.querySelector(".sidenav").style = "transform: translateX(0%);";
+        current_section = e.target.id;
         displayContent(e.target.id);
     })
 })
 
-const displayContent = (selector) => {
+const displayContent = (section_selector) => {
     document.querySelector(`.show`).classList.remove('show');
-    document.querySelector(`.${selector}`).classList.add("show");
+    document.querySelector(`.${section_selector}`).classList.add("show");
     if (document.querySelector(".sidenav-overlay")) {
         hideMenu();
     }
 
-    if (selector === "songs") {
+    if (section_selector === "songs") {
         displaySongs(".songs tbody");
-    } else if (selector === "favorites") {
+    } else if (section_selector === "favorites") {
         displayFavoriteSongs(".favorites tbody");
     }
     findFavoritSongs();
@@ -189,35 +193,36 @@ const addEventToSongTitle = () => {
             let song_ele = document.querySelector(".song");
             let stanzas_keys = Object.keys(stanzas);
             let title = `<h5>${songs[id].title}</h5>`;
+            previous_section = current_section;
 
             song_ele.innerHTML = "";
             song_ele.insertAdjacentHTML("beforeend", title);
 
             if (song_lyrics_keys.includes("chorus")) {
                 let stanza1 = `<div class="stanza">
-                <span>1</span>
-                <article>
-                    ${stanzas[1]}
-                </article>
-            </div>`;
+                    <span>1</span>
+                    <article>
+                        ${stanzas[1]}
+                    </article>
+                </div>`;
 
                 let chorus = `<div class="stanza">
-                <span>Chorus</span>
-                <article>
-                    ${songs[id].chorus}
-                </article>
-            </div>`;
+                    <span>Chorus</span>
+                    <article>
+                        ${songs[id].chorus}
+                    </article>
+                </div>`;
 
                 song_ele.insertAdjacentHTML("beforeend", stanza1);
                 song_ele.insertAdjacentHTML("beforeend", chorus);
 
                 for (let i = 1; i < stanzas_keys.length; i++) {
                     let html = `<div class="stanza">
-                    <span>${i + 1}</span>
-                    <article>
-                        ${stanzas[i]}
-                    </article>
-                </div>`;
+                        <span>${i + 1}</span>
+                        <article>
+                            ${stanzas[i]}
+                        </article>
+                    </div>`;
                     song_ele.insertAdjacentHTML("beforeend", html);
                 }
             } else {
@@ -328,8 +333,8 @@ const findFavoritSongs = () => {
     })
 }
 
-const displaySongs = (selector) => {
-    document.querySelector(selector).innerHTML = "";
+const displaySongs = (section_selector) => {
+    document.querySelector(section_selector).innerHTML = "";
     songs_keys.forEach((ele, index) => {
         let like_and_unlike = `<span class="material-icons action-icons like">favorite</span>
             <span class="material-icons action-icons unlike">favorite_border</span>`;
@@ -348,7 +353,7 @@ const displaySongs = (selector) => {
             ${like_and_unlike}
         </td>
     </tr>`;
-        document.querySelector(selector).insertAdjacentHTML("beforeend", html);
+        document.querySelector(section_selector).insertAdjacentHTML("beforeend", html);
     })
     addEventToSongTitle();
     addEventToPlayIcon('songs');
@@ -358,3 +363,9 @@ const displaySongs = (selector) => {
 
 }
 displaySongs(".songs tbody");
+
+const goBack = () => {
+    displayContent(previous_section);
+}
+
+document.addEventListener("backbutton", goBack, false);
