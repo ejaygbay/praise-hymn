@@ -40,7 +40,8 @@ let songs = {
         chorus: `Praise the Lord, praise the Lord, Let the earth hear His voice;
         Praise the Lord, praise the Lord, Let the people rejoice; Oh, come to the Father,
         through Jesus the Son, And give Him the glory; great things He hath done.`,
-        like: false
+        like: false,
+        song_url: "./music/ToGodBetheGlory.mp3"
     },
     heaven: {
         title: "When We All Get To Heaven",
@@ -66,7 +67,8 @@ let songs = {
         What a day of rejoicing that will be!
         When we all see Jesus,
         We’ll sing and shout the victory!`,
-        like: true
+        like: false,
+        song_url: "./music/WhenWeAllGettoHeaven.mp3"
     },
     faith: {
         title: "Faith Of Our Father",
@@ -96,7 +98,8 @@ let songs = {
             Faith of our fathers! holy faith!
             We will be true to thee till death!`
         },
-        like: false
+        like: false,
+        song_url: "./music/FaithofOurFathers.mp3"
     }
 }
 let songs_keys = Object.keys(songs);
@@ -155,11 +158,11 @@ menu_items.forEach(ele => {
         previous_section = current_section;
         document.querySelector(".sidenav").style = "transform: translateX(0%);";
         current_section = e.target.id;
-        displayContent(e.target.id);
+        switchSection(e.target.id);
     })
 })
 
-const displayContent = (section_selector) => {
+const switchSection = (section_selector) => {
     document.querySelector(`.show`).classList.remove('show');
     document.querySelector(`.${section_selector}`).classList.add("show");
     if (document.querySelector(".sidenav-overlay")) {
@@ -169,6 +172,7 @@ const displayContent = (section_selector) => {
     if (section_selector === "songs") {
         displaySongs(".songs tbody");
     } else if (section_selector === "favorites") {
+        // stopSong()
         displayFavoriteSongs(".favorites tbody");
     }
     findFavoritSongs();
@@ -244,31 +248,9 @@ const addEventToSongTitle = () => {
 }
 
 const addEventToPlayIcon = (section) => {
-    let previous_parent_class = "";
     document.querySelectorAll(".play").forEach(ele => {
         ele.addEventListener("click", e => {
-            let playing = document.querySelector(".is-playing");
-            let parent_class = e.target.parentElement.className;
-
-            if (playing) {
-                playing.pause();
-                playing.currentTime = 0;
-                playing.classList.remove("is-playing");
-                showIcon(`.${section} .${previous_parent_class} .play`);
-                hideIcon(`.${section} .${previous_parent_class} .stop`);
-            }
-
-            previous_parent_class = parent_class;
-
-            document.querySelector(`#${parent_class}-song`).classList.add("is-playing");
-            document.querySelector(`#${parent_class}-song`).play();
-            showIcon(`.${section} .${parent_class} .stop`);
-            hideIcon(`.${section} .${parent_class} .play`);
-
-            document.querySelector(".is-playing").onended = function() {
-                showIcon(`.${section} .${parent_class} .play`);
-                hideIcon(`.${section} .${parent_class} .stop`);
-            }
+            playSong(e, section);
         })
     })
 }
@@ -276,14 +258,7 @@ const addEventToPlayIcon = (section) => {
 const addEventToStopIcon = (section) => {
     document.querySelectorAll(".stop").forEach(ele => {
         ele.addEventListener("click", e => {
-            let playing = document.querySelector(".is-playing");
-            let parent_class = e.target.parentElement.className;
-
-            playing.pause();
-            playing.currentTime = 0;
-            playing.classList.remove("is-playing");
-            showIcon(`.${section} .${parent_class} .play`);
-            hideIcon(`.${section} .${parent_class} .stop`);
+            stopSong(e, section);
         })
     })
 }
@@ -314,6 +289,40 @@ const addEventToLikeIcon = (section) => {
         })
     })
     findFavoritSongs();
+}
+
+let previous_parent_class = "";
+const playSong = (e, section) => {
+    let song_player = document.querySelector(".song-player");
+    let parent_class = e.target.parentElement.className;
+
+    if (song_player.duration > 0 && !song_player.paused) {
+        song_player.pause();
+        song_player.currentTime = 0;
+        showIcon(`.${section} .${previous_parent_class} .play`);
+        hideIcon(`.${section} .${previous_parent_class} .stop`);
+    }
+
+    previous_parent_class = parent_class;
+    song_player.src = songs[parent_class].song_url;
+    song_player.play();
+    showIcon(`.${section} .${parent_class} .stop`);
+    hideIcon(`.${section} .${parent_class} .play`);
+
+    document.querySelector(".song-player").onended = function() {
+        showIcon(`.${section} .${parent_class} .play`);
+        hideIcon(`.${section} .${parent_class} .stop`);
+    }
+}
+
+const stopSong = (e, section) => {
+    let song_player = document.querySelector(".song-player");
+    let parent_class = e.target.parentElement.className;
+
+    song_player.pause();
+    song_player.currentTime = 0;
+    showIcon(`.${section} .${parent_class} .play`);
+    hideIcon(`.${section} .${parent_class} .stop`);
 }
 
 const showIcon = (show) => {
@@ -365,7 +374,39 @@ const displaySongs = (section_selector) => {
 displaySongs(".songs tbody");
 
 const goBack = () => {
-    displayContent(previous_section);
-}
+    if (previous_section) {
+        switchSection(previous_section);
+        previous_section = "";
+    } else {
+        console.log(navigator.app);
+    }
 
-document.addEventListener("backbutton", goBack, false);
+}
+document.querySelector("#back").addEventListener("click", goBack, false);
+// document.addEventListener("backbutton", goBack, false);
+
+/**
+SIZE    PORTAIL     LANDSCAPE
+ldpi	200x320	    320x200
+mdpi	320x480	    480x320
+hdpi	480x800	    800x480
+xhdpi	720x1280	1280x720
+xxhdpi	960x1600	1600x960
+xxxhdpi	1280x1920	1920x1280
+ */
+
+// Portail
+// 200 320
+// 320 480
+// 480 800
+// 720 1280
+// 960 1600
+// 1280 1920
+
+// Landscape
+// 320 200
+// 480 320
+// 800 480
+// 1280 720
+// 1600 960
+// 1920 1280
