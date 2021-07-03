@@ -40,8 +40,10 @@ let songs = {
         chorus: `Praise the Lord, praise the Lord, Let the earth hear His voice;
         Praise the Lord, praise the Lord, Let the people rejoice; Oh, come to the Father,
         through Jesus the Son, And give Him the glory; great things He hath done.`,
+        author: "Alex Peter",
         like: false,
-        song_url: "./music/ToGodBetheGlory.mp3"
+        song_url: "./music/ToGodBetheGlory.mp3",
+        song_key: "Bb"
     },
     heaven: {
         title: "When We All Get To Heaven",
@@ -67,8 +69,10 @@ let songs = {
         What a day of rejoicing that will be!
         When we all see Jesus,
         We’ll sing and shout the victory!`,
+        author: "Benson Kollie",
         like: false,
-        song_url: "./music/WhenWeAllGettoHeaven.mp3"
+        song_url: "./music/WhenWeAllGettoHeaven.mp3",
+        song_key: "F"
     },
     faith: {
         title: "Faith Of Our Father",
@@ -98,8 +102,10 @@ let songs = {
             Faith of our fathers! holy faith!
             We will be true to thee till death!`
         },
+        author: "Ruth Samuel",
         like: false,
-        song_url: "./music/FaithofOurFathers.mp3"
+        song_url: "./music/FaithofOurFathers.mp3",
+        song_key: "G"
     }
 }
 let songs_keys = Object.keys(songs);
@@ -163,6 +169,7 @@ menu_items.forEach(ele => {
 })
 
 const switchSection = (section_selector) => {
+    document.querySelector("#fav-num").innerHTML = favorites.length;
     document.querySelector(`.show`).classList.remove('show');
     document.querySelector(`.${section_selector}`).classList.add("show");
     if (document.querySelector(".sidenav-overlay")) {
@@ -172,9 +179,9 @@ const switchSection = (section_selector) => {
     if (section_selector === "songs") {
         displaySongs(".songs tbody");
     } else if (section_selector === "favorites") {
-        // stopSong()
         displayFavoriteSongs(".favorites tbody");
     }
+    stopSongOnSectionSwitch();
     findFavoritSongs();
 }
 
@@ -197,6 +204,11 @@ const addEventToSongTitle = () => {
             let song_ele = document.querySelector(".song");
             let stanzas_keys = Object.keys(stanzas);
             let title = `<h5>${songs[id].title}</h5>`;
+            let play_btn = `<a class="${id} btn-floating btn-large waves-effect waves-light">
+                <i class="material-icons play action-icons">play_arrow</i>
+                <i class="material-icons stop action-icons">stop</i>
+            </a>`;
+
             previous_section = current_section;
 
             song_ele.innerHTML = "";
@@ -240,15 +252,19 @@ const addEventToSongTitle = () => {
                     song_ele.insertAdjacentHTML("beforeend", html);
                 })
             }
+            song_ele.insertAdjacentHTML("beforeend", play_btn);
 
             document.querySelector(`.show`).classList.remove('show');
             document.querySelector(`.song`).classList.add("show");
+            addEventToPlayIcon('song');
+            addEventToStopIcon("song");
+            stopSongOnSectionSwitch();
         })
     })
 }
 
 const addEventToPlayIcon = (section) => {
-    document.querySelectorAll(".play").forEach(ele => {
+    document.querySelectorAll(`.${section} .play`).forEach(ele => {
         ele.addEventListener("click", e => {
             playSong(e, section);
         })
@@ -270,9 +286,9 @@ const addEventToUnlikeIcon = (section) => {
             songs[parent_class.split("-")[0].trim()].like = true;
             hideIcon(`.${section} .${parent_class} .unlike`);
             showIcon(`.${section} .${parent_class} .like`);
+            findFavoritSongs();
         })
     })
-    findFavoritSongs();
 }
 
 const addEventToLikeIcon = (section) => {
@@ -286,15 +302,16 @@ const addEventToLikeIcon = (section) => {
             if (section === "favorites") {
                 hideIcon(`.${section} .${parent_class}-tr`);
             }
+
+            findFavoritSongs();
         })
     })
-    findFavoritSongs();
 }
 
 let previous_parent_class = "";
 const playSong = (e, section) => {
     let song_player = document.querySelector(".song-player");
-    let parent_class = e.target.parentElement.className;
+    let parent_class = e.target.parentElement.classList[0];
 
     if (song_player.duration > 0 && !song_player.paused) {
         song_player.pause();
@@ -318,11 +335,23 @@ const playSong = (e, section) => {
 const stopSong = (e, section) => {
     let song_player = document.querySelector(".song-player");
     let parent_class = e.target.parentElement.className;
+    if (section === 'song') {
+        parent_class = parent_class = e.target.parentElement.classList[0];
+    }
 
     song_player.pause();
     song_player.currentTime = 0;
     showIcon(`.${section} .${parent_class} .play`);
     hideIcon(`.${section} .${parent_class} .stop`);
+}
+
+const stopSongOnSectionSwitch = () => {
+    let song_player = document.querySelector(".song-player");
+
+    if (song_player.duration > 0 && !song_player.paused) {
+        song_player.pause();
+        song_player.currentTime = 0;
+    }
 }
 
 const showIcon = (show) => {
@@ -340,10 +369,13 @@ const findFavoritSongs = () => {
             favorites.push(ele);
         }
     })
+    document.querySelector("#fav-num").innerHTML = favorites.length;
 }
 
 const displaySongs = (section_selector) => {
     document.querySelector(section_selector).innerHTML = "";
+    document.querySelector("#song-num").innerHTML = songs_keys.length;
+
     songs_keys.forEach((ele, index) => {
         let like_and_unlike = `<span class="material-icons action-icons like">favorite</span>
             <span class="material-icons action-icons unlike">favorite_border</span>`;
@@ -352,17 +384,30 @@ const displaySongs = (section_selector) => {
             <span class="material-icons action-icons unlike" style="display: none">favorite_border</span>`;
         }
         let html = `<tr>
-        <td>${index + 1}.</td>
-        <td class="song-title" id=${ele}>${songs[ele].title}</td>
-        <td class=${ele}>
-            <span class="material-icons play action-icons">play_arrow</span>
-            <span class="material-icons stop action-icons">stop</span>
-        </td>
-        <td class=${ele}-favorite>
-            ${like_and_unlike}
-        </td>
-    </tr>`;
-        document.querySelector(section_selector).insertAdjacentHTML("beforeend", html);
+                <td>${index + 1}.</td>
+                <td class="song-title" id=${ele}>${songs[ele].title}</td>
+                <td class=${ele}>
+                    <span class="material-icons play action-icons">play_arrow</span>
+                    <span class="material-icons stop action-icons">stop</span>
+                </td>
+                <td class=${ele}-favorite>
+                    ${like_and_unlike}
+                </td>
+            </tr>`;
+
+        let html2 = `<tr>
+                <td>${index + 1}.</td>
+                <td>
+                    <p class="song-title" id=${ele}>${songs[ele].title}</p> <span class="author">By: ${songs[ele].author}</span> </td>
+                <td class=${ele}>
+                    <span class="material-icons play action-icons">play_arrow</span>
+                    <span class="material-icons stop action-icons">stop</span>
+                </td>
+                <td class=${ele}-favorite>
+                    ${like_and_unlike}
+                </td>
+            </tr>`;
+        document.querySelector(section_selector).insertAdjacentHTML("beforeend", html2);
     })
     addEventToSongTitle();
     addEventToPlayIcon('songs');
@@ -378,12 +423,13 @@ const goBack = () => {
         switchSection(previous_section);
         previous_section = "";
     } else {
-        console.log(navigator.app);
+        navigator.app.exitApp();
     }
 
 }
-document.querySelector("#back").addEventListener("click", goBack, false);
-// document.addEventListener("backbutton", goBack, false);
+
+// document.querySelector("#back").addEventListener("click", goBack, false);
+document.addEventListener("backbutton", goBack, false);
 
 /**
 SIZE    PORTAIL     LANDSCAPE

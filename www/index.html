@@ -54,19 +54,22 @@
                 <ul class="sidenav" id="sidebar-menu">
                     <li>
                         <div class="user-view">
-                            <div class="background" style="background: antiquewhite;">
-                                <!-- <img src="./img/cordova-android-icon.png"> -->
-                            </div>
-                            <a href="#"><img class="circle" src="./img/logo.png"></a>
+                            <!-- <div class="background" style="background: antiquewhite;"> -->
+                            <!-- <img src="./img/icon-192.png"> -->
+                            <!-- </div>
+                            <a href=""><img src="" alt="" class="circle"></a>
+                            <a href=""><img src="" alt="" class="white-text name"></a>
+                            <a href=""><img src="" alt="" class="white-text email"></a> -->
+                            <!-- <a href="#"><img class="circle" src="./img/logo.png"></a>
                             <a href="#"><span class="white-text name" style="color: black !important; font-size: 24px;">Emmanuel Jaygbay</span></a>
-                            <a href="#"><span class="white-text email" style="color: black !important; font-size: px;">emmanueljaygbay@gmail.com</span></a>
+                            <a href="#"><span class="white-text email" style="color: black !important; font-size: px;">emmanueljaygbay@gmail.com</span></a> -->
                         </div>
                     </li>
-                    <li><a class="waves-effect menu-item" id="songs" href="#!"><i class="material-icons">music_note</i>Songs</a></li>
+                    <li><a class="waves-effect menu-item" id="songs" href="#!"><i class="material-icons">music_note</i>Songs<span class="new badge" id="song-num">0</span></a></li>
                     <li>
                         <div class="divider"></div>
                     </li>
-                    <li><a class="waves-effect menu-item" id="favorites" href="#!"><i class="material-icons">favorite</i>Favorite</a></li>
+                    <li><a class="waves-effect menu-item" id="favorites" href="#!"><i class="material-icons">favorite</i>Favorite<span class="new badge" id="fav-num">0</span></a></li>
                     <li>
                         <div class="divider"></div>
                     </li>
@@ -79,13 +82,25 @@
             </div>
         </nav>
 
-        <button id="back">Back</button>
+        <!-- <button id="back">Back</button> -->
         <main id="main-content">
             <!-- List all songs -->
             <section class="section songs show">
                 <h5>SONGS</h5>
                 <table class="highlight">
                     <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>
+                                <p class="song-title" id=${ele}>Faith Of Our Father</p> <span class="author">By: Joseph Kollie</span> </td>
+                            <td class=${ele}>
+                                <span class="material-icons play action-icons">play_arrow</span>
+                                <span class="material-icons stop action-icons">stop</span>
+                            </td>
+                            <td class=${ele}-favorite>
+                                <span class="material-icons unlike action-icons">favorite_border</span>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
             </section>
@@ -113,7 +128,7 @@
             </section>
         </main>
 
-        <audio class="song-player" src="" controls></audio>
+        <audio class="song-player" src=""></audio>
         <!-- <audio id="heaven-song" src="./music/WhenWeAllGettoHeaven.mp3"></audio>
         <audio id="faith-song" src="./music/FaithofOurFathers.mp3"></audio> -->
 

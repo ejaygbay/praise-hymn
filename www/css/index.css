@@ -53,6 +53,26 @@ body {
     margin: 0;
 }
 
+.sidenav li>a {
+    font-size: 22px;
+}
+
+.sidenav li>a>i {
+    font-size: 28px;
+}
+
+.sidenav li {
+    padding: 4px 0px;
+}
+
+.sidenav li:nth-child(1) {
+    padding: 0px;
+}
+
+.new::after {
+    display: none;
+}
+
 .division {
     height: 100px;
 }
@@ -80,12 +100,34 @@ body {
     background: whitesmoke;
 }
 
+.author {
+    font-size: 12px;
+    white-space: nowrap;
+    margin-top: 0px;
+}
+
 .song {
     font-size: 1.6em;
 }
 
 .song .stanza:last-child {
     margin-bottom: 4em;
+}
+
+.song-title {
+    margin-top: 0;
+    margin-bottom: -12px;
+}
+
+.song .btn-floating {
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 290px;
+}
+
+.song .btn-floating i {
+    font-size: 36px;
+    margin-top: -2px;
 }
 
 .stanza span,
@@ -128,4 +170,11 @@ td .like {
 
 .like {
     margin-top: -4px;
+}
+
+.user-view {
+    background-image: url("../img/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
 }
