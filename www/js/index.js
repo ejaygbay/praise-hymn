@@ -136,7 +136,22 @@ const displayFavoriteSongs = (section_selector) => {
                 <span class="material-icons action-icons unlike" style="display: none">favorite_border</span>
             </td>
         </tr>`;
-        document.querySelector(section_selector).insertAdjacentHTML("beforeend", html);
+
+        let html2 = `<tr>
+            <td>${index + 1}.</td>
+            <td>
+                <p class="song-title" id=${ele}>${songs[ele].title}</p> <span class="author">By: ${songs[ele].author}</span> </td>
+            <td class=${ele}>
+                <span class="material-icons play action-icons">play_arrow</span>
+                <span class="material-icons stop action-icons">stop</span>
+            </td>
+            <td class=${ele}-favorite>
+                <span class="material-icons action-icons like" style="display: block">favorite</span>
+                <span class="material-icons action-icons unlike" style="display: none">favorite_border</span>
+            </td>
+        </tr>`;
+
+        document.querySelector(section_selector).insertAdjacentHTML("beforeend", html2);
     })
 
     addEventToSongTitle();
@@ -303,6 +318,7 @@ const addEventToLikeIcon = (section) => {
 
             if (section === "favorites") {
                 hideIcon(`.${section} .${parent_class}-tr`);
+                stopSongOnSectionSwitch();
             }
 
             findFavoritSongs();
@@ -398,17 +414,17 @@ const displaySongs = (section_selector) => {
             </tr>`;
 
         let html2 = `<tr>
-                <td>${index + 1}.</td>
-                <td>
-                    <p class="song-title" id=${ele}>${songs[ele].title}</p> <span class="author">By: ${songs[ele].author}</span> </td>
-                <td class=${ele}>
-                    <span class="material-icons play action-icons">play_arrow</span>
-                    <span class="material-icons stop action-icons">stop</span>
-                </td>
-                <td class=${ele}-favorite>
-                    ${like_and_unlike}
-                </td>
-            </tr>`;
+            <td>${index + 1}.</td>
+            <td>
+                <p class="song-title" id=${ele}>${songs[ele].title}</p> <span class="author">By: ${songs[ele].author}</span> </td>
+            <td class=${ele}>
+                <span class="material-icons play action-icons">play_arrow</span>
+                <span class="material-icons stop action-icons">stop</span>
+            </td>
+            <td class=${ele}-favorite>
+                ${like_and_unlike}
+            </td>
+        </tr>`;
         document.querySelector(section_selector).insertAdjacentHTML("beforeend", html2);
     })
     addEventToSongTitle();
