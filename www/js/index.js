@@ -170,6 +170,7 @@ menu_items.forEach(ele => {
 
 const switchSection = (section_selector) => {
     document.querySelector("#fav-num").innerHTML = favorites.length;
+    document.querySelector("#section-name").innerHTML = section_selector;
     document.querySelector(`.show`).classList.remove('show');
     document.querySelector(`.${section_selector}`).classList.add("show");
     if (document.querySelector(".sidenav-overlay")) {
@@ -209,14 +210,16 @@ const addEventToSongTitle = () => {
                 <i class="material-icons stop action-icons">stop</i>
             </a>`;
 
+
             previous_section = current_section;
 
             song_ele.innerHTML = "";
             song_ele.insertAdjacentHTML("beforeend", title);
+            song_ele.insertAdjacentHTML("beforeend", play_btn);
 
             if (song_lyrics_keys.includes("chorus")) {
                 let stanza1 = `<div class="stanza">
-                    <span>1</span>
+                    <span>1.</span>
                     <article>
                         ${stanzas[1]}
                     </article>
@@ -234,7 +237,7 @@ const addEventToSongTitle = () => {
 
                 for (let i = 1; i < stanzas_keys.length; i++) {
                     let html = `<div class="stanza">
-                        <span>${i + 1}</span>
+                        <span>${i + 1}.</span>
                         <article>
                             ${stanzas[i]}
                         </article>
@@ -252,7 +255,6 @@ const addEventToSongTitle = () => {
                     song_ele.insertAdjacentHTML("beforeend", html);
                 })
             }
-            song_ele.insertAdjacentHTML("beforeend", play_btn);
 
             document.querySelector(`.show`).classList.remove('show');
             document.querySelector(`.song`).classList.add("show");

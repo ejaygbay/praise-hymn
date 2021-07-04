@@ -73,6 +73,12 @@ body {
     display: none;
 }
 
+#song-num,
+#fav-num {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .division {
     height: 100px;
 }
@@ -121,18 +127,31 @@ body {
 
 .song .btn-floating {
     position: absolute;
-    margin-top: -750px;
-    margin-left: 290px;
+    margin-left: 76%;
+    opacity: .7;
+    bottom: 0;
+    margin-bottom: 30px;
 }
 
 .song .btn-floating i {
     font-size: 36px;
     margin-top: -2px;
+    color: black;
+}
+
+nav .nav-wrapper {
+    display: grid;
+    grid-template-columns: 10% 90%;
 }
 
 .stanza span,
-.song h5 {
+#section-name,
+h5 {
     font-weight: bold;
+}
+
+h5 {
+    text-align: center;
 }
 
 .stanza {
@@ -151,8 +170,11 @@ body {
     background: khaki;
 }
 
-h5 {
+#section-name {
+    color: black;
+    font-size: 22px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 tbody {
