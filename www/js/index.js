@@ -103,7 +103,7 @@ let songs = {
             We will be true to thee till death!`
         },
         author: "Ruth Samuel",
-        like: false,
+        like: true,
         song_url: "./music/FaithofOurFathers.mp3",
         song_key: "G"
     }
@@ -137,7 +137,7 @@ const displayFavoriteSongs = (section_selector) => {
             </td>
         </tr>`;
 
-        let html2 = `<tr>
+        let html2 = `<tr class="${ele}-favorite-tr">
             <td>${index + 1}.</td>
             <td>
                 <p class="song-title" id=${ele}>${songs[ele].title}</p> <span class="author">By: ${songs[ele].author}</span> </td>
@@ -312,13 +312,26 @@ const addEventToLikeIcon = (section) => {
     document.querySelectorAll(".like").forEach(ele => {
         ele.addEventListener("click", e => {
             let parent_class = e.target.parentElement.className;
-            songs[parent_class.split("-")[0].trim()].like = false;
+            let splited_parent_class = parent_class.split("-")[0].trim();
+            songs[splited_parent_class].like = false;
             hideIcon(`.${section} .${parent_class} .like`);
             showIcon(`.${section} .${parent_class} .unlike`);
 
             if (section === "favorites") {
+                let fav_play = document.querySelector(`.${section} .${splited_parent_class} .stop`);
                 hideIcon(`.${section} .${parent_class}-tr`);
-                stopSongOnSectionSwitch();
+                if (fav_play.style.display === "block") {
+                    stopSongOnSectionSwitch();
+                }
+
+                let song_tr = document.querySelectorAll(`.${section} tr td:first-child`);
+                let index = 0;
+                song_tr.forEach(ele => {
+                    if (ele.parentElement.style.display !== "none") {
+                        ele.innerHTML = index + 1;
+                        index += 1;
+                    }
+                })
             }
 
             findFavoritSongs();
