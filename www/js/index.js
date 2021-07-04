@@ -103,7 +103,7 @@ let songs = {
             We will be true to thee till death!`
         },
         author: "Ruth Samuel",
-        like: true,
+        like: false,
         song_url: "./music/FaithofOurFathers.mp3",
         song_key: "G"
     }
@@ -204,11 +204,13 @@ const switchSection = (section_selector) => {
 const showMenu = () => {
     document.querySelector(".sidenav").style = "transform: translateX(0%);";
     document.querySelector(".sidenav-overlay").style = "display: block; opacity: 1;";
+    document.querySelector("body").attributes("style", "overflow: hidden");
 }
 
 const hideMenu = () => {
     document.querySelector(".sidenav").style = "transform: translateX(-105%);";
     document.querySelector(".sidenav-overlay").style = "display: none; opacity: 0;";
+    document.querySelector("body").removeAttribute("style");
 }
 
 const addEventToSongTitle = () => {
@@ -219,17 +221,23 @@ const addEventToSongTitle = () => {
             let stanzas = songs[id].stanzas;
             let song_ele = document.querySelector(".song");
             let stanzas_keys = Object.keys(stanzas);
-            let title = `<h5>${songs[id].title}</h5>`;
+            let title_header = `<div>
+                <h5>${songs[id].title}</h5>
+                <article class="important-info">
+                    <span>By: John Tokpason Kollie</span>
+                    <span>Major Key: Ab</span>
+                    <a href="#">Read History</a>
+                </article>
+            </div>`;
             let play_btn = `<a class="${id} btn-floating btn-large waves-effect waves-light">
                 <i class="material-icons play action-icons">play_arrow</i>
                 <i class="material-icons stop action-icons">stop</i>
             </a>`;
 
-
             previous_section = current_section;
 
             song_ele.innerHTML = "";
-            song_ele.insertAdjacentHTML("beforeend", title);
+            song_ele.insertAdjacentHTML("beforeend", title_header);
             song_ele.insertAdjacentHTML("beforeend", play_btn);
 
             if (song_lyrics_keys.includes("chorus")) {
@@ -254,7 +262,7 @@ const addEventToSongTitle = () => {
                     let html = `<div class="stanza">
                         <span>${i + 1}.</span>
                         <article>
-                            ${stanzas[i]}
+                            ${stanzas[i + 1]}
                         </article>
                     </div>`;
                     song_ele.insertAdjacentHTML("beforeend", html);
