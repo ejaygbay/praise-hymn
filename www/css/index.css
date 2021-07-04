@@ -147,6 +147,7 @@ body {
     justify-content: space-evenly;
     font-size: 0.8em;
     white-space: nowrap;
+    font-weight: 600;
 }
 
 nav .nav-wrapper {
