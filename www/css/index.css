@@ -141,7 +141,7 @@ body {
 
 nav .nav-wrapper {
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 1% 99%;
 }
 
 .stanza span,
@@ -163,7 +163,12 @@ h5 {
 }
 
 .settings {
-    background: aqua;
+    background: transparent;
+}
+
+#download {
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .about {
@@ -175,6 +180,7 @@ h5 {
     font-size: 22px;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 1.4px;
 }
 
 tbody {
