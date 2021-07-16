@@ -204,7 +204,7 @@ const switchSection = (section_selector) => {
 const showMenu = () => {
     document.querySelector(".sidenav").style = "transform: translateX(0%);";
     document.querySelector(".sidenav-overlay").style = "display: block; opacity: 1;";
-    document.querySelector("body").attributes("style", "overflow: hidden");
+    document.querySelector("body").setAttribute("style", "overflow: hidden");
 }
 
 const hideMenu = () => {
@@ -224,8 +224,8 @@ const addEventToSongTitle = () => {
             let title_header = `<div>
                 <h5>${songs[id].title}</h5>
                 <article class="important-info">
-                    <span>By: John Tokpason Kollie</span>
-                    <span>Major Key: Ab</span>
+                    <span>By: ${songs[id].author}</span>
+                    <span>Major Key: ${songs[id].song_key}</span>
                     <a href="#">Read History</a>
                 </article>
             </div>`;
