@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "clean-spec",
+			"path": "plugins/cordova-sqlite-storage/",
+			"problemMatcher": [],
+			"label": "npm: clean-spec - plugins/cordova-sqlite-storage",
+			"detail": "rm -rf spec/[mnp]* && git cl spec/config.xml spec/package.json && git status --ignored"
+		}
+	]
+}
