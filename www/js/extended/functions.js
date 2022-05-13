@@ -8,7 +8,6 @@ const openFullSong = (e) => {
 }
 
 const addEventToSongTitle = () => {
-    let eles = document.querySelectorAll(".song-title");
     document.querySelectorAll(".song-title").forEach(ele => {
         ele.addEventListener("click", e => {
             let id = e.target.id;

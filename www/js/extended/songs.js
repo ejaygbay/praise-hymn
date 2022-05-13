@@ -99,9 +99,8 @@ let songs = {
         },
         chorus: "Praise the Lord, Praise the Lord, Let the earth hear His voice! Praise the Lord, Praise the Lord, Let the people rejoice! O come to the Father thru Jesus the Son, And give Him the glory great things He hath done!",
         like: false,
-        song_url: "",
-        author: "Fanny Crosby",
-
+        song_url: "music/ToGodBeTheGlory.mp3",
+        author: "Fanny Crosby"
     },
     "ISingTheMightyPowerOfGod": {
         title: "I Sing The Mighty Power Of God",
