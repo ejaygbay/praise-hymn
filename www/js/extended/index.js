@@ -50,6 +50,7 @@ function onDeviceReady() {
     });
 }
 // alert("Hi")
+
 const displayFavoriteSongs = (section_selector) => {
     findFavoritSongs();
     document.querySelector(section_selector).innerHTML = "";
