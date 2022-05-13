@@ -3,7 +3,12 @@ let favorites = [];
 let previous_section = "";
 let current_section = "songs";
 
+const openFullSong = (e) => {
+    console.log(e);
+}
+
 const addEventToSongTitle = () => {
+    let eles = document.querySelectorAll(".song-title");
     document.querySelectorAll(".song-title").forEach(ele => {
         ele.addEventListener("click", e => {
             let id = e.target.id;
@@ -30,7 +35,7 @@ const addEventToSongTitle = () => {
             song_ele.insertAdjacentHTML("beforeend", title_header);
             song_ele.insertAdjacentHTML("beforeend", play_btn);
 
-            if (song_lyrics_keys.includes(chorus)) {
+            if (song_lyrics_keys.includes('chorus')) {
                 let stanza1 = `<div class=stanza>
                     <span>1.</span>
                     <article>
@@ -46,7 +51,9 @@ const addEventToSongTitle = () => {
                 </div>`;
 
                 song_ele.insertAdjacentHTML("beforeend", stanza1);
-                song_ele.insertAdjacentHTML("beforeend", chorus);
+                if (songs[id].chorus.length > 0) {
+                    song_ele.insertAdjacentHTML("beforeend", chorus);
+                }
 
                 for (let i = 1; i < stanzas_keys.length; i++) {
                     let html = `<div class=stanza>
