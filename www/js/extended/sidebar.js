@@ -1,3 +1,12 @@
+/**
+ * This function came with the template and it's used for adding the
+ * 'sidebar-overlay' class to the sidebar menu
+ */
+ document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, "edge");
+})
+
 let menu_items = document.querySelectorAll(".menu-item");
 menu_items.forEach(ele => {
     ele.addEventListener("click", e => {
@@ -32,9 +41,8 @@ const switchSection = (section_selector) => {
 
 const showMenu = () => {
     document.querySelector(".sidenav").style = "transform: translateX(0%);";
-    console.log(document.querySelector(".sidenav-overlay"))
-    // document.querySelector(".sidenav-overlay").style = "display: block; opacity: 1;";
-    // document.querySelector("body").setAttribute("style", "overflow: hidden");
+    document.querySelector(".sidenav-overlay").style = "display: block; opacity: 1;";
+    document.querySelector("body").setAttribute("style", "overflow: hidden");
 }
 
 const hideMenu = () => {
