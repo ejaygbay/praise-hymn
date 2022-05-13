@@ -20,7 +20,6 @@ const addEventToSongTitle = () => {
                 <h5>${songs[id].title}</h5>
                 <article class="important-info">
                     <span>By: ${songs[id].author}</span>
-                    <span>Major Key: ${songs[id].song_key}</span>
                     <a href="#">Read History</a>
                 </article>
             </div>`;
