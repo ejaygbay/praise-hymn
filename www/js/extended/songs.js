@@ -1,3 +1,4 @@
+let path_name = 'file:///data/user/0/cbc.praisehymn/files/files/audio/';
 let songs = {
     "EverybodySingPraiseToTheLord": {
         title: "Everybody Sing Praise To The Lord",
@@ -6,7 +7,7 @@ let songs = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}001-EverybodySingPraiseToTheLord.mp3`,
         author: "John W. Peterson"
     },
     "SingPraiseToGod": {
@@ -19,9 +20,8 @@ let songs = {
         },
         chorus: "",
         like: false,
-        song_url: "",
-        author: "Johann Jakob Schütz",
-
+        song_url: `${path_name}002-SingPraiseToGod.mp3`,
+        author: "Johann J. Schütz"
     },
     "PraiseToTheLordTheAlmighty": {
         title: "Praise To The Lord The Almighty",
@@ -33,8 +33,8 @@ let songs = {
         },
         chorus: "",
         like: false,
-        song_url: "",
-        author: "",
+        song_url: `${path_name}003-PraiseToTheLordTheAlmighty.mp3`,
+        author: "Joachim Neander",
     },
     "TheLordIsKing": {
         title: "The Lord Is King",
@@ -46,11 +46,10 @@ let songs = {
         },
         chorus: "",
         like: false,
-        song_url: "",
-        author: "",
-
+        song_url: `${path_name}004-TheLordIsKing.mp3`,
+        author: "Norman Johnson"
     },
-    "PraiseTheLordSingHallelujah!": {
+    "PraiseTheLordSingHallelujah": {
         title: "Praise The Lord Sing Hallelujah!",
         stanzas: {
             1: "Praise the Lord sing hallelujah! Children of God's gracious choice; Let His praises rise as thunder, Let the  whole earth hear His voice, Till the song of His salvation makes His broken world rejoice!",
@@ -60,9 +59,8 @@ let songs = {
         },
         chorus: "",
         like: false,
-        song_url: "",
-        author: "",
-
+        song_url: `${path_name}005-PraiseTheLordSingHallelujah.mp3`,
+        author: "E. Margaret Clarkson"
     },
     "IJustCameToPraiseTheLord": {
         title: "I Just Came To Praise The Lord",
@@ -73,9 +71,8 @@ let songs = {
         },
         chorus: "",
         like: false,
-        song_url: "",
-        author: "",
-
+        song_url: `${path_name}006-IJustCameToPraiseTheLord.mp3`,
+        author: "Wayne Romero"
     },
     "WePraiseTheeOGodOurRedeemer": {
         title: "We Praise Thee O God Our Redeemer",
@@ -86,9 +83,8 @@ let songs = {
         },
         chorus: "",
         like: false,
-        song_url: "",
-        author: "",
-
+        song_url: `${path_name}007-WePraiseTheeOGodOurRedeemer.mp3`,
+        author: "Julia C. Cory"
     },
     "ToGodBeTheGlory": {
         title: "To God Be The Glory",
@@ -99,7 +95,7 @@ let songs = {
         },
         chorus: "Praise the Lord, Praise the Lord, Let the earth hear His voice! Praise the Lord, Praise the Lord, Let the people rejoice! O come to the Father thru Jesus the Son, And give Him the glory great things He hath done!",
         like: false,
-        song_url: "audio/ToGodBeTheGlory.mp3",
+        song_url: `${path_name}008-ToGodBeTheGlory.mp3`,
         author: "Fanny Crosby"
     },
     "ISingTheMightyPowerOfGod": {
@@ -111,9 +107,8 @@ let songs = {
         },
         chorus: "",
         like: false,
-        song_url: "audio/ToGodBeTheGlory1.mp3",
-        author: "",
-
+        song_url: `${path_name}009-ISingTheMightyPowerOfGod.mp3`,
+        author: "Isaac Watts"
     },
     "SometimesAlleluia": {
         title: "Sometimes Alleluia",
@@ -123,9 +118,8 @@ let songs = {
         },
         chorus: "Sometimes Alleluia, Sometimes Praise the Lord! Sometimes gently singing, Our Hearts in one accord.",
         like: false,
-        song_url: "file:///data/user/0/cbc.praisehymn/files/files/audio/ToGodBeTheGlory.mp3",
-        author: "",
-
+        song_url: `${path_name}010-SometimesAlleluia.mp3`,
+        author: "Chuck Girard",
     }
 }
 
@@ -138,7 +132,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "John W. Peterson"
     },
     "SingPraiseToGod": {
@@ -151,7 +145,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "Johann Jakob Schütz",
 
     },
@@ -165,7 +159,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
     },
     "TheLordIsKing": {
@@ -178,7 +172,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -192,7 +186,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -205,7 +199,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -218,7 +212,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -231,7 +225,7 @@ let songs2 = {
         },
         chorus: "Praise the Lord, Praise the Lord, Let the earth hear His voice! Praise the Lord, Praise the Lord, Let the people rejoice! O come to the Father thru Jesus the Son, And give Him the glory great things He hath done!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "Fanny Crosby",
 
     },
@@ -244,7 +238,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -256,7 +250,7 @@ let songs2 = {
         },
         chorus: "Sometimes Alleluia, Sometimes Praise the Lord! Sometimes gently singing, Our Hearts in one accord.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -269,7 +263,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -281,7 +275,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -294,7 +288,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -308,7 +302,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -322,7 +316,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -336,7 +330,7 @@ let songs2 = {
         },
         chorus: "Then sings my soul, my savior God, to Thee: How great Thou art, how great Thou art! Then sings my soul, my savior God, to Thee: How great Thou art, how great Thou art!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -350,7 +344,7 @@ let songs2 = {
         },
         chorus: "Rejoice rejoice, Rejoice, give thanks and sing!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -364,7 +358,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -378,7 +372,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -392,7 +386,7 @@ let songs2 = {
         },
         chorus: "Hallelujah! Thine the glory. Hallelujah! Amen. Hallelujah! Thine the glory, Revive us again.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -403,7 +397,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -416,7 +410,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -430,7 +424,7 @@ let songs2 = {
         },
         chorus: "My lips shall praise Thee, thus will I bless Thee I lift up my hands unto Thy name.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -441,7 +435,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -454,7 +448,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -469,7 +463,7 @@ let songs2 = {
         },
         chorus: "Lord of all, to Thee we raise This our hymn of grateful praise.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -483,7 +477,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -497,7 +491,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -511,7 +505,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -525,7 +519,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -539,7 +533,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -554,7 +548,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -568,7 +562,7 @@ let songs2 = {
         },
         chorus: "Bless the Lord, O my soul, Bless the Lord, O my soul, and all that is within me, bless His holy name!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -582,7 +576,7 @@ let songs2 = {
         },
         chorus: "He has done great things, He has done great things, He has done great things, bless His holy name!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -595,7 +589,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -608,7 +602,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -623,7 +617,7 @@ let songs2 = {
         },
         chorus: "O praise Him, O praise Him! Alleluia, Alleluia, Alleluia!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -634,7 +628,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -645,7 +639,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -656,7 +650,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -670,7 +664,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -681,7 +675,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -694,7 +688,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -707,7 +701,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -720,7 +714,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -735,7 +729,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -749,7 +743,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -763,7 +757,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -774,7 +768,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -790,7 +784,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -804,7 +798,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -818,7 +812,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -831,7 +825,7 @@ let songs2 = {
         },
         chorus: "Great is Thy faithfulness! Great is Thy faithfulness! Morning by morning new mercies I see; All I have needed, Thy hand hath provided; Great is Thy faithfulness, Lord unto me!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -845,7 +839,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -858,7 +852,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -874,7 +868,7 @@ let songs2 = {
         },
         chorus: "Hallelujah! what Hallelujah! what Saving, helping, He is with me to a Savior! a Friend! keeping, loving, the end.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -888,7 +882,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -903,7 +897,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -917,7 +911,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -931,7 +925,7 @@ let songs2 = {
         },
         chorus: "Amazing love! how can it be That Thou, my God, should die for me!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -947,7 +941,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -960,7 +954,7 @@ let songs2 = {
         },
         chorus: "Praise Him! Praise Him! tell of His encellent greatness Praise Him! Praise Him ! ever in joyful song!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -973,7 +967,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -985,7 +979,7 @@ let songs2 = {
         },
         chorus: "Wonderful, Jesus, my Lord; Jesus my Lord. He's the great shepherd, the Rock of all ages, Almighty God is He; Bow down before Him, Love and adore Him, His name is Wonderful, Jesus my Lord.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -996,7 +990,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1010,7 +1004,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1024,7 +1018,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1039,7 +1033,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1053,7 +1047,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1068,7 +1062,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1081,7 +1075,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1092,7 +1086,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1106,7 +1100,7 @@ let songs2 = {
         },
         chorus: "Glory! glory, hallelujah! Glory! glory, hallelujah! Glory! glory, hallelujah! His truth is marching on.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1119,7 +1113,7 @@ let songs2 = {
         },
         chorus: "And ev'ry knee shall bow!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1132,7 +1126,7 @@ let songs2 = {
         },
         chorus: "Above ev'ry name is the name of Jesus, Above ev'ry name is the name of Jesus, Above ev'ry name is the name of Jesus, Ev'ry Knee shall bow, ev'ry tongue confess That He is Lord of all!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1143,7 +1137,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1160,7 +1154,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1172,7 +1166,7 @@ let songs2 = {
         },
         chorus: "Let just praise the Lord! Praise the lord! Let's just lift our hearts to heaven and praise the Lord; Let just praise the Lord! Praise the lord! Let's just lift our hearts to heaven and praise the Lord!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1186,7 +1180,7 @@ let songs2 = {
         },
         chorus: "Precious name, O how sweet! Hope of earth and joy of heav'n; Precious name, O how sweet! Hope of earth and joy of heav'n.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1199,7 +1193,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1213,7 +1207,7 @@ let songs2 = {
         },
         chorus: "Blessed be the name, blessed be the name, Blessed be the name, blessed be the name! Blessed be the name, blessed be the name, Bless be the name of the Lord!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1228,7 +1222,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1242,7 +1236,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1254,7 +1248,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1268,7 +1262,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1282,7 +1276,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1297,7 +1291,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1310,7 +1304,7 @@ let songs2 = {
         },
         chorus: "Sweet Holy Spirit, Sweet heav'nly Dove, Stay right here with us, Filling us with your love. And those blessings We lift our hearts in praise; with out a doubt we'll known that we have been reviveed, When we shall leave this place.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1321,7 +1315,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1333,7 +1327,7 @@ let songs2 = {
         },
         chorus: "Lord, To my heart bring back the spring-time, Take away the cold and dark of sin; O return to me, sweet Holy Spirit, May I warm and tender be again.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1347,7 +1341,7 @@ let songs2 = {
         },
         chorus: "Channels only, blessed Master But with all Thy wonderous pow'r Flowing thru us, Thou canst use us Ev'ry day ev'ry hour.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1361,7 +1355,7 @@ let songs2 = {
         },
         chorus: "The Comforter has come, the Comforter has come! The Holy Ghost from heav'n the Father promise giv'n; O spread the tidingd 'round wherever man is found The Comforter has come!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1376,7 +1370,7 @@ let songs2 = {
         },
         chorus: "Fill me now, fill me now, Jesus, come and fill me now; Fill me with Thy hallow'd presence Come, o come and fill me now.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1390,7 +1384,7 @@ let songs2 = {
         },
         chorus: "Lord, send the old-time power , the Pentecostal power! Thy floodgates of blessing on us throw open wide! Lord send the old-time power, the Pentecostal power,That sinners be converted and Thy name glorified!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1404,7 +1398,7 @@ let songs2 = {
         },
         chorus: "Spirit, now melt and move All of our heart with love; Breathe on us from above With old-time pow'r.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1416,7 +1410,7 @@ let songs2 = {
         },
         chorus: "Greater is He that is in me, Grater is He that is in me, Grater is He that is in me, Than he that is in the world.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1427,7 +1421,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1442,7 +1436,7 @@ let songs2 = {
         },
         chorus: "Blessed Quietness, holy quietness What assurance in my soul! On the stormy sea He speak peace to me How the billows cease to roll!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1456,7 +1450,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1467,7 +1461,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1478,7 +1472,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1489,7 +1483,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1502,7 +1496,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1516,7 +1510,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1528,7 +1522,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1539,7 +1533,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1553,7 +1547,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1567,7 +1561,7 @@ let songs2 = {
         },
         chorus: "Holy, holy,holy, Lord God of Hosts! Heav'n and earth are full of Thee! Heav'n and earth are praising Thee, O Lord most high!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1580,7 +1574,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1594,7 +1588,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1608,7 +1602,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1624,7 +1618,7 @@ let songs2 = {
         },
         chorus: "For His mercies shall endure Ever faithful, ever sure!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1637,7 +1631,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1652,7 +1646,7 @@ let songs2 = {
         },
         chorus: "The Church, O Lord, is Thine, Is Thine forevermore!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1665,7 +1659,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1680,7 +1674,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1694,7 +1688,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1707,7 +1701,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1721,7 +1715,7 @@ let songs2 = {
         },
         chorus: "Thy Word have I hid in my heart, That I might not sin against Thee; That I might not sin, That I might not sin, Thy Word have I hid in my heart.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1735,7 +1729,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1749,7 +1743,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1763,7 +1757,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1777,7 +1771,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1791,7 +1785,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1804,7 +1798,7 @@ let songs2 = {
         },
         chorus: "Beautiful words, wonderful words, Wounderful words of Life; Beautiful words, wonderful words, Wounderful words of Life.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1817,7 +1811,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1831,7 +1825,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1845,7 +1839,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1859,7 +1853,7 @@ let songs2 = {
         },
         chorus: "Onward, Christian soldiers, Marching as to war, With the cross of Jesus Going on before!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1872,7 +1866,7 @@ let songs2 = {
         },
         chorus: "Faith of our fathers, holy faith, We will be true to thee till death!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1887,7 +1881,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1901,7 +1895,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1915,7 +1909,7 @@ let songs2 = {
         },
         chorus: "Joy is the food we share, Love is our home; Brothers, praise God for the Body Shalom, shalom! for the Body Shalom, shalom!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1927,7 +1921,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1938,7 +1932,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1951,7 +1945,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1963,7 +1957,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1977,7 +1971,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -1991,7 +1985,7 @@ let songs2 = {
         },
         chorus: "Showers of blessing, Showers of blessing we need; Mercy drops round us are falling, But for the showers we plead.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2005,7 +1999,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2018,7 +2012,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2031,7 +2025,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2045,7 +2039,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2059,7 +2053,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2073,7 +2067,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2087,7 +2081,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2101,7 +2095,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2115,7 +2109,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2130,7 +2124,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2144,7 +2138,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2158,7 +2152,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2171,7 +2165,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2183,7 +2177,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2197,7 +2191,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2213,7 +2207,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2228,7 +2222,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2241,7 +2235,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2252,7 +2246,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2265,7 +2259,7 @@ let songs2 = {
         },
         chorus: "When I fall on my knees with my face to the rising sun, O Lord have mercy on me.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2276,7 +2270,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2289,7 +2283,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2304,7 +2298,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2319,7 +2313,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2334,7 +2328,7 @@ let songs2 = {
         },
         chorus: "Living, He loved me; dying, He saved me; Buried, He carried my sins far away; Rising, He justified freely, forever; One day He's coming: O glorious day!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2349,7 +2343,7 @@ let songs2 = {
         },
         chorus: "Come and praise the Lord our king, Alleluia, come and praise the Lord our king. alleluia!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2364,7 +2358,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2378,7 +2372,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2392,7 +2386,7 @@ let songs2 = {
         },
         chorus: "Rejoice! Rejoice! Immanuel Shall come to Thee, O Israel!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2404,7 +2398,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2417,7 +2411,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2432,7 +2426,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2444,7 +2438,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2457,7 +2451,7 @@ let songs2 = {
         },
         chorus: "Go tell it on the mountain, over the hills and everywhere; go tell it on the mountain that Jesus Christ is born!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2468,7 +2462,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2481,7 +2475,7 @@ let songs2 = {
         },
         chorus: "O come, let us adore Him, O come, let us adore Him, O come, let us adore Him, Christ the Lord.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2495,7 +2489,7 @@ let songs2 = {
         },
         chorus: "Glo-ria in exelsis Deo, Glo-ria in exelsis Deo.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2508,7 +2502,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2522,7 +2516,7 @@ let songs2 = {
         },
         chorus: "Hark! the herald angels sing, Glory to the new-born King!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2536,7 +2530,7 @@ let songs2 = {
         },
         chorus: "Come and worship, come and worship, worship Christ, the newborn king.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2549,7 +2543,7 @@ let songs2 = {
         },
         chorus: "O night divine– O night when Christ was born! O night divine– O night, O night divine!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2562,7 +2556,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2576,7 +2570,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2589,7 +2583,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2602,7 +2596,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2618,7 +2612,7 @@ let songs2 = {
         },
         chorus: "Noel, Noel, Noel, Noel, Born is the King of Israel.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2633,7 +2627,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2644,7 +2638,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2658,7 +2652,7 @@ let songs2 = {
         },
         chorus: "How great our joy! Great our joy! Joy, joy, joy! Joy, joy, joy! Praise we the Lord in heaven on high! Praise we the Lord in heaven on high!",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2672,7 +2666,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2686,7 +2680,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2700,7 +2694,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2714,7 +2708,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2729,7 +2723,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2744,7 +2738,7 @@ let songs2 = {
         },
         chorus: "O star of wonder, star of night, Star with loyal beauty bright, Westward leading, still proceeding, Guide us to thy perfect light.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2757,7 +2751,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2769,7 +2763,7 @@ let songs2 = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     },
@@ -2782,7 +2776,7 @@ let songs2 = {
         },
         chorus: "He was wounded for our transgressions, He was bruised for our iniquities; Surely He bore our sorrows, And by His stripes we are healed.",
         like: false,
-        song_url: "",
+        song_url: `${path_name}`,
         author: "",
 
     }

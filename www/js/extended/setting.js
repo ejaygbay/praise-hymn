@@ -1,10 +1,11 @@
-let links = ['https://drive.google.com/file/d/1MoqoFfgRCE5_AlpWMs5v583lC93MFBfu/view?usp=sharing', 'https://impacttunes.com.ng/wp-content/uploads/2019/09/To-God-be-the-Glory-_-Hymnal.mp3'];
+let links = ['https://drive.google.com/file/d/1MoqoFfgRCE5_AlpWMs5v583lC93MFBfu/view?usp=sharing', 'https://impacttunes.com.ng/wp-content/uploads/2019/09/To-God-be-the-Glory-_-Hymnal.mp3', 'https://yeal.org/wp-content/uploads/2022/05/WonderfulGraceOfJesus.mp3'];
 
 
 
 document.getElementById('download-songs-btn').addEventListener('click', (e) => {
     downloader.init({ folder: "audio" });
-    downloader.get('https://drive.google.com/file/d/1MoqoFfgRCE5_AlpWMs5v583lC93MFBfu/view?usp=sharing', null, 'ToGodBeTheGlory2.mp3');
+    downloader.get(links[2]);
+    // , null, 'ToGodBeTheGlory.mp3'
     // https://www.orimi.com/pdf-test.pdf
 
     // alert("path 2");
@@ -34,7 +35,7 @@ document.addEventListener('DOWNLOADER_downloadError', function(event) {
 
 document.addEventListener('DOWNLOADER_gotFolder', function(event) {
     var data = event.data;
-    alert("Check Folder");
+    // alert("Check Folder");
 
     // alert('1' + data[0].nativeURL);
     listDir(data[0].nativeURL); // file:///data/user/0/cbc.praisehymn/files/files/audio/
