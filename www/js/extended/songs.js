@@ -99,7 +99,7 @@ let songs = {
         },
         chorus: "Praise the Lord, Praise the Lord, Let the earth hear His voice! Praise the Lord, Praise the Lord, Let the people rejoice! O come to the Father thru Jesus the Son, And give Him the glory great things He hath done!",
         like: false,
-        song_url: "music/ToGodBeTheGlory.mp3",
+        song_url: "audio/ToGodBeTheGlory.mp3",
         author: "Fanny Crosby"
     },
     "ISingTheMightyPowerOfGod": {
@@ -111,7 +111,7 @@ let songs = {
         },
         chorus: "",
         like: false,
-        song_url: "",
+        song_url: "audio/ToGodBeTheGlory1.mp3",
         author: "",
 
     },
@@ -123,7 +123,7 @@ let songs = {
         },
         chorus: "Sometimes Alleluia, Sometimes Praise the Lord! Sometimes gently singing, Our Hearts in one accord.",
         like: false,
-        song_url: "",
+        song_url: "file:///data/user/0/cbc.praisehymn/files/files/audio/ToGodBeTheGlory.mp3",
         author: "",
 
     }

@@ -117,7 +117,19 @@
 
             <!-- Settings section -->
             <section class="section settings">
-                <a id="download" class="waves-effect waves-light btn-large"><i class="material-icons right">download</i>Download All Songs</a>
+                <div>
+                    <a style="width: 100%; font-size: 20px;" id="download-songs-btn" class="waves-effect waves-light btn-large">
+                        <i style="margin-top: -5px" class="material-icons">download</i>
+                        <span>Download All Songs</span>
+                    </a>
+                </div>
+                <br>
+                <div id="obj">
+                </div>
+                <br>
+                <div id="songs-list">
+                    <audio class="song-playe" src="" controls></audio>
+                </div>
             </section>
 
             <!-- About section -->
@@ -150,7 +162,7 @@
         <!-- <audio id="heaven-song" src="./music/WhenWeAllGettoHeaven.mp3"></audio>
         <audio id="faith-song" src="./music/FaithofOurFathers.mp3"></audio> -->
 
-        <a href="#" download="https://drive.google.com/file/d/1pHZ6DDX7hgKQx5RGjOIrKrlHtHkoxPw0/view?usp=sharing">Download</a>
+        <!-- <a href="#" download="https://drive.google.com/file/d/1pHZ6DDX7hgKQx5RGjOIrKrlHtHkoxPw0/view?usp=sharing">Download</a> -->
 
     </div>
     <script src="cordova.js"></script>
@@ -160,6 +172,7 @@
     <script src="js/extended/songs.js"></script>
     <script src="js/extended/functions.js"></script>
     <script src="js/extended/home.js"></script>
+    <script src="js/extended/setting.js"></script>
 
     <script src="js/extended/index.js"></script>
     <script src="js/extended/sidebar.js"></script>
