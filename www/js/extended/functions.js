@@ -156,18 +156,34 @@ const playSong = (e, section) => {
 
     previous_parent_class = parent_class;
     song_player.src = songs[parent_class].song_url;
-    alert(song_player.src);
+
     song_player.play()
         .then(res => {
             showIcon(`.${section} .${parent_class} .stop`);
             hideIcon(`.${section} .${parent_class} .play`);
         })
         .catch(err => {
-            console.log(err)
+            let spl = song_player.src.split('/');
+            let spl_len = spl.length;
+            let spl2 = spl[spl_len - 1].split('-');
+            console.log(spl2)
+            Swal.fire({
+                title: 'Download Song',
+                text: "This song is not available on your device. Do you want to download it?",
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, download it!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    Swal.fire(
+                        'Deleted!',
+                        'Your file has been deleted.',
+                        'success'
+                    )
+                }
+            })
         })
-
-
-
 
     document.querySelector(".song-player").onended = function() {
         showIcon(`.${section} .${parent_class} .play`);

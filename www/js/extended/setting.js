@@ -1,10 +1,5 @@
-let links = ['https://drive.google.com/file/d/1MoqoFfgRCE5_AlpWMs5v583lC93MFBfu/view?usp=sharing', 'https://impacttunes.com.ng/wp-content/uploads/2019/09/To-God-be-the-Glory-_-Hymnal.mp3', 'https://yeal.org/wp-content/uploads/2022/05/WonderfulGraceOfJesus.mp3'];
-
-
-
 document.getElementById('download-songs-btn').addEventListener('click', (e) => {
-    downloader.init({ folder: "audio" });
-    downloader.get(links[2]);
+    downloadSong(links[2]);
     // , null, 'ToGodBeTheGlory.mp3'
     // https://www.orimi.com/pdf-test.pdf
 
@@ -86,4 +81,9 @@ function listDir(path) {
             alert(JSON.stringify(err));
         }
     );
+}
+
+const downloadSong = (url) => {
+    downloader.init({ folder: "audio" });
+    downloader.get(url);
 }
