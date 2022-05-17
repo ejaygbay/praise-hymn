@@ -157,9 +157,17 @@ const playSong = (e, section) => {
     previous_parent_class = parent_class;
     song_player.src = songs[parent_class].song_url;
     alert(song_player.src);
-    song_player.play();
-    showIcon(`.${section} .${parent_class} .stop`);
-    hideIcon(`.${section} .${parent_class} .play`);
+    song_player.play()
+        .then(res => {
+            showIcon(`.${section} .${parent_class} .stop`);
+            hideIcon(`.${section} .${parent_class} .play`);
+        })
+        .catch(err => {
+            console.log(err)
+        })
+
+
+
 
     document.querySelector(".song-player").onended = function() {
         showIcon(`.${section} .${parent_class} .play`);
