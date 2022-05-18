@@ -1,5 +1,5 @@
 document.getElementById('download-songs-btn').addEventListener('click', (e) => {
-    downloadSong(links[2]);
+    downloadSong(song_links[2]);
     // , null, 'ToGodBeTheGlory.mp3'
     // https://www.orimi.com/pdf-test.pdf
 
@@ -84,6 +84,7 @@ function listDir(path) {
 }
 
 const downloadSong = (url) => {
+    console.log("URL:::", url);
     downloader.init({ folder: "audio" });
     downloader.get(url);
 }

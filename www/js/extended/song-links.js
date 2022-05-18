@@ -1,1 +1,2 @@
-let links = ['https://impacttunes.com.ng/wp-content/uploads/2019/09/To-God-be-the-Glory-_-Hymnal.mp3', 'https://yeal.org/wp-content/uploads/2022/05/WonderfulGraceOfJesus.mp3'];
+let link_url = 'https://yeal.org/wp-content/uploads/2022/05/';
+let song_links = { '001': `${link_url}`, '002': `${link_url}`, '003': `${link_url}`, '004': `${link_url}`, '005': `${link_url}`, '006': `${link_url}`, '007': `${link_url}`, '008': `${link_url}`, '009': `${link_url}`, '010': `${link_url}` };

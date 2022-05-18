@@ -181,6 +181,8 @@ const playSong = (e, section) => {
                         'Your file has been deleted.',
                         'success'
                     )
+
+                    downloadSong(song_links[spl2[0]])
                 }
             })
         })
