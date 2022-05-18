@@ -1,9 +1,0 @@
-CREATE TABLE song_titles(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT DEFAULT 001, title TEXT NOT NULL,author TEXT NOT NULL,song_key TEXT NOT NULL,favorite INT DEFAULT 0);
-
-CREATE TABLE song_stanzas(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT DEFAULT 001, song_title_id INT NOT NULL, stanza TEXT NOT NULL);
-
-CREATE TABLE song_history(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT DEFAULT 001, song_title_id INT NOT NULL, history TEXT NOT NULL);
-
-SELECT * FROM song_titles;
-
-INSERT INTO song_titles(title, author, song_key) VALUES("ToGodBeTheGlory", "John Doe", "Ab");
