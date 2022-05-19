@@ -1,0 +1,8 @@
+.card-header {
+    white-space: nowrap;
+    text-align: center;
+}
+
+.splide__slide {
+    width: auto !important;
+}
