@@ -17,3 +17,15 @@
 #sidebarPanel .offcanvas-body {
     margin-top: 0px
 }
+
+.bg-primary {
+    background: #6395a2 !important;
+}
+
+.hide-ele {
+    display: none;
+}
+
+.show-ele {
+    display: block;
+}
