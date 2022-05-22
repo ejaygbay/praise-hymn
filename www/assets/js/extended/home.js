@@ -1,3 +1,3 @@
 const loadSongs = (id) => {
-    console.log(id)
+    console.log(songs[id])
 }

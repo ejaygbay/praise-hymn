@@ -29,3 +29,55 @@
 .show-ele {
     display: block;
 }
+
+
+/* Home Section */
+
+.song,
+.title-sec,
+.action-sec {
+    display: grid;
+}
+
+.song {
+    grid-template-columns: 76% 24%;
+    border-top: solid 1px #cacaca;
+    padding: 10px 0px;
+}
+
+.title-sec {
+    grid-template-columns: 16% 84%;
+}
+
+.action-sec {
+    grid-template-columns: 46% 46%;
+    margin: auto;
+}
+
+.song-title {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.author {
+    font-size: 11px;
+    margin-top: -2px;
+}
+
+.action-icons {
+    font-size: 26px;
+}
+
+.song-num {
+    margin: auto;
+}
+
+.stop,
+.like {
+    display: none;
+}
+
+.play,
+.stop {
+    margin-right: 30px;
+}
