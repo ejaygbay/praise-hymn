@@ -81,3 +81,7 @@
 .stop {
     margin-right: 30px;
 }
+
+.tab-pane {
+    padding-bottom: 26px;
+}
