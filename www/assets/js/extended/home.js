@@ -10,7 +10,7 @@ const loadSongs = (id) => {
             let author = song_set[song].author;
 
             let html = `<article class="song">
-                <div class="title-sec">
+                <div class="title-sec" onclick="openFullSong('${song_title}')">
                     <span class="song-num">${count}.</span>
                     <div>
                         <div class="song-title">${song_title}</div>
@@ -35,4 +35,8 @@ const loadSongs = (id) => {
     }
 }
 
-loadSongs('worship');
+// loadSongs('worship');
+
+const openFullSong = (id) => {
+    console.log(id);
+}
