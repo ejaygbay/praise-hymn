@@ -90,65 +90,6 @@ const addEventToSongTitle = () => {
     })
 }
 
-const addEventToPlayIcon = (section) => {
-    document.querySelectorAll(`.${section} .play`).forEach(ele => {
-        ele.addEventListener("click", e => {
-            playSong(e, section);
-        })
-    })
-}
-
-const addEventToStopIcon = (section) => {
-    document.querySelectorAll(".stop").forEach(ele => {
-        ele.addEventListener("click", e => {
-            stopSong(e, section);
-        })
-    })
-}
-
-const addEventToUnlikeIcon = (section) => {
-    document.querySelectorAll(".unlike").forEach(ele => {
-        ele.addEventListener("click", e => {
-            let parent_class = e.target.parentElement.className;
-            songs[parent_class.split("-")[0].trim()].like = true;
-            hideIcon(`.${section} .${parent_class} .unlike`);
-            showIcon(`.${section} .${parent_class} .like`);
-            findFavoritSongs();
-        })
-    })
-}
-
-const addEventToLikeIcon = (section) => {
-    document.querySelectorAll(".like").forEach(ele => {
-        ele.addEventListener("click", e => {
-            let parent_class = e.target.parentElement.className;
-            let splited_parent_class = parent_class.split("-")[0].trim();
-            songs[splited_parent_class].like = false;
-            hideIcon(`.${section} .${parent_class} .like`);
-            showIcon(`.${section} .${parent_class} .unlike`);
-
-            if (section === "favorites") {
-                let fav_play = document.querySelector(`.${section} .${splited_parent_class} .stop`);
-                hideIcon(`.${section} .${parent_class}-tr`);
-                if (fav_play.style.display === "block") {
-                    stopSongOnSectionSwitch();
-                }
-
-                let song_tr = document.querySelectorAll(`.${section} tr td:first-child`);
-                let index = 0;
-                song_tr.forEach(ele => {
-                    if (ele.parentElement.style.display !== "none") {
-                        ele.innerHTML = index + 1;
-                        index += 1;
-                    }
-                })
-            }
-
-            findFavoritSongs();
-        })
-    })
-}
-
 let previous_parent_class = "";
 const playSong = (e, section) => {
     let song_player = document.querySelector(".song-player");
