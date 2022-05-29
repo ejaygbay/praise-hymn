@@ -72,16 +72,24 @@
     margin: auto;
 }
 
-.stop,
-.like {
+.stop-icon,
+.like-icon {
     display: none;
 }
 
-.play,
-.stop {
+.play-icon,
+.stop-icon {
     margin-right: 30px;
 }
 
 .tab-pane {
     padding-bottom: 26px;
+}
+
+.playing .play-icon {
+    display: none;
+}
+
+.playing .stop-icon {
+    display: block;
 }

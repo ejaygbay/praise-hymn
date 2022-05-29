@@ -19,12 +19,12 @@ const loadSongs = (id) => {
                 </div>
                 <div class="action-sec">
                     <div>
-                        <ion-icon class="play action-icons" name="play"></ion-icon>
-                        <ion-icon class="stop action-icons" name="stop"></ion-icon>
+                        <ion-icon class="play-icon action-icons" name="play"></ion-icon>
+                        <ion-icon class="stop-icon action-icons" name="stop"></ion-icon>
                     </div>
                     <div>
-                        <ion-icon class="unlike action-icons" name="heart-outline"></ion-icon>
-                        <ion-icon class="like action-icons" name="heart"></ion-icon>
+                        <ion-icon class="unlike-icon action-icons" name="heart-outline"></ion-icon>
+                        <ion-icon class="like-icon action-icons" name="heart"></ion-icon>
                     </div>
                 </div>
             </article>`;
@@ -77,33 +77,33 @@ const addEventToUnlikeIcon = (section) => {
 }
 
 const addEventToLikeIcon = (section) => {
-    document.querySelectorAll(".like").forEach(ele => {
-        ele.addEventListener("click", e => {
-            let parent_class = e.target.parentElement.className;
-            let splited_parent_class = parent_class.split("-")[0].trim();
-            songs[splited_parent_class].like = false;
-            hideIcon(`.${section} .${parent_class} .like`);
-            showIcon(`.${section} .${parent_class} .unlike`);
+        document.querySelectorAll(".like").forEach(ele => {
+            ele.addEventListener("click", e => {
+                let parent_class = e.target.parentElement.className;
+                let splited_parent_class = parent_class.split("-")[0].trim();
+                songs[splited_parent_class].like = false;
+                hideIcon(`.${section} .${parent_class} .like`);
+                showIcon(`.${section} .${parent_class} .unlike`);
 
-            if (section === "favorites") {
-                let fav_play = document.querySelector(`.${section} .${splited_parent_class} .stop`);
-                hideIcon(`.${section} .${parent_class}-tr`);
-                if (fav_play.style.display === "block") {
-                    stopSongOnSectionSwitch();
+                if (section === "favorites") {
+                    let fav_play = document.querySelector(`.${section} .${splited_parent_class} .stop`);
+                    hideIcon(`.${section} .${parent_class}-tr`);
+                    if (fav_play.style.display === "block") {
+                        stopSongOnSectionSwitch();
+                    }
+
+                    let song_tr = document.querySelectorAll(`.${section} tr td:first-child`);
+                    let index = 0;
+                    song_tr.forEach(ele => {
+                        if (ele.parentElement.style.display !== "none") {
+                            ele.innerHTML = index + 1;
+                            index += 1;
+                        }
+                    })
                 }
 
-                let song_tr = document.querySelectorAll(`.${section} tr td:first-child`);
-                let index = 0;
-                song_tr.forEach(ele => {
-                    if (ele.parentElement.style.display !== "none") {
-                        ele.innerHTML = index + 1;
-                        index += 1;
-                    }
-                })
-            }
-
-            findFavoritSongs();
+                findFavoritSongs();
+            })
         })
-    })
-}
-loadSongs('worship');
+    }
+    // loadSongs('worship');
