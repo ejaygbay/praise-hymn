@@ -109,19 +109,27 @@ const actionButtonsHandler = (e) => {
         setAttributeValue(`#${id[0]}_play`, 'id', `${id[0]}_stop`);
     } else if (id[1] === 'stop') {
         removePlayingClass();
+    } else if (id[1] === 'like') {
+        removeClass(`${id[0]}_parent`, 'favorite');
+        setAttributeValue(`#${id[0]}_like`, 'name', 'heart-outline');
+        setAttributeValue(`#${id[0]}_like`, 'id', `${id[0]}_unlike`);
     } else if (id[1] === 'unlike') {
         addClass(`${id[0]}_parent`, 'favorite');
         setAttributeValue(`#${id[0]}_unlike`, 'name', 'heart');
+        setAttributeValue(`#${id[0]}_unlike`, 'id', `${id[0]}_like`);
     }
 }
 
 const likeAndUnlikeHandlers = (e) => {
+    alert("Called")
     let id = e.target.id.split('_');
 
     if (id[1] === 'unlike') {
-        addClass(`${id[0]}_parent2`, 'favorite');
-    } else {
-        removeClass(`${id[0]}_parent2`, 'favorite');
+        addClass(`${id[0]}_parent`, 'favorite');
+        setAttributeValue(`#${id[0]}_unlike`, 'name', 'heart');
+    } else if (id[1] === 'like') {
+        removeClass(`${id[0]}_parent`, 'favorite');
+        setAttributeValue(`#${id[0]}_like`, 'name', 'heart-outline');
     }
 }
 
