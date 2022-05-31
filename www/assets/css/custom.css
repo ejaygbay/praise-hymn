@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .card-header {
     white-space: nowrap;
     text-align: center;
@@ -86,10 +90,19 @@
     padding-bottom: 26px;
 }
 
-.playing .play-icon {
+
+/* .playing .play-icon {
     display: none;
 }
 
 .playing .stop-icon {
     display: block;
 }
+
+.favorite .like-icon {
+    display: block;
+}
+
+.favorite .unlike-icon {
+    display: none;
+} */

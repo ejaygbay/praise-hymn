@@ -17,15 +17,9 @@ const loadSongs = (id) => {
                         <div class="author">By: ${author}</div>
                     </div>
                 </div>
-                <div class="action-sec">
-                    <div id="${song_title}_parent" class="" onclick="actionButtonsHandler(event)">
-                        <ion-icon id="${song_title}_play" class="play-icon action-icons" name="play"></ion-icon>
-                        <ion-icon id="${song_title}_stop" class="stop-icon action-icons" name="stop"></ion-icon>
-                    </div>
-                    <div>
-                        <ion-icon id="${song_title}_unlike" class="unlike-icon action-icons" name="heart-outline"></ion-icon>
-                        <ion-icon id="${song_title}_like" class="like-icon action-icons" name="heart"></ion-icon>
-                    </div>
+                <div id="${song}_parent" class="action-sec" onclick="actionButtonsHandler(event)">
+                    <ion-icon id="${song}_play" class="play-icon action-icons" name="play"></ion-icon>
+                    <ion-icon id="${song}_unlike" class="unlike-icon action-icons" name="heart-outline"></ion-icon>
                 </div>
             </article>`;
 
@@ -33,10 +27,10 @@ const loadSongs = (id) => {
             count += 1;
         }
 
-        addEventToPlayIcon('songs-section');
-        addEventToStopIcon('songs-section');
-        addEventToLikeIcon('songs-section');
-        addEventToUnlikeIcon('songs-section');
+        // addEventToPlayIcon('songs-section');
+        // addEventToStopIcon('songs-section');
+        // addEventToLikeIcon('songs-section');
+        // addEventToUnlikeIcon('songs-section');
     }
 }
 
@@ -45,7 +39,6 @@ const openFullSong = (id) => {
 }
 
 const addEventToPlayIcon = (section) => {
-    console.log(document.querySelectorAll(`.${section} .play`))
     document.querySelectorAll(`.${section} .play`).forEach(ele => {
         ele.addEventListener("click", e => {
             console.log('sec:::', section);
@@ -108,17 +101,46 @@ const addEventToLikeIcon = (section) => {
 
 const actionButtonsHandler = (e) => {
     let id = e.target.id.split('_');
-    removePlayingClass();
 
     if (id[1] === 'play') {
-        addPlayingClass(`${id[0]}_parent`, 'playing');
+        removePlayingClass();
+        addClass(`${id[0]}_parent`, 'playing');
+        setAttributeValue(`#${id[0]}_play`, 'name', 'stop');
+        setAttributeValue(`#${id[0]}_play`, 'id', `${id[0]}_stop`);
+    } else if (id[1] === 'stop') {
+        removePlayingClass();
+    } else if (id[1] === 'unlike') {
+        addClass(`${id[0]}_parent`, 'favorite');
+        setAttributeValue(`#${id[0]}_unlike`, 'name', 'heart');
     }
 }
 
-const addPlayingClass = (id, name) => document.getElementById(id).classList.add(name);
+const likeAndUnlikeHandlers = (e) => {
+    let id = e.target.id.split('_');
+
+    if (id[1] === 'unlike') {
+        addClass(`${id[0]}_parent2`, 'favorite');
+    } else {
+        removeClass(`${id[0]}_parent2`, 'favorite');
+    }
+}
+
+const addClass = (id, name) => document.getElementById(id).classList.add(name);
+
+const setAttributeValue = (ele, attr, value) => {
+    document.querySelector(ele).setAttribute(attr, value);
+}
 
 const removePlayingClass = () => {
-    document.querySelectorAll('.playing').forEach(ele => ele.classList.remove('playing'))
+    document.querySelectorAll('.playing').forEach(ele => {
+        let id = ele.id.split('_');
+        document.getElementById(`${id[0]}_parent`).classList.remove('playing');
+
+        setAttributeValue(`#${id[0]}_stop`, 'name', 'play');
+        setAttributeValue(`#${id[0]}_stop`, 'id', `${id[0]}_play`);
+    })
 }
+
+const removeClass = (id, name) => document.getElementById(id).classList.remove(name);
 
 loadSongs('worship');
