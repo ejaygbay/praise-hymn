@@ -117,10 +117,6 @@
     opacity: .9;
 }
 
-.lyric-play-icon {
-    /* margin-left: 6px; */
-}
-
 .important-info {
     display: grid;
     grid-template-columns: 70% 30%;
