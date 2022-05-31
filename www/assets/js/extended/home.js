@@ -4,13 +4,14 @@ const loadSongs = (id) => {
 
     if (songs[id]) {
         parent_ele.innerHTML = "";
-        let song_set = songs[id];
-        for (song in song_set) {
-            let song_title = song_set[song].title;
-            let author = song_set[song].author;
+        let song_group = songs[id];
+
+        for (song in song_group) {
+            let song_title = song_group[song].title;
+            let author = song_group[song].author;
 
             let html = `<article class="song">
-                <div class="title-sec" onclick="openFullSong('${song_title}')">
+                <div class="title-sec" onclick="openFullSong('${id}', '${song}')">
                     <span class="song-num">${count}.</span>
                     <div>
                         <div class="song-title">${song_title}</div>
@@ -34,9 +35,12 @@ const loadSongs = (id) => {
     }
 }
 
-const openFullSong = (id) => {
-    console.log(id);
+const openFullSong = (song_group, song_id) => {
+    switchSection('song-lyrics-section');
+    console.log(song_group, song_id);
 }
+
+switchSection('song-lyrics-section');
 
 const addEventToPlayIcon = (section) => {
     document.querySelectorAll(`.${section} .play`).forEach(ele => {
