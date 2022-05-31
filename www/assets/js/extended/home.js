@@ -95,7 +95,11 @@ const openFullSong = (song_group, song_id) => {
     }
 }
 
-// switchSection('song-lyrics-section');
+const downloadSongs = () => {
+    console.log("Downolad")
+}
+
+switchSection('downloads-section');
 
 
 
@@ -193,7 +197,6 @@ const setAttributeValue = (ele, attr, value) => document.querySelector(ele).setA
 const removePlayingClass = () => {
     document.querySelectorAll('.playing').forEach(ele => {
         let id = ele.id.split('_');
-        console.log("ID:", id);
         document.getElementById(`${id[0]}_${id[1]}`).classList.remove('playing');
 
         setAttributeValue(`#${id[0]}_${id[1]}`, 'name', 'play');

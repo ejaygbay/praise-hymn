@@ -95,6 +95,11 @@
     padding-right: 30px;
 }
 
+#downloads-section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .song-lyrics .stanza:last-child {
     margin-bottom: 3em;
 }
