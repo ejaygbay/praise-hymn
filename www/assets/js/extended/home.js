@@ -110,7 +110,7 @@ const actionButtonsHandler = (e) => {
     } else if (id[1] === 'stop') {
         removePlayingClass();
     } else if (id[1] === 'like') {
-        removeClass(`${id[0]}_parent`, 'favorite');
+        removeFavoriteClass(`${id[0]}_parent`, 'favorite');
         setAttributeValue(`#${id[0]}_like`, 'name', 'heart-outline');
         setAttributeValue(`#${id[0]}_like`, 'id', `${id[0]}_unlike`);
     } else if (id[1] === 'unlike') {
@@ -120,24 +120,9 @@ const actionButtonsHandler = (e) => {
     }
 }
 
-const likeAndUnlikeHandlers = (e) => {
-    alert("Called")
-    let id = e.target.id.split('_');
-
-    if (id[1] === 'unlike') {
-        addClass(`${id[0]}_parent`, 'favorite');
-        setAttributeValue(`#${id[0]}_unlike`, 'name', 'heart');
-    } else if (id[1] === 'like') {
-        removeClass(`${id[0]}_parent`, 'favorite');
-        setAttributeValue(`#${id[0]}_like`, 'name', 'heart-outline');
-    }
-}
-
 const addClass = (id, name) => document.getElementById(id).classList.add(name);
 
-const setAttributeValue = (ele, attr, value) => {
-    document.querySelector(ele).setAttribute(attr, value);
-}
+const setAttributeValue = (ele, attr, value) => document.querySelector(ele).setAttribute(attr, value);
 
 const removePlayingClass = () => {
     document.querySelectorAll('.playing').forEach(ele => {
@@ -149,6 +134,6 @@ const removePlayingClass = () => {
     })
 }
 
-const removeClass = (id, name) => document.getElementById(id).classList.remove(name);
+const removeFavoriteClass = (id, name) => document.getElementById(id).classList.remove(name);
 
 loadSongs('worship');
