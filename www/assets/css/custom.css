@@ -90,6 +90,40 @@
     padding-bottom: 26px;
 }
 
+#song-lyrics-section {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.song-lyrics .stanza:last-child {
+    margin-bottom: 2em;
+}
+
+.lyric {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.lyric-title {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.important-info {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: space-evenly;
+    white-space: nowrap;
+}
+
+.stanza span {
+    font-weight: bold;
+}
+
+.stanza {
+    margin-top: 1.4em;
+}
+
 
 /* .playing .play-icon {
     display: none;
