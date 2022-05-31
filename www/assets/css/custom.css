@@ -96,7 +96,7 @@
 }
 
 .song-lyrics .stanza:last-child {
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 .lyric {
@@ -107,6 +107,18 @@
 .lyric-title {
     text-align: center;
     margin-bottom: 0px;
+}
+
+.song-lyrics .fab-button {
+    bottom: 62px;
+}
+
+.fab {
+    opacity: .9;
+}
+
+.lyric-play-icon {
+    /* margin-left: 6px; */
 }
 
 .important-info {

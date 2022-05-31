@@ -50,9 +50,20 @@ const openFullSong = (song_group, song_id) => {
         </article>
     </div>`;
     let song_ele = document.querySelector(".song-lyrics");
+    let action_btn = `<div class="fab-button animate bottom-right dropdown">
+        <div id="${song}_parent2" class="fab playing" onclick="actionButtonsHandler(event)">
+            <ion-icon id="${song}_play2" class="lyric-play-icon" name="play"></ion-icon>
+        </div>
+    </div>`;
+
+    // <div id="${song}_parent" class="action-sec" onclick="actionButtonsHandler(event)">
+    //                 <ion-icon id="${song}_play" class="play-icon action-icons" name="play"></ion-icon>
+    //                 <ion-icon id="${song}_unlike" class="unlike-icon action-icons" name="heart-outline"></ion-icon>
+    //             </div>
 
     song_ele.innerHTML = "";
     song_ele.insertAdjacentHTML("beforeend", title_header);
+    song_ele.insertAdjacentHTML("beforeend", action_btn);
 
     if (song_lyrics_keys.includes('chorus')) {
         let stanza1 = `<div class=stanza>
@@ -80,9 +91,9 @@ const openFullSong = (song_group, song_id) => {
     } else {
         stanzas_keys.forEach((ele, index) => {
             let html = `<div class=stanza>
-            <span>${index + 1}</span>
-            <article class="lyric">${stanzas[ele]}</article>
-        </div>`;
+                <span>${index + 1}</span>
+                <article class="lyric">${stanzas[ele]}</article>
+            </div>`;
             song_ele.insertAdjacentHTML("beforeend", html);
         })
     }
@@ -90,81 +101,6 @@ const openFullSong = (song_group, song_id) => {
 
 // switchSection('song-lyrics-section');
 
-const addEventToSongTitl = () => {
-    document.querySelectorAll(".song-title").forEach(ele => {
-        ele.addEventListener("click", e => {
-            let id = e.target.id;
-            let song_lyrics_keys = Object.keys(songs[id]);
-            let stanzas = songs[id].stanzas;
-            let song_ele = document.querySelector(".song");
-            let stanzas_keys = Object.keys(stanzas);
-            let title_header = `<div>
-                <h5>${songs[id].title}</h5>
-                <article class="important-info">
-                    <span>By: ${songs[id].author}</span>
-                    <a href="#">Read History</a>
-                </article>
-            </div>`;
-            let play_btn = `<a class="${id} btn-floating btn-large waves-effect waves-light">
-                <i class="material-icons play action-icons">play_arrow</i>
-                <i class="material-icons stop action-icons">stop</i>
-            </a>`;
-
-            previous_section = current_section;
-
-            song_ele.innerHTML = "";
-            song_ele.insertAdjacentHTML("beforeend", title_header);
-            song_ele.insertAdjacentHTML("beforeend", play_btn);
-
-            if (song_lyrics_keys.includes('chorus')) {
-                let stanza1 = `<div class=stanza>
-                    <span>1.</span>
-                    <article>
-                        ${stanzas[1]}
-                    </article>
-                </div>`;
-
-                let chorus = `<div class=stanza>
-                    <span>Chorus</span>
-                    <article>
-                        ${songs[id].chorus}
-                    </article>
-                </div>`;
-
-                song_ele.insertAdjacentHTML("beforeend", stanza1);
-                if (songs[id].chorus.length > 0) {
-                    song_ele.insertAdjacentHTML("beforeend", chorus);
-                }
-
-                for (let i = 1; i < stanzas_keys.length; i++) {
-                    let html = `<div class=stanza>
-                        <span>${i + 1}.</span>
-                        <article>
-                            ${stanzas[i + 1]}
-                        </article>
-                    </div>`;
-                    song_ele.insertAdjacentHTML("beforeend", html);
-                }
-            } else {
-                stanzas_keys.forEach((ele, index) => {
-                    let html = `<div class=stanza>
-                    <span>${index + 1}</span>
-                    <article>
-                        ${stanzas[ele]}
-                    </article>
-                </div>`;
-                    song_ele.insertAdjacentHTML("beforeend", html);
-                })
-            }
-
-            document.querySelector(`.show`).classList.remove('show');
-            document.querySelector(`.song`).classList.add("show");
-            addEventToPlayIcon('song');
-            addEventToStopIcon("song");
-            stopSongOnSectionSwitch();
-        })
-    })
-}
 
 
 const addEventToPlayIcon = (section) => {
@@ -231,12 +167,12 @@ const addEventToLikeIcon = (section) => {
 const actionButtonsHandler = (e) => {
     let id = e.target.id.split('_');
 
-    if (id[1] === 'play') {
+    if (id[1] === 'play' || id[1] === 'play2') {
         removePlayingClass();
-        addClass(`${id[0]}_parent`, 'playing');
-        setAttributeValue(`#${id[0]}_play`, 'name', 'stop');
-        setAttributeValue(`#${id[0]}_play`, 'id', `${id[0]}_stop`);
-    } else if (id[1] === 'stop') {
+        addClass(`${id[0]}_${id[1]}`, 'playing');
+        setAttributeValue(`#${id[0]}_${id[1]}`, 'name', 'stop');
+        setAttributeValue(`#${id[0]}_${id[1]}`, 'id', `${id[0]}_stop`);
+    } else if (id[1] === 'stop' || id[1] === 'stop2') {
         removePlayingClass();
     } else if (id[1] === 'like') {
         removeFavoriteClass(`${id[0]}_parent`, 'favorite');
