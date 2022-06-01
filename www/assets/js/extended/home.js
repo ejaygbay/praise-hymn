@@ -204,6 +204,8 @@ const removePlayingClass = () => {
         } else if (id[1] === 'stop2') {
             setAttributeValue(`#${id[0]}_${id[1]}`, 'id', `${id[0]}_play2`);
         }
+
+        stopSong();
     })
 }
 
@@ -223,8 +225,8 @@ const playSong = (song_id) => {
     song_player.play()
         .then(res => {
             console.log("Playing::::", res);
-            showIcon(`.${section} .${parent_class} .stop`);
-            hideIcon(`.${section} .${parent_class} .play`);
+            // showIcon(`.${section} .${parent_class} .stop`);
+            // hideIcon(`.${section} .${parent_class} .play`);
         })
         .catch(err => {
             console.log("Not Playing::::", err);
@@ -259,17 +261,12 @@ const playSong = (song_id) => {
     }
 }
 
-const stopSong = (e, section) => {
+const stopSong = () => {
+    console.log("Stop Song");
     let song_player = document.querySelector(".song-player");
-    let parent_class = e.target.parentElement.className;
-    if (section === 'song') {
-        parent_class = parent_class = e.target.parentElement.classList[0];
-    }
 
     song_player.pause();
     song_player.currentTime = 0;
-    showIcon(`.${section} .${parent_class} .play`);
-    hideIcon(`.${section} .${parent_class} .stop`);
 }
 
 const stopSongOnSectionSwitch = () => {
