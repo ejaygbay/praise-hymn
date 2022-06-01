@@ -3,6 +3,7 @@ document.getElementById('download-songs-btn').addEventListener('click', (e) => {
     // console.log(song_links);
     for (key in song_links) {
         downloadSong(song_links[key]);
+        // console.log(song_links[key])
     }
     // , null, 'ToGodBeTheGlory.mp3'
     // https://www.orimi.com/pdf-test.pdf
@@ -21,15 +22,13 @@ document.addEventListener('DOWNLOADER_noWifiConnection', function(event) {
 
 document.addEventListener('DOWNLOADER_downloadSuccess', function(event) {
     var data = event.data;
-    alert("Download Success");
-    // alert(JSON.stringify(data));
+    console.log("Download Success", data);
     listDir(cordova.file.applicationDirectory + "www/audio/");
 });
 
 document.addEventListener('DOWNLOADER_downloadError', function(event) {
     var data = event.data;
-    alert("Download Error");
-    // alert(JSON.stringify(data));
+    console.log("Download Error", data);
 });
 
 document.addEventListener('DOWNLOADER_gotFolder', function(event) {

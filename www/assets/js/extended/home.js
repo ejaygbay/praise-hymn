@@ -95,10 +95,6 @@ const openFullSong = (song_group, song_id) => {
     }
 }
 
-const downloadSongs = () => {
-    console.log("Downolad")
-}
-
 switchSection('downloads-section');
 
 

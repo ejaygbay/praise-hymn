@@ -90,78 +90,78 @@ const addEventToSongTitle = () => {
     })
 }
 
-let previous_parent_class = "";
-const playSong = (e, section) => {
-    let song_player = document.querySelector(".song-player");
-    let parent_class = e.target.parentElement.classList[0];
+// let previous_parent_class = "";
+// const playSong = (e, section) => {
+//     let song_player = document.querySelector(".song-player");
+//     let parent_class = e.target.parentElement.classList[0];
 
-    if (song_player.duration > 0 && !song_player.paused) {
-        song_player.pause();
-        song_player.currentTime = 0;
-        showIcon(`.${section} .${previous_parent_class} .play`);
-        hideIcon(`.${section} .${previous_parent_class} .stop`);
-    }
+//     if (song_player.duration > 0 && !song_player.paused) {
+//         song_player.pause();
+//         song_player.currentTime = 0;
+//         showIcon(`.${section} .${previous_parent_class} .play`);
+//         hideIcon(`.${section} .${previous_parent_class} .stop`);
+//     }
 
-    previous_parent_class = parent_class;
-    song_player.src = songs[parent_class].song_url;
+//     previous_parent_class = parent_class;
+//     song_player.src = songs[parent_class].song_url;
 
-    song_player.play()
-        .then(res => {
-            showIcon(`.${section} .${parent_class} .stop`);
-            hideIcon(`.${section} .${parent_class} .play`);
-        })
-        .catch(err => {
-            let spl = song_player.src.split('/');
-            let spl_len = spl.length;
-            let spl2 = spl[spl_len - 1].split('-');
-            console.log(spl2)
-            Swal.fire({
-                title: 'Download Song',
-                text: "This song is not available on your device. Do you want to download it?",
-                showCancelButton: true,
-                confirmButtonColor: '#3085d6',
-                cancelButtonColor: '#d33',
-                confirmButtonText: 'Yes, download it!'
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    Swal.fire(
-                        'Deleted!',
-                        'Your file has been deleted.',
-                        'success'
-                    )
+//     song_player.play()
+//         .then(res => {
+//             showIcon(`.${section} .${parent_class} .stop`);
+//             hideIcon(`.${section} .${parent_class} .play`);
+//         })
+//         .catch(err => {
+//             let spl = song_player.src.split('/');
+//             let spl_len = spl.length;
+//             let spl2 = spl[spl_len - 1].split('-');
+//             console.log(spl2)
+//             Swal.fire({
+//                 title: 'Download Song',
+//                 text: "This song is not available on your device. Do you want to download it?",
+//                 showCancelButton: true,
+//                 confirmButtonColor: '#3085d6',
+//                 cancelButtonColor: '#d33',
+//                 confirmButtonText: 'Yes, download it!'
+//             }).then((result) => {
+//                 if (result.isConfirmed) {
+//                     Swal.fire(
+//                         'Deleted!',
+//                         'Your file has been deleted.',
+//                         'success'
+//                     )
 
-                    downloadSong(song_links[spl2[0]])
-                }
-            })
-        })
+//                     downloadSong(song_links[spl2[0]])
+//                 }
+//             })
+//         })
 
-    document.querySelector(".song-player").onended = function() {
-        showIcon(`.${section} .${parent_class} .play`);
-        hideIcon(`.${section} .${parent_class} .stop`);
-    }
-}
+//     document.querySelector(".song-player").onended = function() {
+//         showIcon(`.${section} .${parent_class} .play`);
+//         hideIcon(`.${section} .${parent_class} .stop`);
+//     }
+// }
 
-const stopSong = (e, section) => {
-    let song_player = document.querySelector(".song-player");
-    let parent_class = e.target.parentElement.className;
-    if (section === 'song') {
-        parent_class = parent_class = e.target.parentElement.classList[0];
-    }
+// const stopSong = (e, section) => {
+//     let song_player = document.querySelector(".song-player");
+//     let parent_class = e.target.parentElement.className;
+//     if (section === 'song') {
+//         parent_class = parent_class = e.target.parentElement.classList[0];
+//     }
 
-    song_player.pause();
-    song_player.currentTime = 0;
-    showIcon(`.${section} .${parent_class} .play`);
-    hideIcon(`.${section} .${parent_class} .stop`);
-}
+//     song_player.pause();
+//     song_player.currentTime = 0;
+//     showIcon(`.${section} .${parent_class} .play`);
+//     hideIcon(`.${section} .${parent_class} .stop`);
+// }
 
-const stopSongOnSectionSwitch = () => {
-    let song_player = document.querySelector(".song-player");
+// const stopSongOnSectionSwitch = () => {
+//     let song_player = document.querySelector(".song-player");
 
-    if (song_player.duration > 0 && !song_player.paused) {
-        song_player.pause();
-        song_player.currentTime = 0;
-    }
-}
+//     if (song_player.duration > 0 && !song_player.paused) {
+//         song_player.pause();
+//         song_player.currentTime = 0;
+//     }
+// }
 
 const showIcon = (show) => {
     document.querySelector(show).style = "display: block";
