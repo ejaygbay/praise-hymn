@@ -2,128 +2,126 @@ let path_name = 'file:///data/user/0/cbc.praisehymn/files/files/audio/';
 
 // 1 - 118
 let songs = {
-    worship: {
-        "EverybodySingPraiseToTheLord": {
-            title: "Everybody Sing Praise To The Lord",
-            stanzas: {
-                1: "Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, For He is so wonderful! Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, For He is so wonderful! For He is so wonderful!"
-            },
-            chorus: "",
-            like: false,
-            song_url: `${path_name}001-EverybodySingPraiseToTheLord.mp3`,
-            author: "John W. Peterson"
+    "EverybodySingPraiseToTheLord": {
+        title: "Everybody Sing Praise To The Lord",
+        stanzas: {
+            1: "Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, For He is so wonderful! Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, For He is so wonderful! For He is so wonderful!"
         },
-        "SingPraiseToGod": {
-            title: "Sing Praise To God",
-            stanzas: {
-                1: "Sing praise to God who reigns above, The God of all creation. The God of pow'r, the God of love,The God of our salvation; With healing balm my soul He fills, And ev'ry faithless murmur stills: To God all praise and glory!",
-                2: "What God's almighty pow'r hath made His gracious mercy keepeth, By morning glow or evening shade His watchful eye ne'er sleepeth. Within the kingdom of His might, Lo! all is just and all is right: To God all praise and glory!",
-                3: "The Lord is never far away, But, thro' all grief distressing, An ever-present help and stay, Our peace and joy and blessing; As with a mother's tender hand He leads His own, His chosen band: To God all praise and glory!",
-                4: "Thus all my toilsome way along I sing aloud His praises, That all may hear the grateful song My voice unwearied raises; Be joyful in the Lord, my heart! Both soul and body bear your part: To God all praise and glory!"
-            },
-            chorus: "",
-            like: false,
-            song_url: `${path_name}002-SingPraiseToGod.mp3`,
-            author: "Johann J. Schütz"
+        chorus: "",
+        like: false,
+        song_url: `${path_name}001-EverybodySingPraiseToTheLord.mp3`,
+        author: "John W. Peterson"
+    },
+    "SingPraiseToGod": {
+        title: "Sing Praise To God",
+        stanzas: {
+            1: "Sing praise to God who reigns above, The God of all creation. The God of pow'r, the God of love,The God of our salvation; With healing balm my soul He fills, And ev'ry faithless murmur stills: To God all praise and glory!",
+            2: "What God's almighty pow'r hath made His gracious mercy keepeth, By morning glow or evening shade His watchful eye ne'er sleepeth. Within the kingdom of His might, Lo! all is just and all is right: To God all praise and glory!",
+            3: "The Lord is never far away, But, thro' all grief distressing, An ever-present help and stay, Our peace and joy and blessing; As with a mother's tender hand He leads His own, His chosen band: To God all praise and glory!",
+            4: "Thus all my toilsome way along I sing aloud His praises, That all may hear the grateful song My voice unwearied raises; Be joyful in the Lord, my heart! Both soul and body bear your part: To God all praise and glory!"
         },
-        "PraiseToTheLordTheAlmighty": {
-            title: "Praise To The Lord The Almighty",
-            stanzas: {
-                1: "Praise to the Lord, the Almighty, the King of creation! O my soul, praise Him, for He is thy health and salvation! All ye who hear, Now to His temple draw near; Praise Him in glad adoration.",
-                2: "Praise to the Lord, who o'er all things so wondrously reigneth, Shelters thee under His wings, yea, so gently sustaineth! Hast thou not seen How thy desires e'er have been Granted in what He ordaineth?",
-                3: "Praise to the Lord, who doth prosper thy work and defend thee; Surely His goodness and mercy here daily attend thee. Ponder anew What the Almighty can do, If with His love He befriend thee.",
-                4: "Praise to the Lord, O let all that is in me adore Him! All that hath life and breath, come now with praises before Him. Let the Amen Sound from His people again, Gladly for aye we adore Him."
-            },
-            chorus: "",
-            like: false,
-            song_url: `${path_name}003-PraiseToTheLordTheAlmighty.mp3`,
-            author: "Joachim Neander",
+        chorus: "",
+        like: false,
+        song_url: `${path_name}002-SingPraiseToGod.mp3`,
+        author: "Johann J. Schütz"
+    },
+    "PraiseToTheLordTheAlmighty": {
+        title: "Praise To The Lord The Almighty",
+        stanzas: {
+            1: "Praise to the Lord, the Almighty, the King of creation! O my soul, praise Him, for He is thy health and salvation! All ye who hear, Now to His temple draw near; Praise Him in glad adoration.",
+            2: "Praise to the Lord, who o'er all things so wondrously reigneth, Shelters thee under His wings, yea, so gently sustaineth! Hast thou not seen How thy desires e'er have been Granted in what He ordaineth?",
+            3: "Praise to the Lord, who doth prosper thy work and defend thee; Surely His goodness and mercy here daily attend thee. Ponder anew What the Almighty can do, If with His love He befriend thee.",
+            4: "Praise to the Lord, O let all that is in me adore Him! All that hath life and breath, come now with praises before Him. Let the Amen Sound from His people again, Gladly for aye we adore Him."
         },
-        "TheLordIsKing": {
-            title: "The Lord Is King",
-            stanzas: {
-                1: "The Lord is King! Lift up, lift up your voise Sing His praise, sing His praise! All heav'n and earth before Him now rejoice Sing His praise, sing his praise! From world to world the joy shall ring, For He alone is God and King; From sky to sky his banners fling Sing His praise, sing His praise!",
-                2: "The Lord is King! Let all His worth declare Great is He, great is He! Bow to His  will and trust His tender care  Great is He, great is He! Nor murmur at His wise decrees, Nor doubt His steadfast promises; In humble faith fall on your knees Great is He, great is He!",
-                3: "The Lord is King! And bow to Him we must God is great, God is good! The Judge of all to all is ever just God is great, God is good! Holy and true are all His ways: Let every creature shout His praise; The Lord of Hosts, Ancient of Days God is great, God is good!",
-                4: "The Lord is King! Throught out His vast domain He is all, all in all! The Lord Johovah evermore shall reign He is all, all in all! Thru earth and heav'n one song shall reign, From greatful hearts this anthem spring: Arise, O saints, salute your King All your days, sing His praise!"
-            },
-            chorus: "",
-            like: false,
-            song_url: `${path_name}004-TheLordIsKing.mp3`,
-            author: "Norman Johnson"
+        chorus: "",
+        like: false,
+        song_url: `${path_name}003-PraiseToTheLordTheAlmighty.mp3`,
+        author: "Joachim Neander",
+    },
+    "TheLordIsKing": {
+        title: "The Lord Is King",
+        stanzas: {
+            1: "The Lord is King! Lift up, lift up your voise Sing His praise, sing His praise! All heav'n and earth before Him now rejoice Sing His praise, sing his praise! From world to world the joy shall ring, For He alone is God and King; From sky to sky his banners fling Sing His praise, sing His praise!",
+            2: "The Lord is King! Let all His worth declare Great is He, great is He! Bow to His  will and trust His tender care  Great is He, great is He! Nor murmur at His wise decrees, Nor doubt His steadfast promises; In humble faith fall on your knees Great is He, great is He!",
+            3: "The Lord is King! And bow to Him we must God is great, God is good! The Judge of all to all is ever just God is great, God is good! Holy and true are all His ways: Let every creature shout His praise; The Lord of Hosts, Ancient of Days God is great, God is good!",
+            4: "The Lord is King! Throught out His vast domain He is all, all in all! The Lord Johovah evermore shall reign He is all, all in all! Thru earth and heav'n one song shall reign, From greatful hearts this anthem spring: Arise, O saints, salute your King All your days, sing His praise!"
         },
-        "PraiseTheLordSingHallelujah": {
-            title: "Praise The Lord Sing Hallelujah!",
-            stanzas: {
-                1: "Praise the Lord sing hallelujah! Children of God's gracious choice; Let His praises rise as thunder, Let the  whole earth hear His voice, Till the song of His salvation makes His broken world rejoice!",
-                2: "Man's imprais'ning night is shattered At the impact of His Word!; Light and life forth enternal Where that mighty  voice is heard Let the pow'rs of death and darkness Owe the triumph of their Lord!",
-                3: "Praise the Lord until His glory Floods the farthest realms of earth, Till from ev'ry tribe and nation Souls rise in glad rebirth: Haste the day of His appearing, When His world shall own His worth!",
-                4: "Praise the Lord, sing hallelujah! sound His sov'reign grace abroad, Till His Word  is love and honored Ev'ry where man's feet have trod, Till His ransomed fam'ly gathers Safely round the throne of God!"
-            },
-            chorus: "",
-            like: false,
-            song_url: `${path_name}005-PraiseTheLordSingHallelujah.mp3`,
-            author: "E. Margaret Clarkson"
+        chorus: "",
+        like: false,
+        song_url: `${path_name}004-TheLordIsKing.mp3`,
+        author: "Norman Johnson"
+    },
+    "PraiseTheLordSingHallelujah": {
+        title: "Praise The Lord Sing Hallelujah!",
+        stanzas: {
+            1: "Praise the Lord sing hallelujah! Children of God's gracious choice; Let His praises rise as thunder, Let the  whole earth hear His voice, Till the song of His salvation makes His broken world rejoice!",
+            2: "Man's imprais'ning night is shattered At the impact of His Word!; Light and life forth enternal Where that mighty  voice is heard Let the pow'rs of death and darkness Owe the triumph of their Lord!",
+            3: "Praise the Lord until His glory Floods the farthest realms of earth, Till from ev'ry tribe and nation Souls rise in glad rebirth: Haste the day of His appearing, When His world shall own His worth!",
+            4: "Praise the Lord, sing hallelujah! sound His sov'reign grace abroad, Till His Word  is love and honored Ev'ry where man's feet have trod, Till His ransomed fam'ly gathers Safely round the throne of God!"
         },
-        "IJustCameToPraiseTheLord": {
-            title: "I Just Came To Praise The Lord",
-            stanzas: {
-                1: "I just came to praise the Lord, I just came to praise the Lord; I just came to praise the His Holy name, I just came to praise the Lord.",
-                2: "I just came to thank the Lord, I just came to thank the Lord; I just came to praise the His Holy name, I just came to thank the Lord.",
-                3: "I just came to love the Lord, I just came to love the Lord; I just came to praise the His Holy name, I just came to love the Lord."
-            },
-            chorus: "",
-            like: false,
-            song_url: `${path_name}006-IJustCameToPraiseTheLord.mp3`,
-            author: "Wayne Romero"
+        chorus: "",
+        like: false,
+        song_url: `${path_name}005-PraiseTheLordSingHallelujah.mp3`,
+        author: "E. Margaret Clarkson"
+    },
+    "IJustCameToPraiseTheLord": {
+        title: "I Just Came To Praise The Lord",
+        stanzas: {
+            1: "I just came to praise the Lord, I just came to praise the Lord; I just came to praise the His Holy name, I just came to praise the Lord.",
+            2: "I just came to thank the Lord, I just came to thank the Lord; I just came to praise the His Holy name, I just came to thank the Lord.",
+            3: "I just came to love the Lord, I just came to love the Lord; I just came to praise the His Holy name, I just came to love the Lord."
         },
-        "WePraiseTheeOGodOurRedeemer": {
-            title: "We Praise Thee O God Our Redeemer",
-            stanzas: {
-                1: "We praise Thee, O God, our Redeemer, Creator in greatful devotion our tribute we bring; We lay it before Thee, we kneel and adore Thee: We bless thy holy name, We bless Thy holy name, We bless Thy holy name, glad praises we sing.",
-                2: "We worship Thee, God of our father, We bless Thee Thru life's storm and tempest our guide hast Thou brrn, When perils o'ertake us, escape Thou wilt make us and with thy help, O Lord, And  with Thy help, O Lord, And with Thy help, O Lord, our battels we win.",
-                3: "With voices united our praises we offer To Thee, great Jehovah, glad anthems we rais; Thy strong arm will guide us, our God is beside us: To Thee our great Redeemer, To Thee our great Redeemer, To Thee our great  Redeemer forever be praise!"
-            },
-            chorus: "",
-            like: false,
-            song_url: `${path_name}007-WePraiseTheeOGodOurRedeemer.mp3`,
-            author: "Julia C. Cory"
+        chorus: "",
+        like: false,
+        song_url: `${path_name}006-IJustCameToPraiseTheLord.mp3`,
+        author: "Wayne Romero"
+    },
+    "WePraiseTheeOGodOurRedeemer": {
+        title: "We Praise Thee O God Our Redeemer",
+        stanzas: {
+            1: "We praise Thee, O God, our Redeemer, Creator in greatful devotion our tribute we bring; We lay it before Thee, we kneel and adore Thee: We bless thy holy name, We bless Thy holy name, We bless Thy holy name, glad praises we sing.",
+            2: "We worship Thee, God of our father, We bless Thee Thru life's storm and tempest our guide hast Thou brrn, When perils o'ertake us, escape Thou wilt make us and with thy help, O Lord, And  with Thy help, O Lord, And with Thy help, O Lord, our battels we win.",
+            3: "With voices united our praises we offer To Thee, great Jehovah, glad anthems we rais; Thy strong arm will guide us, our God is beside us: To Thee our great Redeemer, To Thee our great Redeemer, To Thee our great  Redeemer forever be praise!"
         },
-        "ToGodBeTheGlory": {
-            title: "To God Be The Glory",
-            stanzas: {
-                1: "To God be the glory great things He hath done! so loved He the world that He gave us His Son, Who yielded His life an atonement for sin And opened the Life gate that all may go in.",
-                2: "O perfect redemption, the purchase of blood! To ev'ry believer the promise of God; The villest offender who truely believes, That moment from Jesus a pardon recieves.",
-                3: "Great things He hath taught us, great things He hath done, And great our rejoicing thru Jesus the son; but purer and higher and greater will be Our wonder, our transport, when Jesus we see."
-            },
-            chorus: "Praise the Lord, Praise the Lord, Let the earth hear His voice! Praise the Lord, Praise the Lord, Let the people rejoice! O come to the Father thru Jesus the Son, And give Him the glory great things He hath done!",
-            like: false,
-            song_url: `${path_name}008-ToGodBeTheGlory.mp3`,
-            author: "Fanny Crosby"
+        chorus: "",
+        like: false,
+        song_url: `${path_name}007-WePraiseTheeOGodOurRedeemer.mp3`,
+        author: "Julia C. Cory"
+    },
+    "ToGodBeTheGlory": {
+        title: "To God Be The Glory",
+        stanzas: {
+            1: "To God be the glory great things He hath done! so loved He the world that He gave us His Son, Who yielded His life an atonement for sin And opened the Life gate that all may go in.",
+            2: "O perfect redemption, the purchase of blood! To ev'ry believer the promise of God; The villest offender who truely believes, That moment from Jesus a pardon recieves.",
+            3: "Great things He hath taught us, great things He hath done, And great our rejoicing thru Jesus the son; but purer and higher and greater will be Our wonder, our transport, when Jesus we see."
         },
-        "ISingTheMightyPowerOfGod": {
-            title: "I Sing The Mighty Power Of God",
-            stanzas: {
-                1: "I sing the mighty pow'r of God That made the mountains rise, That spread the flowing seas abroad And built the lofty skies. I sing the wisdom that ordained The sun to rule the day; The moon shines full at his command, And all the stars obey.",
-                2: "I sing the goodness of the Lord that Filled the earth with food; He formed the creaturea with His word and than pronounced them good. Lord, how Thy wonders are displayed whene'er I turn my eye: If I survey the ground I tread Or gaze upon the sky!",
-                3: "There's not a plant or flow'r below But makes Thy glories known; And clouds arise and temppests blow By order from Thy theone; While all that borrows life from thee is ever in Thy care, And ev'rywhere that man can be, Thou, God, art present there."
-            },
-            chorus: "",
-            like: false,
-            song_url: `${path_name}009-ISingTheMightyPowerOfGod.mp3`,
-            author: "Isaac Watts"
+        chorus: "Praise the Lord, Praise the Lord, Let the earth hear His voice! Praise the Lord, Praise the Lord, Let the people rejoice! O come to the Father thru Jesus the Son, And give Him the glory great things He hath done!",
+        like: false,
+        song_url: `${path_name}008-ToGodBeTheGlory.mp3`,
+        author: "Fanny Crosby"
+    },
+    "ISingTheMightyPowerOfGod": {
+        title: "I Sing The Mighty Power Of God",
+        stanzas: {
+            1: "I sing the mighty pow'r of God That made the mountains rise, That spread the flowing seas abroad And built the lofty skies. I sing the wisdom that ordained The sun to rule the day; The moon shines full at his command, And all the stars obey.",
+            2: "I sing the goodness of the Lord that Filled the earth with food; He formed the creaturea with His word and than pronounced them good. Lord, how Thy wonders are displayed whene'er I turn my eye: If I survey the ground I tread Or gaze upon the sky!",
+            3: "There's not a plant or flow'r below But makes Thy glories known; And clouds arise and temppests blow By order from Thy theone; While all that borrows life from thee is ever in Thy care, And ev'rywhere that man can be, Thou, God, art present there."
         },
-        "SometimesAlleluia": {
-            title: "Sometimes Alleluia",
-            stanzas: {
-                1: "O let us lift up our voices, look t'ward the sky and start to sing; O let us now return His love, Just let our voices ring!",
-                2: "O let us know His presence, Let sounds of praises fill the air; O let us sing of Jesus' love, To people ev'rywhere!"
-            },
-            chorus: "Sometimes Alleluia, Sometimes Praise the Lord! Sometimes gently singing, Our Hearts in one accord.",
-            like: false,
-            song_url: `${path_name}010-SometimesAlleluia.mp3`,
-            author: "Chuck Girard",
-        }
+        chorus: "",
+        like: false,
+        song_url: `${path_name}009-ISingTheMightyPowerOfGod.mp3`,
+        author: "Isaac Watts"
+    },
+    "SometimesAlleluia": {
+        title: "Sometimes Alleluia",
+        stanzas: {
+            1: "O let us lift up our voices, look t'ward the sky and start to sing; O let us now return His love, Just let our voices ring!",
+            2: "O let us know His presence, Let sounds of praises fill the air; O let us sing of Jesus' love, To people ev'rywhere!"
+        },
+        chorus: "Sometimes Alleluia, Sometimes Praise the Lord! Sometimes gently singing, Our Hearts in one accord.",
+        like: false,
+        song_url: `${path_name}010-SometimesAlleluia.mp3`,
+        author: "Chuck Girard",
     }
 }
 

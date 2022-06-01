@@ -2,16 +2,16 @@ const loadSongs = (id) => {
     let parent_ele = document.getElementById(id);
     let count = 1;
 
-    if (songs[id]) {
+    if (songs) {
         parent_ele.innerHTML = "";
-        let song_group = songs[id];
+        // let songs = songs[id];
 
-        for (song in song_group) {
-            let song_title = song_group[song].title;
-            let author = song_group[song].author;
+        for (song in songs) {
+            let song_title = songs[song].title;
+            let author = songs[song].author;
 
             let html = `<article class="song">
-                <div class="title-sec" onclick="openFullSong('${id}', '${song}')">
+                <div class="title-sec" onclick="openFullSong('${song}')">
                     <span class="song-num">${count}.</span>
                     <div>
                         <div class="song-title">${song_title}</div>
@@ -35,10 +35,10 @@ const loadSongs = (id) => {
     }
 }
 
-const openFullSong = (song_group, song_id) => {
+const openFullSong = (song_id) => {
     switchSection('song-lyrics-section');
 
-    let song = songs[song_group][song_id];
+    let song = songs[song_id];
     let song_lyrics_keys = Object.keys(song);
     let stanzas = song.stanzas;
     let stanzas_keys = Object.keys(stanzas);
@@ -168,11 +168,13 @@ const actionButtonsHandler = (e) => {
         addClass(`${id[0]}_${id[1]}`, 'playing');
         setAttributeValue(`#${id[0]}_${id[1]}`, 'name', 'stop');
         setAttributeValue(`#${id[0]}_${id[1]}`, 'id', `${id[0]}_stop`);
+        playSong(id[0]);
     } else if (id[1] === 'play2') {
         removePlayingClass();
         addClass(`${id[0]}_${id[1]}`, 'playing');
         setAttributeValue(`#${id[0]}_${id[1]}`, 'name', 'stop');
         setAttributeValue(`#${id[0]}_${id[1]}`, 'id', `${id[0]}_stop2`);
+        playSong(id[0]);
     } else if (id[1] === 'stop' || id[1] === 'stop2') {
         removePlayingClass();
     } else if (id[1] === 'like') {
@@ -207,23 +209,25 @@ const removePlayingClass = () => {
 
 const removeFavoriteClass = (id, name) => document.getElementById(id).classList.remove(name);
 
-const playSong = (e, section) => {
+const playSong = (song_id) => {
     let song_player = document.querySelector(".song-player");
-    let parent_class = e.target.parentElement.classList[0];
+    // let parent_class = e.target.parentElement.classList[0];
 
     if (song_player.duration > 0 && !song_player.paused) {
         song_player.pause();
         song_player.currentTime = 0;
     }
 
-    song_player.src = songs[parent_class].song_url;
+    song_player.src = songs[song_id].song_url;
 
     song_player.play()
         .then(res => {
+            console.log("Playing::::", res);
             showIcon(`.${section} .${parent_class} .stop`);
             hideIcon(`.${section} .${parent_class} .play`);
         })
         .catch(err => {
+            console.log("Not Playing::::", err);
             let spl = song_player.src.split('/');
             let spl_len = spl.length;
             let spl2 = spl[spl_len - 1].split('-');
@@ -238,19 +242,20 @@ const playSong = (e, section) => {
             }).then((result) => {
                 if (result.isConfirmed) {
                     Swal.fire(
-                        'Deleted!',
-                        'Your file has been deleted.',
+                        'Starting Download!',
+                        'Your file will be downloaded.',
                         'success'
                     )
 
-                    downloadSong(song_links[spl2[0]])
+                    // downloadSong(song_links[spl2[0]])
                 }
             })
         })
 
-    document.querySelector(".song-player").onended = function() {
-        showIcon(`.${section} .${parent_class} .play`);
-        hideIcon(`.${section} .${parent_class} .stop`);
+    document.querySelector(".song-player").onended = function(res) {
+        // showIcon(`.${section} .${parent_class} .play`);
+        // hideIcon(`.${section} .${parent_class} .stop`);
+        console.log("Song End:::", res);
     }
 }
 
