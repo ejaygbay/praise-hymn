@@ -95,7 +95,7 @@ const openFullSong = (song_id) => {
     }
 }
 
-switchSection('downloads-section');
+// switchSection('downloads-section');
 
 
 

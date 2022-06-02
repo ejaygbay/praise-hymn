@@ -14,8 +14,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/192x192.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
-    <!-- <link rel="stylesheet" href="assets/css/home.css">
-    <link rel="manifest" href="__manifest.json"> -->
+    <!-- <link rel="stylesheet" href="assets/css/home.css"> -->
+    <link rel="manifest" href="__manifest.json">
 </head>
 
 <body>
@@ -363,6 +363,10 @@
                     <ion-icon name="arrow-down-circle-outline"></ion-icon>
                     DOWNLOAD ALL SONGS
                 </button>
+
+                <!-- To be removed -->
+                <div id="obj"></div>
+                <div id="songs-list"></div>
             </section>
 
             <!-- Song History Section -->
@@ -545,6 +549,8 @@
     <!-- * App Sidebar -->
 
     <!-- ============== Js Files ==============  -->
+    <script src="cordova.js"></script>
+
     <!-- Bootstrap -->
     <script src="assets/js/lib/bootstrap.min.js"></script>
     <!-- Ionicons -->
@@ -553,6 +559,8 @@
     <script src="assets/js/plugins/splide/splide.min.js"></script>
     <!-- ProgressBar js -->
     <script src="assets/js/plugins/progressbar-js/progressbar.min.js"></script>
+    <script src="assets/js/lib/sweet-alert.js"></script>
+
     <!-- Base Js File -->
     <script src="assets/js/base.js"></script>
     <script src="assets/js/extended/songs.js"></script>

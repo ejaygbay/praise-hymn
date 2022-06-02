@@ -1,10 +1,10 @@
 document.getElementById('download-songs-btn').addEventListener('click', (e) => {
-    // downloadSong(song_links[2]);
+    downloadSong();
     // console.log(song_links);
-    for (key in song_links) {
-        downloadSong(song_links[key]);
-        // console.log(song_links[key])
-    }
+    // for (key in song_links) {
+    //     downloadSong(song_links[key]);
+    //     // console.log(song_links[key])
+    // }
     // , null, 'ToGodBeTheGlory.mp3'
     // https://www.orimi.com/pdf-test.pdf
 
@@ -45,28 +45,29 @@ function listDir(path) {
             var reader = fileSystem.createReader();
             reader.readEntries(
                 function(entries) {
-                    alert('File list success');
-                    // alert(path + ' === ' + entries.length);
+                    console.log('File list success', entries.length);
+
                     let html2 = `<h6>${path}</h6>
-                    <code>${JSON.stringify(entries)}</code>`
+                    <code>${entries}</code>`
                     document.getElementById('obj').insertAdjacentHTML('beforeend', html2);
 
                     if (entries.length > 0) {
-                        // alert("Yes entries > 0");
-                        // alert(JSON.stringify(entries));
+                        console.log("Yes entries > 0", entries);
+
                         entries.forEach(ele => {
-                            // alert('src=' + ele.fullPath);
+                            console.log("Path:::::>>>>", `src=${ele.fullPath}`);
                             if (ele.fullPath !== '/audio/.nomedia') {
                                 let html = '';
 
-                                if (ele.name === 'ToGodBeTheGlory.mp3') {
-                                    html = `<h6>${ele.name}</h6>
+                                // if (ele.name === 'ToGodBeTheGlory.mp3') {
+                                html = `<h6>${ele.name}</h6>
                                     <audio class="song-playe" src="${ele.nativeURL}" controls></audio>
-                                    <p>${ele.nativeURL}</p>`
-                                } else {
-                                    html = `<h6>${ele.name}</h6>
-                                    <audio class="song-playe" src="audio/${ele.name}" controls></audio>`;
-                                }
+                                    <p>${ele.nativeURL}</p>`;
+
+                                // } else {
+                                //     html = `<h6>${ele.name}</h6>
+                                //     <audio class="song-playe" src="audio/${ele.name}" controls></audio>`;
+                                // }
 
                                 document.getElementById('songs-list').insertAdjacentHTML('beforeend', html);
                             }
@@ -74,20 +75,33 @@ function listDir(path) {
                     }
                 },
                 function(err) {
-                    alert('File list error 1');
-                    alert(JSON.stringify(err));
+                    console.log('File list error 1', err);
                 }
             );
         },
         function(err) {
-            alert('File list error 2');
-            alert(JSON.stringify(err));
+            console.log('File list error 2', err);
         }
     );
 }
 
-const downloadSong = (url) => {
-    console.log("URL:::", url);
-    downloader.init({ folder: "audio" });
-    downloader.get(url);
+const downloadSong = () => {
+
+    let link_url = 'https://yeal.org/wp-content/uploads/2022/05/';
+    downloader.getMultipleFiles([
+        { url: `${link_url}002-SingPraiseToGod.mp3` },
+        { url: `${link_url}003-PraiseToTheLordTheAlmighty.mp3` },
+        { url: `${link_url}004-TheLordIsKing.mp3` },
+        { url: `${link_url}005-PraiseTheLordSingHallelujah.mp3` },
+        { url: `${link_url}007-WePraiseTheeOGodOurRedeemer.mp3` },
+        { url: `${link_url}008-ToGodBeTheGlory` }
+    ]);
+
+    // downloader.getMultipleFiles([
+    //     { url: "https://yeal.org/wp-content/uploads/2022/05/" },
+    //     { url: "https://www.orimi.com/pdf-test.pdf" }
+    // ]);
+
+    // downloader.init({ folder: "audio" });
+    // downloader.get(url1);
 }
