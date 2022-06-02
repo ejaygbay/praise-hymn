@@ -33,7 +33,7 @@ document.addEventListener('DOWNLOADER_downloadError', function(event) {
 
 document.addEventListener('DOWNLOADER_gotFolder', function(event) {
     var data = event.data;
-    // alert("Check Folder");
+    console.log("Check Folder", data);
 
     // alert('1' + data[0].nativeURL);
     listDir(data[0].nativeURL); // file:///data/user/0/cbc.praisehymn/files/files/audio/
@@ -86,6 +86,8 @@ function listDir(path) {
 }
 
 const downloadSong = () => {
+    console.log("Downloading");
+    downloader.init({ folder: "audio" });
 
     let link_url = 'https://yeal.org/wp-content/uploads/2022/05/';
     downloader.getMultipleFiles([
