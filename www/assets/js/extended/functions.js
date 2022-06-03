@@ -2,10 +2,11 @@ const switchSection = (id) => {
     document.querySelectorAll('.show-ele').forEach(ele => ele.classList.replace('show-ele', 'hide-ele'));
     document.getElementById(id).classList.add('show-ele');
 
-    document.querySelectorAll('.active').forEach(ele => ele.classList.remove('active'));
+    document.querySelectorAll('.appBottomMenu .active').forEach(ele => ele.classList.remove('active'));
 
     if (id === 'songs-section') {
         document.querySelector(`.${id}`).classList.add('active');
+        loadSongs('worship');
     } else if (id === 'song-history-section') {
         document.querySelector(`.${id}`).classList.add('active');
     } else if (id === 'settings-section') {
