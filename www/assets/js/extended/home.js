@@ -2,6 +2,8 @@ const loadSongs = (id) => {
     let parent_ele = document.getElementById(id);
     let count = 1;
 
+    console.log("Load Song::::", id)
+
     if (songs) {
         parent_ele.innerHTML = "";
         // let songs = songs[id];
