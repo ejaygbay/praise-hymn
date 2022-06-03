@@ -55,7 +55,7 @@ const openFullSong = (song_id) => {
     let song_ele = document.querySelector(".song-lyrics");
     let action_btn = `<div class="fab-button animate bottom-right dropdown">
         <div id="${song_id}_parent2" class="fab playing" onclick="actionButtonsHandler(event)">
-            <ion-icon id="${song_id}_play2" class="" name="play"></ion-icon>
+            <ion-icon id="${song_id}_play2_${song_group}" class="" name="play"></ion-icon>
         </div>
     </div>`;
 
@@ -164,19 +164,21 @@ const addEventToLikeIcon = (section) => {
 
 const actionButtonsHandler = (e) => {
     let id = e.target.id.split('_');
+    let song_group = id[2];
+    console.log(id)
 
     if (id[1] === 'play') {
         removePlayingClass();
-        addClass(`${id[0]}_${id[1]}`, 'playing');
-        setAttributeValue(`#${id[0]}_${id[1]}`, 'name', 'stop');
-        setAttributeValue(`#${id[0]}_${id[1]}`, 'id', `${id[0]}_stop`);
-        playSong(id[0]);
+        addClass(`${id[0]}_${id[1]}_${song_group}`, 'playing');
+        setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'name', 'stop');
+        setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'id', `${id[0]}_stop`);
+        playSong(id[0], song_group);
     } else if (id[1] === 'play2') {
         removePlayingClass();
-        addClass(`${id[0]}_${id[1]}`, 'playing');
-        setAttributeValue(`#${id[0]}_${id[1]}`, 'name', 'stop');
-        setAttributeValue(`#${id[0]}_${id[1]}`, 'id', `${id[0]}_stop2`);
-        playSong(id[0]);
+        addClass(`${id[0]}_${id[1]}_${song_group}`, 'playing');
+        setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'name', 'stop');
+        setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'id', `${id[0]}_stop2`);
+        playSong(id[0], song_group);
     } else if (id[1] === 'stop' || id[1] === 'stop2') {
         removePlayingClass();
     } else if (id[1] === 'like') {
@@ -194,7 +196,7 @@ const addClass = (id, name) => document.getElementById(id).classList.add(name);
 
 const setAttributeValue = (ele, attr, value) => document.querySelector(ele).setAttribute(attr, value);
 
-const removePlayingClass = () => {
+const removePlayingClass = (song_group) => {
     document.querySelectorAll('.playing').forEach(ele => {
         let id = ele.id.split('_');
         document.getElementById(`${id[0]}_${id[1]}`).classList.remove('playing');
@@ -202,9 +204,9 @@ const removePlayingClass = () => {
         setAttributeValue(`#${id[0]}_${id[1]}`, 'name', 'play');
 
         if (id[1] === 'stop') {
-            setAttributeValue(`#${id[0]}_${id[1]}`, 'id', `${id[0]}_play`);
+            setAttributeValue(`#${id[0]}_${id[1]}`, 'id', `${id[0]}_play_${song_group}`);
         } else if (id[1] === 'stop2') {
-            setAttributeValue(`#${id[0]}_${id[1]}`, 'id', `${id[0]}_play2`);
+            setAttributeValue(`#${id[0]}_${id[1]}`, 'id', `${id[0]}_play2_${song_group}`);
         }
 
         stopSong();
@@ -213,7 +215,7 @@ const removePlayingClass = () => {
 
 const removeFavoriteClass = (id, name) => document.getElementById(id).classList.remove(name);
 
-const playSong = (song_id) => {
+const playSong = (song_id, song_group) => {
     let song_player = document.querySelector(".song-player");
     // let parent_class = e.target.parentElement.classList[0];
 
@@ -222,7 +224,7 @@ const playSong = (song_id) => {
         song_player.currentTime = 0;
     }
 
-    song_player.src = songs[song_id].song_url;
+    song_player.src = songs[song_group][song_id].song_url;
 
     song_player.play()
         .then(res => {
