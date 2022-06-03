@@ -1,20 +1,18 @@
 const switchSection = (id) => {
-    // document.querySelectorAll('.show-ele').forEach(ele => ele.classList.replace('show-ele', 'hide-ele'));
-    // document.getElementById(id).classList.add('show-ele');
+    document.querySelectorAll('.show-ele').forEach(ele => ele.classList.replace('show-ele', 'hide-ele'));
+    document.getElementById(id).classList.add('show-ele');
 
-    // document.querySelectorAll('.appBottomMenu .active').forEach(ele => ele.classList.remove('active'));
+    document.querySelectorAll('.appBottomMenu .active').forEach(ele => ele.classList.remove('active'));
 
-    console.log("ID>>>>", id)
-
-    // if (id === 'songs-section') {
-    //     document.querySelector(`.${id}`).classList.add('active');
-    // } else if (id === 'song-history-section') {
-    //     document.querySelector(`.${id}`).classList.add('active');
-    // } else if (id === 'settings-section') {
-    //     document.querySelector(`.${id}`).classList.add('active');
-    // } else if (id === 'favorites-section') {
-    //     document.querySelector(`.${id}`).classList.add('active');
-    // }
+    if (id === 'songs-section') {
+        document.querySelector(`.${id}`).classList.add('active');
+    } else if (id === 'song-history-section') {
+        document.querySelector(`.${id}`).classList.add('active');
+    } else if (id === 'settings-section') {
+        document.querySelector(`.${id}`).classList.add('active');
+    } else if (id === 'favorites-section') {
+        document.querySelector(`.${id}`).classList.add('active');
+    }
 }
 
 

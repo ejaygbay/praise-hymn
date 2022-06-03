@@ -2,18 +2,16 @@ const loadSongs = (id) => {
     let parent_ele = document.getElementById(id);
     let count = 1;
 
-    console.log("Load Song::::", id)
-
-    if (songs) {
+    if (songs[id]) {
         parent_ele.innerHTML = "";
-        // let songs = songs[id];
+        let all_songs = songs[id];
 
-        for (song in songs) {
-            let song_title = songs[song].title;
-            let author = songs[song].author;
+        for (song in all_songs) {
+            let song_title = all_songs[song].title;
+            let author = all_songs[song].author;
 
             let html = `<article class="song">
-                <div class="title-sec" onclick="openFullSong('${song}')">
+                <div class="title-sec" onclick="openFullSong('${song}_${id}')">
                     <span class="song-num">${count}.</span>
                     <div>
                         <div class="song-title">${song_title}</div>
@@ -21,7 +19,7 @@ const loadSongs = (id) => {
                     </div>
                 </div>
                 <div id="${song}_parent" class="action-sec" onclick="actionButtonsHandler(event)">
-                    <ion-icon id="${song}_play" class="play-icon action-icons" name="play"></ion-icon>
+                    <ion-icon id="${song}_play_${id}" class="play-icon action-icons" name="play"></ion-icon>
                     <ion-icon id="${song}_unlike" class="unlike-icon action-icons" name="heart-outline"></ion-icon>
                 </div>
             </article>`;
@@ -39,8 +37,10 @@ const loadSongs = (id) => {
 
 const openFullSong = (song_id) => {
     switchSection('song-lyrics-section');
+    let id = song_id.split('_')[0];
+    let song_group = song_id.split('_')[1];
 
-    let song = songs[song_id];
+    let song = songs[song_group][id];
     let song_lyrics_keys = Object.keys(song);
     let stanzas = song.stanzas;
     let stanzas_keys = Object.keys(stanzas);
