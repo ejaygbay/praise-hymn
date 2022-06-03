@@ -165,20 +165,19 @@ const addEventToLikeIcon = (section) => {
 const actionButtonsHandler = (e) => {
     let id = e.target.id.split('_');
     let song_group = id[2];
-    console.log(id)
 
     if (id[1] === 'play') {
         removePlayingClass();
-        addClass(`${id[0]}_${id[1]}_${song_group}`, 'playing');
-        setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'name', 'stop');
-        setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'id', `${id[0]}_stop`);
-        playSong(id[0], song_group);
+        // addClass(`${id[0]}_${id[1]}_${song_group}`, 'playing');
+        // setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'name', 'stop');
+        // setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'id', `${id[0]}_stop`);
+        playSong(id);
     } else if (id[1] === 'play2') {
         removePlayingClass();
-        addClass(`${id[0]}_${id[1]}_${song_group}`, 'playing');
-        setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'name', 'stop');
-        setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'id', `${id[0]}_stop2`);
-        playSong(id[0], song_group);
+        // addClass(`${id[0]}_${id[1]}_${song_group}`, 'playing');
+        // setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'name', 'stop');
+        // setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'id', `${id[0]}_stop2`);
+        playSong(id);
     } else if (id[1] === 'stop' || id[1] === 'stop2') {
         removePlayingClass();
     } else if (id[1] === 'like') {
@@ -215,9 +214,12 @@ const removePlayingClass = (song_group) => {
 
 const removeFavoriteClass = (id, name) => document.getElementById(id).classList.remove(name);
 
-const playSong = (song_id, song_group) => {
+const playSong = (id) => {
     let song_player = document.querySelector(".song-player");
-    // let parent_class = e.target.parentElement.classList[0];
+    let song_id = id[0];
+    let btn_action = id[1];
+    let song_group = id[2];
+
 
     if (song_player.duration > 0 && !song_player.paused) {
         song_player.pause();
@@ -228,16 +230,22 @@ const playSong = (song_id, song_group) => {
 
     song_player.play()
         .then(res => {
-            console.log("Playing::::", res);
-            // showIcon(`.${section} .${parent_class} .stop`);
-            // hideIcon(`.${section} .${parent_class} .play`);
+            if (id[1] === 'play') {
+                addClass(`${id[0]}_${btn_action}_${song_group}`, 'playing');
+                setAttributeValue(`#${song_id}_${btn_action}_${song_group}`, 'name', 'stop');
+                setAttributeValue(`#${song_id}_${btn_action}_${song_group}`, 'id', `${song_id}_stop`);
+            } else if (id[1] === 'play2') {
+                addClass(`${song_id}_${btn_action}_${song_group}`, 'playing');
+                setAttributeValue(`#${song_id}_${btn_action}_${song_group}`, 'name', 'stop');
+                setAttributeValue(`#${song_id}_${btn_action}_${song_group}`, 'id', `${song_id}_stop2`);
+            }
         })
         .catch(err => {
             console.log("Not Playing::::", err);
             let spl = song_player.src.split('/');
             let spl_len = spl.length;
             let spl2 = spl[spl_len - 1].split('-');
-            console.log(spl2)
+
             Swal.fire({
                 title: 'Download Song',
                 text: "This song is not available on your device. Do you want to download it?",
