@@ -187,6 +187,8 @@ const actionButtonsHandler = (e) => {
 
             localStorage.setItem('favorite-songs', JSON.stringify(favorite_songs));
         }
+
+        songStatistics();
     } else if (btn_action === 'unlike') {
         addClass(`${song_id}_parent`, 'favorite');
         setAttributeValue(`#${song_id}_unlike_${song_group}`, 'name', 'heart');
@@ -198,6 +200,8 @@ const actionButtonsHandler = (e) => {
 
             localStorage.setItem('favorite-songs', JSON.stringify(favorite_songs));
         }
+
+        songStatistics();
     }
 }
 
@@ -305,7 +309,8 @@ const songStatistics = () => {
         count += song_keys.length;
     })
 
-    document.getElementById('favorite-songs-count').innerHTML = favorite_songs.length;
+    document.getElementById('fav-num-tab').innerHTML = favorite_songs.length;
+    document.getElementById('fav-num-sidebar').innerHTML = favorite_songs.length;
     document.getElementById('song-num').innerHTML = count;
 }
 
