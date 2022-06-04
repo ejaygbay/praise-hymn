@@ -184,7 +184,6 @@ const actionButtonsHandler = (e) => {
         let fav_song_id = `${song_id}_like_${song_group}`;
         if (favorite_songs.includes(fav_song_id)) {
             favorite_songs.splice(favorite_songs.indexOf(fav_song_id), 1);
-
             localStorage.setItem('favorite-songs', JSON.stringify(favorite_songs));
         }
 
