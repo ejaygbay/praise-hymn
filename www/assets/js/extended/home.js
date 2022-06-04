@@ -13,7 +13,6 @@ const loadSongs = (song_group) => {
     if (songs[song_group]) {
         parent_ele.innerHTML = "";
         let all_songs = songs[song_group];
-        console.log("Favorites:::>>>///", favorite_songs)
 
         for (song in all_songs) {
             let song_title = all_songs[song].title;
@@ -306,6 +305,7 @@ const songStatistics = () => {
         count += song_keys.length;
     })
 
+    document.getElementById('favorite-songs-count').innerHTML = favorite_songs.length;
     document.getElementById('song-num').innerHTML = count;
 }
 
