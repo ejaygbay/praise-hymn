@@ -1,5 +1,11 @@
 let favorite_songs = [];
 
+if (localStorage.getItem('favorite-songs')) {
+    favorite_songs = JSON.parse(localStorage.getItem('favorite-songs'));
+} else {
+    localStorage.setItem('favorite-songs', JSON.stringify(favorite_songs))
+}
+
 const loadSongs = (song_group) => {
     let parent_ele = document.getElementById(song_group);
     let count = 1;
@@ -170,6 +176,8 @@ const actionButtonsHandler = (e) => {
         let fav_song_id = `${song_id}_like_${song_group}`;
         if (favorite_songs.includes(fav_song_id)) {
             favorite_songs.splice(favorite_songs.indexOf(fav_song_id), 1);
+
+            localStorage.setItem('favorite-songs', JSON.stringify(favorite_songs));
         }
     } else if (btn_action === 'unlike') {
         addClass(`${song_id}_parent`, 'favorite');
@@ -179,6 +187,8 @@ const actionButtonsHandler = (e) => {
         let fav_song_id = e.target.id;
         if (!favorite_songs.includes(fav_song_id)) {
             favorite_songs.push(fav_song_id);
+
+            localStorage.setItem('favorite-songs', JSON.stringify(favorite_songs));
         }
     }
 }
