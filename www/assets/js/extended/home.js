@@ -1,17 +1,19 @@
-const loadSongs = (id) => {
-    let parent_ele = document.getElementById(id);
+let favorite_songs = [];
+
+const loadSongs = (song_group) => {
+    let parent_ele = document.getElementById(song_group);
     let count = 1;
 
-    if (songs[id]) {
+    if (songs[song_group]) {
         parent_ele.innerHTML = "";
-        let all_songs = songs[id];
+        let all_songs = songs[song_group];
 
         for (song in all_songs) {
             let song_title = all_songs[song].title;
             let author = all_songs[song].author;
 
             let html = `<article class="song">
-                <div class="title-sec" onclick="openFullSong('${song}_${id}')">
+                <div class="title-sec" onclick="openFullSong('${song}_${song_group}')">
                     <span class="song-num">${count}.</span>
                     <div>
                         <div class="song-title">${song_title}</div>
@@ -19,19 +21,14 @@ const loadSongs = (id) => {
                     </div>
                 </div>
                 <div id="${song}_parent" class="action-sec" onclick="actionButtonsHandler(event)">
-                    <ion-icon id="${song}_play_${id}" class="play-icon action-icons" name="play"></ion-icon>
-                    <ion-icon id="${song}_unlike" class="unlike-icon action-icons" name="heart-outline"></ion-icon>
+                    <ion-icon id="${song}_play_${song_group}" class="play-icon action-icons" name="play"></ion-icon>
+                    <ion-icon id="${song}_unlike_${song_group}" class="unlike-icon action-icons" name="heart-outline"></ion-icon>
                 </div>
             </article>`;
 
             parent_ele.insertAdjacentHTML('beforeend', html);
             count += 1;
         }
-
-        // addEventToPlayIcon('songs-section');
-        // addEventToStopIcon('songs-section');
-        // addEventToLikeIcon('songs-section');
-        // addEventToUnlikeIcon('songs-section');
     }
 
     stopSongOnSectionSwitch();
@@ -102,25 +99,6 @@ const openFullSong = (song_id) => {
 // switchSection('downloads-section');
 
 
-
-const addEventToPlayIcon = (section) => {
-    document.querySelectorAll(`.${section} .play`).forEach(ele => {
-        ele.addEventListener("click", e => {
-            console.log('sec:::', section);
-            console.log(e.target)
-                // playSong(e, section);
-        })
-    })
-}
-
-const addEventToStopIcon = (section) => {
-    document.querySelectorAll(".stop").forEach(ele => {
-        ele.addEventListener("click", e => {
-            stopSong(e, section);
-        })
-    })
-}
-
 const addEventToUnlikeIcon = (section) => {
     document.querySelectorAll(".unlike").forEach(ele => {
         ele.addEventListener("click", e => {
@@ -166,30 +144,42 @@ const addEventToLikeIcon = (section) => {
 
 const actionButtonsHandler = (e) => {
     let id = e.target.id.split('_');
+    let song_id = id[0];
+    let btn_action = id[1];
     let song_group = id[2];
 
-    if (id[1] === 'play') {
+    if (btn_action === 'play') {
         removePlayingClass();
         // addClass(`${id[0]}_${id[1]}_${song_group}`, 'playing');
         // setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'name', 'stop');
         // setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'id', `${id[0]}_stop`);
         playSong(id);
-    } else if (id[1] === 'play2') {
+    } else if (btn_action === 'play2') {
         removePlayingClass();
         // addClass(`${id[0]}_${id[1]}_${song_group}`, 'playing');
         // setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'name', 'stop');
         // setAttributeValue(`#${id[0]}_${id[1]}_${song_group}`, 'id', `${id[0]}_stop2`);
         playSong(id);
-    } else if (id[1] === 'stop' || id[1] === 'stop2') {
+    } else if (btn_action === 'stop' || btn_action === 'stop2') {
         removePlayingClass();
-    } else if (id[1] === 'like') {
-        removeFavoriteClass(`${id[0]}_parent`, 'favorite');
-        setAttributeValue(`#${id[0]}_like`, 'name', 'heart-outline');
-        setAttributeValue(`#${id[0]}_like`, 'id', `${id[0]}_unlike`);
-    } else if (id[1] === 'unlike') {
-        addClass(`${id[0]}_parent`, 'favorite');
-        setAttributeValue(`#${id[0]}_unlike`, 'name', 'heart');
-        setAttributeValue(`#${id[0]}_unlike`, 'id', `${id[0]}_like`);
+    } else if (btn_action === 'like') {
+        removeFavoriteClass(`${song_id}_parent`, 'favorite');
+        setAttributeValue(`#${song_id}_like_${song_group}`, 'name', 'heart-outline');
+        setAttributeValue(`#${song_id}_like_${song_group}`, 'id', `${song_id}_unlike_${song_group}`);
+
+        let fav_song_id = `${song_id}_like_${song_group}`;
+        if (favorite_songs.includes(fav_song_id)) {
+            favorite_songs.splice(favorite_songs.indexOf(fav_song_id), 1);
+            console.log('yes', favorite_songs)
+        }
+    } else if (btn_action === 'unlike') {
+        addClass(`${song_id}_parent`, 'favorite');
+        setAttributeValue(`#${song_id}_unlike_${song_group}`, 'name', 'heart');
+        setAttributeValue(`#${song_id}_unlike_${song_group}`, 'id', `${song_id}_like_${song_group}`);
+
+
+        favorite_songs.push(e.target.id);
+        console.log(favorite_songs)
     }
 }
 

@@ -9,7 +9,7 @@ let songs = {
                 1: "Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, For He is so wonderful! Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, For He is so wonderful! For He is so wonderful!"
             },
             chorus: "",
-            like: false,
+
             song_url: `${path_name}001-EverybodySingPraiseToTheLord.mp3`,
             author: "John W. Peterson"
         },
@@ -22,7 +22,7 @@ let songs = {
                 4: "Thus all my toilsome way along I sing aloud His praises, That all may hear the grateful song My voice unwearied raises; Be joyful in the Lord, my heart! Both soul and body bear your part: To God all praise and glory!"
             },
             chorus: "",
-            like: false,
+
             song_url: `${path_name}002-SingPraiseToGod.mp3`,
             author: "Johann J. Schütz"
         },
@@ -35,7 +35,7 @@ let songs = {
                 4: "Praise to the Lord, O let all that is in me adore Him! All that hath life and breath, come now with praises before Him. Let the Amen Sound from His people again, Gladly for aye we adore Him."
             },
             chorus: "",
-            like: false,
+
             song_url: `${path_name}003-PraiseToTheLordTheAlmighty.mp3`,
             author: "Joachim Neander",
         },
@@ -48,7 +48,7 @@ let songs = {
                 4: "The Lord is King! Throught out His vast domain He is all, all in all! The Lord Johovah evermore shall reign He is all, all in all! Thru earth and heav'n one song shall reign, From greatful hearts this anthem spring: Arise, O saints, salute your King All your days, sing His praise!"
             },
             chorus: "",
-            like: false,
+
             song_url: `${path_name}004-TheLordIsKing.mp3`,
             author: "Norman Johnson"
         },
@@ -61,7 +61,7 @@ let songs = {
                 4: "Praise the Lord, sing hallelujah! sound His sov'reign grace abroad, Till His Word  is love and honored Ev'ry where man's feet have trod, Till His ransomed fam'ly gathers Safely round the throne of God!"
             },
             chorus: "",
-            like: false,
+
             song_url: `${path_name}005-PraiseTheLordSingHallelujah.mp3`,
             author: "E. Margaret Clarkson"
         },
@@ -73,7 +73,7 @@ let songs = {
                 3: "I just came to love the Lord, I just came to love the Lord; I just came to praise the His Holy name, I just came to love the Lord."
             },
             chorus: "",
-            like: false,
+
             song_url: `${path_name}006-IJustCameToPraiseTheLord.mp3`,
             author: "Wayne Romero"
         },
@@ -85,7 +85,7 @@ let songs = {
                 3: "With voices united our praises we offer To Thee, great Jehovah, glad anthems we rais; Thy strong arm will guide us, our God is beside us: To Thee our great Redeemer, To Thee our great Redeemer, To Thee our great  Redeemer forever be praise!"
             },
             chorus: "",
-            like: false,
+
             song_url: `${path_name}007-WePraiseTheeOGodOurRedeemer.mp3`,
             author: "Julia C. Cory"
         },
@@ -97,7 +97,7 @@ let songs = {
                 3: "Great things He hath taught us, great things He hath done, And great our rejoicing thru Jesus the son; but purer and higher and greater will be Our wonder, our transport, when Jesus we see."
             },
             chorus: "Praise the Lord, Praise the Lord, Let the earth hear His voice! Praise the Lord, Praise the Lord, Let the people rejoice! O come to the Father thru Jesus the Son, And give Him the glory great things He hath done!",
-            like: false,
+
             song_url: `${path_name}008-ToGodBeTheGlory.mp3`,
             author: "Fanny Crosby"
         },
@@ -109,7 +109,7 @@ let songs = {
                 3: "There's not a plant or flow'r below But makes Thy glories known; And clouds arise and temppests blow By order from Thy theone; While all that borrows life from thee is ever in Thy care, And ev'rywhere that man can be, Thou, God, art present there."
             },
             chorus: "",
-            like: false,
+
             song_url: `${path_name}009-ISingTheMightyPowerOfGod.mp3`,
             author: "Isaac Watts"
         },
@@ -120,7 +120,7 @@ let songs = {
                 2: "O let us know His presence, Let sounds of praises fill the air; O let us sing of Jesus' love, To people ev'rywhere!"
             },
             chorus: "Sometimes Alleluia, Sometimes Praise the Lord! Sometimes gently singing, Our Hearts in one accord.",
-            like: false,
+
             song_url: `${path_name}010-SometimesAlleluia.mp3`,
             author: "Chuck Girard",
         }
@@ -135,7 +135,7 @@ let songs2 = {
             1: "Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, For He is so wonderful! Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, For He is so wonderful! For He is so wonderful!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "John W. Peterson"
     },
@@ -148,7 +148,7 @@ let songs2 = {
             4: "Thus all my toilsome way along I sing aloud His praises, That all may hear the grateful song My voice unwearied raises; Be joyful in the Lord, my heart! Both soul and body bear your part: To God all praise and glory!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "Johann Jakob Schütz",
 
@@ -162,7 +162,7 @@ let songs2 = {
             4: "Praise to the Lord, O let all that is in me adore Him! All that hath life and breath, come now with praises before Him. Let the Amen Sound from His people again, Gladly for aye we adore Him."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
     },
@@ -175,7 +175,7 @@ let songs2 = {
             4: "The Lord is King! Throught out His vast domain He is all, all in all! The Lord Johovah evermore shall reign He is all, all in all! Thru earth and heav'n one song shall reign, From greatful hearts this anthem spring: Arise, O saints, salute your King All your days, sing His praise!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -189,7 +189,7 @@ let songs2 = {
             4: "Praise the Lord, sing hallelujah! sound His sov'reign grace abroad, Till His Word  is love and honored Ev'ry where man's feet have trod, Till His ransomed fam'ly gathers Safely round the throne of God!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -202,7 +202,7 @@ let songs2 = {
             3: "I just came to love the Lord, I just came to love the Lord; I just came to praise the His Holy name, I just came to love the Lord."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -215,7 +215,7 @@ let songs2 = {
             3: "With voices united our praises we offer To Thee, great Jehovah, glad anthems we rais; Thy strong arm will guide us, our God is beside us: To Thee our great Redeemer, To Thee our great Redeemer, To Thee our great  Redeemer forever be praise!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -228,7 +228,7 @@ let songs2 = {
             3: "Great things He hath taught us, great things He hath done, And great our rejoicing thru Jesus the son; but purer and higher and greater will be Our wonder, our transport, when Jesus we see."
         },
         chorus: "Praise the Lord, Praise the Lord, Let the earth hear His voice! Praise the Lord, Praise the Lord, Let the people rejoice! O come to the Father thru Jesus the Son, And give Him the glory great things He hath done!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "Fanny Crosby",
 
@@ -241,7 +241,7 @@ let songs2 = {
             3: "There's not a plant or flow'r below But makes Thy glories known; And clouds arise and temppests blow By order from Thy theone; While all that borrows life from thee is ever in Thy care, And ev'rywhere that man can be, Thou, God, art present there."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -253,7 +253,7 @@ let songs2 = {
             2: "O let us know His presence, Let sounds of praises fill the air; O let us sing of Jesus' love, To people ev'rywhere!"
         },
         chorus: "Sometimes Alleluia, Sometimes Praise the Lord! Sometimes gently singing, Our Hearts in one accord.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -266,7 +266,7 @@ let songs2 = {
             3: "Lord, we love you, Lord, we love you, Lord, we love you, Lord, we love you!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -278,7 +278,7 @@ let songs2 = {
             2: "In Your name and for Your glory we are met today; stir our heart to praise and worship, Teach us how to pray. Come, Come, Lord Jesus, Be our hallowed guest; Breathe Your holy breath upon us may ev'ry heart be blest."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -291,7 +291,7 @@ let songs2 = {
             3: "We all do extol Thee, Thou leader triumphant, And pray that Thou still our defender wilt be; Let Thy congregation escape tribulation: Thy name be ever praised! O Lord, make us free!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -305,7 +305,7 @@ let songs2 = {
             4: "Thru ev'ry period of my life Thy goodness I'll pursue, And after death, in distant worlds, The glorious theme renew."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -319,7 +319,7 @@ let songs2 = {
             4: "He is deserving of all thanks and praise with joy over flowing our hearts we raise; We'll sing and sing of Him for endless days This is our sacrifice of praise."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -333,7 +333,7 @@ let songs2 = {
             4: "when Christ shall come with shout of acclamation And take me home, what joy shall fill my heart! Then I shall bow in humble adoration And there proclaim, my God, how great Thou art!"
         },
         chorus: "Then sings my soul, my savior God, to Thee: How great Thou art, how great Thou art! Then sings my soul, my savior God, to Thee: How great Thou art, how great Thou art!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -347,7 +347,7 @@ let songs2 = {
             4: "Still lift your standard high, Still march in frim array; as warriors thru the darkness toil Till dawns the golden end:"
         },
         chorus: "Rejoice rejoice, Rejoice, give thanks and sing!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -361,7 +361,7 @@ let songs2 = {
             4: "Thru the course of human hist'ry Has Your purpose run, And in substance have we seen You In Your glorious son: He it was who came to save us And our hopes to raise God of everlasting glory, Your great name we praise!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -375,7 +375,7 @@ let songs2 = {
             4: "Let us love our God supremely, Let us love each other, too; Let us love and pray for sinners, Till our God makes all things new. Then He'll call us home to heaven, At His table we'll sit down; Christ will gird Himself, and serve us With sweet manna all around."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -389,7 +389,7 @@ let songs2 = {
             4: "Revive us again; fill each heart with Thy love; May each soul be rekindled with fire from above."
         },
         chorus: "Hallelujah! Thine the glory. Hallelujah! Amen. Hallelujah! Thine the glory, Revive us again.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -400,7 +400,7 @@ let songs2 = {
             1: "The Lord is in his holy temple: let all the earth keep silence before Him, Amen."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -413,7 +413,7 @@ let songs2 = {
             3: "Great God, to Thee we consecrate our voices and our skill; We bid the pealing organ wait to speak alone Thy will. Lord, while the music round us floats may earth born passions die; O grant its rich and swelling notes may lift our souls on high!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -427,7 +427,7 @@ let songs2 = {
             4: "Safe in Thy shadow I will rejoice, Safe in Thy shadow I will rejoice:"
         },
         chorus: "My lips shall praise Thee, thus will I bless Thee I lift up my hands unto Thy name.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -438,7 +438,7 @@ let songs2 = {
             1: "For Thine is the kingdom, the pow'r and thr glory and ever and ever! Aman."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -451,7 +451,7 @@ let songs2 = {
             3: "Him in whom they move and live, Let ev'ry creature sing, glory to their Maker give, And homage to their King. Hallowed by His name beneath, As in heav'n on earth adored; Praise the Lord in ev'ry breath, Let all things praise the Lord."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -466,7 +466,7 @@ let songs2 = {
             5: "For the church that evermore Lifteth holy hands above, Off'ring up on ev'ry shore Her pure sacrifice of love:"
         },
         chorus: "Lord of all, to Thee we raise This our hymn of grateful praise.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -480,7 +480,7 @@ let songs2 = {
             4: "For why? The Lord our God is good, His mercy is forever sure; His truth at all times firmly stood, And shall form age to age endure."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -494,7 +494,7 @@ let songs2 = {
             4: "Frail children of dust, and feeble as frail, in you do we trust, nor find you to fail. Your mercies, how tender, how firm to the end, our Maker, Defender, Redeemer, and Friend!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -508,7 +508,7 @@ let songs2 = {
             4: "O might I hear thy heavenly tongue but whisper, 'thou art mine!'; those gentle words should raise my song to notes almost divine."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -522,7 +522,7 @@ let songs2 = {
             4: "I will praise Him, I will praise Him, I will praise Him, I will praise Him, I will praise Him, I will praise Him, I will praise Him, I will praise Him!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -536,7 +536,7 @@ let songs2 = {
             4: "Finish, then, Thy new creation; Pure and spotless let us be; Let us see Thy great salvation Perfectly restored in Thee: Changed from glory into glory, Till in heav'n we take our place, Till we cast our crowns before Thee, Lost in wonder, love, and praise!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -551,7 +551,7 @@ let songs2 = {
             5: "O God, our help in ages past, our hope for years to come, Be Thou our guide while life shall last, And our eternal home."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -565,7 +565,7 @@ let songs2 = {
             4: "Bless the Lord for truth He's given For the word of prophecy That has drawn the veil from heaven And revealed my destiny."
         },
         chorus: "Bless the Lord, O my soul, Bless the Lord, O my soul, and all that is within me, bless His holy name!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -579,7 +579,7 @@ let songs2 = {
             4: "Bless the Lord, O my soul, and all that is within me, bless His holy name!"
         },
         chorus: "He has done great things, He has done great things, He has done great things, bless His holy name!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -592,7 +592,7 @@ let songs2 = {
             3: "O to grace how great a debtor Daily I'm constrained to be! Let Thy grace, Lord, like a fetter. Bind my wand'ring heart to Thee: Prone to wander, Lord, I feel it, Prone to leave the God I love; Here's my heart, Lord, take and seal it; Seal it for Thy courts above."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -605,7 +605,7 @@ let songs2 = {
             3: "All praise and thanks to God The Father now be given, The Son, and Him who reigns With them in highest heaven, The one eternal God, Whom earth and heav'n adore; For thus it was, is now, And shall be evermore."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -620,7 +620,7 @@ let songs2 = {
             5: "Let all things their Creator bless, and worship Him in humbleness, O praise Him!, Alleluia! Praise, praise the Father, praise the Son, And praise the Sprit, Thee in One:"
         },
         chorus: "O praise Him, O praise Him! Alleluia, Alleluia, Alleluia!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -631,7 +631,7 @@ let songs2 = {
             1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below: Alleluia, Alleluia! Praise Him above, ye heav'nly host; Praise Father, Son and Holy Ghost: Alleluia, Alleluia! Alleluia, Alleluia! Alleluia!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -642,7 +642,7 @@ let songs2 = {
             1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below; Praise Him above, ye heav'nly host; Praise Father, Son, Holy Ghost. Aman."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -653,7 +653,7 @@ let songs2 = {
             1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below. Praise Him above, ye heav'nly host; Praise Father, Son and Holy Ghost. Amen."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -667,7 +667,7 @@ let songs2 = {
             4: "Holy, holy, holy, Lord God Almighty! All Thy works shall praise Thy name in earth and sky and sea; Holy, holy, holy merciful and mighty! God in three persons blessed Thrinity!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -678,7 +678,7 @@ let songs2 = {
             1: "Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning, is now and evermore shall be, world without end. Aman, Aman."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -691,7 +691,7 @@ let songs2 = {
             3: "We confess the Holy Ghost, Who from both forev'er proceeds, Who upholds and comforts in all trials, fears and needs. Blest and holy Thrinity , Praise forever be to Thee."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -704,7 +704,7 @@ let songs2 = {
             3: "Spirit, I adore You, Lay my life before You How I love You!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -717,7 +717,7 @@ let songs2 = {
             3: "Praise ye the Spirit! Comforter of Israel, Sent of the Father and the Son to bless us; Praise ye the Father, Son and Holy Spirit, Praise ye the Triune God!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -732,7 +732,7 @@ let songs2 = {
             5: "Glory be to God on high, Alleluia! Glory be to God on high, Alleluia!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -746,7 +746,7 @@ let songs2 = {
             4: "To Thee, great One in Three, The highest praises be, Hence evermore; Thy sov'reign majesty May we in glory see, And to eternity Love and adore."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -760,7 +760,7 @@ let songs2 = {
             4: "Holy Father, Holy Son, Holy Spirit, three we name thee; While in essence only One: undivided God, we claim thee, and adoring bend the knee, while we sing our praise to Thee."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -771,7 +771,7 @@ let songs2 = {
             1: "The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit be with you all. Aman."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -787,7 +787,7 @@ let songs2 = {
             6: "Hallelujah, hallelujah, Hallelujah, hallelujah; And we lift our hearts before you as a token of love, Hallelujah, hallelujah."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -801,7 +801,7 @@ let songs2 = {
             4: "Angel in the height, adore Him, Ye behold Him face to face; Sun and moon, bow down before Him, dwellers all in time and space: Alleluia! Alleluia! Praise With us the God of grace!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -815,7 +815,7 @@ let songs2 = {
             4: "Mortals, join the mighty chorus Which the morning stars began; Father love is reigning o'er us, Brother love binds man to man. Everlasting, march onward, victors in the midst of strife; Joyful music lift us sunward In the triumph song of life."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -828,7 +828,7 @@ let songs2 = {
             3: "Pardon for sin and a peace that endureth, Thine own dear presence to cheer and to guide; Strength for today and bright hope for tomorrow, Blessings all mine, with ten thousand beside!"
         },
         chorus: "Great is Thy faithfulness! Great is Thy faithfulness! Morning by morning new mercies I see; All I have needed, Thy hand hath provided; Great is Thy faithfulness, Lord unto me!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -842,7 +842,7 @@ let songs2 = {
             4: "Great Father of glory, pure Father of light, Thine angels adore Thee, all veiling their sight; All praise we would render, O help us to see 'Tis only the splendor of light hideth Thee!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -855,7 +855,7 @@ let songs2 = {
             3: "This is my Father's world, O let me ne'er forgetThat though the wrong seems oft so strong, God is the Ruler yet. This is my Father's world, The battle is not done; Jesus who died shall be satisfied, And earth and heaven be one."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -871,7 +871,7 @@ let songs2 = {
 
         },
         chorus: "Hallelujah! what Hallelujah! what Saving, helping, He is with me to a Savior! a Friend! keeping, loving, the end.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -885,7 +885,7 @@ let songs2 = {
             4: "Beautiful Savior! Lord of all the nations! Son of God and Son of Man! Glory and honor, praise, adoration, Now and forever more be Thine."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -900,7 +900,7 @@ let songs2 = {
             5: "Then we shall be where we whould be shall be what we should be; Thing that are not now, nor could be, Soon shall be our own."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -914,7 +914,7 @@ let songs2 = {
             4: "Be this, while life is mine, My canticle divine: May Jesus Christ be praised! Be this eternal song Thru all the ages long: May Jesus Christ be praised!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -928,7 +928,7 @@ let songs2 = {
             4: "No condemnation now I dread; Jesus, and all in Him is mine! Alive in Him, my living Head, And clothed in righteousness divine, Bold I approach th'eternal throne, And claim the crown, thro' Christ my own."
         },
         chorus: "Amazing love! how can it be That Thou, my God, should die for me!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -944,7 +944,7 @@ let songs2 = {
             6: "Glory to God and praise and love Be ever, ever giv'n By saints below and saints above The Church in earth and heav'n."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -957,7 +957,7 @@ let songs2 = {
             3: "Praise Him! praise Him! Jesus our blessed Redeemer! Heav'nly portals loud with hosannas ring! Jesus, Savior, reigneth forever and ever, Crown Him! Crown Him! Prophet and Priest and king! Christ is coming over the world victorious Pow'r and glory unto the Lord belong:"
         },
         chorus: "Praise Him! Praise Him! tell of His encellent greatness Praise Him! Praise Him ! ever in joyful song!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -970,7 +970,7 @@ let songs2 = {
             3: "Praise yet our Christ again Alleluia Aman! Life shall not end the strain Alleluia Aman! On heaven's blissful shore His goodness we'll adore, Singing forever-more, Alleluia Aman!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -982,7 +982,7 @@ let songs2 = {
             2: "He is the mighty King, Master of ev'ry thing, His name is"
         },
         chorus: "Wonderful, Jesus, my Lord; Jesus my Lord. He's the great shepherd, the Rock of all ages, Almighty God is He; Bow down before Him, Love and adore Him, His name is Wonderful, Jesus my Lord.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -993,7 +993,7 @@ let songs2 = {
             1: "Jesus, Jesus, Jesus; There's just Something about that name! Master, Savior, Jesus, Like the fragrance after the rain; Jesus, Jesus, Let all Heaven and earth proclaim : Kings and kingdoms will all pass away, But there's some-thing about that name!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1007,7 +1007,7 @@ let songs2 = {
             4: "For He alone is worthy, For He alone is worthy, For He alone is worthy, Christ the Lord."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1021,7 +1021,7 @@ let songs2 = {
             4: "Then let us adore, and give Him His right All glory and pow'r, all wisdom and might, All honor and blessing, with angels abbove, And thanks never ceaseing, and infinite love."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1036,7 +1036,7 @@ let songs2 = {
             5: "Jesus, we know You are coming, Jesus, we know You are coming, Jesus, we know You are coming, Take us live Your home."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1050,7 +1050,7 @@ let songs2 = {
             4: "His forever, only His who the Lord and me shall part? Ah, with what a rest of bliss Christ can fill the loving heart! Heav'n and earth may fade and flee, firstborn light in gloom decline, But while God and I shall be, I am his and he is mine, But while God and I shall be, I am his and he is mine."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1065,7 +1065,7 @@ let songs2 = {
             5: "Now let my soul arise And tread the tempter down; My Captain leads me forth To conquest and a crown A feeble saint shall win the day, Tho death and hell obstruct the way."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1078,7 +1078,7 @@ let songs2 = {
             3: "Thou art worthy, Thou art worthy, Thou art worthy, O Lord, To recieve  glory, glory and honor, Glory and honor and pow'r For Thou hast created, hast all things created, Thou hast all things created And for Thy pleasure they are created: thou art worthy, O Lord!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1089,7 +1089,7 @@ let songs2 = {
             1: "Worthy is the Lamb that was slain, Worthy is the Lamb that was slain, Worthy is the Lamb that was slain, to recieve power and richees and wisdom strength, Honor and glory and blessing! Worthy is the Lamb that was slain, Worthy is the Lamb that was slain, Worthy is the Lamb that was slain!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1103,7 +1103,7 @@ let songs2 = {
             4: "In the beauty of the lilies, Christ was born across the sea, With a glory in His bosom that transfigures you and me; As He died to make men holy, let us live to make men free, While God is marching on."
         },
         chorus: "Glory! glory, hallelujah! Glory! glory, hallelujah! Glory! glory, hallelujah! His truth is marching on.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1116,7 +1116,7 @@ let songs2 = {
             3: "The King of all kings and the Lord of all lords, He reigns in glory now, Some day He is coming earth's kingdom to claim, And ev'ry knee shal bow!"
         },
         chorus: "And ev'ry knee shall bow!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1129,7 +1129,7 @@ let songs2 = {
             3: "When in prayer I whisper it softly, At the throne of grace it is the key; Angels love to hear it, Hell and demons fear it, Name of pow'r and victory!"
         },
         chorus: "Above ev'ry name is the name of Jesus, Above ev'ry name is the name of Jesus, Above ev'ry name is the name of Jesus, Ev'ry Knee shall bow, ev'ry tongue confess That He is Lord of all!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1140,7 +1140,7 @@ let songs2 = {
             1: "Jesus, Jesus, Jesus: Never have I heard a name that thrills my soul like Thine! Jesus, Jesus, Jesus: O what wondrous grace that links that lovely name with mine!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1157,7 +1157,7 @@ let songs2 = {
 
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1169,7 +1169,7 @@ let songs2 = {
             2: "Just the precious name of Jesus worthy of our praise, Let us bow our knees before Him, our Hands to heaven raise; when He comes in clouds of glory with Him we'll ever reign, Let's just lift our happy voices and praise His name."
         },
         chorus: "Let just praise the Lord! Praise the lord! Let's just lift our hearts to heaven and praise the Lord; Let just praise the Lord! Praise the lord! Let's just lift our hearts to heaven and praise the Lord!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1183,7 +1183,7 @@ let songs2 = {
             4: "At the name of Jesus bowing, Falling prostrate at His feet, King of kings in heav'n we'll crown Him When our journey is complete."
         },
         chorus: "Precious name, O how sweet! Hope of earth and joy of heav'n; Precious name, O how sweet! Hope of earth and joy of heav'n.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1196,7 +1196,7 @@ let songs2 = {
             3: "O the deep, deep love of Jesus Love of ev'ry love the best! 'Tis an ocean vast of blessing, 'Tis a haven sweet of rest. O the deep love of Jesus 'Tis a hesv'n of heav'ns to me; And it lifts me up to glory, For it lifts me, Lord, to Thee!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1210,7 +1210,7 @@ let songs2 = {
             4: "His name shall be Counselor, The mighty Prince of Peace, Of all earth's kingkoms conqueror, Whose reign shall never cease."
         },
         chorus: "Blessed be the name, blessed be the name, Blessed be the name, blessed be the name! Blessed be the name, blessed be the name, Bless be the name of the Lord!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1225,7 +1225,7 @@ let songs2 = {
             5: "Jesus, our only joy be Thou, As Thou our prize wilt be; Jesus, be Thou our glory now And thru eternity."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1239,7 +1239,7 @@ let songs2 = {
             4: "Holy Spirit, all divine, Dwell within this heart of mine; Cast down ev'ry idol throne, Reign supreme and reign alone."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1251,7 +1251,7 @@ let songs2 = {
             2: "Then in an age when darkness gripped the earth, The just shall live by faith  was learned; The Holy Spirit gave the Church new birth As reformation fires burned. In later years the greatrevivals came, When saints would seek the Lord and pray; O once again we need that holy flame to meet the challenge of today!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1265,7 +1265,7 @@ let songs2 = {
             4: "Teach me to love Thee as Thine angels love, One holy passion filling all my frame: The baptism of the heav'n descend Dove My heart an altar and Thy love the flame."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1279,7 +1279,7 @@ let songs2 = {
             4: "Breathe on me, Breath of God, So shall I never die, But live with Thee the perfect life Of thine eternity."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1294,7 +1294,7 @@ let songs2 = {
             5: "Revive us, Lord! Is zeal abeting While harvest field are vast and white? Revive us, Lord the world is waiting! Equip Thy Church to spread the light."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1307,7 +1307,7 @@ let songs2 = {
             3: "If you say H e saved you from your sin, Now You're weak, you're bound and cannot enter in, You can make it right if you will Yield You'll enjoy the Holy Spirit that we feel."
         },
         chorus: "Sweet Holy Spirit, Sweet heav'nly Dove, Stay right here with us, Filling us with your love. And those blessings We lift our hearts in praise; with out a doubt we'll known that we have been reviveed, When we shall leave this place.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1318,7 +1318,7 @@ let songs2 = {
             1: "Spirit of the living God, fall fresh on me! Spirit of the living God, fall fresh on me! melt me, mold me, fill me, use me! Spirit of the Living God, fall fresh on me!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1330,7 +1330,7 @@ let songs2 = {
             2: "Lord, make me like the stream that flows so cool and clear Down from the mountain high above; I will tell the world that wondrous story of the stream that flowed from Calvary."
         },
         chorus: "Lord, To my heart bring back the spring-time, Take away the cold and dark of sin; O return to me, sweet Holy Spirit, May I warm and tender be again.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1344,7 +1344,7 @@ let songs2 = {
             4: "Jesus, fill now with With Thy Spirit Hearts that full surrander Known, That the streams of living water From Our inner man may flow."
         },
         chorus: "Channels only, blessed Master But with all Thy wonderous pow'r Flowing thru us, Thou canst use us Ev'ry day ev'ry hour.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1358,7 +1358,7 @@ let songs2 = {
 
         },
         chorus: "The Comforter has come, the Comforter has come! The Holy Ghost from heav'n the Father promise giv'n; O spread the tidingd 'round wherever man is found The Comforter has come!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1373,7 +1373,7 @@ let songs2 = {
 
         },
         chorus: "Fill me now, fill me now, Jesus, come and fill me now; Fill me with Thy hallow'd presence Come, o come and fill me now.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1387,7 +1387,7 @@ let songs2 = {
             4: "Speak, Lord ! Before Thy throne we wait, Thy promise we believe, And will not let Thee go until The blessing we recieve"
         },
         chorus: "Lord, send the old-time power , the Pentecostal power! Thy floodgates of blessing on us throw open wide! Lord send the old-time power, the Pentecostal power,That sinners be converted and Thy name glorified!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1401,7 +1401,7 @@ let songs2 = {
 
         },
         chorus: "Spirit, now melt and move All of our heart with love; Breathe on us from above With old-time pow'r.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1413,7 +1413,7 @@ let songs2 = {
             2: "On the day of Pentecost, a rushing mighty wind Blew into the upper room, and baptism all of them with a power greater than any earthly foe; And I'm so glad I've got it too I'll let the whole world know."
         },
         chorus: "Greater is He that is in me, Grater is He that is in me, Grater is He that is in me, Than he that is in the world.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1424,7 +1424,7 @@ let songs2 = {
             1: "Where the Spirit of the Lord is, there is peace; Where the Spirit of the Lord is, there is love; There is comfort in life's darkest hour, There is light and life, there is help and pow'r In the spirit, in the Spirit of the Lord."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1439,7 +1439,7 @@ let songs2 = {
             5: "What a wonderful salvation, Where we always see His face! What a perfect habitation, What a quiet resting place!"
         },
         chorus: "Blessed Quietness, holy quietness What assurance in my soul! On the stormy sea He speak peace to me How the billows cease to roll!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1453,7 +1453,7 @@ let songs2 = {
             4: "New grace ever gaining From this our day of rest, We reach the rest remaining To spirits of thr blest; To Holy Ghost be praises, To father, and to son: the Church her voice up-raises To Thee, blest Thee in One."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1464,7 +1464,7 @@ let songs2 = {
             1: "Amen"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1475,7 +1475,7 @@ let songs2 = {
             1: "Go out go out with joy, to live in the pow'r of the Risen Christ!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1486,7 +1486,7 @@ let songs2 = {
             1: "The Lord bless you and keeo you, The Lord make His face to shine up on you and be gracious unto you; The lord lift up His countenance up on you and give you peace, and give you peace. In the name of the Father and of the Son and of the Holy Spirit. Amen."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1499,7 +1499,7 @@ let songs2 = {
             3: "So that when Thy love shall call us, Savior, from the world away, Fear of death shall not appall us; Glad Thy summons to obey, May we ever, may we ever Reign with Thee in endless day."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1513,7 +1513,7 @@ let songs2 = {
             4: "God be with you till we meet again, Keep love's banner floating o'er you; Smite death's threat'ning wave before you God be with you till we meet again."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1525,7 +1525,7 @@ let songs2 = {
             2: "Grant us Thy peace up on our home ward way: With Thee be hearts from shame, that in this house have call up on Thy name."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1536,7 +1536,7 @@ let songs2 = {
             1: "Goodbye our God it watching o'er you, Goodbye His mercy go before you; Goodbye and we'll be praying for you, So goodbye may God bless you."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1550,7 +1550,7 @@ let songs2 = {
             4: "When the morning wakens, Then may i arise Pure and fresh and sinless In Thy holy eyes."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1564,7 +1564,7 @@ let songs2 = {
             4: "When for ever from our sight Pass the stars, the day, the night, Lord of angles, on our eyes Let eternal morning rise, And Shadows end."
         },
         chorus: "Holy, holy,holy, Lord God of Hosts! Heav'n and earth are full of Thee! Heav'n and earth are praising Thee, O Lord most high!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1577,7 +1577,7 @@ let songs2 = {
             3: "Thanks, O God, for home and fire side, Where we share our daily bread; Thanks for hours of sweet communion, When by Thee our souls are fed. Thanks for grace in time of sorrow And for joy and peace in Thee; Thanks for hope today, tomorrow, And for all eternity!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1591,7 +1591,7 @@ let songs2 = {
             4: "Even so, Lord, quickly come To Thy final harvest home: Gather Thou Thy people in, Free from sorrow, free from sin; There, forever purified, In Thy presence to abide: Come, with all Thine angles, come Raise the glorious harvest home."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1605,7 +1605,7 @@ let songs2 = {
             4: "In scenes exalted or depressed, Thou art our joy and Thou our rest; Thy goodness all our hopes shall raise, Adored through all our changing days."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1621,7 +1621,7 @@ let songs2 = {
             6: "Let us then with gladsome mind Praise the Lord, for He is kind:"
         },
         chorus: "For His mercies shall endure Ever faithful, ever sure!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1634,7 +1634,7 @@ let songs2 = {
             3: "Another year of service, Of witness for Thy love; Another year of training For holier work above. Another year is dawning: Dear Father, let it be, On earth or else in heaven, Another year for Thee."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1649,7 +1649,7 @@ let songs2 = {
             5: "The Church, O Lord, is Thine, And we who bear Thy name, Until that day Thou dost appear Thy chosen Bride to claim."
         },
         chorus: "The Church, O Lord, is Thine, Is Thine forevermore!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1662,7 +1662,7 @@ let songs2 = {
             3: "Come as a teacher sent from God, Charged His Whole counsel to declare; Lift o'er ranks the prophet's rod, While we up hold your hands with prayer."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1677,7 +1677,7 @@ let songs2 = {
             5: "Create in us the word, the deed, That ours may be a living creed; And cause Thy grace in us to dwell Abide with us, Immanuel!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1691,7 +1691,7 @@ let songs2 = {
             4: "Ye saints to come, take up the strain, The same swee theme endeavor; Unbroken be the golden chain! Keep on the song forever! Safe in the same dear dwelling place, Rich with the same eternal grace, Bless the same boundless Giver."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1704,7 +1704,7 @@ let songs2 = {
             3: "Open my mouth, and let me bear Gladly the warm truth everywhere; Open my heart and let me prepare Love with Thy children thus to share. Silently now I wait for Thee, Ready, my God, Thy will to see; Open my heart illu mine me, Spirit divine!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1718,7 +1718,7 @@ let songs2 = {
             4: "Thru Him whom Thy Word hath fore told, The Savior and Morning Star, Salvation and peace have been bro't To those who have strayed a far."
         },
         chorus: "Thy Word have I hid in my heart, That I might not sin against Thee; That I might not sin, That I might not sin, Thy Word have I hid in my heart.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1732,7 +1732,7 @@ let songs2 = {
             4: "Standing on the promises I cannot fail, List'ning every moment to the Spirit's call, Resting in my Savior as my all in all Standing on the promises of God, Standing on the promises of God!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1746,7 +1746,7 @@ let songs2 = {
             4: "O send Thy Spirit, Lors Now unto me, That He may touch my eyes And make me see: Show me the truth conceled With in Thy Word, And in Thy book revealed I see Thee, Lord."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1760,7 +1760,7 @@ let songs2 = {
             4: "Mine to tell of joys to come And the rebel sinner's doom: O thou holy book divine, Precious treasure, thou art mine."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1774,7 +1774,7 @@ let songs2 = {
             4: "Oft as the precious seed is sown, Thy quickning grace bestow, That all whose souls the truth receive its saving pow'r may know."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1788,7 +1788,7 @@ let songs2 = {
             4: "Let ever lastning thanks be Thine For such a bright display As makes a world of darkness shine With beams of heav'nly day!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1801,7 +1801,7 @@ let songs2 = {
             3: "sweetly echo the gospel call Wounderful words of Life; Jesus, only Savior, Sanctify forever:"
         },
         chorus: "Beautiful words, wonderful words, Wounderful words of Life; Beautiful words, wonderful words, Wounderful words of Life.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1814,7 +1814,7 @@ let songs2 = {
             3: "Round each habitation hovering, See the cloud and fire appear For a glory and a cov'ring, Showing that the Lord is near! Glorious things of thee are spoken, Zion, city of our God; He whose word can not be broken Formed thee for His own abode."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1828,7 +1828,7 @@ let songs2 = {
             4: "Yet she on earth hath union With God the Three in One, And mystic sweet communion With those whose rest is won: O happy ones and holy! Lord, give us grace that we, Like them, the meek and lowly, On high may dwell with Thee."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1842,7 +1842,7 @@ let songs2 = {
             4: "Yet she on earth hath union With God the Three in One, And mystic sweet communion With those whose rest is won: O happy ones and holy! Lord, give us grace that we, Like them, the meek and lowly, On high may dwell with Thee."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1856,7 +1856,7 @@ let songs2 = {
             4: "Onward, then, ye people, Join our happy throng; Blend with ours your voices In the triumph song. Glory, laud and honor Unto Christ the King This thru countless ages Men and angles sing."
         },
         chorus: "Onward, Christian soldiers, Marching as to war, With the cross of Jesus Going on before!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1869,7 +1869,7 @@ let songs2 = {
             3: "Faith of our fathers, we will love Both friend and foe in all our strife; And preach thee too, as love knows how, By kindly words and virtuous life."
         },
         chorus: "Faith of our fathers, holy faith, We will be true to thee till death!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1884,7 +1884,7 @@ let songs2 = {
             5: "Sure as Thy truth shall last, To Zion shall be giv'n The brightest glories earth can yield, And brighter bliss of heav'n."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1898,7 +1898,7 @@ let songs2 = {
             4: "When we asunder part It gives us inward pain; But we shall be joined in heart, And hope to meet again."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1912,7 +1912,7 @@ let songs2 = {
             4: "Suffer hardness, brothers, Serve God night or noon; Live or die for Jesus Heav'n is coming soon!"
         },
         chorus: "Joy is the food we share, Love is our home; Brothers, praise God for the Body Shalom, shalom! for the Body Shalom, shalom!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1924,7 +1924,7 @@ let songs2 = {
             2: "Let us sing now, ev'ryone, Let us feel His love begun; Let us join our hands that the would will know We are one in the bond of love."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1935,7 +1935,7 @@ let songs2 = {
             1: "I'm so glad I'm a part of the family of God I've been washed in the fountain, cleansed by His blood! Joint heirs with Jesus as we travel this sod For I'm part of the family, the family of God."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1948,7 +1948,7 @@ let songs2 = {
             3: "Christian love, Christian love! How the angles stand amazed: Join these Christians by the hand, Shout and sing to glory land Christian love, Christian love, Christian love!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1960,7 +1960,7 @@ let songs2 = {
             2: "And we know when we're together, Sharing love and Understanding, That our brothers and our sisters Feel the oneness that He brings; Thank You, thank You, thank You, Jesus For the way You love and feed us, For the many ways You lead us Thank You, thank You, Lord."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1974,7 +1974,7 @@ let songs2 = {
             4: "Teach us to love, with strength of heart and mind, Everyone, all mankind. Break down old walls of prejudice and hate: Leave us not to our fate. As Thou hast loved and giv'n Thy life To end hostility and strife, O share Thy grace from heav'n above: Teach us, Lord, how to love!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -1988,7 +1988,7 @@ let songs2 = {
             4: "There shall be showers of blessing O that today they might fall, Now as to God we're confessing, Now as on Jesus we call!"
         },
         chorus: "Showers of blessing, Showers of blessing we need; Mercy drops round us are falling, But for the showers we plead.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2002,7 +2002,7 @@ let songs2 = {
             4: "Live Thou within us, Lord Thy mind and will be ours: Be Thou beloved, adored And served with all our pow'rs, That so our lives may teach Thy children what Thou art, And plead, by more than speech, For Thee with ev'ry heart."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2015,7 +2015,7 @@ let songs2 = {
             3: "O grant us light, that we may learn How dead is life from Thee apart, How sure is joy for all who turn To Thee an undivided heart."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2028,7 +2028,7 @@ let songs2 = {
             3: "May the things we learn, so meager, Never lift our hearts in pride Till in foolish selfreliance We would wander from Your side. Let them only bind us closer, Lord, to You, in whom we find Very fountain head of wisdom, Light and life of all mankind."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2042,7 +2042,7 @@ let songs2 = {
             4: "As step by step we tread the way, Trusting and confident and free, A child and I shall day by day Find sweet companionship with Thee."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2056,7 +2056,7 @@ let songs2 = {
             4: "O Lord, our God, our homes are Thine forever! We trust to Thee their problems, toil and care; Their bonds of love no enemy can sever If Thou art always Lord and Master there: Be Thou the center of our least endeavor Be Thou our guest, cur hearts and homes to share."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2070,7 +2070,7 @@ let songs2 = {
             4: "Lord, let us in our homes agree This blessed peace to gain; Unite our hearts in love to Thee, And love to all will reign."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2084,7 +2084,7 @@ let songs2 = {
             4: "How blessed are the children Who in their parents see The tender Father love of God, And find their way to Thee."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2098,7 +2098,7 @@ let songs2 = {
             4: "May we keep our holy calling Stainless in its fair renown, That, when all the work is over And we lay the burden down, Then the children Thou hast given Still may be our joy and crown."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2112,7 +2112,7 @@ let songs2 = {
             4: "Faith of our mothers, Christian faith, In truth beyound our stumbling creeds, Still serve the home and save the Church And breaths thy spirit thru our deeds: Faith of our mothers, Christian faith, We will be true to thee till death!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2127,7 +2127,7 @@ let songs2 = {
             5: "We thank thee, Father; let thy grace our loving circle still embrace, thy mercy shed its heavenly store, thy peace be with us evermore."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2141,7 +2141,7 @@ let songs2 = {
             4: "Nor would we cease to follow Thee, Content with this alone; On thru the garden, Calvary, Thy lot shall be our own."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2155,7 +2155,7 @@ let songs2 = {
             4: "By grace we “Abba, Father” cry; by grace the Comforter comes nigh; and for thy grace our love shall be forever, only, Lord, for thee."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2168,7 +2168,7 @@ let songs2 = {
             3: "We bring them, Lord, in thankful hands, And yield them up to Thee; O gentle Saviour, we are Thine, Thine let our children be."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2180,7 +2180,7 @@ let songs2 = {
             2: "O may Thy Spirit gently draw Its willing soul to keep Thy law; May virtue, piety, and truth Dawn even with its dawning youth."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2194,7 +2194,7 @@ let songs2 = {
             4: "Mine is the sin, but Thine the righteousness: Mine is the guilt, but Thine the cleansing blood; Here is my robe, my refuge, and my peace; Thy Blood, Thy righteousness, O Lord my God!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2210,7 +2210,7 @@ let songs2 = {
             6: "And when these failing lips grow dumb, And mind and memory flee, When Thou shalt in Thy Kingdom come, Then, Lord, remember me."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2225,7 +2225,7 @@ let songs2 = {
             5: "O Jesus, ever with us stay, Make all our moments calm and bright; O chase the dark night of sin away, Shed o'er the world Thy holy light."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2238,7 +2238,7 @@ let songs2 = {
 
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2249,7 +2249,7 @@ let songs2 = {
             1: "O Lamb of God, that takest away the sins of the world, have mercy upon us. O Lamb of God, that takest away the sins of the world, grant us thy peace."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2262,7 +2262,7 @@ let songs2 = {
             3: "Let us praise God together on our knees. Let us praise God together on our knees."
         },
         chorus: "When I fall on my knees with my face to the rising sun, O Lord have mercy on me.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2273,7 +2273,7 @@ let songs2 = {
             1: "Yesterday He died for me, yesterday, yesterday, Yesterday He died for me, yesterday, Yesterday He died for me, died for me This is history. Today He lives for me, today, today, Today He lives for me, today, Today He lives for me, lives for me This is victory. Tomorrow He comes for me, He comes, He comes, Tomorrow He comes for me, He comes, Tomorrow He comes for me, comes for me This is mystery. O friend, do you know Him? know Him? know Him? O friend, do you know Him? know Him? O friend, do you know Him? do your know Him? Jesus Christ the Lord, Jesus Christ the Lord, Jesus Christ the Lord!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2286,7 +2286,7 @@ let songs2 = {
             3: "If God so loved the world Then we should love it too, And strive to live for Him, Lost sinners to win, So they'll be ready when He comes to earth again: Joyful will that meeting be!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2301,7 +2301,7 @@ let songs2 = {
             5: "When He comes, our glorious King, All His ransomed home to bring, Then anew His song we'll sing: Hallelujah! What a Savior!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2316,7 +2316,7 @@ let songs2 = {
             5: "Coming for me, coming for me, One day to earth He is coming for me; Then with what joy His dear face I shall see, O how I praise Him— He's coming for me!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2331,7 +2331,7 @@ let songs2 = {
             5: " One day the trumpet will sound for His coming, One day the skies with His glory will shine; Wonderful day, my beloved ones bringing; Glorious Savior, this Jesus is mine!"
         },
         chorus: "Living, He loved me; dying, He saved me; Buried, He carried my sins far away; Rising, He justified freely, forever; One day He's coming: O glorious day!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2346,7 +2346,7 @@ let songs2 = {
             5: "Come and praise the Lord our king, Alleluia, come and praise the Lord our king. alleluia!"
         },
         chorus: "Come and praise the Lord our king, Alleluia, come and praise the Lord our king. alleluia!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2361,7 +2361,7 @@ let songs2 = {
             5: "When the heavens shall ring, And the angels sing, At Thy coming to victory, Let Thy voice call me home, Saying, Yet there is room, There is room at My side for thee: My heart shall rejoice, Lord Jesus, When Thou comest and callest for me."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2375,7 +2375,7 @@ let songs2 = {
             4: "He rules the world with truth and grace, And makes the nations prove The glories of His righteousness, And wonders of His love, And wonders of His love, And wonders, wonders of His love."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2389,7 +2389,7 @@ let songs2 = {
             4: "O come, Thou Key of David, come And open wide our heavenly home; Make safe the way that leads on high, And close the path to misery."
         },
         chorus: "Rejoice! Rejoice! Immanuel Shall come to Thee, O Israel!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2401,7 +2401,7 @@ let songs2 = {
             2: "Born Thy people to deliver, Born a child, and yet a King, Born to reign in us forever, Now Thy gracious kingdom bring. By Thine own eternal Spirit, Rule in all our hearts alone: By Thine all-sufficient merit, Raise us to Thy glorious throne."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2414,7 +2414,7 @@ let songs2 = {
             3: "O thou joyful, O thou wonderful Peace revealing Christmastide! Darkness disappeareth, God's own light now neareth, Peace and joy, peace and joy to all betide."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2429,7 +2429,7 @@ let songs2 = {
             5: "So shall your Sovereign enter in, Let new and nobler life begin. Thy Holy Spirit guide us, Until the glorious crown ne won."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2441,7 +2441,7 @@ let songs2 = {
             2: "Joyful glad hosannas, Prince of Peace, thy welcome shall proclaim, While  heav'n's eternal arches ring with thy beloved name."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2454,7 +2454,7 @@ let songs2 = {
             3: "Down in a lowly manger the humble Christ was born, and God sent us salvation that blessed Christmas morn."
         },
         chorus: "Go tell it on the mountain, over the hills and everywhere; go tell it on the mountain that Jesus Christ is born!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2465,7 +2465,7 @@ let songs2 = {
             1: "Let all mortal flesh keep silence, And with fear and trembling stand; Ponder nothing earthly minded, For with blessing in His hand, Christ our God to earth descendeth, Our full homage to demand."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2478,7 +2478,7 @@ let songs2 = {
             3: "Yea, Lord, we greet Thee, born this happy morning; Jesus, to Thee be al glory giv'n; Word of the Father, now in flesh appearing."
         },
         chorus: "O come, let us adore Him, O come, let us adore Him, O come, let us adore Him, Christ the Lord.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2492,7 +2492,7 @@ let songs2 = {
             4: "See within a manger laid, Jesus, Lord of heaven and earth! Mary, Joseph, lend your aid, With us sing our Saviour's birth."
         },
         chorus: "Glo-ria in exelsis Deo, Glo-ria in exelsis Deo.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2505,7 +2505,7 @@ let songs2 = {
             3: "So bring Him incense, gold, and myrrh, Come, peasant, king to own Him. The King of kings salvation brings; Let loving hearts enthrone Him. Raise, raise the song on high The virgin sings her lullaby: Joy, joy, for Christ is born The babe, the son of Mary!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2519,7 +2519,7 @@ let songs2 = {
             4: "Come, Desire of nations, come, Fix in us Thy humble home; Rise, the woman's conqu'ring Seed, Bruise in us the serpent's head. Adam's likeness, Lord, efface, Stamp Thine image in its place: Second Adam from above, Reinstate us in Thy love."
         },
         chorus: "Hark! the herald angels sing, Glory to the new-born King!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2533,7 +2533,7 @@ let songs2 = {
             4: "Saints, before the altar bending, Watching long in hope and fear; Suddenly the Lord, descending, In His temple shall appear."
         },
         chorus: "Come and worship, come and worship, worship Christ, the newborn king.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2546,7 +2546,7 @@ let songs2 = {
             3: "O day of joy, when in eternal splendor He shall return in His glory to reign, When ev'ry tongue due praise to Him shall render, His pow'r and might to all nations proclaim! A thrill of hope our longing hearts rejoices, For soon shall down that glad eternal morn: Fall on your knees! with joy lift up your voices!"
         },
         chorus: "O night divine– O night when Christ was born! O night divine– O night, O night divine!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2559,7 +2559,7 @@ let songs2 = {
             3: "Silent night, holy night, Son of God, loves pure light Radiant beams from thy Holy face, With the dawn of redeeming grace; Jesus, Lord, at thy birth."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2573,7 +2573,7 @@ let songs2 = {
             4: "When gifts are brought on Christmas Eve And laid around the tree, I seem to know the presence of God's gift of love to me."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2586,7 +2586,7 @@ let songs2 = {
             3: "Be near me, Lord Jesus! I ask Thee to stay Close by me forever, and love me, I pray. Bless all the dear children in Thy tender care, And fit us for heaven, to live with Thee there."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2599,7 +2599,7 @@ let songs2 = {
             3: "Be near me, Lord Jesus! I ask Thee to stay Close by me forever, and love me, I pray. Bless all the dear children in Thy tender care, And fit us for heaven, to live with Thee there."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2615,7 +2615,7 @@ let songs2 = {
             6: "Now let us all with one accord Sing praises to our heavenly Lord; That hath made heaven and earth of naught, And with His blood mankind hath bought."
         },
         chorus: "Noel, Noel, Noel, Noel, Born is the King of Israel.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2630,7 +2630,7 @@ let songs2 = {
             5: "All glory be to God on high, And to the earth be peace; Good-will henceforth from heaven to men Begin and never cease."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2641,7 +2641,7 @@ let songs2 = {
             1: "Ring the bells, ring the bells, Let the whole world know Christ was born in Bethlehem Many years ago: Born to die that man might live, Came to earth new life to give, Born of Mary, born so low, Many years ago. God the father gave His Son, Gave His own beloved One To this wicked, sinful earth, To bring mankind His love, new birth: Ring the bells, ring the bells, Let the whole world know Christ the Savior lives today As He did so long ago!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2655,7 +2655,7 @@ let songs2 = {
             4: "This gift of God we'll cherish well, Jesus, our Lord Emmanuel:"
         },
         chorus: "How great our joy! Great our joy! Joy, joy, joy! Joy, joy, joy! Praise we the Lord in heaven on high! Praise we the Lord in heaven on high!",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2669,7 +2669,7 @@ let songs2 = {
             4: "O holy Child of Bethlehem, descend to us, we pray, cast out our sin, and enter in, be born in us today! We hear the Christmas angels the great glad tidings tell. O come to us, abide with us, our Lord Emmanuel."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2683,7 +2683,7 @@ let songs2 = {
             4: "For lo, the days are hastening on, By prophets seen of old, When with the ever-circling years, Shall come the time foretold, When the new heaven and earth shall own The Prince of Peace their King, And the whole world send back the song Which now the angels sing."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2697,7 +2697,7 @@ let songs2 = {
             4: "Holy Jesus, ev'ry day keep us in the narrow way, and, when earthly things are past, bring our ransomed souls at last where they need no star to guide, where no clouds thy glory hide."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2711,7 +2711,7 @@ let songs2 = {
             4: "To every dark and anguished heat Send down your ray divine, And may the light of God's own love Like Christmas candles shine."
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2726,7 +2726,7 @@ let songs2 = {
             5: "Till, ringing, singing on its way, The world revolved from night to day, A voice, a chime, a chant sublime, Of peace on earth, goodwill to men!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2741,7 +2741,7 @@ let songs2 = {
             5: "Glorious now behold Him arise, King and God and Sacrifice; Alleluia, Alleluia! Earth  to heav'n replies."
         },
         chorus: "O star of wonder, star of night, Star with loyal beauty bright, Westward leading, still proceeding, Guide us to thy perfect light.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2754,7 +2754,7 @@ let songs2 = {
             3: "Good Christian men, rejoice With heart and soul and voice; Now ye need not fear the grave: Jesus Christ was born to save! Calls you one and calls you all To gain His everlasting hall: Christ was born to save! Christ was born to save!"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2766,7 +2766,7 @@ let songs2 = {
             2: "Love was when God became a man Down where I could see love that reached to me Love was God dying for my sin And so trapped was I my whole world caved in Love was when Jesus rose to walk with me Lovingly He brought a new life that's free Love was God only He would try To reach and love one such as I To love one such as I"
         },
         chorus: "",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
@@ -2779,7 +2779,7 @@ let songs2 = {
             3: "He has healed my sick soul, made me ev'ry whit whole, And He'll do the same for you; He's the same yesterday and for aye, This healer of men today."
         },
         chorus: "He was wounded for our transgressions, He was bruised for our iniquities; Surely He bore our sorrows, And by His stripes we are healed.",
-        like: false,
+
         song_url: `${path_name}`,
         author: "",
 
