@@ -33,6 +33,8 @@ const loadSongs = (id) => {
         // addEventToLikeIcon('songs-section');
         // addEventToUnlikeIcon('songs-section');
     }
+
+    stopSongOnSectionSwitch();
 }
 
 const openFullSong = (song_id) => {
