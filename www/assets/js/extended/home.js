@@ -280,7 +280,6 @@ const stopSong = () => {
 }
 
 const stopSongOnSectionSwitch = () => {
-    console.log("Section")
     let song_player = document.querySelector(".song-player");
 
     if (song_player.duration > 0 && !song_player.paused) {
@@ -288,5 +287,19 @@ const stopSongOnSectionSwitch = () => {
         song_player.currentTime = 0;
     }
 }
+
+const songStatistics = () => {
+    let songs_key = Object.keys(songs);
+    let count = 0;
+
+    songs_key.forEach(ele => {
+        let song_keys = Object.keys(songs[ele]);
+        count += song_keys.length;
+    })
+
+    document.getElementById('song-num').innerHTML = count;
+}
+
+songStatistics();
 
 loadSongs('worship');
