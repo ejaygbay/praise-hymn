@@ -13,10 +13,19 @@ const loadSongs = (song_group) => {
     if (songs[song_group]) {
         parent_ele.innerHTML = "";
         let all_songs = songs[song_group];
+        console.log("Favorites:::>>>///", favorite_songs)
 
         for (song in all_songs) {
             let song_title = all_songs[song].title;
             let author = all_songs[song].author;
+            let fav_song_in_arr = `${song}_like_${song_group}`;
+            let fav_icon_name = 'heart-outline';
+            let fav_icon_id = `${song}_unlike_${song_group}`;
+
+            if (favorite_songs.includes(fav_song_in_arr)) {
+                fav_icon_name = 'heart';
+                fav_icon_id = `${song}_like_${song_group}`;
+            }
 
             let html = `<article class="song">
                 <div class="title-sec" onclick="openFullSong('${song}_${song_group}')">
@@ -28,7 +37,7 @@ const loadSongs = (song_group) => {
                 </div>
                 <div id="${song}_parent" class="action-sec" onclick="actionButtonsHandler(event)">
                     <ion-icon id="${song}_play_${song_group}" class="play-icon action-icons" name="play"></ion-icon>
-                    <ion-icon id="${song}_unlike_${song_group}" class="unlike-icon action-icons" name="heart-outline"></ion-icon>
+                    <ion-icon id=${fav_icon_id} class="unlike-icon action-icons" name=${fav_icon_name}></ion-icon>
                 </div>
             </article>`;
 
