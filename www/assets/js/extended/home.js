@@ -220,7 +220,6 @@ const playSong = (id) => {
     let btn_action = id[1];
     let song_group = id[2];
 
-
     if (song_player.duration > 0 && !song_player.paused) {
         song_player.pause();
         song_player.currentTime = 0;
@@ -267,14 +266,11 @@ const playSong = (id) => {
         })
 
     document.querySelector(".song-player").onended = function(res) {
-        // showIcon(`.${section} .${parent_class} .play`);
-        // hideIcon(`.${section} .${parent_class} .stop`);
-        console.log("Song End:::", res);
+        removePlayingClass(song_group);
     }
 }
 
 const stopSong = () => {
-    console.log("Stop Song");
     let song_player = document.querySelector(".song-player");
 
     song_player.pause();
@@ -282,6 +278,7 @@ const stopSong = () => {
 }
 
 const stopSongOnSectionSwitch = () => {
+    console.log("Section")
     let song_player = document.querySelector(".song-player");
 
     if (song_player.duration > 0 && !song_player.paused) {

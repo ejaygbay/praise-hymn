@@ -13,6 +13,8 @@ const switchSection = (id) => {
     } else if (id === 'favorites-section') {
         document.querySelector(`.${id}`).classList.add('active');
     }
+
+    stopSongOnSectionSwitch();
 }
 
 
