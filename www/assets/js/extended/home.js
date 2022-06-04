@@ -170,16 +170,16 @@ const actionButtonsHandler = (e) => {
         let fav_song_id = `${song_id}_like_${song_group}`;
         if (favorite_songs.includes(fav_song_id)) {
             favorite_songs.splice(favorite_songs.indexOf(fav_song_id), 1);
-            console.log('yes', favorite_songs)
         }
     } else if (btn_action === 'unlike') {
         addClass(`${song_id}_parent`, 'favorite');
         setAttributeValue(`#${song_id}_unlike_${song_group}`, 'name', 'heart');
         setAttributeValue(`#${song_id}_unlike_${song_group}`, 'id', `${song_id}_like_${song_group}`);
 
-
-        favorite_songs.push(e.target.id);
-        console.log(favorite_songs)
+        let fav_song_id = e.target.id;
+        if (!favorite_songs.includes(fav_song_id)) {
+            favorite_songs.push(fav_song_id);
+        }
     }
 }
 
