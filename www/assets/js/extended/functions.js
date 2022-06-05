@@ -127,15 +127,16 @@ const loadFavoriteSongs = () => {
     let count = 1;
     parent_ele.innerHTML = "";
 
-    favorite_songs.forEach(ele => {
-        let id = ele.split('_');
-        let song_id = id[0];
-        let song_group = id[2];
-        let single_song = songs[song_group][song_id];
-        let song_title = single_song.title;
-        let author = single_song.author;
+    if (favorite_songs.length > 0) {
+        favorite_songs.forEach(ele => {
+            let id = ele.split('_');
+            let song_id = id[0];
+            let song_group = id[2];
+            let single_song = songs[song_group][song_id];
+            let song_title = single_song.title;
+            let author = single_song.author;
 
-        let html = `<article class="song">
+            let html = `<article class="song">
             <div class="title-sec" onclick="openFullSong('${song}_${song_group}')">
                 <span class="song-num">${count}.</span>
                 <div>
@@ -149,9 +150,13 @@ const loadFavoriteSongs = () => {
             </div>
         </article>`;
 
+            parent_ele.insertAdjacentHTML('beforeend', html);
+            count += 1;
+        })
+    } else {
+        let html = `<p style="margin-top: 50%; text-align: center;">No Favorite</p>`;
         parent_ele.insertAdjacentHTML('beforeend', html);
-        count += 1;
-    })
+    }
 }
 
 const unlikeSong = (song_id) => {
