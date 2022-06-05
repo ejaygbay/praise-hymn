@@ -10,8 +10,6 @@ const loadSongs = (song_group) => {
     let parent_ele = document.getElementById(song_group);
     let count = 1;
 
-    // console.log(.style = "border: solid 2px red")
-
     if (songs[song_group]) {
         parent_ele.innerHTML = "";
         let all_songs = songs[song_group];
@@ -72,7 +70,7 @@ const openFullSong = (song_id) => {
         <h2 class="lyric-title">${song.title}</h2>
         <article class="important-info">
             <span>By: ${song.author}</span>
-            <a href="#">Read History</a>
+            <a href="#${song_id}_history" onclick="switchSection('song-history-section')">Read History</a>
         </article>
     </div>`;
 
