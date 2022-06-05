@@ -16,6 +16,15 @@ const switchSection = (id) => {
     }
 
     stopSongOnSectionSwitch();
+
+    let title = id.replace(/-/g, ' ').replace('section', '').trim();
+    document.querySelector('.pageTitle').innerHTML = title;
+
+    if (id === 'song-lyrics-section') {
+        document.querySelector('.header-title').innerHTML = '';
+    } else {
+        document.querySelector('.header-title').innerHTML = title;
+    }
 }
 
 

@@ -137,6 +137,12 @@
     margin-top: 1.4em;
 }
 
+.header-title,
+.pageTitle {
+    text-align: center;
+    text-transform: capitalize;
+}
+
 
 /* .playing .play-icon {
     display: none;
