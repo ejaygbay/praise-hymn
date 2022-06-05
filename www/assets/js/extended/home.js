@@ -10,6 +10,8 @@ const loadSongs = (song_group) => {
     let parent_ele = document.getElementById(song_group);
     let count = 1;
 
+    // console.log(.style = "border: solid 2px red")
+
     if (songs[song_group]) {
         parent_ele.innerHTML = "";
         let all_songs = songs[song_group];
@@ -46,6 +48,15 @@ const loadSongs = (song_group) => {
     }
 
     stopSongOnSectionSwitch();
+    makeSongTabActive(`[href="#${song_group}"] .card`);
+}
+
+const makeSongTabActive = (ele) => {
+    document.querySelectorAll('.active-song-tab').forEach(el => {
+        el.classList.remove('active-song-tab');
+    })
+
+    document.querySelector(ele).classList.add('active-song-tab')
 }
 
 const openFullSong = (song_id) => {
@@ -111,50 +122,6 @@ const openFullSong = (song_id) => {
 }
 
 // switchSection('downloads-section');
-
-
-const addEventToUnlikeIcon = (section) => {
-    document.querySelectorAll(".unlike").forEach(ele => {
-        ele.addEventListener("click", e => {
-            let parent_class = e.target.parentElement.className;
-            songs[parent_class.split("-")[0].trim()].like = true;
-            hideIcon(`.${section} .${parent_class} .unlike`);
-            showIcon(`.${section} .${parent_class} .like`);
-            findFavoritSongs();
-        })
-    })
-}
-
-const addEventToLikeIcon = (section) => {
-    document.querySelectorAll(".like").forEach(ele => {
-        ele.addEventListener("click", e => {
-            let parent_class = e.target.parentElement.className;
-            let splited_parent_class = parent_class.split("-")[0].trim();
-            songs[splited_parent_class].like = false;
-            hideIcon(`.${section} .${parent_class} .like`);
-            showIcon(`.${section} .${parent_class} .unlike`);
-
-            if (section === "favorites") {
-                let fav_play = document.querySelector(`.${section} .${splited_parent_class} .stop`);
-                hideIcon(`.${section} .${parent_class}-tr`);
-                if (fav_play.style.display === "block") {
-                    stopSongOnSectionSwitch();
-                }
-
-                let song_tr = document.querySelectorAll(`.${section} tr td:first-child`);
-                let index = 0;
-                song_tr.forEach(ele => {
-                    if (ele.parentElement.style.display !== "none") {
-                        ele.innerHTML = index + 1;
-                        index += 1;
-                    }
-                })
-            }
-
-            findFavoritSongs();
-        })
-    })
-}
 
 const actionButtonsHandler = (e) => {
     let id = e.target.id.split('_');

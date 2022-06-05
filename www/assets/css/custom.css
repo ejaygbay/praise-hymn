@@ -143,6 +143,11 @@
     text-transform: capitalize;
 }
 
+.active-song-tab {
+    border: solid 1px #6C7C94;
+    color: #FFF;
+}
+
 
 /* .playing .play-icon {
     display: none;
