@@ -230,144 +230,124 @@ let songs = {
             song_url: `${path_name}020-ReviveUsAgain.mp3`,
             author: "William P. Mackay"
         },
+        "TheLordIsInHisHolyTemple": {
+            title: "The Lord Is In His Holy Temple",
+            stanzas: {
+                1: "The Lord is in his holy temple: let all the earth keep silence before Him, Amen."
+            },
+            chorus: "",
+            song_url: `${path_name}021-TheLordIsInHisHolyTemple.mp3`,
+            author: "Source unknown"
+        },
+        "AllNatureWorksHisPraiseDeclare": {
+            title: "All Nature's Works His Praise Declare",
+            stanzas: {
+                1: "All nature's works His praise declare, to whom they all belong; There is a voice in every star, in every breeze a song. Sweet music fills the world abroad with strains of love and power; The stormy sea sings praise to God, the thunder and the shower.",
+                2: "To God the tribes of ocean cry, and birds upon the wing; To God the powers that dwell on high their tuneful tribute bring. Like them, let us the throne surround, with them loud chorus raise, While instruments of loftier sound assist our feeble praise.",
+                3: "Great God, to Thee we consecrate our voices and our skill; We bid the pealing organ wait to speak alone Thy will. Lord, while the music round us floats may earth born passions die; O grant its rich and swelling notes may lift our souls on high!"
+            },
+            chorus: "",
+            song_url: `${path_name}022-AllNatureWorksHisPraiseDeclare.mp3`,
+            author: "Henry Ware, the younger"
+        },
+        "ThyLovingKindnessIsBetterThanLife": {
+            title: "Thy Loving Kindness Is Better Than Life",
+            stanzas: {
+                1: "Thy loving-kindness is better than life, thy loving-kindness is better than life:",
+                2: "I lift my hands, Lord, unto Thy name, I lift my hands, Lord, unto Thy name:",
+                3: "Rememb'ring Thee, Lord, I'm satisfied, Rememb'ring Thee, Lord, I'm satisfied:",
+                4: "Safe in Thy shadow I will rejoice, Safe in Thy shadow I will rejoice:"
+            },
+            chorus: "My lips shall praise Thee, thus will I bless Thee I lift up my hands unto Thy name.",
+            song_url: `${path_name}023-ThyLovingKindnessIsBetterThanLife.mp3`,
+            author: "Hugh Mitchell and Jon Drevits"
+        },
+        "ForThineIsTheKingdom": {
+            title: "For Thine Is The Kingdom",
+            stanzas: {
+                1: "For Thine is the kingdom, the pow'r and thr glory and ever and ever! Aman."
+            },
+            chorus: "",
+            song_url: `${path_name}024-ForThineIsTheKingdom.mp3`,
+            author: "Norman Johnson"
+        },
+        "PraiseTheLordWhoReignAbove": {
+            title: "Praise The Lord Who Reign Above",
+            stanzas: {
+                1: "Praise the Lord who reigns above, And keeps His court below; Praise the holy God of love,And all His greatness show; Praise Him for His noble deeds, Praise Him for His matchless pow'r; Him from whom all good proceeds Let earth and heav'n adore.",
+                2: "Celebrate th'eternal God With harp and psaltery, Timbrels soft and cymbals loud In His high praise agree; Praise Him ev'ry tuneful string; all the reach of heav'nly art, All the pow'rs of music bring, The music of the heart.",
+                3: "Him in whom they move and live, Let ev'ry creature sing, glory to their Maker give, And homage to their King. Hallowed by His name beneath, As in heav'n on earth adored; Praise the Lord in ev'ry breath, Let all things praise the Lord."
+            },
+            chorus: "",
+            song_url: `${path_name}025-PraiseTheLordWhoReignAbove.mp3`,
+            author: "Charles Wesley"
+        },
+        "ForTheBeautyOfTheEarth": {
+            title: "For The Beauty Of The Earth",
+            stanzas: {
+                1: "For the beauty of the earth, For the glory of the skies, For the love which from our birth Over and around us lies:",
+                2: "For the wonder of each hour Of the day and of the night, Hill and vale, and tree and flow'r, Sun and moon, and stars of light:",
+                3: "For the joy of ear and eye, For the heart and mind's delight, For the mystic harmony Linking sense to sound and sight:",
+                4: "For the joy of human love, Brother, sister, parent, child, Friends on earth, and friends above, For all gentle thoughts and mild:",
+                5: "For the church that evermore Lifteth holy hands above, Off'ring up on ev'ry shore Her pure sacrifice of love:"
+            },
+            chorus: "Lord of all, to Thee we raise This our hymn of grateful praise.",
+            song_url: `${path_name}026-ForTheBeautyOfTheEarth.mp3`,
+            author: "Folliot S. Pierpoint"
+        },
+        "AllPeopleThatOnEarthDoDwell": {
+            title: "All People That On Earth Do Dwell",
+            stanzas: {
+                1: "All people that on earth do dwell, Sing to the Lord with cheerful voice; Him serve with fear, His praise forth-tell; Come ye before Him and rejoice.",
+                2: "Know that the LORD is God indeed; indeed without our aid He did us make; We are His folk, He doth us feed, And for His sheep He doth us take.",
+                3: "O enter then his gates with praise, Approach with joyHis courts unto; Praise, laud and bless His name always, For it is seemly so to do.",
+                4: "For why? The Lord our God is good, His mercy is forever sure; His truth at all times firmly stood, And shall form age to age endure."
+            },
+            chorus: "",
+            song_url: `${path_name}027-AllPeopleThatOnEarthDoDwell.mp3`,
+            author: "William Kethe"
+        },
+        "OWorshipTheKing": {
+            title: "O Worship The King",
+            stanzas: {
+                1: "O worship the King all-glorious above, O gratefully sing his power and his love: our shield and defender, the Ancient of Days, pavilioned in splendor and girded with praise.",
+                2: "O tell of his might and sing of his grace, whose robe is the light, whose canopy space. His chariots of wrath the deep thunderclouds form, and dark is his path on the wings of the storm.",
+                3: "Thy bountiful care, what tongue can recite? It breathes in the air, it shines in the light; it streams from the hills, it descends to the plain, and sweetly distills in the dew and the rain.",
+                4: "Frail children of dust, and feeble as frail, in you do we trust, nor find you to fail. Your mercies, how tender, how firm to the end, our Maker, Defender, Redeemer, and Friend!"
+            },
+            chorus: "",
+            song_url: `${path_name}028-OWorshipTheKing.mp3`,
+            author: "Robert Grant"
+        },
+        "BeginMyTongueSomeHeavenlyTheme": {
+            title: "Begin My Tongue Some Heavenly Theme",
+            stanzas: {
+                1: "Begin, my tongue, some heavenly theme and speak some boundless thing, the mighty works or mightier name, of our eternal king.",
+                2: "Tell of his wondrous faithfulness, and sound his power abroad; sing the sweet promise of his grace, The love and truth of God.",
+                3: "His very word of grace is strong as that which built the skies; the voice that rolls the stars along speaks all the promises.",
+                4: "O might I hear thy heavenly tongue but whisper, 'thou art mine!'; those gentle words should raise my song to notes almost divine."
+            },
+            chorus: "",
+            song_url: `${path_name}029-BeginMyTongueSomeHeavenlyTheme.mp3`,
+            author: "Isaac Watts"
+        },
+        "Alleluia": {
+            title: "Alleluia",
+            stanzas: {
+                1: "Alleluia, Alleluia, Alleluia, Alleluia, Alleluia, Alleluia, Alleluia, Alleluia!",
+                2: "He's my savior, He's my savior, He's my savior, He's my savior, He's my savior, He's my savior, He's my savior, He's my savior!",
+                3: "He is worthy, He is worthy, He is worthy, He is worthy, He is worthy, He is worthy, He is worthy, He is worthy!",
+                4: "I will praise Him, I will praise Him, I will praise Him, I will praise Him, I will praise Him, I will praise Him, I will praise Him, I will praise Him!"
+            },
+            chorus: "",
+            song_url: `${path_name}030-Alleluia.mp3`,
+            author: "Jerry Sinclair"
+        },
     }
 }
 
 
 let songs2 = {
-    "TheLordIsInHisHolyTemple": {
-        title: "",
-        stanzas: {
-            1: "The Lord is in his holy temple: let all the earth keep silence before Him, Amen."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "AllNature'sWorksHisPraisedeclare": {
-        title: "",
-        stanzas: {
-            1: "All nature's works His praise declare, to whom they all belong; There is a voice in every star, in every breeze a song. Sweet music fills the world abroad with strains of love and power; The stormy sea sings praise to God, the thunder and the shower.",
-            2: "To God the tribes of ocean cry, and birds upon the wing; To God the powers that dwell on high their tuneful tribute bring. Like them, let us the throne surround, with them loud chorus raise, While instruments of loftier sound assist our feeble praise.",
-            3: "Great God, to Thee we consecrate our voices and our skill; We bid the pealing organ wait to speak alone Thy will. Lord, while the music round us floats may earth born passions die; O grant its rich and swelling notes may lift our souls on high!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "ThyLovingKindnessIsBetterThanLife": {
-        title: "",
-        stanzas: {
-            1: "Thy loving-kindness is better than life, thy loving-kindness is better than life:",
-            2: "I lift my hands, Lord, unto Thy name, I lift my hands, Lord, unto Thy name:",
-            3: "Rememb'ring Thee, Lord, I'm satisfied, Rememb'ring Thee, Lord, I'm satisfied:",
-            4: "Safe in Thy shadow I will rejoice, Safe in Thy shadow I will rejoice:"
-        },
-        chorus: "My lips shall praise Thee, thus will I bless Thee I lift up my hands unto Thy name.",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "ForThineIsThekingdom": {
-        title: "",
-        stanzas: {
-            1: "For Thine is the kingdom, the pow'r and thr glory and ever and ever! Aman."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "PraiseTheLordWhoReignAbove": {
-        title: "",
-        stanzas: {
-            1: "Praise the Lord who reigns above, And keeps His court below; Praise the holy God of love,And all His greatness show; Praise Him for His noble deeds, Praise Him for His matchless pow'r; Him from whom all good proceeds Let earth and heav'n adore.",
-            2: "Celebrate th'eternal God With harp and psaltery, Timbrels soft and cymbals loud In His high praise agree; Praise Him ev'ry tuneful string; all the reach of heav'nly art, All the pow'rs of music bring, The music of the heart.",
-            3: "Him in whom they move and live, Let ev'ry creature sing, glory to their Maker give, And homage to their King. Hallowed by His name beneath, As in heav'n on earth adored; Praise the Lord in ev'ry breath, Let all things praise the Lord."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "ForTheBeautyOfTheEarth": {
-        title: "",
-        stanzas: {
-            1: "For the beauty of the earth, For the glory of the skies, For the love which from our birth Over and around us lies:",
-            2: "For the wonder of each hour Of the day and of the night, Hill and vale, and tree and flow'r, Sun and moon, and stars of light:",
-            3: "For the joy of ear and eye, For the heart and mind's delight, For the mystic harmony Linking sense to sound and sight:",
-            4: "For the joy of human love, Brother, sister, parent, child, Friends on earth, and friends above, For all gentle thoughts and mild:",
-            5: "For the church that evermore Lifteth holy hands above, Off'ring up on ev'ry shore Her pure sacrifice of love:"
-        },
-        chorus: "Lord of all, to Thee we raise This our hymn of grateful praise.",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "AllPeopleThatOnEarthDoDwell": {
-        title: "",
-        stanzas: {
-            1: "All people that on earth do dwell, Sing to the Lord with cheerful voice; Him serve with fear, His praise forth-tell; Come ye before Him and rejoice.",
-            2: "Know that the LORD is God indeed; indeed without our aid He did us make; We are His folk, He doth us feed, And for His sheep He doth us take.",
-            3: "O enter then his gates with praise, Approach with joyHis courts unto; Praise, laud and bless His name always, For it is seemly so to do.",
-            4: "For why? The Lord our God is good, His mercy is forever sure; His truth at all times firmly stood, And shall form age to age endure."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "OWorshipTheKing": {
-        title: "",
-        stanzas: {
-            1: "O worship the King all-glorious above, O gratefully sing his power and his love: our shield and defender, the Ancient of Days, pavilioned in splendor and girded with praise.",
-            2: "O tell of his might and sing of his grace, whose robe is the light, whose canopy space. His chariots of wrath the deep thunderclouds form, and dark is his path on the wings of the storm.",
-            3: "Thy bountiful care, what tongue can recite? It breathes in the air, it shines in the light; it streams from the hills, it descends to the plain, and sweetly distills in the dew and the rain.",
-            4: "Frail children of dust, and feeble as frail, in you do we trust, nor find you to fail. Your mercies, how tender, how firm to the end, our Maker, Defender, Redeemer, and Friend!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "BeginMyTongueSomeHeavenlyTheme": {
-        title: "",
-        stanzas: {
-            1: "Begin, my tongue, some heavenly theme and speak some boundless thing, the mighty works or mightier name, of our eternal king.",
-            2: "Tell of his wondrous faithfulness, and sound his power abroad; sing the sweet promise of his grace, The love and truth of God.",
-            3: "His very word of grace is strong as that which built the skies; the voice that rolls the stars along speaks all the promises.",
-            4: "O might I hear thy heavenly tongue but whisper, 'thou art mine!'; those gentle words should raise my song to notes almost divine."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "Alleluia": {
-        title: "",
-        stanzas: {
-            1: "Alleluia, Alleluia, Alleluia, Alleluia, Alleluia, Alleluia, Alleluia, Alleluia!",
-            2: "He's my savior, He's my savior, He's my savior, He's my savior, He's my savior, He's my savior, He's my savior, He's my savior!",
-            3: "He is worthy, He is worthy, He is worthy, He is worthy, He is worthy, He is worthy, He is worthy, He is worthy!",
-            4: "I will praise Him, I will praise Him, I will praise Him, I will praise Him, I will praise Him, I will praise Him, I will praise Him, I will praise Him!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
     "LoveDevine": {
         title: "",
         stanzas: {
