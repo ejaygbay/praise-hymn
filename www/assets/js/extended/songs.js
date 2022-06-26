@@ -343,260 +343,231 @@ let songs = {
             song_url: `${path_name}030-Alleluia.mp3`,
             author: "Jerry Sinclair"
         },
+        "LoveDevine": {
+            title: "Love Devine",
+            stanzas: {
+                1: "Love divine, all loves excelling, Joy of heav'n, to earth come down; Fix in us Thy humble dwelling; All Thy faithful mercies crown. Jesus, Thou art all compassion, Pure, unbounded love Thou art; Visit us with Thy salvation; Enter ev'ry trembling heart.",
+                2: "Breathe, O breathe Thy loving Spirit, Into ev'ry troubled breast! Let us all in Thee inherit, Let us find the promised rest; Take away our bent to sinning; Alpha amd Omega be; End of faith, as its beginning, Set our hearts at liberty.",
+                3: "Come, Almighty to deliver, Let us all Thy life receive; Suddenly return, and never, Nevermore Thy temples leave. Thee we would be always blessing, Serve Thee as Thy hosts above, Pray, and praise Thee without ceasing, Glory in Thy perfect love.",
+                4: "Finish, then, Thy new creation; Pure and spotless let us be; Let us see Thy great salvation Perfectly restored in Thee: Changed from glory into glory, Till in heav'n we take our place, Till we cast our crowns before Thee, Lost in wonder, love, and praise!"
+            },
+            chorus: "",
+            song_url: `${path_name}031-LoveDevine.mp3`,
+            author: "Charles Wesley"
+        },
+        "OGodOurHelpInAgesPast": {
+            title: "O God, Our Help In Ages Past",
+            stanzas: {
+                1: "O God, our help in ages past, our hope for years to come, our shelter from the stormy blast, and our eternal home;",
+                2: "under the shadow of your throne still may we dwell secure; Sufficient is Thine arm alone, and our defense is sure.",
+                3: "Before the hills in order stood, or earth received her frame from everlasting Thou art God, To endless years the same.",
+                4: "Time, like an ever-rolling stream, Bears all Its sons away; They fly, forgotten, as a dream dies at the op'ning day.",
+                5: "O God, our help in ages past, our hope for years to come, Be Thou our guide while life shall last, And our eternal home."
+            },
+            chorus: "",
+            song_url: `${path_name}032-OGodOurHelpInAgesPast.mp3`,
+            author: "Isaac Watts"
+        },
+        "BlessTheLord": {
+            title: "Bless The Lord",
+            stanzas: {
+                1: "Bless the Lord and sing His praises, Bless the Lord now, O my soul; Join the song all heaven raises, Let the anthem loudly roll!",
+                2: "Bless the Lord for love Victorious, Love That conquered on my soul; For His grace so great and glorious Flowing out from Calvary.",
+                3: "Bless the Lord, He walks besides me, And He light the path before Ev'ry need is now supplied me From His bounteous heav'nly store.",
+                4: "Bless the Lord for truth He's given For the word of prophecy That has drawn the veil from heaven And revealed my destiny."
+            },
+            chorus: "Bless the Lord, O my soul, Bless the Lord, O my soul, and all that is within me, bless His holy name!",
+            song_url: `${path_name}033-BlessTheLord.mp3`,
+            author: "John W. Peterson"
+        },
+        "BlessHisHolyName": {
+            title: "Bless His Holy Name",
+            stanzas: {
+                1: "Bless the Lord, O my soul, and all that is within me, bless His holy name!",
+                2: "Bless the Lord, O my soul, and all that is within me, bless His holy name!",
+                3: "He has done great things, He has done great things, He has done great things, bless His holy name!",
+                4: "Bless the Lord, O my soul, and all that is within me, bless His holy name!"
+            },
+            chorus: "He has done great things, He has done great things, He has done great things, bless His holy name!",
+            song_url: `${path_name}034-BlessHisHolyName.mp3`,
+            author: "Andraé Crouch"
+        },
+        "ComeThouFount": {
+            title: "Come Thou Fount",
+            stanzas: {
+                1: "Come, Thou fount of ev'ry blessing, Tune my heart to sing Thy grace; Streams of mercy, never ceasing, Call for songs of loudest praise: Teach me some melodious sonnet, Sung by flaming tongues above; Praise thy mount! I'm fixed upon it, Mount of Thy redeeming love.",
+                2: "Here I raise to Thee an altar; Hither by Thy help I'm come; And I hope, by Thy good pleasure, Safely to arrive at home: Jesus sought me when a stranger, Wand'ring from the fold of God; He, to rescue me from danger, Interposed His precious blood.",
+                3: "O to grace how great a debtor Daily I'm constrained to be! Let Thy grace, Lord, like a fetter. Bind my wand'ring heart to Thee: Prone to wander, Lord, I feel it, Prone to leave the God I love; Here's my heart, Lord, take and seal it; Seal it for Thy courts above."
+            },
+            chorus: "",
+            song_url: `${path_name}035-ComeThouFount.mp3`,
+            author: "Robert Robinson"
+        },
+        "NowThankWeAllOurGod": {
+            title: "Now Thank We All Our God",
+            stanzas: {
+                1: "Now thank we all our God With heart and hands and voices, Who wondrous things hath done, In whom His world rejoices; Who, from our mother's arms, Hath blessed us on our way With countless gifts of love, And still is ours today.",
+                2: "O may this bounteous God Thru all our life be near us, With ever joyful hearts And blessed peace to cheer us; And keep us in His grace, And guide us when perplexed, And free us from all ills In this world and the next.",
+                3: "All praise and thanks to God The Father now be given, The Son, and Him who reigns With them in highest heaven, The one eternal God, Whom earth and heav'n adore; For thus it was, is now, And shall be evermore."
+            },
+            chorus: "",
+            song_url: `${path_name}036-NowThankWeAllOurGod.mp3`,
+            author: "Martin Rinkart"
+        },
+        "AllCreaturesOfOurGodAndKing": {
+            title: "All Creatures Of Our God And King",
+            stanzas: {
+                1: "All creatures of our God and King, lift up your voice and with us sing, Alleluia! Thou burning sun with golden beam, thou silver moon with softer gleam,",
+                2: "Thou rushing wind that art so strong,  ye clouds that sail in heav'n along, O praise Him alleluia! Thou rising morn in praise rejoice, ye lights of evening, find a voice,",
+                3: "Thou flowing water, pure and clear, make music for thy Lord to hear, alleluia, Alleluia! Thou fire so masterful and bright, that givest men both warmth and light,",
+                4: "And all ye men, of tender heart, forgiving others, take your part, O sing ye!, alleluia! Ye who long pain and sorrow bear, sing praise and cast care,",
+                5: "Let all things their Creator bless, and worship Him in humbleness, O praise Him!, Alleluia! Praise, praise the Father, praise the Son, And praise the Sprit, Thee in One:"
+            },
+            chorus: "O praise Him, O praise Him! Alleluia, Alleluia, Alleluia!",
+            song_url: `${path_name}037-AllCreaturesOfOurGodAndKing.mp3`,
+            author: "Francis of Assisi"
+        },
+        "Doxology1": {
+            title: "Doxology",
+            stanzas: {
+                1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below: Alleluia, Alleluia! Praise Him above, ye heav'nly host; Praise Father, Son and Holy Ghost: Alleluia, Alleluia! Alleluia, Alleluia! Alleluia!"
+            },
+            chorus: "",
+            song_url: `${path_name}038-Doxology1.mp3`,
+            author: "Thomas Ken"
+        },
+        "Doxology2": {
+            title: "Doxology",
+            stanzas: {
+                1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below; Praise Him above, ye heav'nly host; Praise Father, Son, Holy Ghost. Aman."
+            },
+            chorus: "",
+            song_url: `${path_name}039-Doxology2.mp3`,
+            author: "Thomas Ken"
+        },
+        "Doxology3": {
+            title: "Doxology",
+            stanzas: {
+                1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below. Praise Him above, ye heav'nly host; Praise Father, Son and Holy Ghost. Amen."
+            },
+            chorus: "",
+            song_url: `${path_name}040-Doxology3.mp3`,
+            author: "Thomas Ken"
+        },
+        "HolyHolyHoly": {
+            title: "Holy, Holy, Holy",
+            stanzas: {
+                1: "Holy, holy, holy, Lord God Almighty! Early in the morning our soul shall rise to Thee; Holy, holy, holy! merciful and mighty! God in three persons, blessed Thrinity!",
+                2: "Holy, holy, holy! All the saints adore Thee, casting down their golden crowns around the glassy sea; Cherubim and seraphim falling down before Thee, Which wert and art and evermore shalt be.",
+                3: "Holy, holy, holy! Though  the darkness hide Thee, Though the eye of sinful man Thy glory may not see; Only Thou art holy there is none beside Thee perfect in pow'r, in love and purity.",
+                4: "Holy, holy, holy, Lord God Almighty! All Thy works shall praise Thy name in earth and sky and sea; Holy, holy, holy merciful and mighty! God in three persons blessed Thrinity!"
+            },
+            chorus: "",
+            song_url: `${path_name}041-HolyHolyHoly.mp3`,
+            author: "Reginald Heber"
+        },
+        "GloriaPatri1": {
+            title: "Gloria Patri",
+            stanzas: {
+                1: "Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning, is now and evermore shall be, world without end. Aman, Aman."
+            },
+            chorus: "",
+            song_url: `${path_name}042-GloriaPatri1.mp3`,
+            author: "Charles Meineke"
+        },
+        "GloriaPatri2": {
+            title: "Gloria Patri",
+            stanzas: {
+                1: "Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning, is now and evermore shall be, world without end. Aman, Aman."
+            },
+            chorus: "",
+            song_url: `${path_name}043-GloriaPatri2.mp3`,
+            author: "Henry W. Greatorex"
+        },
+        "WeBelieveInOneTrueGod": {
+            title: "We Believe In One True God",
+            stanzas: {
+                1: "We believe in one true God Father, Son, and Holy Ghost, Everpresent help in need, Praise by all the heav'nly host By whose mighty pow'r alone All is made and wrought and done.",
+                2: "We believe in Jesus Christ, Son of God and Mary's son, Who descended from His Throne And for us salvation won, By whose cross and death are Rescuedn from sin's misery.",
+                3: "We confess the Holy Ghost, Who from both forev'er proceeds, Who upholds and comforts in all trials, fears and needs. Blest and holy Thrinity , Praise forever be to Thee."
+            },
+            chorus: "",
+            song_url: `${path_name}044-WeBelieveInOneTrueGod.mp3`,
+            author: "Catherine Winkworth and Tobias Clausnitzer"
+        },
+        "FatherIAdoreYou": {
+            title: "Father I Adore You",
+            stanzas: {
+                1: "Father, I adore You, Lay my life before You How I love You!",
+                2: " Jesus, I adore You, Lay my life before You How I love You!",
+                3: "Spirit, I adore You, Lay my life before You How I love You!"
+            },
+            chorus: "",
+            song_url: `${path_name}045-FatherIAdoreYou.mp3`,
+            author: "Terrye Coelho"
+        },
+        "PraiseYeTheTriuneGod": {
+            title: "Praise Ye The Triune God!",
+            stanzas: {
+                1: "Praise ye the Father! for His loving kindness, Tenderly cares He for His erring children; Praise Him, ye angels, praise Him in the heavens, Praise ye Jehovah!",
+                2: "Praise ye the Savior! great is His compassion, Graciously cares He for His chosen people; Young men and maidens, ye old men and children, Praise ye the Saviour!",
+                3: "Praise ye the Spirit! Comforter of Israel, Sent of the Father and the Son to bless us; Praise ye the Father, Son and Holy Spirit, Praise ye the Triune God!"
+            },
+            chorus: "",
+            song_url: `${path_name}046-PraiseYeTheTriuneGod.mp3`,
+            author: "Elizabeth R. Charles"
+        },
+        "GloryBeToGodOnHigh": {
+            title: "Glory Be To God On High",
+            stanzas: {
+                1: "Glory be to God on high, Alleluia! Glory be to God on high, Alleluia!",
+                2: "Praise the Father, Spirit, Son, Alleluia! Praise the Father, Spirit, Son, Alleluia!",
+                3: "Glory be to God on high, Alleluia! Glory be to God on high, Alleluia!",
+                4: "Sing we praise unto Thee, Alleluia! For the truth that sets us free, Alleluia!",
+                5: "Glory be to God on high, Alleluia! Glory be to God on high, Alleluia!"
+            },
+            chorus: "",
+            song_url: `${path_name}047-GloryBeToGodOnHigh.mp3`,
+            author: "Traditional"
+        },
+        "ComeThouAlmightyKing": {
+            title: "Come Thou Almighty King",
+            stanzas: {
+                1: "Come, Thou Almighty King, Help us Thy name to sing, Help us to praise: Father, all glorious, O'er all victorious, Come, and reign over us, Ancient of Days.",
+                2: "Come, Thou Incarnate Word, Gird on Thy mighty sword, Our prayer attend! Come, and Thy people bless, And give Thy word success: Spirit of holiness, On us descend.",
+                3: "Come, Thou Incarnate Word, Gird on Thy mighty sword, Our prayer attend!Come, and Thy people bless, And give Thy word success:Spirit of holiness, On us descend.",
+                4: "To Thee, great One in Three, The highest praises be, Hence evermore; Thy sov'reign majesty May we in glory see, And to eternity Love and adore."
+            },
+            chorus: "",
+            song_url: `${path_name}048-ComeThouAlmightyKing.mp3`,
+            author: "Charles Wesley"
+        },
+        "HolyGodWePraiseThyName": {
+            title: "Holy God, We Praise Thy Name",
+            stanzas: {
+                1: "Holy God, we praise thy name. Lord of all, we bow before thee. All on earth your scepter claim; all in heav'n above adore thee. Infinite thy vast domain, Everlasting is thy reign.",
+                2: "Hark, the loud celestial hymn, angel choirs above are raising. Cherubim and seraphim, in unceasing chorus praising, fill the heav'ns with sweet accord: Holy, holy, holy Lord.",
+                3: "Lo! the apostolic train join thy sacred name to hallow. Prophets swell the glad refrain, and the white-robed martyrs follow, and, from morn to set of sun, through the church the song goes on.",
+                4: "Holy Father, Holy Son, Holy Spirit, three we name thee; While in essence only One: undivided God, we claim thee, and adoring bend the knee, while we sing our praise to Thee."
+            },
+            chorus: "",
+            song_url: `${path_name}049-HolyGodWePraiseThyName.mp3`,
+            author: "Ignace Franz"
+        },
+        "TriuneBlessing": {
+            title: "Triune Blessing",
+            stanzas: {
+                1: "The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit be with you all. Aman."
+            },
+            chorus: "",
+            song_url: `${path_name}050-TriuneBlessing.mp3`,
+            author: "Norman Johnson"
+        },
     }
 }
 
 
 let songs2 = {
-    "LoveDevine": {
-        title: "",
-        stanzas: {
-            1: "Love divine, all loves excelling, Joy of heav'n, to earth come down; Fix in us Thy humble dwelling; All Thy faithful mercies crown. Jesus, Thou art all compassion, Pure, unbounded love Thou art; Visit us with Thy salvation; Enter ev'ry trembling heart.",
-            2: "Breathe, O breathe Thy loving Spirit, Into ev'ry troubled breast! Let us all in Thee inherit, Let us find the promised rest; Take away our bent to sinning; Alpha amd Omega be; End of faith, as its beginning, Set our hearts at liberty.",
-            3: "Come, Almighty to deliver, Let us all Thy life receive; Suddenly return, and never, Nevermore Thy temples leave. Thee we would be always blessing, Serve Thee as Thy hosts above, Pray, and praise Thee without ceasing, Glory in Thy perfect love.",
-            4: "Finish, then, Thy new creation; Pure and spotless let us be; Let us see Thy great salvation Perfectly restored in Thee: Changed from glory into glory, Till in heav'n we take our place, Till we cast our crowns before Thee, Lost in wonder, love, and praise!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "OGodOurHelpInAgesPast": {
-        title: "",
-        stanzas: {
-            1: "O God, our help in ages past, our hope for years to come, our shelter from the stormy blast, and our eternal home;",
-            2: "under the shadow of your throne still may we dwell secure; Sufficient is Thine arm alone, and our defense is sure.",
-            3: "Before the hills in order stood, or earth received her frame from everlasting Thou art God, To endless years the same.",
-            4: "Time, like an ever-rolling stream, Bears all Its sons away; They fly, forgotten, as a dream dies at the op'ning day.",
-            5: "O God, our help in ages past, our hope for years to come, Be Thou our guide while life shall last, And our eternal home."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "BlessTheLord": {
-        title: "",
-        stanzas: {
-            1: "Bless the Lord and sing His praises, Bless the Lord now, O my soul; Join the song all heaven raises, Let the anthem loudly roll!",
-            2: "Bless the Lord for love Victorious, Love That conquered on my soul; For His grace so great and glorious Flowing out from Calvary.",
-            3: "Bless the Lord, He walks besides me, And He light the path before Ev'ry need is now supplied me From His bounteous heav'nly store.",
-            4: "Bless the Lord for truth He's given For the word of prophecy That has drawn the veil from heaven And revealed my destiny."
-        },
-        chorus: "Bless the Lord, O my soul, Bless the Lord, O my soul, and all that is within me, bless His holy name!",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "BlessHisHolyName": {
-        title: "",
-        stanzas: {
-            1: "Bless the Lord, O my soul, and all that is within me, bless His holy name!",
-            2: "Bless the Lord, O my soul, and all that is within me, bless His holy name!",
-            3: "He has done great things, He has done great things, He has done great things, bless His holy name!",
-            4: "Bless the Lord, O my soul, and all that is within me, bless His holy name!"
-        },
-        chorus: "He has done great things, He has done great things, He has done great things, bless His holy name!",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "ComeThouFount": {
-        title: "",
-        stanzas: {
-            1: "Come, Thou fount of ev'ry blessing, Tune my heart to sing Thy grace; Streams of mercy, never ceasing, Call for songs of loudest praise: Teach me some melodious sonnet, Sung by flaming tongues above; Praise thy mount! I'm fixed upon it, Mount of Thy redeeming love.",
-            2: "Here I raise to Thee an altar; Hither by Thy help I'm come; And I hope, by Thy good pleasure, Safely to arrive at home: Jesus sought me when a stranger, Wand'ring from the fold of God; He, to rescue me from danger, Interposed His precious blood.",
-            3: "O to grace how great a debtor Daily I'm constrained to be! Let Thy grace, Lord, like a fetter. Bind my wand'ring heart to Thee: Prone to wander, Lord, I feel it, Prone to leave the God I love; Here's my heart, Lord, take and seal it; Seal it for Thy courts above."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "NowThankWeAllOurGod": {
-        title: "",
-        stanzas: {
-            1: "Now thank we all our God With heart and hands and voices, Who wondrous things hath done, In whom His world rejoices; Who, from our mother's arms, Hath blessed us on our way With countless gifts of love, And still is ours today.",
-            2: "O may this bounteous God Thru all our life be near us, With ever joyful hearts And blessed peace to cheer us; And keep us in His grace, And guide us when perplexed, And free us from all ills In this world and the next.",
-            3: "All praise and thanks to God The Father now be given, The Son, and Him who reigns With them in highest heaven, The one eternal God, Whom earth and heav'n adore; For thus it was, is now, And shall be evermore."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "AllCreaturesOfOurGodAndKing": {
-        title: "",
-        stanzas: {
-            1: "All creatures of our God and King, lift up your voice and with us sing, Alleluia! Thou burning sun with golden beam, thou silver moon with softer gleam,",
-            2: "Thou rushing wind that art so strong,  ye clouds that sail in heav'n along, O praise Him alleluia! Thou rising morn in praise rejoice, ye lights of evening, find a voice,",
-            3: "Thou flowing water, pure and clear, make music for thy Lord to hear, alleluia, Alleluia! Thou fire so masterful and bright, that givest men both warmth and light,",
-            4: "And all ye men, of tender heart, forgiving others, take your part, O sing ye!, alleluia! Ye who long pain and sorrow bear, sing praise and cast care,",
-            5: "Let all things their Creator bless, and worship Him in humbleness, O praise Him!, Alleluia! Praise, praise the Father, praise the Son, And praise the Sprit, Thee in One:"
-        },
-        chorus: "O praise Him, O praise Him! Alleluia, Alleluia, Alleluia!",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "Doxology1": {
-        title: "",
-        stanzas: {
-            1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below: Alleluia, Alleluia! Praise Him above, ye heav'nly host; Praise Father, Son and Holy Ghost: Alleluia, Alleluia! Alleluia, Alleluia! Alleluia!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "Doxology2": {
-        title: "",
-        stanzas: {
-            1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below; Praise Him above, ye heav'nly host; Praise Father, Son, Holy Ghost. Aman."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "Doxology3": {
-        title: "",
-        stanzas: {
-            1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below. Praise Him above, ye heav'nly host; Praise Father, Son and Holy Ghost. Amen."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "HolyHolyHoly": {
-        title: "",
-        stanzas: {
-            1: "Holy, holy, holy, Lord God Almighty! Early in the morning our soul shall rise to Thee; Holy, holy, holy! merciful and mighty! God in three persons, blessed Thrinity!",
-            2: "Holy, holy, holy! All the saints adore Thee, casting down their golden crowns around the glassy sea; Cherubim and seraphim falling down before Thee, Which wert and art and evermore shalt be.",
-            3: "Holy, holy, holy! Though  the darkness hide Thee, Though the eye of sinful man Thy glory may not see; Only Thou art holy there is none beside Thee perfect in pow'r, in love and purity.",
-            4: "Holy, holy, holy, Lord God Almighty! All Thy works shall praise Thy name in earth and sky and sea; Holy, holy, holy merciful and mighty! God in three persons blessed Thrinity!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "GloriaPatri": {
-        title: "",
-        stanzas: {
-            1: "Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning, is now and evermore shall be, world without end. Aman, Aman."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "WeBelieveInOneTrueGod": {
-        title: "",
-        stanzas: {
-            1: "We believe in one true God Father, Son, and Holy Ghost, Everpresent help in need, Praise by all the heav'nly host By whose mighty pow'r alone All is made and wrought and done.",
-            2: "We believe in Jesus Christ, Son of God and Mary's son, Who descended from His Throne And for us salvation won, By whose cross and death are Rescuedn from sin's misery.",
-            3: "We confess the Holy Ghost, Who from both forev'er proceeds, Who upholds and comforts in all trials, fears and needs. Blest and holy Thrinity , Praise forever be to Thee."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "FatherIAdoreYou": {
-        title: "",
-        stanzas: {
-            1: "Father, I adore You, Lay my life before You How I love You!",
-            2: " Jesus, I adore You, Lay my life before You How I love You!",
-            3: "Spirit, I adore You, Lay my life before You How I love You!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "PraiseYeTheTriuneGod!": {
-        title: "",
-        stanzas: {
-            1: "Praise ye the Father! for His loving kindness, Tenderly cares He for His erring children; Praise Him, ye angels, praise Him in the heavens, Praise ye Jehovah!",
-            2: "Praise ye the Savior! great is His compassion, Graciously cares He for His chosen people; Young men and maidens, ye old men and children, Praise ye the Saviour!",
-            3: "Praise ye the Spirit! Comforter of Israel, Sent of the Father and the Son to bless us; Praise ye the Father, Son and Holy Spirit, Praise ye the Triune God!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "GloryBeToGodOnHigh": {
-        title: "",
-        stanzas: {
-            1: "Glory be to God on high, Alleluia! Glory be to God on high, Alleluia!",
-            2: "Praise the Father, Spirit, Son, Alleluia! Praise the Father, Spirit, Son, Alleluia!",
-            3: "Glory be to God on high, Alleluia! Glory be to God on high, Alleluia!",
-            4: "Sing we praise unto Thee, Alleluia! For the truth that sets us free, Alleluia!",
-            5: "Glory be to God on high, Alleluia! Glory be to God on high, Alleluia!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "ComeThouAlmightyKing": {
-        title: "",
-        stanzas: {
-            1: "Come, Thou Almighty King, Help us Thy name to sing, Help us to praise: Father, all glorious, O'er all victorious, Come, and reign over us, Ancient of Days.",
-            2: "Come, Thou Incarnate Word, Gird on Thy mighty sword, Our prayer attend! Come, and Thy people bless, And give Thy word success: Spirit of holiness, On us descend.",
-            3: "Come, Thou Incarnate Word, Gird on Thy mighty sword, Our prayer attend!Come, and Thy people bless, And give Thy word success:Spirit of holiness, On us descend.",
-            4: "To Thee, great One in Three, The highest praises be, Hence evermore; Thy sov'reign majesty May we in glory see, And to eternity Love and adore."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "HolyGodWePraiseThyName": {
-        title: "",
-        stanzas: {
-            1: "Holy God, we praise thy name. Lord of all, we bow before thee. All on earth your scepter claim; all in heav'n above adore thee. Infinite thy vast domain, Everlasting is thy reign.",
-            2: "Hark, the loud celestial hymn, angel choirs above are raising. Cherubim and seraphim, in unceasing chorus praising, fill the heav'ns with sweet accord: Holy, holy, holy Lord.",
-            3: "Lo! the apostolic train join thy sacred name to hallow. Prophets swell the glad refrain, and the white-robed martyrs follow, and, from morn to set of sun, through the church the song goes on.",
-            4: "Holy Father, Holy Son, Holy Spirit, three we name thee; While in essence only One: undivided God, we claim thee, and adoring bend the knee, while we sing our praise to Thee."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "TriuneBlessing": {
-        title: "",
-        stanzas: {
-            1: "The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit be with you all. Aman."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
     "HolyHoly": {
         title: "",
         stanzas: {
@@ -608,10 +579,8 @@ let songs2 = {
             6: "Hallelujah, hallelujah, Hallelujah, hallelujah; And we lift our hearts before you as a token of love, Hallelujah, hallelujah."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "PraiseMy SoulTheKingOfHeaven": {
         title: "",
@@ -624,8 +593,7 @@ let songs2 = {
         chorus: "",
 
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "JoyfulJoyfulWeAdoreThee": {
         title: "",
@@ -636,10 +604,8 @@ let songs2 = {
             4: "Mortals, join the mighty chorus Which the morning stars began; Father love is reigning o'er us, Brother love binds man to man. Everlasting, march onward, victors in the midst of strife; Joyful music lift us sunward In the triumph song of life."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "GreatIsThyfaithfulness": {
         title: "",
@@ -649,10 +615,8 @@ let songs2 = {
             3: "Pardon for sin and a peace that endureth, Thine own dear presence to cheer and to guide; Strength for today and bright hope for tomorrow, Blessings all mine, with ten thousand beside!"
         },
         chorus: "Great is Thy faithfulness! Great is Thy faithfulness! Morning by morning new mercies I see; All I have needed, Thy hand hath provided; Great is Thy faithfulness, Lord unto me!",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "ImmortalInvisible": {
         title: "",
@@ -663,10 +627,8 @@ let songs2 = {
             4: "Great Father of glory, pure Father of light, Thine angels adore Thee, all veiling their sight; All praise we would render, O help us to see 'Tis only the splendor of light hideth Thee!"
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "ThisIsMyFather'sworld": {
         title: "",
@@ -676,10 +638,8 @@ let songs2 = {
             3: "This is my Father's world, O let me ne'er forgetThat though the wrong seems oft so strong, God is the Ruler yet. This is my Father's world, The battle is not done; Jesus who died shall be satisfied, And earth and heaven be one."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "OurGreatSavior": {
         title: "",
@@ -689,13 +649,10 @@ let songs2 = {
             3: "Jesus! what a help in sorrow! While the billows o'er me roll, Even when my heart is breaking, He, my comfort, helps my soul.",
             4: "Jesus! what a guide and keeper! While the tempest still is high, Storms about me, night o'ertakes me, He, my pilot, hears my cry.",
             5: "Jesus! I do now receive Him, More than all in Him I find, He hath granted me forgiveness, I am His, and He is mine."
-
         },
         chorus: "Hallelujah! what Hallelujah! what Saving, helping, He is with me to a Savior! a Friend! keeping, loving, the end.",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "FairestLordJesus": {
         title: "",
@@ -706,10 +663,8 @@ let songs2 = {
             4: "Beautiful Savior! Lord of all the nations! Son of God and Son of Man! Glory and honor, praise, adoration, Now and forever more be Thine."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "PraiseTheSavior": {
         title: "",
@@ -721,10 +676,8 @@ let songs2 = {
             5: "Then we shall be where we whould be shall be what we should be; Thing that are not now, nor could be, Soon shall be our own."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "MayJesusBePraised": {
         title: "",
@@ -735,10 +688,8 @@ let songs2 = {
             4: "Be this, while life is mine, My canticle divine: May Jesus Christ be praised! Be this eternal song Thru all the ages long: May Jesus Christ be praised!"
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "AndCanItBe?": {
         title: "",
@@ -749,10 +700,8 @@ let songs2 = {
             4: "No condemnation now I dread; Jesus, and all in Him is mine! Alive in Him, my living Head, And clothed in righteousness divine, Bold I approach th'eternal throne, And claim the crown, thro' Christ my own."
         },
         chorus: "Amazing love! how can it be That Thou, my God, should die for me!",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "OForAThousandTongues": {
         title: "",
@@ -765,10 +714,8 @@ let songs2 = {
             6: "Glory to God and praise and love Be ever, ever giv'n By saints below and saints above The Church in earth and heav'n."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "PraiseHimPraiseHim!": {
         title: "",
