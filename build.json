@@ -5,14 +5,14 @@
             "storePassword": "e07757157711994",
             "alias": "praisehymnalias",
             "password": "e07757157711994",
-            "keystoreType": "IT"
+            "keystoreType": "CBC"
         },
         "release": {
             "keystore": "./praisehymn.keystore",
             "storePassword": "e07757157711994",
             "alias": "praisehymnalias",
             "password": "e07757157711994",
-            "keystoreType": "IT"
+            "keystoreType": "CBC"
         }
     }
 }
