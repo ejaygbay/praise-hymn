@@ -50,6 +50,10 @@
         <splash src="res/screen/android/splash-port/xhdpi.png" density="port-xhdpi" />
         <splash src="res/screen/android/splash-port/xxhdpi.png" density="port-xxhdpi" />
         <splash src="res/screen/android/splash-port/xxxhdpi.png" density="port-xxxhdpi" />
+
+
+        <preference name="signed_bundle_keystore_path" value="./praisehymn.keystore" />
+        <preference name="signed_bundle_keystore_alias" value="nl.cnc.alias" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
