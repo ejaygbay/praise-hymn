@@ -563,134 +563,133 @@ let songs = {
             song_url: `${path_name}050-TriuneBlessing.mp3`,
             author: "Norman Johnson"
         },
+        "HolyHoly": {
+            title: "Holy, Holy",
+            stanzas: {
+                1: "Holy, holy, holy, holy, Holy, holy Lord God Almighty; And we lift our hearts before you as a token of love, Holy, holy, holy, holy.",
+                2: "Gracious Father, gracious Father, We'er so blest to be your children, gracious Father; And we lift our hearts before you as a token of love, Gracious Father, gracious Father.",
+                3: "Precious Jesus, precious Jesus We're so glad that You've redeemed us, precious Jesus; And we lift our hearts before you as a token of love, Precious Jesus, precious Jesus.",
+                4: "Holy Spirit, Holy Spirit, Come and fill our hearts a new, Holy Spirit; And we lift our hearts before you as a token of love, Holy Spirit, Holy Spirit.",
+                5: "Holy, holy, holy, holy, Holy, holy Lord God Almighty; And we lift our hearts before you as a token of love, Holy, holy, holy, holy.",
+                6: "Hallelujah, hallelujah, Hallelujah, hallelujah; And we lift our hearts before you as a token of love, Hallelujah, hallelujah."
+            },
+            chorus: "",
+            song_url: `${path_name}051-HolyHoly.mp3`,
+            author: "Jimmy Owens"
+        },
+        "PraiseMySoulTheKingOfHeaven": {
+            title: "Praise, My Soul, The King Of Heaven",
+            stanzas: {
+                1: "Praise my soul, the King of heaven, To His fees thy tribute bring; Ransomed, healed, restored, forgiven, Evermore His praises sing: Alleluia! Alleluia! Praise the Everlasting King!",
+                2: "Praise Him for His grace and favor To our fathers in distress; Praise Him, still the same as ever, Slow to chide and swift to bless: Alleluia! Alleluia! Glorious in His faithfulness!",
+                3: "Father like He tends and spares us, Well our feeble frame He know; In His hands He gently bears us, Rescues us from all our foes: Alleluia! Alleluia! Widely yet His mercy flows!",
+                4: "Angel in the height, adore Him, Ye behold Him face to face; Sun and moon, bow down before Him, dwellers all in time and space: Alleluia! Alleluia! Praise With us the God of grace!"
+            },
+            chorus: "",
+            song_url: `${path_name}052-PraiseMySoulTheKingOfHeaven.mp3`,
+            author: "Henry Francis Lyte"
+        },
+        "JoyfulJoyfulWeAdoreThee": {
+            title: "Joyful, Joyful, We Adore Thee",
+            stanzas: {
+                1: "Joyful, joyful, we adore Thee, God of glory, Lord of love; Hearts unfold like flow'rs before Thee, Hail Thee as the sun above. Melt the clouds of sin and sadness, Drive the dark of doubt away; Giver of Immortal gladness, Fill us with the light of day!",
+                2: "All Thy works joy surround Thee, Earth and heav'n reflect  Thy rays, Stars and angels sing around Thee, center of unbroken praise. Field and forest, vale and moutain, flow'ry meadow, flashing sea, Chanting bird  and flowing fountain Call us to rejoice in Thee.",
+                3: "Thou art giving and  forgiving, Ever blessing, ever blest, Well spring of the joy of living, Ocean depth of happy rest! Thou the Father, Christ our Brother All who live in Thine; Teach us how to love each other, Lift us to the joy divine.",
+                4: "Mortals, join the mighty chorus Which the morning stars began; Father love is reigning o'er us, Brother love binds man to man. Everlasting, march onward, victors in the midst of strife; Joyful music lift us sunward In the triumph song of life."
+            },
+            chorus: "",
+            song_url: `${path_name}053-JoyfulJoyfulWeAdoreThee.mp3`,
+            author: "Henry van Dyke"
+        },
+        "GreatIsThyFaithfulness": {
+            title: "Great Is Thy Faithfulness",
+            stanzas: {
+                1: "Great is Thy faithfulness, O God, my Father, There is no shadow of turning with Thee; Thou changest not, Thy compassions, they fail not; As Thou hast been, Thou forever wilt be.",
+                2: "Summer and winter, and springtime and harvest, Sun, moon, and stars in their courses above Join with all nature in manifold witness To Thy great faithfulness, mercy, and love.",
+                3: "Pardon for sin and a peace that endureth, Thine own dear presence to cheer and to guide; Strength for today and bright hope for tomorrow, Blessings all mine, with ten thousand beside!"
+            },
+            chorus: "Great is Thy faithfulness! Great is Thy faithfulness! Morning by morning new mercies I see; All I have needed, Thy hand hath provided; Great is Thy faithfulness, Lord unto me!",
+            song_url: `${path_name}054-GreatIsThyFaithfulness.mp3`,
+            author: "Thomas O. Chisholm"
+        },
+        "ImmortalInvisible": {
+            title: "Immortal Invisible",
+            stanzas: {
+                1: "Immortal, invisible, God only wise, In light inaccessible hid from our eyes, Most blessed, most glorious, the Ancient of Days, Almighty, victorious, Thy great name we praise.",
+                2: "Unresting, unhasting, and silent as light, Nor wanting, nor wasting, Thou rulest in might; Thy justice, like mountains, high soaring above Thy clouds, which are fountains of goodness and love.",
+                3: "To all, life Thou givest, to both great and small, In all life Thou livest, the true life of all; We blossom and flourish as leaves on the tree, And wither and perish--but naught changeth Thee.",
+                4: "Great Father of glory, pure Father of light, Thine angels adore Thee, all veiling their sight; All praise we would render, O help us to see 'Tis only the splendor of light hideth Thee!"
+            },
+            chorus: "",
+            song_url: `${path_name}055-ImmortalInvisible.mp3`,
+            author: "Walter Chalmers Smith"
+        },
+        "ThisIsMyFatherWorld": {
+            title: "This Is My Father's World",
+            stanzas: {
+                1: "This is my Father's world, And to my list'ning ears, All nature sings, and round me rings The music of the spheres. This is my Father's world, I rest me in the thought Of rocks and trees, of skies and seas; His hand the wonders wrought.",
+                2: "This is my Father's world, The birds their carols raise; The morning light, the lily white Declare their Maker's praise. This is my Father's world, He shines in all that's fair; In the rustling grass I hear Him pass, He speaks to me ev'ry-where.",
+                3: "This is my Father's world, O let me ne'er forgetThat though the wrong seems oft so strong, God is the Ruler yet. This is my Father's world, The battle is not done; Jesus who died shall be satisfied, And earth and heaven be one."
+            },
+            chorus: "",
+            song_url: `${path_name}056-ThisIsMyFatherWorld.mp3`,
+            author: "Maltbie D. Babcock"
+        },
+        "OurGreatSavior": {
+            title: "Our Great Savior",
+            stanzas: {
+                1: "Jesus! what a Friend for sinners! Jesus! Lover of my soul. Friends may fail me, foes assail me, He, my Savior, makes me whole.",
+                2: "Jesus! what a strength in weakness! Let me hide myself in Him; Tempted, tried, and sometimes failing, He, my strength, my vict'ry wins.",
+                3: "Jesus! what a help in sorrow! While the billows o'er me roll, Even when my heart is breaking, He, my comfort, helps my soul.",
+                4: "Jesus! what a guide and keeper! While the tempest still is high, Storms about me, night o'ertakes me, He, my pilot, hears my cry.",
+                5: "Jesus! I do now receive Him, More than all in Him I find, He hath granted me forgiveness, I am His, and He is mine."
+            },
+            chorus: "Hallelujah! what Hallelujah! what Saving, helping, He is with me to a Savior! a Friend! keeping, loving, the end.",
+            song_url: `${path_name}057-OurGreatSavior.mp3`,
+            author: "J. Wilbur Chapman"
+        },
+        "FairestLordJesus": {
+            title: "Fairest Lord Jesus",
+            stanzas: {
+                1: "Fairest Lord Jesus, Ruler of all nature, O Thou of God and man the Son, Thee will I cherish, Thee will I honor, Thou, my soul's glory, joy and crown!",
+                2: "Fair are the meadows, fairer still the woodlands, Robed in the blooming garb of spring; Jesus is fairer, Jesus is purer, Who makes the woeful heart to sing!",
+                3: "Fair is the sunshine, fairer still the moonlight, And all the twinkling starry host; Jesus shines brighter, Jesus shines purer Than all the angels heav'n can boast!",
+                4: "Beautiful Savior! Lord of all the nations! Son of God and Son of Man! Glory and honor, praise, adoration, Now and forever more be Thine."
+            },
+            chorus: "",
+            song_url: `${path_name}058-FairestLordJesus.mp3`,
+            author: "Münster Gesangbuch"
+        },
+        "PraiseTheSavior": {
+            title: "Praise The Savior",
+            stanzas: {
+                1: "Praise the Savior, ye who know Him! Who can tell how much we owe Him Gladly let us render to Him All we are and have.",
+                2: "Jesus is the name that charms us, He for conflict fits and arms us; Nothing moves and nothing harms us while we trust in Him",
+                3: "Trust in him Ye saints , forever He is faithful, changing never; Neither force nor guile can sever those He loves from Him",
+                4: "Keep us Lord, O keep us cleaving To Thy-self,and still believing, Till the hour of our receiving Promised joys with Thee.",
+                5: "Then we shall be where we whould be shall be what we should be; Thing that are not now, nor could be, Soon shall be our own."
+            },
+            chorus: "",
+            song_url: `${path_name}059-PraiseTheSavior.mp3`,
+            author: "Thomas Kelly"
+        },
+        "MayJesusBeChristPraised": {
+            title: "May Jesus Christ Be Praised",
+            stanzas: {
+                1: "When morning gilds skies, My heart awaking cries: May Jesus Christ be praised! Alike at work and prayer To Jesus I repair: May Jesus Christ be praised!",
+                2: "Does sadness fill my mind? A solace I find: May Jesus Christ be praised! Or fades my earthly bliss? My comfort still is this: May Jesus Christ be praised!",
+                3: "In heav'n's eternal bliss The loveliest strain is this: May Jesus Christ be praised! The pow'rs of darkness fear When this sweet chant they : May Jesus Christ be praised!",
+                4: "Be this, while life is mine, My canticle divine: May Jesus Christ be praised! Be this eternal song Thru all the ages long: May Jesus Christ be praised!"
+            },
+            chorus: "",
+            song_url: `${path_name}060-MayJesusChristBePraised.mp3`,
+            author: "German Hymn"
+        },
     }
 }
 
 
 let songs2 = {
-    "HolyHoly": {
-        title: "",
-        stanzas: {
-            1: "Holy, holy, holy, holy, Holy, holy Lord God Almighty; And we lift our hearts before you as a token of love, Holy, holy, holy, holy.",
-            2: "Gracious Father, gracious Father, We'er so blest to be your children, gracious Father; And we lift our hearts before you as a token of love, Gracious Father, gracious Father.",
-            3: "Precious Jesus, precious Jesus We're so glad that You've redeemed us, precious Jesus; And we lift our hearts before you as a token of love, Precious Jesus, precious Jesus.",
-            4: "Holy Spirit, Holy Spirit, Come and fill our hearts a new, Holy Spirit; And we lift our hearts before you as a token of love, Holy Spirit, Holy Spirit.",
-            5: "Holy, holy, holy, holy, Holy, holy Lord God Almighty; And we lift our hearts before you as a token of love, Holy, holy, holy, holy.",
-            6: "Hallelujah, hallelujah, Hallelujah, hallelujah; And we lift our hearts before you as a token of love, Hallelujah, hallelujah."
-        },
-        chorus: "",
-        song_url: `${path_name}`,
-        author: ""
-    },
-    "PraiseMy SoulTheKingOfHeaven": {
-        title: "",
-        stanzas: {
-            1: "Praise my soul, the King of heaven, To His fees thy tribute bring; Ransomed, healed, restored, forgiven, Evermore His praises sing: Alleluia! Alleluia! Praise the Everlasting King!",
-            2: "Praise Him for His grace and favor To our fathers in distress; Praise Him, still the same as ever, Slow to chide and swift to bless: Alleluia! Alleluia! Glorious in His faithfulness!",
-            3: "Father like He tends and spares us, Well our feeble frame He know; In His hands He gently bears us, Rescues us from all our foes: Alleluia! Alleluia! Widely yet His mercy flows!",
-            4: "Angel in the height, adore Him, Ye behold Him face to face; Sun and moon, bow down before Him, dwellers all in time and space: Alleluia! Alleluia! Praise With us the God of grace!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: ""
-    },
-    "JoyfulJoyfulWeAdoreThee": {
-        title: "",
-        stanzas: {
-            1: "Joyful, joyful, we adore Thee, God of glory, Lord of love; Hearts unfold like flow'rs before Thee, Hail Thee as the sun above. Melt the clouds of sin and sadness, Drive the dark of doubt away; Giver of Immortal gladness, Fill us with the light of day!",
-            2: "All Thy works joy surround Thee, Earth and heav'n reflect  Thy rays, Stars and angels sing around Thee, center of unbroken praise. Field and forest, vale and moutain, flow'ry meadow, flashing sea, Chanting bird  and flowing fountain Call us to rejoice in Thee.",
-            3: "Thou art giving and  forgiving, Ever blessing, ever blest, Well spring of the joy of living, Ocean depth of happy rest! Thou the Father, Christ our Brother All who live in Thine; Teach us how to love each other, Lift us to the joy divine.",
-            4: "Mortals, join the mighty chorus Which the morning stars began; Father love is reigning o'er us, Brother love binds man to man. Everlasting, march onward, victors in the midst of strife; Joyful music lift us sunward In the triumph song of life."
-        },
-        chorus: "",
-        song_url: `${path_name}`,
-        author: ""
-    },
-    "GreatIsThyfaithfulness": {
-        title: "",
-        stanzas: {
-            1: "Great is Thy faithfulness, O God, my Father, There is no shadow of turning with Thee; Thou changest not, Thy compassions, they fail not; As Thou hast been, Thou forever wilt be.",
-            2: "Summer and winter, and springtime and harvest, Sun, moon, and stars in their courses above Join with all nature in manifold witness To Thy great faithfulness, mercy, and love.",
-            3: "Pardon for sin and a peace that endureth, Thine own dear presence to cheer and to guide; Strength for today and bright hope for tomorrow, Blessings all mine, with ten thousand beside!"
-        },
-        chorus: "Great is Thy faithfulness! Great is Thy faithfulness! Morning by morning new mercies I see; All I have needed, Thy hand hath provided; Great is Thy faithfulness, Lord unto me!",
-        song_url: `${path_name}`,
-        author: ""
-    },
-    "ImmortalInvisible": {
-        title: "",
-        stanzas: {
-            1: "Immortal, invisible, God only wise, In light inaccessible hid from our eyes, Most blessed, most glorious, the Ancient of Days, Almighty, victorious, Thy great name we praise.",
-            2: "Unresting, unhasting, and silent as light, Nor wanting, nor wasting, Thou rulest in might; Thy justice, like mountains, high soaring above Thy clouds, which are fountains of goodness and love.",
-            3: "To all, life Thou givest, to both great and small, In all life Thou livest, the true life of all; We blossom and flourish as leaves on the tree, And wither and perish--but naught changeth Thee.",
-            4: "Great Father of glory, pure Father of light, Thine angels adore Thee, all veiling their sight; All praise we would render, O help us to see 'Tis only the splendor of light hideth Thee!"
-        },
-        chorus: "",
-        song_url: `${path_name}`,
-        author: ""
-    },
-    "ThisIsMyFather'sworld": {
-        title: "",
-        stanzas: {
-            1: "This is my Father's world, And to my list'ning ears, All nature sings, and round me rings The music of the spheres. This is my Father's world, I rest me in the thought Of rocks and trees, of skies and seas; His hand the wonders wrought.",
-            2: "This is my Father's world, The birds their carols raise; The morning light, the lily white Declare their Maker's praise. This is my Father's world, He shines in all that's fair; In the rustling grass I hear Him pass, He speaks to me ev'ry-where.",
-            3: "This is my Father's world, O let me ne'er forgetThat though the wrong seems oft so strong, God is the Ruler yet. This is my Father's world, The battle is not done; Jesus who died shall be satisfied, And earth and heaven be one."
-        },
-        chorus: "",
-        song_url: `${path_name}`,
-        author: ""
-    },
-    "OurGreatSavior": {
-        title: "",
-        stanzas: {
-            1: "Jesus! what a Friend for sinners! Jesus! Lover of my soul. Friends may fail me, foes assail me, He, my Savior, makes me whole.",
-            2: "Jesus! what a strength in weakness! Let me hide myself in Him; Tempted, tried, and sometimes failing, He, my strength, my vict'ry wins.",
-            3: "Jesus! what a help in sorrow! While the billows o'er me roll, Even when my heart is breaking, He, my comfort, helps my soul.",
-            4: "Jesus! what a guide and keeper! While the tempest still is high, Storms about me, night o'ertakes me, He, my pilot, hears my cry.",
-            5: "Jesus! I do now receive Him, More than all in Him I find, He hath granted me forgiveness, I am His, and He is mine."
-        },
-        chorus: "Hallelujah! what Hallelujah! what Saving, helping, He is with me to a Savior! a Friend! keeping, loving, the end.",
-        song_url: `${path_name}`,
-        author: ""
-    },
-    "FairestLordJesus": {
-        title: "",
-        stanzas: {
-            1: "Fairest Lord Jesus, Ruler of all nature, O Thou of God and man the Son, Thee will I cherish, Thee will I honor, Thou, my soul's glory, joy and crown!",
-            2: "Fair are the meadows, fairer still the woodlands, Robed in the blooming garb of spring; Jesus is fairer, Jesus is purer, Who makes the woeful heart to sing!",
-            3: "Fair is the sunshine, fairer still the moonlight, And all the twinkling starry host; Jesus shines brighter, Jesus shines purer Than all the angels heav'n can boast!",
-            4: "Beautiful Savior! Lord of all the nations! Son of God and Son of Man! Glory and honor, praise, adoration, Now and forever more be Thine."
-        },
-        chorus: "",
-        song_url: `${path_name}`,
-        author: ""
-    },
-    "PraiseTheSavior": {
-        title: "",
-        stanzas: {
-            1: "Praise the Savior, ye who know Him! Who can tell how much we owe Him Gladly let us render to Him All we are and have.",
-            2: "Jesus is the name that charms us, He for conflict fits and arms us; Nothing moves and nothing harms us while we trust in Him",
-            3: "Trust in him Ye saints , forever He is faithful, changing never; Neither force nor guile can sever those He loves from Him",
-            4: "Keep us Lord, O keep us cleaving To Thy-self,and still believing, Till the hour of our receiving Promised joys with Thee.",
-            5: "Then we shall be where we whould be shall be what we should be; Thing that are not now, nor could be, Soon shall be our own."
-        },
-        chorus: "",
-        song_url: `${path_name}`,
-        author: ""
-    },
-    "MayJesusBePraised": {
-        title: "",
-        stanzas: {
-            1: "When morning gilds skies, My heart awaking cries: May Jesus Christ be praised! Alike at work and prayer To Jesus I repair: May Jesus Christ be praised!",
-            2: "Does sadness fill my mind? A solace I find: May Jesus Christ be praised! Or fades my earthly bliss? My comfort still is this: May Jesus Christ be praised!",
-            3: "In heav'n's eternal bliss The loveliest strain is this: May Jesus Christ be praised! The pow'rs of darkness fear When this sweet chant they : May Jesus Christ be praised!",
-            4: "Be this, while life is mine, My canticle divine: May Jesus Christ be praised! Be this eternal song Thru all the ages long: May Jesus Christ be praised!"
-        },
-        chorus: "",
-        song_url: `${path_name}`,
-        author: ""
-    },
     "AndCanItBe?": {
         title: "",
         stanzas: {
@@ -700,7 +699,7 @@ let songs2 = {
             4: "No condemnation now I dread; Jesus, and all in Him is mine! Alive in Him, my living Head, And clothed in righteousness divine, Bold I approach th'eternal throne, And claim the crown, thro' Christ my own."
         },
         chorus: "Amazing love! how can it be That Thou, my God, should die for me!",
-        song_url: `${path_name}`,
+        song_url: `${path_name}06-.mp3`,
         author: ""
     },
     "OForAThousandTongues": {
@@ -714,7 +713,7 @@ let songs2 = {
             6: "Glory to God and praise and love Be ever, ever giv'n By saints below and saints above The Church in earth and heav'n."
         },
         chorus: "",
-        song_url: `${path_name}`,
+        song_url: `${path_name}06-.mp3`,
         author: ""
     },
     "PraiseHimPraiseHim!": {
@@ -725,10 +724,8 @@ let songs2 = {
             3: "Praise Him! praise Him! Jesus our blessed Redeemer! Heav'nly portals loud with hosannas ring! Jesus, Savior, reigneth forever and ever, Crown Him! Crown Him! Prophet and Priest and king! Christ is coming over the world victorious Pow'r and glory unto the Lord belong:"
         },
         chorus: "Praise Him! Praise Him! tell of His encellent greatness Praise Him! Praise Him ! ever in joyful song!",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}06-.mp3`,
+        author: ""
     },
     "ComeChristiansJoinToSing": {
         title: "",
@@ -738,10 +735,8 @@ let songs2 = {
             3: "Praise yet our Christ again Alleluia Aman! Life shall not end the strain Alleluia Aman! On heaven's blissful shore His goodness we'll adore, Singing forever-more, Alleluia Aman!"
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}06-.mp3`,
+        author: ""
     },
     "HisNameIsWonderful": {
         title: "",
@@ -750,10 +745,8 @@ let songs2 = {
             2: "He is the mighty King, Master of ev'ry thing, His name is"
         },
         chorus: "Wonderful, Jesus, my Lord; Jesus my Lord. He's the great shepherd, the Rock of all ages, Almighty God is He; Bow down before Him, Love and adore Him, His name is Wonderful, Jesus my Lord.",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}06-.mp3`,
+        author: ""
     },
     "There'sSomethingAboutThatName": {
         title: "",
@@ -761,10 +754,8 @@ let songs2 = {
             1: "Jesus, Jesus, Jesus; There's just Something about that name! Master, Savior, Jesus, Like the fragrance after the rain; Jesus, Jesus, Let all Heaven and earth proclaim : Kings and kingdoms will all pass away, But there's some-thing about that name!"
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}06-.mp3`,
+        author: ""
     },
     "OComeLetUsAdoreHim": {
         title: "",
@@ -775,10 +766,8 @@ let songs2 = {
             4: "For He alone is worthy, For He alone is worthy, For He alone is worthy, Christ the Lord."
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}06-.mp3`,
+        author: ""
     },
     "YeServantsOfGod": {
         title: "",
@@ -789,10 +778,8 @@ let songs2 = {
             4: "Then let us adore, and give Him His right All glory and pow'r, all wisdom and might, All honor and blessing, with angels abbove, And thanks never ceaseing, and infinite love."
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}06-.mp3`,
+        author: ""
     },
     "JesusWeJustWantToThankYou": {
         title: "",
@@ -804,10 +791,8 @@ let songs2 = {
             5: "Jesus, we know You are coming, Jesus, we know You are coming, Jesus, we know You are coming, Take us live Your home."
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}06-.mp3`,
+        author: ""
     },
     "IAmHisAndHeIsMine": {
         title: "",
@@ -818,11 +803,19 @@ let songs2 = {
             4: "His forever, only His who the Lord and me shall part? Ah, with what a rest of bliss Christ can fill the loving heart! Heav'n and earth may fade and flee, firstborn light in gloom decline, But while God and I shall be, I am his and he is mine, But while God and I shall be, I am his and he is mine."
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}070-.mp3`,
+        author: ""
     },
+
+
+
+
+
+
+
+
+
+
     "JoinAllTheGloriousNames": {
         title: "",
         stanzas: {
