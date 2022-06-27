@@ -685,137 +685,127 @@ let songs = {
             song_url: `${path_name}060-MayJesusChristBePraised.mp3`,
             author: "German Hymn"
         },
+        "AndCanItBe": {
+            title: "And Can It Be?",
+            stanzas: {
+                1: "And can it be that I should gain An int'rest in the Savior's blood? Died he for me, who caused His pain? For me, who Him to death pursued? Amazing love! how can it be That Thou, my God, should die for me?",
+                2: "He left his Father's throne above, So free, so infinite His grace; Emptied Himself of all but love, And bled for Adam's helpless race; 'Tis mercy all, immense and free; O praise my God, it reaches me.",
+                3: "Long my imprisoned spirit lay Fast bound in sin and nature's night; Thine eye diffused a quick'ning ray, I woke, the dungeon flamed with light; My chains fell off, my heart was free; I rose, went forth and followed Thee.",
+                4: "No condemnation now I dread; Jesus, and all in Him is mine! Alive in Him, my living Head, And clothed in righteousness divine, Bold I approach th'eternal throne, And claim the crown, thro' Christ my own."
+            },
+            chorus: "Amazing love! how can it be That Thou, my God, should die for me!",
+            song_url: `${path_name}061-AndCanItBe.mp3`,
+            author: "Charles Wesley"
+        },
+        "OForAThousandTongues": {
+            title: "O For A Thousand Tongues",
+            stanzas: {
+                1: "O for a thousand tongues to sing My great Redeemer's praise, The glories of my God and King, The triumphs of His grace!",
+                2: "My gracious Master and my God, Assist to proclaim, To spread thru all the earth abroad The honors of Thy name.",
+                3: "Jesus! the name that charms our fears, That bids our sorrows cease, 'Tis music in the sinner's ears, 'Tis life and health and peace.",
+                4: "He breaks the pow'r of canceled sin, He sats the pris'ner free; His blood can make the foulest clean His blood availed for me.",
+                5: "Hear Him, ye deaf; His praise, ye dumb, Your loosened tongues employ; Ye blind, behold your Savior come; And leap, ye lame, for joy.",
+                6: "Glory to God and praise and love Be ever, ever giv'n By saints below and saints above The Church in earth and heav'n."
+            },
+            chorus: "",
+            song_url: `${path_name}062-OForAThousandTongues.mp3`,
+            author: "Charles Wesley"
+        },
+        "PraiseHimPraiseHim": {
+            title: "Praise Him! Praise Him!",
+            stanzas: {
+                1: "Praise Him! praise Him! Jesus our blessed Redeemer! Sing, O earth His Wonderful love proclaim! Hail Him! Hail Him! highest arch-angel in glory, Strength an honor give to His holy name! Like a shepherd Jesus will guide His children In His arms He Caries them all they long:",
+                2: "Praise Him! praise Him! Jesus our blessed Redeemer! For our sin He suffered and bled and died; He our Rock, our hope of eternal salvation, Hail Him! Hail Him! Jesus Crucified. Sound His praises Jesus who bore our sorrow love unbounded, Wonderful, deep and strong:",
+                3: "Praise Him! praise Him! Jesus our blessed Redeemer! Heav'nly portals loud with hosannas ring! Jesus, Savior, reigneth forever and ever, Crown Him! Crown Him! Prophet and Priest and king! Christ is coming over the world victorious Pow'r and glory unto the Lord belong:"
+            },
+            chorus: "Praise Him! Praise Him! tell of His encellent greatness Praise Him! Praise Him ! ever in joyful song!",
+            song_url: `${path_name}063-PraiseHimPraiseHim.mp3`,
+            author: "Fanny J. Crosby"
+        },
+        "ComeChristiansJoinToSing": {
+            title: "Come, Christians, Join To Sing",
+            stanzas: {
+                1: "Come, Christians, join to sing Alleluia Aman! Loud praise to Christ our King Alleluia Aman! Let all, with heart and voice, Before His Throne rejoice; Praise is His gracious choice: Alleluia Aman!",
+                2: "Come, lift your hearts on high Alleluia Aman! Let praises fill the sky Alleluia Aman! He is our guide and friend, To us He'll condescend; His love shall never end: Alleluia Aman!",
+                3: "Praise yet our Christ again Alleluia Aman! Life shall not end the strain Alleluia Aman! On heaven's blissful shore His goodness we'll adore, Singing forever-more, Alleluia Aman!"
+            },
+            chorus: "",
+            song_url: `${path_name}064-ComeChristiansJoinToSing.mp3`,
+            author: "Christian Henry Bateman"
+        },
+        "HisNameIsWonderful": {
+            title: "His Name Is Wonderful",
+            stanzas: {
+                1: "His name is Wonderful, His name is Wonderful, His name is",
+                2: "He is the mighty King, Master of ev'ry thing, His name is"
+            },
+            chorus: "Wonderful, Jesus, my Lord; Jesus my Lord. He's the great shepherd, the Rock of all ages, Almighty God is He; Bow down before Him, Love and adore Him, His name is Wonderful, Jesus my Lord.",
+            song_url: `${path_name}065-HisNameIsWonderful.mp3`,
+            author: "Audrey Mieir"
+        },
+        "ThereSomethingAboutThatName": {
+            title: "There's Something About That Name",
+            stanzas: {
+                1: "Jesus, Jesus, Jesus; There's just Something about that name! Master, Savior, Jesus, Like the fragrance after the rain; Jesus, Jesus, Let all Heaven and earth proclaim : Kings and kingdoms will all pass away, But there's some-thing about that name!"
+            },
+            chorus: "",
+            song_url: `${path_name}066-ThereSomethingAboutThatName.mp3`,
+            author: "William J. Gaither and Gloria Gaither"
+        },
+        "OComeLetUsAdoreHim": {
+            title: "O Come, Let Us Adore Him",
+            stanzas: {
+                1: "O come let us adore Him, O come let us adore Him, O come let us adore Him, Christ the Lord.",
+                2: "We'll praise His name forever, We'll praise His name forever, We'll praise His name forever, Christ the Lord.",
+                3: "We'll give Him all the glory, We'll give Him all the glory, We'll give Him all the glory, Christ the Lord.",
+                4: "For He alone is worthy, For He alone is worthy, For He alone is worthy, Christ the Lord."
+            },
+            chorus: "",
+            song_url: `${path_name}067-OComeLetUsAdoreHim.mp3`,
+            author: "Traditional"
+        },
+        "YeServantsOfGod": {
+            title: "Ye Servants Of God",
+            stanzas: {
+                1: "Ye servent of God, Your Master proclaim, And publish abroad His Wonderful name; The name, victorious, of Jesus extol: His kingdom is glorious, He rules over all.",
+                2: "God ruleth on high, almighty to save , And still He is nigh, His presence we have; The great congregation His triumph shall sing, Ascribing salvation to Jesus, our King.",
+                3: "'Salvation to God, Who sits on the throne!'  Let all cry aloud, and honor the son; The praises of Jesus the angels proclaim, Fall down on their faces and worship the Lamb",
+                4: "Then let us adore, and give Him His right All glory and pow'r, all wisdom and might, All honor and blessing, with angels abbove, And thanks never ceaseing, and infinite love."
+            },
+            chorus: "",
+            song_url: `${path_name}068-YeServantsOfGod.mp3`,
+            author: "Charles Wesley"
+        },
+        "JesusWeJustWantToThankYou": {
+            title: "Jesus, We Just Want To Thank You",
+            stanzas: {
+                1: "Jesus we just want to thank You, Jesus we just want to thank You, Jesus we just want to thank You, Thank you for being so good.",
+                2: "Jesus we just want to praise You, Jesus we just want to praise You, Jesus we just want to praise You, Praise you for being so good.",
+                3: "Jesus we just want to tell You, Jesus we just want to tell You, Jesus we just want to tell You, we love you for being so good.",
+                4: "Savior we just want to serve You, Savior we just want to serve You, Savior we just want to serve You, Serve you for being so good.",
+                5: "Jesus, we know You are coming, Jesus, we know You are coming, Jesus, we know You are coming, Take us live Your home."
+            },
+            chorus: "",
+            song_url: `${path_name}069-JesusWeJustWantToThankYou.mp3`,
+            author: "William J. Gaither and Gloria Gaither"
+        },
+        "IAmHisAndHeIsMine": {
+            title: "I Am His And He Is Mine",
+            stanzas: {
+                1: "Love with everlasting love, Led by grace that love to known: spirit, breathing from above , Thou hast thught me it is so! Othis full and prefect peace, O perfect peace, O this transport all divine In a love which ca -not cease I am His and He is mine; In a love which can-not cease, I am His and He is mine.",
+                2: "Heav'n above is softer blue, Earth around is sweeter green; something lives in ev'ry hue Christless eyes have never seen! Birds with glader songs o'er, Flow'rs with deeper beauties shine, Since I know as now I know, I am his and he is mine, Since I know as now I know, I am his and he is mine.",
+                3: "Things that once were wiled alarms Can-not now distur my rest: Closed in everlasting arms, pillowed on the loving breast! O to lie forever here, Doubt and care and slef resign, While He wispers in my ear I am His and He is mine, While He wispers in my ear I am His and He isa mine.",
+                4: "His forever, only His who the Lord and me shall part? Ah, with what a rest of bliss Christ can fill the loving heart! Heav'n and earth may fade and flee, firstborn light in gloom decline, But while God and I shall be, I am his and he is mine, But while God and I shall be, I am his and he is mine."
+            },
+            chorus: "",
+            song_url: `${path_name}070-IAmHisAndHeIsMine.mp3`,
+            author: "Wade Robinson"
+        },
     }
 }
 
 
 let songs2 = {
-    "AndCanItBe?": {
-        title: "",
-        stanzas: {
-            1: "And can it be that I should gain An int'rest in the Savior's blood? Died he for me, who caused His pain? For me, who Him to death pursued? Amazing love! how can it be That Thou, my God, should die for me?",
-            2: "He left his Father's throne above, So free, so infinite His grace; Emptied Himself of all but love, And bled for Adam's helpless race; 'Tis mercy all, immense and free; O praise my God, it reaches me.",
-            3: "Long my imprisoned spirit lay Fast bound in sin and nature's night; Thine eye diffused a quick'ning ray, I woke, the dungeon flamed with light; My chains fell off, my heart was free; I rose, went forth and followed Thee.",
-            4: "No condemnation now I dread; Jesus, and all in Him is mine! Alive in Him, my living Head, And clothed in righteousness divine, Bold I approach th'eternal throne, And claim the crown, thro' Christ my own."
-        },
-        chorus: "Amazing love! how can it be That Thou, my God, should die for me!",
-        song_url: `${path_name}06-.mp3`,
-        author: ""
-    },
-    "OForAThousandTongues": {
-        title: "",
-        stanzas: {
-            1: "O for a thousand tongues to sing My great Redeemer's praise, The glories of my God and King, The triumphs of His grace!",
-            2: "My gracious Master and my God, Assist to proclaim, To spread thru all the earth abroad The honors of Thy name.",
-            3: "Jesus! the name that charms our fears, That bids our sorrows cease, 'Tis music in the sinner's ears, 'Tis life and health and peace.",
-            4: "He breaks the pow'r of canceled sin, He sats the pris'ner free; His blood can make the foulest clean His blood availed for me.",
-            5: "Hear Him, ye deaf; His praise, ye dumb, Your loosened tongues employ; Ye blind, behold your Savior come; And leap, ye lame, for joy.",
-            6: "Glory to God and praise and love Be ever, ever giv'n By saints below and saints above The Church in earth and heav'n."
-        },
-        chorus: "",
-        song_url: `${path_name}06-.mp3`,
-        author: ""
-    },
-    "PraiseHimPraiseHim!": {
-        title: "",
-        stanzas: {
-            1: "Praise Him! praise Him! Jesus our blessed Redeemer! Sing, O earth His Wonderful love proclaim! Hail Him! Hail Him! highest arch-angel in glory, Strength an honor give to His holy name! Like a shepherd Jesus will guide His children In His arms He Caries them all they long:",
-            2: "Praise Him! praise Him! Jesus our blessed Redeemer! For our sin He suffered and bled and died; He our Rock, our hope of eternal salvation, Hail Him! Hail Him! Jesus Crucified. Sound His praises Jesus who bore our sorrow love unbounded, Wonderful, deep and strong:",
-            3: "Praise Him! praise Him! Jesus our blessed Redeemer! Heav'nly portals loud with hosannas ring! Jesus, Savior, reigneth forever and ever, Crown Him! Crown Him! Prophet and Priest and king! Christ is coming over the world victorious Pow'r and glory unto the Lord belong:"
-        },
-        chorus: "Praise Him! Praise Him! tell of His encellent greatness Praise Him! Praise Him ! ever in joyful song!",
-        song_url: `${path_name}06-.mp3`,
-        author: ""
-    },
-    "ComeChristiansJoinToSing": {
-        title: "",
-        stanzas: {
-            1: "Come, Christians, join to sing Alleluia Aman! Loud praise to Christ our King Alleluia Aman! Let all, with heart and voice, Before His Throne rejoice; Praise is His gracious choice: Alleluia Aman!",
-            2: "Come, lift your hearts on high Alleluia Aman! Let praises fill the sky Alleluia Aman! He is our guide and friend, To us He'll condescend; His love shall never end: Alleluia Aman!",
-            3: "Praise yet our Christ again Alleluia Aman! Life shall not end the strain Alleluia Aman! On heaven's blissful shore His goodness we'll adore, Singing forever-more, Alleluia Aman!"
-        },
-        chorus: "",
-        song_url: `${path_name}06-.mp3`,
-        author: ""
-    },
-    "HisNameIsWonderful": {
-        title: "",
-        stanzas: {
-            1: "His name is Wonderful, His name is Wonderful, His name is",
-            2: "He is the mighty King, Master of ev'ry thing, His name is"
-        },
-        chorus: "Wonderful, Jesus, my Lord; Jesus my Lord. He's the great shepherd, the Rock of all ages, Almighty God is He; Bow down before Him, Love and adore Him, His name is Wonderful, Jesus my Lord.",
-        song_url: `${path_name}06-.mp3`,
-        author: ""
-    },
-    "There'sSomethingAboutThatName": {
-        title: "",
-        stanzas: {
-            1: "Jesus, Jesus, Jesus; There's just Something about that name! Master, Savior, Jesus, Like the fragrance after the rain; Jesus, Jesus, Let all Heaven and earth proclaim : Kings and kingdoms will all pass away, But there's some-thing about that name!"
-        },
-        chorus: "",
-        song_url: `${path_name}06-.mp3`,
-        author: ""
-    },
-    "OComeLetUsAdoreHim": {
-        title: "",
-        stanzas: {
-            1: "O come let us adore Him, O come let us adore Him, O come let us adore Him, Christ the Lord.",
-            2: "We'll praise His name forever, We'll praise His name forever, We'll praise His name forever, Christ the Lord.",
-            3: "We'll give Him all the glory, We'll give Him all the glory, We'll give Him all the glory, Christ the Lord.",
-            4: "For He alone is worthy, For He alone is worthy, For He alone is worthy, Christ the Lord."
-        },
-        chorus: "",
-        song_url: `${path_name}06-.mp3`,
-        author: ""
-    },
-    "YeServantsOfGod": {
-        title: "",
-        stanzas: {
-            1: "Ye servent of God, Your Master proclaim, And publish abroad His Wonderful name; The name, victorious, of Jesus extol: His kingdom is glorious, He rules over all.",
-            2: "God ruleth on high, almighty to save , And still He is nigh, His presence we have; The great congregation His triumph shall sing, Ascribing salvation to Jesus, our King.",
-            3: "'Salvation to God, Who sits on the throne!'  Let all cry aloud, and honor the son; The praises of Jesus the angels proclaim, Fall down on their faces and worship the Lamb",
-            4: "Then let us adore, and give Him His right All glory and pow'r, all wisdom and might, All honor and blessing, with angels abbove, And thanks never ceaseing, and infinite love."
-        },
-        chorus: "",
-        song_url: `${path_name}06-.mp3`,
-        author: ""
-    },
-    "JesusWeJustWantToThankYou": {
-        title: "",
-        stanzas: {
-            1: "Jesus we just want to thank You, Jesus we just want to thank You, Jesus we just want to thank You, Thank you for being so good.",
-            2: "Jesus we just want to praise You, Jesus we just want to praise You, Jesus we just want to praise You, Praise you for being so good.",
-            3: "Jesus we just want to tell You, Jesus we just want to tell You, Jesus we just want to tell You, we love you for being so good.",
-            4: "Savior we just want to serve You, Savior we just want to serve You, Savior we just want to serve You, Serve you for being so good.",
-            5: "Jesus, we know You are coming, Jesus, we know You are coming, Jesus, we know You are coming, Take us live Your home."
-        },
-        chorus: "",
-        song_url: `${path_name}06-.mp3`,
-        author: ""
-    },
-    "IAmHisAndHeIsMine": {
-        title: "",
-        stanzas: {
-            1: "Love with everlasting love, Led by grace that love to known: spirit, breathing from above , Thou hast thught me it is so! Othis full and prefect peace, O perfect peace, O this transport all divine In a love which ca -not cease I am His and He is mine; In a love which can-not cease, I am His and He is mine.",
-            2: "Heav'n above is softer blue, Earth around is sweeter green; something lives in ev'ry hue Christless eyes have never seen! Birds with glader songs o'er, Flow'rs with deeper beauties shine, Since I know as now I know, I am his and he is mine, Since I know as now I know, I am his and he is mine.",
-            3: "Things that once were wiled alarms Can-not now distur my rest: Closed in everlasting arms, pillowed on the loving breast! O to lie forever here, Doubt and care and slef resign, While He wispers in my ear I am His and He is mine, While He wispers in my ear I am His and He isa mine.",
-            4: "His forever, only His who the Lord and me shall part? Ah, with what a rest of bliss Christ can fill the loving heart! Heav'n and earth may fade and flee, firstborn light in gloom decline, But while God and I shall be, I am his and he is mine, But while God and I shall be, I am his and he is mine."
-        },
-        chorus: "",
-        song_url: `${path_name}070-.mp3`,
-        author: ""
-    },
-
-
-
-
-
-
-
-
-
-
     "JoinAllTheGloriousNames": {
         title: "",
         stanzas: {
