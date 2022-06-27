@@ -801,144 +801,123 @@ let songs = {
             song_url: `${path_name}070-IAmHisAndHeIsMine.mp3`,
             author: "Wade Robinson"
         },
+        "JoinAllTheGloriousNames": {
+            title: "Join All The Glorious Names",
+            stanzas: {
+                1: "Join all the glorious names of wisdom, love, and pow'r, That ever mortals knew, That angels ever bore: All are too poor to speak His worth, Too poor to set my Savior forth.",
+                2: "Great Prophet of my God, My tongue would bless Thy name: By thee the joyful news of our salvation came: The joyful news of sins forgiv'n, Of hell subdued and peace with heav'n.",
+                3: "Jesus, Thou great High Priest, Thou giv'st Thy blood and died; My guilty conscience seeks no sacrifice beside: Thy pow'rful blood didst once atone And now it pleads before the throne.",
+                4: "Divine, almighty Lord, My Conqu'ror and my King, thy scepter and Thy sword, Thy reigning grace, I sing: Thine is the pow'r; behold I sit in willing bonds beneath thy feet.",
+                5: "Now let my soul arise And tread the tempter down; My Captain leads me forth To conquest and a crown A feeble saint shall win the day, Tho death and hell obstruct the way."
+            },
+            chorus: "",
+            song_url: `${path_name}071-JoinAllTheGloriousNames.mp3`,
+            author: "Isaac Watts"
+        },
+        "ThyArtWorthy": {
+            title: "Thy Art Worthy",
+            stanzas: {
+                1: "Thou art worthy, Thou art worthy, Thou art worthy, O Lord, To recieve  glory, glory and honor, Glory and honor and pow'r For Thou hast created, hast all things created, Thou hast all things created And for Thy pleasure they are created: thou art worthy, O Lord!",
+                2: "Thou art worthy, Thou art worthy, Thou art worthy, O Lamb, To recieve  blessing, glory and honor And pow'er at the Father's right hand; for Thou hast redeemed us, hast ransomed and cleaned us, By Thy blood setting us free, In white robes arrayed us, kings and Priests made us: We are reigning in Thee!",
+                3: "Thou art worthy, Thou art worthy, Thou art worthy, O Lord, To recieve  glory, glory and honor, Glory and honor and pow'r For Thou hast created, hast all things created, Thou hast all things created And for Thy pleasure they are created: thou art worthy, O Lord!"
+            },
+            chorus: "",
+            song_url: `${path_name}072-ThyArtWorthy.mp3`,
+            author: "Pauline M. Mills and Tom Smail"
+        },
+        "WorthyIsTheLamb": {
+            title: "Worthy Is The Lamb",
+            stanzas: {
+                1: "Worthy is the Lamb that was slain, Worthy is the Lamb that was slain, Worthy is the Lamb that was slain, to recieve power and richees and wisdom strength, Honor and glory and blessing! Worthy is the Lamb that was slain, Worthy is the Lamb that was slain, Worthy is the Lamb that was slain!"
+            },
+            chorus: "",
+            song_url: `${path_name}073-WorthyIsTheLamb.mp3`,
+            author: "Don Wyrtzen"
+        },
+        "MineEyesHaveSeenTheGlory": {
+            title: "Mine Eyes Have Seen The Glory",
+            stanzas: {
+                1: "Mine eyes have seen the glory of the coming of the Lord; He is trampling out the vintage where the grapes of wrath are stored; He hath loosed the fateful lightning of His terrible swift sword; His truth is marching on.",
+                2: "I have seen Him in the watch-fires of a hundred circling camps; They have builded Him an altar in the evening dews and damps; I can read His righteous sentence by the dim and flaring lamps; His day is marching on.",
+                3: "He has sounded forth the trumpet that shall never sound retreat; He is sifting out the hearts of men before His judgment seat; O be swift, my soul, to answer Him; be jubilant, my feet! Our God is marching on.",
+                4: "In the beauty of the lilies, Christ was born across the sea, With a glory in His bosom that transfigures you and me; As He died to make men holy, let us live to make men free, While God is marching on."
+            },
+            chorus: "Glory! glory, hallelujah! Glory! glory, hallelujah! Glory! glory, hallelujah! His truth is marching on.",
+            song_url: `${path_name}074-MineEyesHaveSeenTheGlory.mp3`,
+            author: "Julia Ward Howe"
+        },
+        "AllGloryToJesus": {
+            title: "All Glory To Jesus",
+            stanzas: {
+                1: "All glory to Jesus, begotten of God, The great I AM is He; Creator, sustainer but wonder of all, The Lamb of Calvary!",
+                2: "To think that the guardian of planest in space, The shepherd of the stars, is tenderly leading the church of His love, By hands with crimson scars!",
+                3: "The King of all kings and the Lord of all lords, He reigns in glory now, Some day He is coming earth's kingdom to claim, And ev'ry knee shal bow!"
+            },
+            chorus: "And ev'ry knee shall bow!",
+            song_url: `${path_name}075-AllGloryToJesus.mp3`,
+            author: "John W. Peterson"
+        },
+        "AboveEveryName": {
+            title: "Above Every Name",
+            stanzas: {
+                1: "Name of kings and rulers we honor, Those whose portraits grace a palace wall, precious name of  mother, of a friend lover, But the greatest name of them all:",
+                2: "He came down from heaven to save us , O what pain and shame He suffered here; Mockingly they hailed Him, On a cross they nailed Him, That is why His name is so dear!",
+                3: "When in prayer I whisper it softly, At the throne of grace it is the key; Angels love to hear it, Hell and demons fear it, Name of pow'r and victory!"
+            },
+            chorus: "Above ev'ry name is the name of Jesus, Above ev'ry name is the name of Jesus, Above ev'ry name is the name of Jesus, Ev'ry Knee shall bow, ev'ry tongue confess That He is Lord of all!",
+            song_url: `${path_name}076-AboveEveryName.mp3`,
+            author: "John W. Peterson"
+        },
+        "JesusJesusJesus": {
+            title: "Jesus, Jesus, Jesus!",
+            stanzas: {
+                1: "Jesus, Jesus, Jesus: Never have I heard a name that thrills my soul like Thine! Jesus, Jesus, Jesus: O what wondrous grace that links that lovely name with mine!"
+            },
+            chorus: "",
+            song_url: `${path_name}077-JesusJesusJesus.mp3`,
+            author: "Traditional"
+        },
+        "HowSweetTheNameOfJesusSounds": {
+            title: "How Sweet The Name Of Jesus Sounds",
+            stanzas: {
+                1: "How sweet the name of Jesus sounds in believer's ear! It soothes sorrows, heals hid wounds, And drives away his fear.",
+                2: "It makes the wounded spirit whole And calm the troubled breast; 'Tis manna to the hungry soul, And to weary rest.",
+                3: "Dear name the Rock on which I build, My Shield and Hiding place, My never failing Treasury filled with boundless stores of grace.",
+                4: "Jesus! my Shepherd, Brother, Friend, My Prophet, Priest and King, My Lord, My Life, my Way, my End, Accept the praise I bring.",
+                5: "Weak is the effort of my heart, And cold my warmest thought; But when I see Thee as Thou art I'll praise Thee aas I ought.",
+                6: "Till then i would Thy love proclaim With ev'ry fleeting breath; And may the music of Thy name Refresh my soul in death."
+            },
+            chorus: "",
+            song_url: `${path_name}078-HowSweetTheNameOfJesusSounds.mp3`,
+            author: "John Newton"
+        },
+        "LetJustPraiseTheLord": {
+            title: "Let's Just Praise The Lord",
+            stanzas: {
+                1: "O we thank You for Your kindness, we thank You for Your love, We have been in heav'nly places, felt blessings from above; We've been sharing all the good things the fam'ly can afford, Let't just trun our praise t'ward heaven and praise the Lord.",
+                2: "Just the precious name of Jesus worthy of our praise, Let us bow our knees before Him, our Hands to heaven raise; when He comes in clouds of glory with Him we'll ever reign, Let's just lift our happy voices and praise His name."
+            },
+            chorus: "Let just praise the Lord! Praise the lord! Let's just lift our hearts to heaven and praise the Lord; Let just praise the Lord! Praise the lord! Let's just lift our hearts to heaven and praise the Lord!",
+            song_url: `${path_name}079-LetJustPraiseTheLord.mp3`,
+            author: "William J. Gaither and Gloria Gaither"
+        },
+        "TakeTheNameOfJesusWithYou": {
+            title: "Take The Name Of Jesus With You",
+            stanzas: {
+                1: "Take the name of Jesus with you, child of sorrow and of woe; It will joy and comfort give you take it, then, where'er you go.",
+                2: "Take the name of Jesus ever, As a shield from ev'ry snare; If temptations round you gather, Breathe that holy name in prayer.",
+                3: "O the precious name of Jesus! How it thrills our souls with Joy, When His loving arms recieve us And His songs our tongues employ!",
+                4: "At the name of Jesus bowing, Falling prostrate at His feet, King of kings in heav'n we'll crown Him When our journey is complete."
+            },
+            chorus: "Precious name, O how sweet! Hope of earth and joy of heav'n; Precious name, O how sweet! Hope of earth and joy of heav'n.",
+            song_url: `${path_name}080-TakeTheNameOfJesusWithYou.mp3`,
+            author: "Lydia Baxter"
+        },
     }
 }
 
 
 let songs2 = {
-    "JoinAllTheGloriousNames": {
-        title: "",
-        stanzas: {
-            1: "Join all the glorious names of wisdom, love, and pow'r, That ever mortals knew, That angels ever bore: All are too poor to speak His worth, Too poor to set my Savior forth.",
-            2: "Great Prophet of my God, My tongue would bless Thy name: By thee the joyful news of our salvation came: The joyful news of sins forgiv'n, Of hell subdued and peace with heav'n.",
-            3: "Jesus, Thou great High Priest, Thou giv'st Thy blood and died; My guilty conscience seeks no sacrifice beside: Thy pow'rful blood didst once atone And now it pleads before the throne.",
-            4: "Divine, almighty Lord, My Conqu'ror and my King, thy scepter and Thy sword, Thy reigning grace, I sing: Thine is the pow'r; behold I sit in willing bonds beneath thy feet.",
-            5: "Now let my soul arise And tread the tempter down; My Captain leads me forth To conquest and a crown A feeble saint shall win the day, Tho death and hell obstruct the way."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "ThyArtWorthy": {
-        title: "",
-        stanzas: {
-            1: "Thou art worthy, Thou art worthy, Thou art worthy, O Lord, To recieve  glory, glory and honor, Glory and honor and pow'r For Thou hast created, hast all things created, Thou hast all things created And for Thy pleasure they are created: thou art worthy, O Lord!",
-            2: "Thou art worthy, Thou art worthy, Thou art worthy, O Lamb, To recieve  blessing, glory and honor And pow'er at the Father's right hand; for Thou hast redeemed us, hast ransomed and cleaned us, By Thy blood setting us free, In white robes arrayed us, kings and Priests made us: We are reigning in Thee!",
-            3: "Thou art worthy, Thou art worthy, Thou art worthy, O Lord, To recieve  glory, glory and honor, Glory and honor and pow'r For Thou hast created, hast all things created, Thou hast all things created And for Thy pleasure they are created: thou art worthy, O Lord!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "WorthyIsTheLamb": {
-        title: "",
-        stanzas: {
-            1: "Worthy is the Lamb that was slain, Worthy is the Lamb that was slain, Worthy is the Lamb that was slain, to recieve power and richees and wisdom strength, Honor and glory and blessing! Worthy is the Lamb that was slain, Worthy is the Lamb that was slain, Worthy is the Lamb that was slain!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "MineEyesHaveSeenTheGlory": {
-        title: "",
-        stanzas: {
-            1: "Mine eyes have seen the glory of the coming of the Lord; He is trampling out the vintage where the grapes of wrath are stored; He hath loosed the fateful lightning of His terrible swift sword; His truth is marching on.",
-            2: "I have seen Him in the watch-fires of a hundred circling camps; They have builded Him an altar in the evening dews and damps; I can read His righteous sentence by the dim and flaring lamps; His day is marching on.",
-            3: "He has sounded forth the trumpet that shall never sound retreat; He is sifting out the hearts of men before His judgment seat; O be swift, my soul, to answer Him; be jubilant, my feet! Our God is marching on.",
-            4: "In the beauty of the lilies, Christ was born across the sea, With a glory in His bosom that transfigures you and me; As He died to make men holy, let us live to make men free, While God is marching on."
-        },
-        chorus: "Glory! glory, hallelujah! Glory! glory, hallelujah! Glory! glory, hallelujah! His truth is marching on.",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "AllGloryToJesus": {
-        title: "",
-        stanzas: {
-            1: "All glory to Jesus, begotten of God, The great I AM is He; Creator, sustainer but wonder of all, The Lamb of Calvary!",
-            2: "To think that the guardian of planest in space, The shepherd of the stars, is tenderly leading the church of His love, By hands with crimson scars!",
-            3: "The King of all kings and the Lord of all lords, He reigns in glory now, Some day He is coming earth's kingdom to claim, And ev'ry knee shal bow!"
-        },
-        chorus: "And ev'ry knee shall bow!",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "AboveEveryName": {
-        title: "",
-        stanzas: {
-            1: "Name of kings and rulers we honor, Those whose portraits grace a palace wall, precious name of  mother, of a friend lover, But the greatest name of them all:",
-            2: "He came down from heaven to save us , O what pain and shame He suffered here; Mockingly they hailed Him, On a cross they nailed Him, That is why His name is so dear!",
-            3: "When in prayer I whisper it softly, At the throne of grace it is the key; Angels love to hear it, Hell and demons fear it, Name of pow'r and victory!"
-        },
-        chorus: "Above ev'ry name is the name of Jesus, Above ev'ry name is the name of Jesus, Above ev'ry name is the name of Jesus, Ev'ry Knee shall bow, ev'ry tongue confess That He is Lord of all!",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "JesusJesusJesus!": {
-        title: "",
-        stanzas: {
-            1: "Jesus, Jesus, Jesus: Never have I heard a name that thrills my soul like Thine! Jesus, Jesus, Jesus: O what wondrous grace that links that lovely name with mine!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "HowSweetTheNameOfJesusSounds": {
-        title: "",
-        stanzas: {
-            1: "How sweet the name of Jesus sounds in believer's ear! It soothes sorrows, heals hid wounds, And drives away his fear.",
-            2: "It makes the wounded spirit whole And calm the troubled breast; 'Tis manna to the hungry soul, And to weary rest.",
-            3: "Dear name the Rock on which I build, My Shield and Hiding place, My never failing Treasury filled with boundless stores of grace.",
-            4: "Jesus! my Shepherd, Brother, Friend, My Prophet, Priest and King, My Lord, My Life, my Way, my End, Accept the praise I bring.",
-            5: "Weak is the effort of my heart, And cold my warmest thought; But when I see Thee as Thou art I'll praise Thee aas I ought.",
-            6: "Till then i would Thy love proclaim With ev'ry fleeting breath; And may the music of Thy name Refresh my soul in death."
-
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "Let'sJustPraiseTheLord": {
-        title: "",
-        stanzas: {
-            1: "O we thank You for Your kindness, we thank You for Your love, We have been in heav'nly places, felt blessings from above; We've been sharing all the good things the fam'ly can afford, Let't just trun our praise t'ward heaven and praise the Lord.",
-            2: "Just the precious name of Jesus worthy of our praise, Let us bow our knees before Him, our Hands to heaven raise; when He comes in clouds of glory with Him we'll ever reign, Let's just lift our happy voices and praise His name."
-        },
-        chorus: "Let just praise the Lord! Praise the lord! Let's just lift our hearts to heaven and praise the Lord; Let just praise the Lord! Praise the lord! Let's just lift our hearts to heaven and praise the Lord!",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "TakeTheNameOfJesusWithYou": {
-        title: "",
-        stanzas: {
-            1: "Take the name of Jesus with you, child of sorrow and of woe; It will joy and comfort give you take it, then, where'er you go.",
-            2: "Take the name of Jesus ever, As a shield from ev'ry snare; If temptations round you gather, Breathe that holy name in prayer.",
-            3: "O the precious name of Jesus! How it thrills our souls with Joy, When His loving arms recieve us And His songs our tongues employ!",
-            4: "At the name of Jesus bowing, Falling prostrate at His feet, King of kings in heav'n we'll crown Him When our journey is complete."
-        },
-        chorus: "Precious name, O how sweet! Hope of earth and joy of heav'n; Precious name, O how sweet! Hope of earth and joy of heav'n.",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
     "ODeepDeepLoveOFJesus": {
         title: "",
         stanzas: {
@@ -947,10 +926,8 @@ let songs2 = {
             3: "O the deep, deep love of Jesus Love of ev'ry love the best! 'Tis an ocean vast of blessing, 'Tis a haven sweet of rest. O the deep love of Jesus 'Tis a hesv'n of heav'ns to me; And it lifts me up to glory, For it lifts me, Lord, to Thee!"
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "BlessBeTheName": {
         title: "",
@@ -961,10 +938,8 @@ let songs2 = {
             4: "His name shall be Counselor, The mighty Prince of Peace, Of all earth's kingkoms conqueror, Whose reign shall never cease."
         },
         chorus: "Blessed be the name, blessed be the name, Blessed be the name, blessed be the name! Blessed be the name, blessed be the name, Bless be the name of the Lord!",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "JesusTheVeryThoughtOfThee": {
         title: "",
@@ -976,10 +951,8 @@ let songs2 = {
             5: "Jesus, our only joy be Thou, As Thou our prize wilt be; Jesus, be Thou our glory now And thru eternity."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "HolySpiritLightDivine": {
         title: "",
@@ -990,10 +963,8 @@ let songs2 = {
             4: "Holy Spirit, all divine, Dwell within this heart of mine; Cast down ev'ry idol throne, Reign supreme and reign alone."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "ComeHolySpirit": {
         title: "",
@@ -1002,10 +973,8 @@ let songs2 = {
             2: "Then in an age when darkness gripped the earth, The just shall live by faith  was learned; The Holy Spirit gave the Church new birth As reformation fires burned. In later years the greatrevivals came, When saints would seek the Lord and pray; O once again we need that holy flame to meet the challenge of today!"
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "SpiritOfGodDescendUponMyHeart": {
         title: "",
@@ -1016,10 +985,8 @@ let songs2 = {
             4: "Teach me to love Thee as Thine angels love, One holy passion filling all my frame: The baptism of the heav'n descend Dove My heart an altar and Thy love the flame."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "BreatheOnMeBreathOfGod": {
         title: "",
@@ -1030,10 +997,8 @@ let songs2 = {
             4: "Breathe on me, Breath of God, So shall I never die, But live with Thee the perfect life Of thine eternity."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "OBreathOfLife": {
         title: "",
@@ -1045,10 +1010,8 @@ let songs2 = {
             5: "Revive us, Lord! Is zeal abeting While harvest field are vast and white? Revive us, Lord the world is waiting! Equip Thy Church to spread the light."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "SweetSweetSpirit": {
         title: "",
@@ -1058,10 +1021,8 @@ let songs2 = {
             3: "If you say H e saved you from your sin, Now You're weak, you're bound and cannot enter in, You can make it right if you will Yield You'll enjoy the Holy Spirit that we feel."
         },
         chorus: "Sweet Holy Spirit, Sweet heav'nly Dove, Stay right here with us, Filling us with your love. And those blessings We lift our hearts in praise; with out a doubt we'll known that we have been reviveed, When we shall leave this place.",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "SpiritOfTheLivingGod": {
         title: "",
@@ -1069,10 +1030,8 @@ let songs2 = {
             1: "Spirit of the living God, fall fresh on me! Spirit of the living God, fall fresh on me! melt me, mold me, fill me, use me! Spirit of the Living God, fall fresh on me!"
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "BringBackSpringtime": {
         title: "",
@@ -1081,10 +1040,8 @@ let songs2 = {
             2: "Lord, make me like the stream that flows so cool and clear Down from the mountain high above; I will tell the world that wondrous story of the stream that flowed from Calvary."
         },
         chorus: "Lord, To my heart bring back the spring-time, Take away the cold and dark of sin; O return to me, sweet Holy Spirit, May I warm and tender be again.",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "ChannelsOnly": {
         title: "",
@@ -1095,10 +1052,8 @@ let songs2 = {
             4: "Jesus, fill now with With Thy Spirit Hearts that full surrander Known, That the streams of living water From Our inner man may flow."
         },
         chorus: "Channels only, blessed Master But with all Thy wonderous pow'r Flowing thru us, Thou canst use us Ev'ry day ev'ry hour.",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "TheComforterHasCome": {
         title: "",
@@ -1106,13 +1061,10 @@ let songs2 = {
             1: "O spread the tidings 'round wherever man is found, Wherevery human hearts and human woes abound; Let ev'ry Christian tongue proclaim the joyful sound: The Comforter has come!",
             2: "Lo, the great King of kings, with healing in His wings, To ev'ry captive soul a full deliv'rance brings; And thru vacant cella the song of triumph rings: The Comforter has come!",
             3: "O boundless devine! how shall this tongue of mine To wond'ring mortals tell the matchless grace divine That I, a child of hell, should in  His image shine! The Comforter has come!"
-
         },
         chorus: "The Comforter has come, the Comforter has come! The Holy Ghost from heav'n the Father promise giv'n; O spread the tidingd 'round wherever man is found The Comforter has come!",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "FillMeNow": {
         title: "",
@@ -1121,13 +1073,10 @@ let songs2 = {
             2: "Thou canst fill me, gracious spirit, Tho I cannot tell thee how; But I need Thee, greatly need Thee, Come, O come and fill me.",
             3: "I am weakness, full of weakness, At thy sacread feet I bow; Blest, devine, eternal Spirit, Fill with pow'r, and fill me now.",
             4: "Cleanse and comfort, bless and save me, Bathe, O bathe my heart and brow; Thou art comforting and saving, Thou art sweetly Filing now."
-
         },
         chorus: "Fill me now, fill me now, Jesus, come and fill me now; Fill me with Thy hallow'd presence Come, o come and fill me now.",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "PentecostalPower": {
         title: "",
@@ -1138,10 +1087,8 @@ let songs2 = {
             4: "Speak, Lord ! Before Thy throne we wait, Thy promise we believe, And will not let Thee go until The blessing we recieve"
         },
         chorus: "Lord, send the old-time power , the Pentecostal power! Thy floodgates of blessing on us throw open wide! Lord send the old-time power, the Pentecostal power,That sinners be converted and Thy name glorified!",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "Old-TimePower": {
         title: "",
@@ -1149,13 +1096,10 @@ let songs2 = {
             1: "We are gathered for Thy blessing, We will wait upon our God; We will trust in Him who loved us And who bought us with His blood.",
             2: "We will glory in Thy power We Will sing of wondrous grace; In our midst, as Thou hast promised, Come, O come and take Thy place.",
             3: "Bring us low in prayer before Thee And with faith our souls inspire, Till we claim, by faith, the promise of the Holy Ghost and fire."
-
         },
         chorus: "Spirit, now melt and move All of our heart with love; Breathe on us from above With old-time pow'r.",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "GreaterIsHeThatIsInMe": {
         title: "",
@@ -1164,10 +1108,8 @@ let songs2 = {
             2: "On the day of Pentecost, a rushing mighty wind Blew into the upper room, and baptism all of them with a power greater than any earthly foe; And I'm so glad I've got it too I'll let the whole world know."
         },
         chorus: "Greater is He that is in me, Grater is He that is in me, Grater is He that is in me, Than he that is in the world.",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "WhereTheSpiritOfTheLordIs": {
         title: "",
@@ -1175,10 +1117,8 @@ let songs2 = {
             1: "Where the Spirit of the Lord is, there is peace; Where the Spirit of the Lord is, there is love; There is comfort in life's darkest hour, There is light and life, there is help and pow'r In the spirit, in the Spirit of the Lord."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "BlessedQuietness": {
         title: "",
@@ -1190,10 +1130,8 @@ let songs2 = {
             5: "What a wonderful salvation, Where we always see His face! What a perfect habitation, What a quiet resting place!"
         },
         chorus: "Blessed Quietness, holy quietness What assurance in my soul! On the stormy sea He speak peace to me How the billows cease to roll!",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "ODayOFRestAndGladness": {
         title: "",
@@ -1204,10 +1142,8 @@ let songs2 = {
             4: "New grace ever gaining From this our day of rest, We reach the rest remaining To spirits of thr blest; To Holy Ghost be praises, To father, and to son: the Church her voice up-raises To Thee, blest Thee in One."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "Amens": {
         title: "",
@@ -1215,10 +1151,8 @@ let songs2 = {
             1: "Amen"
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "GoOutWithJoy!": {
         title: "",
@@ -1226,10 +1160,8 @@ let songs2 = {
             1: "Go out go out with joy, to live in the pow'r of the Risen Christ!"
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "TheLordBlessYouAndKeepYou": {
         title: "",
@@ -1237,10 +1169,8 @@ let songs2 = {
             1: "The Lord bless you and keeo you, The Lord make His face to shine up on you and be gracious unto you; The lord lift up His countenance up on you and give you peace, and give you peace. In the name of the Father and of the Son and of the Holy Spirit. Amen."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "LordDismissUsWithThyBlessing": {
         title: "",
@@ -1250,10 +1180,8 @@ let songs2 = {
             3: "So that when Thy love shall call us, Savior, from the world away, Fear of death shall not appall us; Glad Thy summons to obey, May we ever, may we ever Reign with Thee in endless day."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "GodBeWithYou": {
         title: "",
@@ -1264,10 +1192,8 @@ let songs2 = {
             4: "God be with you till we meet again, Keep love's banner floating o'er you; Smite death's threat'ning wave before you God be with you till we meet again."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "SaviorAgainToThyDearName": {
         title: "",
@@ -1276,10 +1202,8 @@ let songs2 = {
             2: "Grant us Thy peace up on our home ward way: With Thee be hearts from shame, that in this house have call up on Thy name."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "Goodbye": {
         title: "",
@@ -1287,10 +1211,8 @@ let songs2 = {
             1: "Goodbye our God it watching o'er you, Goodbye His mercy go before you; Goodbye and we'll be praying for you, So goodbye may God bless you."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "NowTheDayIsOver": {
         title: "",
@@ -1301,10 +1223,8 @@ let songs2 = {
             4: "When the morning wakens, Then may i arise Pure and fresh and sinless In Thy holy eyes."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "DayIsDyinginTheWest": {
         title: "",
@@ -1315,10 +1235,8 @@ let songs2 = {
             4: "When for ever from our sight Pass the stars, the day, the night, Lord of angles, on our eyes Let eternal morning rise, And Shadows end."
         },
         chorus: "Holy, holy,holy, Lord God of Hosts! Heav'n and earth are full of Thee! Heav'n and earth are praising Thee, O Lord most high!",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "ThanksToGod!": {
         title: "",
@@ -1328,10 +1246,8 @@ let songs2 = {
             3: "Thanks, O God, for home and fire side, Where we share our daily bread; Thanks for hours of sweet communion, When by Thee our souls are fed. Thanks for grace in time of sorrow And for joy and peace in Thee; Thanks for hope today, tomorrow, And for all eternity!"
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "ComeYeThankfullPeople": {
         title: "",
@@ -1342,10 +1258,8 @@ let songs2 = {
             4: "Even so, Lord, quickly come To Thy final harvest home: Gather Thou Thy people in, Free from sorrow, free from sin; There, forever purified, In Thy presence to abide: Come, with all Thine angles, come Raise the glorious harvest home."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "GreatGodWeSingThatMightyHand": {
         title: "",
@@ -1356,10 +1270,8 @@ let songs2 = {
             4: "In scenes exalted or depressed, Thou art our joy and Thou our rest; Thy goodness all our hopes shall raise, Adored through all our changing days."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "LetUsWithaGladsomeMind": {
         title: "",
@@ -1372,10 +1284,8 @@ let songs2 = {
             6: "Let us then with gladsome mind Praise the Lord, for He is kind:"
         },
         chorus: "For His mercies shall endure Ever faithful, ever sure!",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "AnotherYearIsDawning": {
         title: "",
@@ -1385,10 +1295,8 @@ let songs2 = {
             3: "Another year of service, Of witness for Thy love; Another year of training For holier work above. Another year is dawning: Dear Father, let it be, On earth or else in heaven, Another year for Thee."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "TheChurchOLordIsThine": {
         title: "",
@@ -1400,10 +1308,8 @@ let songs2 = {
             5: "The Church, O Lord, is Thine, And we who bear Thy name, Until that day Thou dost appear Thy chosen Bride to claim."
         },
         chorus: "The Church, O Lord, is Thine, Is Thine forevermore!",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "WeBidYouWelcome": {
         title: "",
@@ -1413,10 +1319,8 @@ let songs2 = {
             3: "Come as a teacher sent from God, Charged His Whole counsel to declare; Lift o'er ranks the prophet's rod, While we up hold your hands with prayer."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "LordGodOurThanksToTheeWeRaise": {
         title: "",
@@ -1428,10 +1332,8 @@ let songs2 = {
             5: "Create in us the word, the deed, That ours may be a living creed; And cause Thy grace in us to dwell Abide with us, Immanuel!"
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "WeComeUntoOurFathers'God": {
         title: "",
@@ -1442,11 +1344,25 @@ let songs2 = {
             4: "Ye saints to come, take up the strain, The same swee theme endeavor; Unbroken be the golden chain! Keep on the song forever! Safe in the same dear dwelling place, Rich with the same eternal grace, Bless the same boundless Giver."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     "OpenMyEyes": {
         title: "",
         stanzas: {
