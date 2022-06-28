@@ -1342,6 +1342,31 @@ let songs = {
             song_url: `${path_name}118-WeComeUntoOurFathersGod.mp3`,
             author: "Thomas H. Gill"
         }
+    },
+    the_word_of_god: {
+        "OpenMyEyes": {
+            title: "Open My Eyes",
+            stanzas: {
+                1: "Open my eyes, that I may see Glimpses of truth Thou hast for me; Place in my hands the wonderful key Thar shall unclasp and set me free. Silently now I wait for Thee, Ready, my God, Thy will to see; Open my eyes illu mine me, Spirit divine!",
+                2: "Open my ears, that I may hear Voices of truth Thou sendest clear; And while the wave notes fall on my ear, Everything false will disappear. Silently now I wait for Thee, Ready, my God, Thy will to see; Open my ears illu mine me, Spirit divine!",
+                3: "Open my mouth, and let me bear Gladly the warm truth everywhere; Open my heart and let me prepare Love with Thy children thus to share. Silently now I wait for Thee, Ready, my God, Thy will to see; Open my heart illu mine me, Spirit divine!"
+            },
+            chorus: "",
+            song_url: `${path_name}119-OpenMyEyes.mp3`,
+            author: "Clara H. Scott"
+        },
+        "ThyWordHaveIHidInMyHeart": {
+            title: "Thy Word Have I Hid In My Heart",
+            stanzas: {
+                1: "Thy Word is a lamp to my feet, A light to my path alway, To guide and to save me from sin And show me the heav'nly way.",
+                2: "For ever, O Lord is Thy Word Established and fixed on high; Thy faithfulness unto all men Abideth forevermore nigh.",
+                3: "At morning, at noon and at night I ever will give Thee praise; For Thou art my portion, O Lord, And shall be thru all my days!",
+                4: "Thru Him whom Thy Word hath fore told, The Savior and Morning Star, Salvation and peace have been bro't To those who have strayed a far."
+            },
+            chorus: "Thy Word have I hid in my heart, That I might not sin against Thee; That I might not sin, That I might not sin, Thy Word have I hid in my heart.",
+            song_url: `${path_name}120-ThyWordHaveIHidInMyHeart.mp3`,
+            author: "Ernest O. Sellers"
+        },
     }
 }
 
@@ -1379,33 +1404,6 @@ let songs = {
 
 
 let songs2 = {
-    "OpenMyEyes": {
-        title: "",
-        stanzas: {
-            1: "Open my eyes, that I may see Glimpses of truth Thou hast for me; Place in my hands the wonderful key Thar shall unclasp and set me free. Silently now I wait for Thee, Ready, my God, Thy will to see; Open my eyes illu mine me, Spirit divine!",
-            2: "Open my ears, that I may hear Voices of truth Thou sendest clear; And while the wave notes fall on my ear, Everything false will disappear. Silently now I wait for Thee, Ready, my God, Thy will to see; Open my ears illu mine me, Spirit divine!",
-            3: "Open my mouth, and let me bear Gladly the warm truth everywhere; Open my heart and let me prepare Love with Thy children thus to share. Silently now I wait for Thee, Ready, my God, Thy will to see; Open my heart illu mine me, Spirit divine!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "ThyWordHaveIHidInMyHeart": {
-        title: "",
-        stanzas: {
-            1: "Thy Word is a lamp to my feet, A light to my path alway, To guide and to save me from sin And show me the heav'nly way.",
-            2: "For ever, O Lord is Thy Word Established and fixed on high; Thy faithfulness unto all men Abideth forevermore nigh.",
-            3: "At morning, at noon and at night I ever will give Thee praise; For Thou art my portion, O Lord, And shall be thru all my days!",
-            4: "Thru Him whom Thy Word hath fore told, The Savior and Morning Star, Salvation and peace have been bro't To those who have strayed a far."
-        },
-        chorus: "Thy Word have I hid in my heart, That I might not sin against Thee; That I might not sin, That I might not sin, Thy Word have I hid in my heart.",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
     "StandingOnThePromises": {
         title: "",
         stanzas: {

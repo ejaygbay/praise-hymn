@@ -10,9 +10,9 @@ const loadSongs = (song_group) => {
     let parent_ele = document.getElementById(song_group);
     let count = 1;
 
-    if (songs[song_group]) {
+    if (songs[song_group.replaceAll('-', '_')]) {
         parent_ele.innerHTML = "";
-        let all_songs = songs[song_group];
+        let all_songs = songs[song_group.replaceAll('-', '_')];
 
         for (song in all_songs) {
             let song_title = all_songs[song].title;
@@ -43,6 +43,8 @@ const loadSongs = (song_group) => {
             parent_ele.insertAdjacentHTML('beforeend', html);
             count += 1;
         }
+    } else {
+        console.log("sorry")
     }
 
     stopSongOnSectionSwitch();
@@ -62,7 +64,7 @@ const openFullSong = (song_id) => {
     let id = song_id.split('_')[0];
     let song_group = song_id.split('_')[1];
 
-    let song = songs[song_group][id];
+    let song = songs[song_group.replaceAll('-', '_')][id];
     let song_lyrics_keys = Object.keys(song);
     let stanzas = song.stanzas;
     let stanzas_keys = Object.keys(stanzas);
@@ -203,7 +205,7 @@ const playSong = (id) => {
         song_player.currentTime = 0;
     }
 
-    song_player.src = songs[song_group][song_id].song_url;
+    song_player.src = songs[song_group.replaceAll('-', '_')][song_id].song_url;
 
     song_player.play()
         .then(res => {
