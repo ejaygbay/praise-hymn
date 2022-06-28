@@ -4,6 +4,7 @@ let path_name = 'file:///data/user/0/cbc.praisehymn/files/files/audio/';
 let songs = {
     worship: {
         "EverybodySingPraiseToTheLord": {
+            song_num: 1,
             title: "Everybody Sing Praise To The Lord",
             stanzas: {
                 1: "Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, For He is so wonderful! Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, Ev'rybody sing praise to the Lord, For He is so wonderful! For He is so wonderful!"
@@ -13,6 +14,7 @@ let songs = {
             author: "John W. Peterson"
         },
         "SingPraiseToGod": {
+            song_num: 2,
             title: "Sing Praise To God",
             stanzas: {
                 1: "Sing praise to God who reigns above, The God of all creation. The God of pow'r, the God of love,The God of our salvation; With healing balm my soul He fills, And ev'ry faithless murmur stills: To God all praise and glory!",
@@ -25,6 +27,7 @@ let songs = {
             author: "Johann J. Schütz"
         },
         "PraiseToTheLordTheAlmighty": {
+            song_num: 3,
             title: "Praise To The Lord The Almighty",
             stanzas: {
                 1: "Praise to the Lord, the Almighty, the King of creation! O my soul, praise Him, for He is thy health and salvation! All ye who hear, Now to His temple draw near; Praise Him in glad adoration.",
@@ -37,6 +40,7 @@ let songs = {
             author: "Joachim Neander"
         },
         "TheLordIsKing": {
+            song_num: 4,
             title: "The Lord Is King",
             stanzas: {
                 1: "The Lord is King! Lift up, lift up your voise Sing His praise, sing His praise! All heav'n and earth before Him now rejoice Sing His praise, sing his praise! From world to world the joy shall ring, For He alone is God and King; From sky to sky his banners fling Sing His praise, sing His praise!",
@@ -49,6 +53,7 @@ let songs = {
             author: "Norman Johnson"
         },
         "PraiseTheLordSingHallelujah": {
+            song_num: 5,
             title: "Praise The Lord Sing Hallelujah!",
             stanzas: {
                 1: "Praise the Lord sing hallelujah! Children of God's gracious choice; Let His praises rise as thunder, Let the  whole earth hear His voice, Till the song of His salvation makes His broken world rejoice!",
@@ -61,6 +66,7 @@ let songs = {
             author: "E. Margaret Clarkson"
         },
         "IJustCameToPraiseTheLord": {
+            song_num: 6,
             title: "I Just Came To Praise The Lord",
             stanzas: {
                 1: "I just came to praise the Lord, I just came to praise the Lord; I just came to praise the His Holy name, I just came to praise the Lord.",
@@ -72,6 +78,7 @@ let songs = {
             author: "Wayne Romero"
         },
         "WePraiseTheeOGodOurRedeemer": {
+            song_num: 7,
             title: "We Praise Thee O God Our Redeemer",
             stanzas: {
                 1: "We praise Thee, O God, our Redeemer, Creator in greatful devotion our tribute we bring; We lay it before Thee, we kneel and adore Thee: We bless thy holy name, We bless Thy holy name, We bless Thy holy name, glad praises we sing.",
@@ -83,6 +90,7 @@ let songs = {
             author: "Julia C. Cory"
         },
         "ToGodBeTheGlory": {
+            song_num: 8,
             title: "To God Be The Glory",
             stanzas: {
                 1: "To God be the glory great things He hath done! so loved He the world that He gave us His Son, Who yielded His life an atonement for sin And opened the Life gate that all may go in.",
@@ -94,6 +102,7 @@ let songs = {
             author: "Fanny Crosby"
         },
         "ISingTheMightyPowerOfGod": {
+            song_num: 9,
             title: "I Sing The Mighty Power Of God",
             stanzas: {
                 1: "I sing the mighty pow'r of God That made the mountains rise, That spread the flowing seas abroad And built the lofty skies. I sing the wisdom that ordained The sun to rule the day; The moon shines full at his command, And all the stars obey.",
@@ -105,6 +114,7 @@ let songs = {
             author: "Isaac Watts"
         },
         "SometimesAlleluia": {
+            song_num: 10,
             title: "Sometimes Alleluia",
             stanzas: {
                 1: "O let us lift up our voices, look t'ward the sky and start to sing; O let us now return His love, Just let our voices ring!",
@@ -115,6 +125,7 @@ let songs = {
             author: "Chuck Girard"
         },
         "LordWePraiseYou": {
+            song_num: 11,
             title: "Lord We Praise You",
             stanzas: {
                 1: "Lord, we praise you, Lord, we praise you, Lord, we praise you, Lord, we praise you!",
@@ -126,6 +137,7 @@ let songs = {
             author: "Otis Skillings"
         },
         "WhereTwoOrThreeAreGarhered": {
+            song_num: 12,
             title: "Where Two Or Three Are Garhered",
             stanzas: {
                 1: "Where two or three are garthered, Garhered in Jesus, name, In the midst He'll be promised, kindling a holy flame. Come, Come, Lord Jesus Come in love and pow'r; Quiesly we wait before you make this a sacred hour.",
@@ -136,6 +148,7 @@ let songs = {
             author: "John W. Peterson"
         },
         "WeGarherTogether": {
+            song_num: 13,
             title: "We Garher Together",
             stanzas: {
                 1: "We garther together to ask the Lord's blessing He chastens and hastens His will to make known; The wicked oppressing now cease from distressing: Sing praises to His name He forgets not His own.",
@@ -147,6 +160,7 @@ let songs = {
             author: "Theodore Baker"
         },
         "WhenAllThyMercies": {
+            song_num: 14,
             title: "When All Thy Mercies",
             stanzas: {
                 1: "When all Thy mercies, O my God, My rising soul surveys, Transported with the view, I'm lost in wonder, love and praise.",
@@ -159,6 +173,7 @@ let songs = {
             author: "Joseph Addison"
         },
         "OurSacrificeOfPraise": {
+            song_num: 15,
             title: "Our Sacrifice Of Praise",
             stanzas: {
                 1: "We bow and worship Him, our Lord and King For ever and ever His praise we'll sing; To Him all honor, love and thanks we bring And to His atributes we cling.",
@@ -171,6 +186,7 @@ let songs = {
             author: "Don Wyrtzen"
         },
         "HowGreatThouArt": {
+            song_num: 16,
             title: "How Great Thou Art",
             stanzas: {
                 1: "O Lord my God, when I in awesome wonder Consider all the worlds Thy hand Have made, I see the stars, I hear the rolling thunder, Thy pow'r thru-out the universe displayed!",
@@ -183,6 +199,7 @@ let songs = {
             author: "Stuart K. Hine"
         },
         "RejoiceYePureInHeart": {
+            song_num: 17,
             title: "Rejoice Ye Pure In Heart",
             stanzas: {
                 1: "Rejoice ye pure in heart, Rejoice, give thanks and thanks and sing; Your festal banner wave on high, The cross of Christ your King:",
@@ -195,6 +212,7 @@ let songs = {
             author: "Edward H. Plumptre"
         },
         "GodOfEverlastingGlory": {
+            song_num: 18,
             title: "God Of Everlasting Glory",
             stanzas: {
                 1: "God of everlasting glory, Filling earth And Sky, Ev'rywhere Your wonders open To our searching eye: In our telescopic probing Light years from our world, In the atom's theoried structure science has unfurled.",
@@ -207,6 +225,7 @@ let songs = {
             author: "John W. Peterson"
         },
         "BrethrenWeHaveMetToWorship": {
+            song_num: 19,
             title: "Brethren We Have Met To Worship",
             stanzas: {
                 1: "Brethren, we have met to worship And adore the Lord our God; Will you pray with all your power, While we try to preach the Word? All is vain unless the Spirit Of the Holy One comes down; Brethren, pray, and holy manna Will be showered all around.",
@@ -219,6 +238,7 @@ let songs = {
             author: "George Atkins"
         },
         "ReviveUsAgain": {
+            song_num: 20,
             title: "Revive Us Again",
             stanzas: {
                 1: "We praise Thee, O God! for the Son of Thy love, For Jesus who died, and is now gone above.",
@@ -231,6 +251,7 @@ let songs = {
             author: "William P. Mackay"
         },
         "TheLordIsInHisHolyTemple": {
+            song_num: 21,
             title: "The Lord Is In His Holy Temple",
             stanzas: {
                 1: "The Lord is in his holy temple: let all the earth keep silence before Him, Amen."
@@ -240,6 +261,7 @@ let songs = {
             author: "Source unknown"
         },
         "AllNatureWorksHisPraiseDeclare": {
+            song_num: 22,
             title: "All Nature's Works His Praise Declare",
             stanzas: {
                 1: "All nature's works His praise declare, to whom they all belong; There is a voice in every star, in every breeze a song. Sweet music fills the world abroad with strains of love and power; The stormy sea sings praise to God, the thunder and the shower.",
@@ -251,6 +273,7 @@ let songs = {
             author: "Henry Ware, the younger"
         },
         "ThyLovingKindnessIsBetterThanLife": {
+            song_num: 23,
             title: "Thy Loving Kindness Is Better Than Life",
             stanzas: {
                 1: "Thy loving-kindness is better than life, thy loving-kindness is better than life:",
@@ -263,6 +286,7 @@ let songs = {
             author: "Hugh Mitchell and Jon Drevits"
         },
         "ForThineIsTheKingdom": {
+            song_num: 24,
             title: "For Thine Is The Kingdom",
             stanzas: {
                 1: "For Thine is the kingdom, the pow'r and thr glory and ever and ever! Aman."
@@ -272,6 +296,7 @@ let songs = {
             author: "Norman Johnson"
         },
         "PraiseTheLordWhoReignAbove": {
+            song_num: 25,
             title: "Praise The Lord Who Reign Above",
             stanzas: {
                 1: "Praise the Lord who reigns above, And keeps His court below; Praise the holy God of love,And all His greatness show; Praise Him for His noble deeds, Praise Him for His matchless pow'r; Him from whom all good proceeds Let earth and heav'n adore.",
@@ -283,6 +308,7 @@ let songs = {
             author: "Charles Wesley"
         },
         "ForTheBeautyOfTheEarth": {
+            song_num: 26,
             title: "For The Beauty Of The Earth",
             stanzas: {
                 1: "For the beauty of the earth, For the glory of the skies, For the love which from our birth Over and around us lies:",
@@ -296,6 +322,7 @@ let songs = {
             author: "Folliot S. Pierpoint"
         },
         "AllPeopleThatOnEarthDoDwell": {
+            song_num: 27,
             title: "All People That On Earth Do Dwell",
             stanzas: {
                 1: "All people that on earth do dwell, Sing to the Lord with cheerful voice; Him serve with fear, His praise forth-tell; Come ye before Him and rejoice.",
@@ -308,6 +335,7 @@ let songs = {
             author: "William Kethe"
         },
         "OWorshipTheKing": {
+            song_num: 28,
             title: "O Worship The King",
             stanzas: {
                 1: "O worship the King all-glorious above, O gratefully sing his power and his love: our shield and defender, the Ancient of Days, pavilioned in splendor and girded with praise.",
@@ -320,6 +348,7 @@ let songs = {
             author: "Robert Grant"
         },
         "BeginMyTongueSomeHeavenlyTheme": {
+            song_num: 29,
             title: "Begin My Tongue Some Heavenly Theme",
             stanzas: {
                 1: "Begin, my tongue, some heavenly theme and speak some boundless thing, the mighty works or mightier name, of our eternal king.",
@@ -332,6 +361,7 @@ let songs = {
             author: "Isaac Watts"
         },
         "Alleluia": {
+            song_num: 30,
             title: "Alleluia",
             stanzas: {
                 1: "Alleluia, Alleluia, Alleluia, Alleluia, Alleluia, Alleluia, Alleluia, Alleluia!",
@@ -344,6 +374,7 @@ let songs = {
             author: "Jerry Sinclair"
         },
         "LoveDevine": {
+            song_num: 31,
             title: "Love Devine",
             stanzas: {
                 1: "Love divine, all loves excelling, Joy of heav'n, to earth come down; Fix in us Thy humble dwelling; All Thy faithful mercies crown. Jesus, Thou art all compassion, Pure, unbounded love Thou art; Visit us with Thy salvation; Enter ev'ry trembling heart.",
@@ -356,6 +387,7 @@ let songs = {
             author: "Charles Wesley"
         },
         "OGodOurHelpInAgesPast": {
+            song_num: 32,
             title: "O God, Our Help In Ages Past",
             stanzas: {
                 1: "O God, our help in ages past, our hope for years to come, our shelter from the stormy blast, and our eternal home;",
@@ -369,6 +401,7 @@ let songs = {
             author: "Isaac Watts"
         },
         "BlessTheLord": {
+            song_num: 33,
             title: "Bless The Lord",
             stanzas: {
                 1: "Bless the Lord and sing His praises, Bless the Lord now, O my soul; Join the song all heaven raises, Let the anthem loudly roll!",
@@ -381,6 +414,7 @@ let songs = {
             author: "John W. Peterson"
         },
         "BlessHisHolyName": {
+            song_num: 34,
             title: "Bless His Holy Name",
             stanzas: {
                 1: "Bless the Lord, O my soul, and all that is within me, bless His holy name!",
@@ -393,6 +427,7 @@ let songs = {
             author: "Andraé Crouch"
         },
         "ComeThouFount": {
+            song_num: 35,
             title: "Come Thou Fount",
             stanzas: {
                 1: "Come, Thou fount of ev'ry blessing, Tune my heart to sing Thy grace; Streams of mercy, never ceasing, Call for songs of loudest praise: Teach me some melodious sonnet, Sung by flaming tongues above; Praise thy mount! I'm fixed upon it, Mount of Thy redeeming love.",
@@ -404,6 +439,7 @@ let songs = {
             author: "Robert Robinson"
         },
         "NowThankWeAllOurGod": {
+            song_num: 36,
             title: "Now Thank We All Our God",
             stanzas: {
                 1: "Now thank we all our God With heart and hands and voices, Who wondrous things hath done, In whom His world rejoices; Who, from our mother's arms, Hath blessed us on our way With countless gifts of love, And still is ours today.",
@@ -415,6 +451,7 @@ let songs = {
             author: "Martin Rinkart"
         },
         "AllCreaturesOfOurGodAndKing": {
+            song_num: 37,
             title: "All Creatures Of Our God And King",
             stanzas: {
                 1: "All creatures of our God and King, lift up your voice and with us sing, Alleluia! Thou burning sun with golden beam, thou silver moon with softer gleam,",
@@ -428,6 +465,7 @@ let songs = {
             author: "Francis of Assisi"
         },
         "Doxology1": {
+            song_num: 38,
             title: "Doxology",
             stanzas: {
                 1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below: Alleluia, Alleluia! Praise Him above, ye heav'nly host; Praise Father, Son and Holy Ghost: Alleluia, Alleluia! Alleluia, Alleluia! Alleluia!"
@@ -437,6 +475,7 @@ let songs = {
             author: "Thomas Ken"
         },
         "Doxology2": {
+            song_num: 39,
             title: "Doxology",
             stanzas: {
                 1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below; Praise Him above, ye heav'nly host; Praise Father, Son, Holy Ghost. Aman."
@@ -446,6 +485,7 @@ let songs = {
             author: "Thomas Ken"
         },
         "Doxology3": {
+            song_num: 40,
             title: "Doxology",
             stanzas: {
                 1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below. Praise Him above, ye heav'nly host; Praise Father, Son and Holy Ghost. Amen."
@@ -455,6 +495,7 @@ let songs = {
             author: "Thomas Ken"
         },
         "HolyHolyHoly": {
+            song_num: 41,
             title: "Holy, Holy, Holy",
             stanzas: {
                 1: "Holy, holy, holy, Lord God Almighty! Early in the morning our soul shall rise to Thee; Holy, holy, holy! merciful and mighty! God in three persons, blessed Thrinity!",
@@ -467,6 +508,7 @@ let songs = {
             author: "Reginald Heber"
         },
         "GloriaPatri1": {
+            song_num: 42,
             title: "Gloria Patri",
             stanzas: {
                 1: "Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning, is now and evermore shall be, world without end. Aman, Aman."
@@ -476,6 +518,7 @@ let songs = {
             author: "Charles Meineke"
         },
         "GloriaPatri2": {
+            song_num: 43,
             title: "Gloria Patri",
             stanzas: {
                 1: "Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning, is now and evermore shall be, world without end. Aman, Aman."
@@ -485,6 +528,7 @@ let songs = {
             author: "Henry W. Greatorex"
         },
         "WeBelieveInOneTrueGod": {
+            song_num: 44,
             title: "We Believe In One True God",
             stanzas: {
                 1: "We believe in one true God Father, Son, and Holy Ghost, Everpresent help in need, Praise by all the heav'nly host By whose mighty pow'r alone All is made and wrought and done.",
@@ -496,6 +540,7 @@ let songs = {
             author: "Catherine Winkworth and Tobias Clausnitzer"
         },
         "FatherIAdoreYou": {
+            song_num: 45,
             title: "Father I Adore You",
             stanzas: {
                 1: "Father, I adore You, Lay my life before You How I love You!",
@@ -507,6 +552,7 @@ let songs = {
             author: "Terrye Coelho"
         },
         "PraiseYeTheTriuneGod": {
+            song_num: 46,
             title: "Praise Ye The Triune God!",
             stanzas: {
                 1: "Praise ye the Father! for His loving kindness, Tenderly cares He for His erring children; Praise Him, ye angels, praise Him in the heavens, Praise ye Jehovah!",
@@ -518,6 +564,7 @@ let songs = {
             author: "Elizabeth R. Charles"
         },
         "GloryBeToGodOnHigh": {
+            song_num: 47,
             title: "Glory Be To God On High",
             stanzas: {
                 1: "Glory be to God on high, Alleluia! Glory be to God on high, Alleluia!",
@@ -531,6 +578,7 @@ let songs = {
             author: "Traditional"
         },
         "ComeThouAlmightyKing": {
+            song_num: 48,
             title: "Come Thou Almighty King",
             stanzas: {
                 1: "Come, Thou Almighty King, Help us Thy name to sing, Help us to praise: Father, all glorious, O'er all victorious, Come, and reign over us, Ancient of Days.",
@@ -543,6 +591,7 @@ let songs = {
             author: "Charles Wesley"
         },
         "HolyGodWePraiseThyName": {
+            song_num: 49,
             title: "Holy God, We Praise Thy Name",
             stanzas: {
                 1: "Holy God, we praise thy name. Lord of all, we bow before thee. All on earth your scepter claim; all in heav'n above adore thee. Infinite thy vast domain, Everlasting is thy reign.",
@@ -555,6 +604,7 @@ let songs = {
             author: "Ignace Franz"
         },
         "TriuneBlessing": {
+            song_num: 50,
             title: "Triune Blessing",
             stanzas: {
                 1: "The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit be with you all. Aman."
@@ -564,6 +614,7 @@ let songs = {
             author: "Norman Johnson"
         },
         "HolyHoly": {
+            song_num: 51,
             title: "Holy, Holy",
             stanzas: {
                 1: "Holy, holy, holy, holy, Holy, holy Lord God Almighty; And we lift our hearts before you as a token of love, Holy, holy, holy, holy.",
@@ -578,6 +629,7 @@ let songs = {
             author: "Jimmy Owens"
         },
         "PraiseMySoulTheKingOfHeaven": {
+            song_num: 52,
             title: "Praise, My Soul, The King Of Heaven",
             stanzas: {
                 1: "Praise my soul, the King of heaven, To His fees thy tribute bring; Ransomed, healed, restored, forgiven, Evermore His praises sing: Alleluia! Alleluia! Praise the Everlasting King!",
@@ -590,6 +642,7 @@ let songs = {
             author: "Henry Francis Lyte"
         },
         "JoyfulJoyfulWeAdoreThee": {
+            song_num: 53,
             title: "Joyful, Joyful, We Adore Thee",
             stanzas: {
                 1: "Joyful, joyful, we adore Thee, God of glory, Lord of love; Hearts unfold like flow'rs before Thee, Hail Thee as the sun above. Melt the clouds of sin and sadness, Drive the dark of doubt away; Giver of Immortal gladness, Fill us with the light of day!",
@@ -602,6 +655,7 @@ let songs = {
             author: "Henry van Dyke"
         },
         "GreatIsThyFaithfulness": {
+            song_num: 54,
             title: "Great Is Thy Faithfulness",
             stanzas: {
                 1: "Great is Thy faithfulness, O God, my Father, There is no shadow of turning with Thee; Thou changest not, Thy compassions, they fail not; As Thou hast been, Thou forever wilt be.",
@@ -613,6 +667,7 @@ let songs = {
             author: "Thomas O. Chisholm"
         },
         "ImmortalInvisible": {
+            song_num: 55,
             title: "Immortal Invisible",
             stanzas: {
                 1: "Immortal, invisible, God only wise, In light inaccessible hid from our eyes, Most blessed, most glorious, the Ancient of Days, Almighty, victorious, Thy great name we praise.",
@@ -625,6 +680,7 @@ let songs = {
             author: "Walter Chalmers Smith"
         },
         "ThisIsMyFatherWorld": {
+            song_num: 56,
             title: "This Is My Father's World",
             stanzas: {
                 1: "This is my Father's world, And to my list'ning ears, All nature sings, and round me rings The music of the spheres. This is my Father's world, I rest me in the thought Of rocks and trees, of skies and seas; His hand the wonders wrought.",
@@ -636,6 +692,7 @@ let songs = {
             author: "Maltbie D. Babcock"
         },
         "OurGreatSavior": {
+            song_num: 57,
             title: "Our Great Savior",
             stanzas: {
                 1: "Jesus! what a Friend for sinners! Jesus! Lover of my soul. Friends may fail me, foes assail me, He, my Savior, makes me whole.",
@@ -649,6 +706,7 @@ let songs = {
             author: "J. Wilbur Chapman"
         },
         "FairestLordJesus": {
+            song_num: 58,
             title: "Fairest Lord Jesus",
             stanzas: {
                 1: "Fairest Lord Jesus, Ruler of all nature, O Thou of God and man the Son, Thee will I cherish, Thee will I honor, Thou, my soul's glory, joy and crown!",
@@ -661,6 +719,7 @@ let songs = {
             author: "Münster Gesangbuch"
         },
         "PraiseTheSavior": {
+            song_num: 59,
             title: "Praise The Savior",
             stanzas: {
                 1: "Praise the Savior, ye who know Him! Who can tell how much we owe Him Gladly let us render to Him All we are and have.",
@@ -674,6 +733,7 @@ let songs = {
             author: "Thomas Kelly"
         },
         "MayJesusBeChristPraised": {
+            song_num: 60,
             title: "May Jesus Christ Be Praised",
             stanzas: {
                 1: "When morning gilds skies, My heart awaking cries: May Jesus Christ be praised! Alike at work and prayer To Jesus I repair: May Jesus Christ be praised!",
@@ -686,6 +746,7 @@ let songs = {
             author: "German Hymn"
         },
         "AndCanItBe": {
+            song_num: 61,
             title: "And Can It Be?",
             stanzas: {
                 1: "And can it be that I should gain An int'rest in the Savior's blood? Died he for me, who caused His pain? For me, who Him to death pursued? Amazing love! how can it be That Thou, my God, should die for me?",
@@ -698,6 +759,7 @@ let songs = {
             author: "Charles Wesley"
         },
         "OForAThousandTongues": {
+            song_num: 62,
             title: "O For A Thousand Tongues",
             stanzas: {
                 1: "O for a thousand tongues to sing My great Redeemer's praise, The glories of my God and King, The triumphs of His grace!",
@@ -712,6 +774,7 @@ let songs = {
             author: "Charles Wesley"
         },
         "PraiseHimPraiseHim": {
+            song_num: 63,
             title: "Praise Him! Praise Him!",
             stanzas: {
                 1: "Praise Him! praise Him! Jesus our blessed Redeemer! Sing, O earth His Wonderful love proclaim! Hail Him! Hail Him! highest arch-angel in glory, Strength an honor give to His holy name! Like a shepherd Jesus will guide His children In His arms He Caries them all they long:",
@@ -723,6 +786,7 @@ let songs = {
             author: "Fanny J. Crosby"
         },
         "ComeChristiansJoinToSing": {
+            song_num: 64,
             title: "Come, Christians, Join To Sing",
             stanzas: {
                 1: "Come, Christians, join to sing Alleluia Aman! Loud praise to Christ our King Alleluia Aman! Let all, with heart and voice, Before His Throne rejoice; Praise is His gracious choice: Alleluia Aman!",
@@ -734,6 +798,7 @@ let songs = {
             author: "Christian Henry Bateman"
         },
         "HisNameIsWonderful": {
+            song_num: 65,
             title: "His Name Is Wonderful",
             stanzas: {
                 1: "His name is Wonderful, His name is Wonderful, His name is",
@@ -744,6 +809,7 @@ let songs = {
             author: "Audrey Mieir"
         },
         "ThereSomethingAboutThatName": {
+            song_num: 66,
             title: "There's Something About That Name",
             stanzas: {
                 1: "Jesus, Jesus, Jesus; There's just Something about that name! Master, Savior, Jesus, Like the fragrance after the rain; Jesus, Jesus, Let all Heaven and earth proclaim : Kings and kingdoms will all pass away, But there's some-thing about that name!"
@@ -753,6 +819,7 @@ let songs = {
             author: "William J. Gaither and Gloria Gaither"
         },
         "OComeLetUsAdoreHim": {
+            song_num: 67,
             title: "O Come, Let Us Adore Him",
             stanzas: {
                 1: "O come let us adore Him, O come let us adore Him, O come let us adore Him, Christ the Lord.",
@@ -765,6 +832,7 @@ let songs = {
             author: "Traditional"
         },
         "YeServantsOfGod": {
+            song_num: 68,
             title: "Ye Servants Of God",
             stanzas: {
                 1: "Ye servent of God, Your Master proclaim, And publish abroad His Wonderful name; The name, victorious, of Jesus extol: His kingdom is glorious, He rules over all.",
@@ -777,6 +845,7 @@ let songs = {
             author: "Charles Wesley"
         },
         "JesusWeJustWantToThankYou": {
+            song_num: 69,
             title: "Jesus, We Just Want To Thank You",
             stanzas: {
                 1: "Jesus we just want to thank You, Jesus we just want to thank You, Jesus we just want to thank You, Thank you for being so good.",
@@ -790,6 +859,7 @@ let songs = {
             author: "William J. Gaither and Gloria Gaither"
         },
         "IAmHisAndHeIsMine": {
+            song_num: 70,
             title: "I Am His And He Is Mine",
             stanzas: {
                 1: "Love with everlasting love, Led by grace that love to known: spirit, breathing from above , Thou hast thught me it is so! Othis full and prefect peace, O perfect peace, O this transport all divine In a love which ca -not cease I am His and He is mine; In a love which can-not cease, I am His and He is mine.",
@@ -802,6 +872,7 @@ let songs = {
             author: "Wade Robinson"
         },
         "JoinAllTheGloriousNames": {
+            song_num: 71,
             title: "Join All The Glorious Names",
             stanzas: {
                 1: "Join all the glorious names of wisdom, love, and pow'r, That ever mortals knew, That angels ever bore: All are too poor to speak His worth, Too poor to set my Savior forth.",
@@ -815,6 +886,7 @@ let songs = {
             author: "Isaac Watts"
         },
         "ThyArtWorthy": {
+            song_num: 72,
             title: "Thy Art Worthy",
             stanzas: {
                 1: "Thou art worthy, Thou art worthy, Thou art worthy, O Lord, To recieve  glory, glory and honor, Glory and honor and pow'r For Thou hast created, hast all things created, Thou hast all things created And for Thy pleasure they are created: thou art worthy, O Lord!",
@@ -826,6 +898,7 @@ let songs = {
             author: "Pauline M. Mills and Tom Smail"
         },
         "WorthyIsTheLamb": {
+            song_num: 73,
             title: "Worthy Is The Lamb",
             stanzas: {
                 1: "Worthy is the Lamb that was slain, Worthy is the Lamb that was slain, Worthy is the Lamb that was slain, to recieve power and richees and wisdom strength, Honor and glory and blessing! Worthy is the Lamb that was slain, Worthy is the Lamb that was slain, Worthy is the Lamb that was slain!"
@@ -835,6 +908,7 @@ let songs = {
             author: "Don Wyrtzen"
         },
         "MineEyesHaveSeenTheGlory": {
+            song_num: 74,
             title: "Mine Eyes Have Seen The Glory",
             stanzas: {
                 1: "Mine eyes have seen the glory of the coming of the Lord; He is trampling out the vintage where the grapes of wrath are stored; He hath loosed the fateful lightning of His terrible swift sword; His truth is marching on.",
@@ -847,6 +921,7 @@ let songs = {
             author: "Julia Ward Howe"
         },
         "AllGloryToJesus": {
+            song_num: 75,
             title: "All Glory To Jesus",
             stanzas: {
                 1: "All glory to Jesus, begotten of God, The great I AM is He; Creator, sustainer but wonder of all, The Lamb of Calvary!",
@@ -858,6 +933,7 @@ let songs = {
             author: "John W. Peterson"
         },
         "AboveEveryName": {
+            song_num: 76,
             title: "Above Every Name",
             stanzas: {
                 1: "Name of kings and rulers we honor, Those whose portraits grace a palace wall, precious name of  mother, of a friend lover, But the greatest name of them all:",
@@ -869,6 +945,7 @@ let songs = {
             author: "John W. Peterson"
         },
         "JesusJesusJesus": {
+            song_num: 77,
             title: "Jesus, Jesus, Jesus!",
             stanzas: {
                 1: "Jesus, Jesus, Jesus: Never have I heard a name that thrills my soul like Thine! Jesus, Jesus, Jesus: O what wondrous grace that links that lovely name with mine!"
@@ -878,6 +955,7 @@ let songs = {
             author: "Traditional"
         },
         "HowSweetTheNameOfJesusSounds": {
+            song_num: 78,
             title: "How Sweet The Name Of Jesus Sounds",
             stanzas: {
                 1: "How sweet the name of Jesus sounds in believer's ear! It soothes sorrows, heals hid wounds, And drives away his fear.",
@@ -892,6 +970,7 @@ let songs = {
             author: "John Newton"
         },
         "LetJustPraiseTheLord": {
+            song_num: 79,
             title: "Let's Just Praise The Lord",
             stanzas: {
                 1: "O we thank You for Your kindness, we thank You for Your love, We have been in heav'nly places, felt blessings from above; We've been sharing all the good things the fam'ly can afford, Let't just trun our praise t'ward heaven and praise the Lord.",
@@ -902,6 +981,7 @@ let songs = {
             author: "William J. Gaither and Gloria Gaither"
         },
         "TakeTheNameOfJesusWithYou": {
+            song_num: 80,
             title: "Take The Name Of Jesus With You",
             stanzas: {
                 1: "Take the name of Jesus with you, child of sorrow and of woe; It will joy and comfort give you take it, then, where'er you go.",
@@ -914,6 +994,7 @@ let songs = {
             author: "Lydia Baxter"
         },
         "OTheDeepDeepLoveOFJesus": {
+            song_num: 81,
             title: "O The Deep, Deep Love OF Jesus",
             stanzas: {
                 1: "O the deep, deep love of Jesus Vast, unmesaured, boundless free! Rolling as a mighty ocean In its fullness over me. Underneath me, all around me, Is the current of his love Leading onward, leading home-ward, to my glorious rest above.",
@@ -925,6 +1006,7 @@ let songs = {
             author: "S. Trevor Francis"
         },
         "BlessedBeTheName": {
+            song_num: 82,
             title: "Blessed Be The Name",
             stanzas: {
                 1: "All praise to Him who reign above In majesty supreme, Who gave Himself for man to die, That He might man redeem!",
@@ -937,6 +1019,7 @@ let songs = {
             author: "William H. Clark and Ralph E. Hudson"
         },
         "JesusTheVeryThoughtOfThee": {
+            song_num: 83,
             title: "Jesus, The Very Thought Of Thee",
             stanzas: {
                 1: "Jesus, the very thought of Thee With sweetness fills my breast; But sweeter far Thy face to see And in Thy Presence rest.",
@@ -950,6 +1033,7 @@ let songs = {
             author: "Bernard of Clairvaux"
         },
         "HolySpiritLightDivine": {
+            song_num: 84,
             title: "Holy Spirit, Light Divine",
             stanzas: {
                 1: "Holy Spirit, light divine, Shine upon this heart of mine; Chase the shades of night away, Turn my darkness into day.",
@@ -962,6 +1046,7 @@ let songs = {
             author: "Andrew Reed"
         },
         "ComeHolySpirit": {
+            song_num: 85,
             title: "Come, Holy Spirit",
             stanzas: {
                 1: "The Holy Spirit came at Pentecost, He came in mighty fullness then; His witness thru believers won the lost And multitudes were born again. The early Christians scattered o'er the world, They preached the gospel fearlessly; Tho some were martyred and to lions hurled, they mar ched along in victory!",
@@ -972,6 +1057,7 @@ let songs = {
             author: "John W. Peterson"
         },
         "SpiritOfGodDescendUponMyHeart": {
+            song_num: 86,
             title: "Spirit Of God, Descend Upon My Heart",
             stanzas: {
                 1: "Spirit of God descend upon my heart: Wean it form earth, through all its pulses move. stoop to my weakness, mighty as Thou art, And make me love Thee as I ought to love.",
@@ -984,6 +1070,7 @@ let songs = {
             author: "George Croly"
         },
         "BreatheOnMeBreathOfGod": {
+            song_num: 87,
             title: "Breathe On Me, Breath Of God",
             stanzas: {
                 1: "Breathe on me, Breath of God, Fill me with life a-new, That I may love what Thou dost love And do what Thou wouldst do.",
@@ -996,6 +1083,7 @@ let songs = {
             author: "Edwin Hatch"
         },
         "OBreathOfLife": {
+            song_num: 88,
             title: "O Breath Of Life",
             stanzas: {
                 1: "O Breath of Life, come sweeping thru us, Revive Thy church with life and pow'r; O Breath of Life, come cleans, renew us, And fit Thy Church to meet this hour.",
@@ -1009,6 +1097,7 @@ let songs = {
             author: "Bessie Porter Head"
         },
         "SweetSweetSpirit": {
+            song_num: 89,
             title: "Sweet, Sweet Spirit",
             stanzas: {
                 1: "There's a sweet, sweet Spirit in this plac, And I know that it's the Spirit of thr Lord; There are sweet expressions on each face, And I know they feel the presence of the Lord.",
@@ -1020,6 +1109,7 @@ let songs = {
             author: "Doris Akers"
         },
         "SpiritOfTheLivingGod": {
+            song_num: 90,
             title: "Spirit Of The Living God",
             stanzas: {
                 1: "Spirit of the living God, fall fresh on me! Spirit of the living God, fall fresh on me! melt me, mold me, fill me, use me! Spirit of the Living God, fall fresh on me!"
@@ -1029,6 +1119,7 @@ let songs = {
             author: "Daniel Iverson"
         },
         "BringBackTheSpringtime": {
+            song_num: 91,
             title: "Bring Back The Springtime",
             stanzas: {
                 1: "When in the spring the flow'rs are blooming bright and fair After the gray of winter's gone, Once again the lark begins its tuning Back in the the meadowsof my home.",
@@ -1039,6 +1130,7 @@ let songs = {
             author: "Kurt Kaiser"
         },
         "ChannelsOnly": {
+            song_num: 92,
             title: "Channels Only",
             stanzas: {
                 1: "How I praise Thee, precious savior, That Thy love laid hold of me; Thou hast saved and cleansed  and filled me that I might Thy Channel be.",
@@ -1051,6 +1143,7 @@ let songs = {
             author: "Mary E. Maxwell"
         },
         "TheComforterHasCome": {
+            song_num: 93,
             title: "The Comforter Has Come",
             stanzas: {
                 1: "O spread the tidings 'round wherever man is found, Wherevery human hearts and human woes abound; Let ev'ry Christian tongue proclaim the joyful sound: The Comforter has come!",
@@ -1062,6 +1155,7 @@ let songs = {
             author: "Francis Bottome"
         },
         "FillMeNow": {
+            song_num: 94,
             title: "Fill Me Now",
             stanzas: {
                 1: "Hover o'er me, Holy Spirit, Bathe my trembling heart and brow; Fill me with Thy hallow'd presence, Come, O come and fill me.",
@@ -1074,6 +1168,7 @@ let songs = {
             author: "Elwood H. Stokes"
         },
         "PentecostalPower": {
+            song_num: 95,
             title: "Pentecostal Power",
             stanzas: {
                 1: "Lord, as of old at Pentecost Thou didst Thy pow'r display, With cleansing, purifying flame Descend on us today.",
@@ -1086,6 +1181,7 @@ let songs = {
             author: "Charles H. Gabriel"
         },
         "OldTimePower": {
+            song_num: 96,
             title: "Old-Time Power",
             stanzas: {
                 1: "We are gathered for Thy blessing, We will wait upon our God; We will trust in Him who loved us And who bought us with His blood.",
@@ -1097,6 +1193,7 @@ let songs = {
             author: "Paul Rader"
         },
         "GreaterIsHeThatIsInMe": {
+            song_num: 97,
             title: "Greater Is He That Is In Me",
             stanzas: {
                 1: "Saint's like a roaring lion roaming to and fro, Seeking whom may devonr the Bible tells us so; Many soul have been his pray to fall in fall in some weak hour; But God has promised us today His over coming pow'r.",
@@ -1107,6 +1204,7 @@ let songs = {
             author: "Lanny Wolfe"
         },
         "WhereTheSpiritOfTheLordIs": {
+            song_num: 98,
             title: "Where The Spirit Of The Lord Is",
             stanzas: {
                 1: "Where the Spirit of the Lord is, there is peace; Where the Spirit of the Lord is, there is love; There is comfort in life's darkest hour, There is light and life, there is help and pow'r In the spirit, in the Spirit of the Lord."
@@ -1116,6 +1214,7 @@ let songs = {
             author: "Stephen R. Adams"
         },
         "BlessedQuietness": {
+            song_num: 99,
             title: "Blessed Quietness",
             stanzas: {
                 1: "Joy are flowing like a river Since the Comforter has come; He abides with us forever, Makes the trusting heart His home.",
@@ -1129,6 +1228,7 @@ let songs = {
             author: "Manie Payne Ferguson"
         },
         "ODayOfRestAndGladness": {
+            song_num: 100,
             title: "O Day Of Rest And Gladness",
             stanzas: {
                 1: "O day of rest and gladness, O day of joy and light, O blame of care and sadness, Most beautiful, most bright: On thee the high and lowly, Thru ages joined in tune, Sing Holy, holy, holy To the great God Triune.",
@@ -1141,6 +1241,7 @@ let songs = {
             author: "Christopher Wordsworth"
         },
         "Amens": {
+            song_num: 101,
             title: "Amens",
             stanzas: {
                 1: "Amen"
@@ -1150,6 +1251,7 @@ let songs = {
             author: "Geneva"
         },
         "GoOutWithJoy": {
+            song_num: 102,
             title: "Go Out With Joy!",
             stanzas: {
                 1: "Go out go out with joy, to live in the pow'r of the Risen Christ!"
@@ -1159,6 +1261,7 @@ let songs = {
             author: "Norman Johnson"
         },
         "TheLordBlessYouAndKeepYou": {
+            song_num: 103,
             title: "The Lord Bless You And Keep You",
             stanzas: {
                 1: "The Lord bless you and keeo you, The Lord make His face to shine up on you and be gracious unto you; The lord lift up His countenance up on you and give you peace, and give you peace. In the name of the Father and of the Son and of the Holy Spirit. Amen."
@@ -1168,6 +1271,7 @@ let songs = {
             author: "Norman Johnson"
         },
         "LordDismissUsWithThyBlessing": {
+            song_num: 104,
             title: "Lord, Dismiss Us With Thy Blessing",
             stanzas: {
                 1: "Lord, dismiss us with Thy blessing, Fill our hearts with joy and peace; Let us each, Thy love possessing Triumph in redeeming grace: O refresh us, O refresh us, Trav'ling thru this wilderness,",
@@ -1179,6 +1283,7 @@ let songs = {
             author: "John Fawcett"
         },
         "GodBeWithYou": {
+            song_num: 105,
             title: "God Be With You",
             stanzas: {
                 1: "God be with you till we meet again, By His counsels guide, uphold you, With His sheep securely fold you God be with you till we meet again.",
@@ -1191,6 +1296,7 @@ let songs = {
             author: "Jeremiah E. Rankin"
         },
         "SaviorAgainToThyDearName": {
+            song_num: 106,
             title: "Savior, Again To Thy Dear Name",
             stanzas: {
                 1: "Savior, again to Thy dear name we raise With one accord our parting hymn of praise; Once more we bless Thee ere our worship cease, Then, lowly kneeling wait Thy word of peace.",
@@ -1201,6 +1307,7 @@ let songs = {
             author: "John Ellerton"
         },
         "Goodbye": {
+            song_num: 107,
             title: "Goodbye",
             stanzas: {
                 1: "Goodbye our God it watching o'er you, Goodbye His mercy go before you; Goodbye and we'll be praying for you, So goodbye may God bless you."
@@ -1210,6 +1317,7 @@ let songs = {
             author: "Wendell P. Loveless"
         },
         "NowTheDayIsOver": {
+            song_num: 108,
             title: "Now The Day Is Over",
             stanzas: {
                 1: "Now the day is over, Night is drawing nigh; Shadows of the evening Steal across the sky.",
@@ -1222,6 +1330,7 @@ let songs = {
             author: "Sabine Baring-Gould"
         },
         "DayIsDyingInTheWest": {
+            song_num: 109,
             title: "Day Is Dying In The West",
             stanzas: {
                 1: "Day is dying in the west, Heav'n is touching earth with rest; Wait and worship Wnile the night Sets her evening lamps alight Thru all the sky.",
@@ -1234,6 +1343,7 @@ let songs = {
             author: "Mary A. Lathbury"
         },
         "ThanksToGod": {
+            song_num: 110,
             title: "Thanks To God!",
             stanzas: {
                 1: "Thanks, O God, for boundless mercy From Thy gracious throne above; Thanksfor every need provided From the fullness of Thy love. Thanks for daily toil and labor And for rest when Shadows fall; Thanks for love of friend and neighbor And Thy goodness unto all.",
@@ -1245,6 +1355,7 @@ let songs = {
             author: "August Ludvig Storm"
         },
         "ComeYeThankfullPeople": {
+            song_num: 111,
             title: "Come, Ye Thankfull People",
             stanzas: {
                 1: "Come, ye thankfull people, come Raise the song of harvest home: All is safely gathered in Ere the winter storms begin, God, our Maker, doth provide For our wants to be supplied: Come to God's own temple, come Raise the song of harvest home.",
@@ -1257,6 +1368,7 @@ let songs = {
             author: "Henry Alford"
         },
         "GreatGodWeSingThatMightyHand": {
+            song_num: 112,
             title: "Great God, We Sing That Mighty Hand",
             stanzas: {
                 1: "Great God, we sing that mighty hand By which supported still we stand; The op'ning year Thy mercy shows, That mercy crowns it till it close.",
@@ -1269,6 +1381,7 @@ let songs = {
             author: "Philip Doddridge"
         },
         "LetUsWithAGladsomeMind": {
+            song_num: 113,
             title: "Let Us With A Gladsome Mind",
             stanzas: {
                 1: "Let us with a gladsome mind Praise the Lord, for He is Kind:",
@@ -1283,6 +1396,7 @@ let songs = {
             author: "John Milton"
         },
         "AnotherYearIsDawning": {
+            song_num: 114,
             title: "Another Year Is Dawning",
             stanzas: {
                 1: "Another year is dawning: Dear Father, let it be, In working or in waiting, Another year with Thee; Another year of progress, Another year of praise, Another year of proving Thy presence all the days;",
@@ -1294,6 +1408,7 @@ let songs = {
             author: "Frances Ridley Havergal"
         },
         "TheChurchOLordIsThine": {
+            song_num: 115,
             title: "The Church, O Lord, Is Thine",
             stanzas: {
                 1: "The Church, O Lord, is Thine, Is Thine forevermore From age to age, from pole to pole, From shore to farthest shore.",
@@ -1307,6 +1422,7 @@ let songs = {
             author: "David P. Haney"
         },
         "WeBidYouWelcome": {
+            song_num: 116,
             title: "We Bid You Welcome",
             stanzas: {
                 1: "We bid you welcome in the name Of Jesus, Our exalted Head: Come as a servent so He came, And we receive you in His stead.",
@@ -1318,6 +1434,7 @@ let songs = {
             author: "James Montgomery"
         },
         "LordGodOurThanksToTheeWeRaise": {
+            song_num: 117,
             title: "Lord God, Our Thanks To Thee We Raise",
             stanzas: {
                 1: "Lord, God, our thanks to Thee we raise For those who built this house of  praise, Who long ago together stood To form a Christian brother hood.",
@@ -1331,6 +1448,7 @@ let songs = {
             author: "Frederick K. Brewster"
         },
         "WeComeUntoOurFathersGod": {
+            song_num: 118,
             title: "We Come Unto Our Fathers' God",
             stanzas: {
                 1: "We come unto our fathers' God, Their Rock is our salvation; The eternal arms, their dear abode, We make our habitation. We bring Thee, Lord, the praise they brought, we seek Thee as Thy saints have sought In ev'ry generation.",
@@ -1345,6 +1463,7 @@ let songs = {
     },
     the_word_of_god: {
         "OpenMyEyes": {
+            song_num: 119,
             title: "Open My Eyes",
             stanzas: {
                 1: "Open my eyes, that I may see Glimpses of truth Thou hast for me; Place in my hands the wonderful key Thar shall unclasp and set me free. Silently now I wait for Thee, Ready, my God, Thy will to see; Open my eyes illu mine me, Spirit divine!",
@@ -1356,6 +1475,7 @@ let songs = {
             author: "Clara H. Scott"
         },
         "ThyWordHaveIHidInMyHeart": {
+            song_num: 120,
             title: "Thy Word Have I Hid In My Heart",
             stanzas: {
                 1: "Thy Word is a lamp to my feet, A light to my path alway, To guide and to save me from sin And show me the heav'nly way.",

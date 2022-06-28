@@ -8,7 +8,6 @@ if (localStorage.getItem('favorite-songs')) {
 
 const loadSongs = (song_group) => {
     let parent_ele = document.getElementById(song_group);
-    let count = 1;
 
     if (songs[song_group.replaceAll('-', '_')]) {
         parent_ele.innerHTML = "";
@@ -20,6 +19,7 @@ const loadSongs = (song_group) => {
             let fav_song_in_arr = `${song}_like_${song_group}`;
             let fav_icon_name = 'heart-outline';
             let fav_icon_id = `${song}_unlike_${song_group}`;
+            let song_num = all_songs[song].song_num;
 
             if (favorite_songs.includes(fav_song_in_arr)) {
                 fav_icon_name = 'heart';
@@ -28,7 +28,7 @@ const loadSongs = (song_group) => {
 
             let html = `<article class="song">
                 <div class="title-sec" onclick="openFullSong('${song}_${song_group}')">
-                    <span class="song-num">${count}.</span>
+                    <span class="song-num">${song_num}.</span>
                     <div>
                         <div class="song-title">${song_title}</div>
                         <div class="author">By: ${author}</div>
@@ -41,7 +41,6 @@ const loadSongs = (song_group) => {
             </article>`;
 
             parent_ele.insertAdjacentHTML('beforeend', html);
-            count += 1;
         }
     } else {
         console.log("sorry")
