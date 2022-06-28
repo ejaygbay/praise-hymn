@@ -1140,115 +1140,147 @@ let songs = {
             song_url: `${path_name}100-ODayOfRestAndGladness.mp3`,
             author: "Christopher Wordsworth"
         },
+        "Amens": {
+            title: "Amens",
+            stanzas: {
+                1: "Amen"
+            },
+            chorus: "",
+            song_url: `${path_name}101-Amens.mp3`,
+            author: "Geneva"
+        },
+        "GoOutWithJoy": {
+            title: "Go Out With Joy!",
+            stanzas: {
+                1: "Go out go out with joy, to live in the pow'r of the Risen Christ!"
+            },
+            chorus: "",
+            song_url: `${path_name}102-GoOutWithJoy.mp3`,
+            author: "Norman Johnson"
+        },
+        "TheLordBlessYouAndKeepYou": {
+            title: "The Lord Bless You And Keep You",
+            stanzas: {
+                1: "The Lord bless you and keeo you, The Lord make His face to shine up on you and be gracious unto you; The lord lift up His countenance up on you and give you peace, and give you peace. In the name of the Father and of the Son and of the Holy Spirit. Amen."
+            },
+            chorus: "",
+            song_url: `${path_name}103-TheLordBlessYouAndKeepYou.mp3`,
+            author: "Norman Johnson"
+        },
+        "LordDismissUsWithThyBlessing": {
+            title: "Lord, Dismiss Us With Thy Blessing",
+            stanzas: {
+                1: "Lord, dismiss us with Thy blessing, Fill our hearts with joy and peace; Let us each, Thy love possessing Triumph in redeeming grace: O refresh us, O refresh us, Trav'ling thru this wilderness,",
+                2: "Thanks we give and adoration For Thy gospel's joyful sound; May the fruits of Thy salvation In our hearts and lives abound: Ever faithful, ever faithful To the truth may we be found",
+                3: "So that when Thy love shall call us, Savior, from the world away, Fear of death shall not appall us; Glad Thy summons to obey, May we ever, may we ever Reign with Thee in endless day."
+            },
+            chorus: "",
+            song_url: `${path_name}104-LordDismissUsWithThyBlessing.mp3`,
+            author: "John Fawcett"
+        },
+        "GodBeWithYou": {
+            title: "God Be With You",
+            stanzas: {
+                1: "God be with you till we meet again, By His counsels guide, uphold you, With His sheep securely fold you God be with you till we meet again.",
+                2: "God be with you till we meet again, Neath His wings protecting hide you, Daily man na still provide you God be with you till we meet again.",
+                3: "God be with you till we meet again, When life's perils thick confound you, Put His arms unfailing round you God be with you till we meet again.",
+                4: "God be with you till we meet again, Keep love's banner floating o'er you; Smite death's threat'ning wave before you God be with you till we meet again."
+            },
+            chorus: "",
+            song_url: `${path_name}105-GodBeWithYou.mp3`,
+            author: "Jeremiah E. Rankin"
+        },
+        "SaviorAgainToThyDearName": {
+            title: "Savior, Again To Thy Dear Name",
+            stanzas: {
+                1: "Savior, again to Thy dear name we raise With one accord our parting hymn of praise; Once more we bless Thee ere our worship cease, Then, lowly kneeling wait Thy word of peace.",
+                2: "Grant us Thy peace up on our home ward way: With Thee be hearts from shame, that in this house have call up on Thy name."
+            },
+            chorus: "",
+            song_url: `${path_name}106-SaviorAgainToThyDearName.mp3`,
+            author: "John Ellerton"
+        },
+        "Goodbye": {
+            title: "Goodbye",
+            stanzas: {
+                1: "Goodbye our God it watching o'er you, Goodbye His mercy go before you; Goodbye and we'll be praying for you, So goodbye may God bless you."
+            },
+            chorus: "",
+            song_url: `${path_name}107-Goodbye.mp3`,
+            author: "Wendell P. Loveless"
+        },
+        "NowTheDayIsOver": {
+            title: "Now The Day Is Over",
+            stanzas: {
+                1: "Now the day is over, Night is drawing nigh; Shadows of the evening Steal across the sky.",
+                2: "Jesus, give the weary Calm and sweet repose; With Thy tend'rest blessing May mine eye lids close.",
+                3: "Thru the long night watches May Thine angles spread Their white wings above me, Watching round my bed.",
+                4: "When the morning wakens, Then may i arise Pure and fresh and sinless In Thy holy eyes."
+            },
+            chorus: "",
+            song_url: `${path_name}108-NowTheDayIsOver.mp3`,
+            author: "Sabine Baring-Gould"
+        },
+        "DayIsDyingInTheWest": {
+            title: "Day Is Dying In The West",
+            stanzas: {
+                1: "Day is dying in the west, Heav'n is touching earth with rest; Wait and worship Wnile the night Sets her evening lamps alight Thru all the sky.",
+                2: "Lord of life, beneath the dome Of the universe, Thy home, Gather us Who seek Thy face To the fold of Thy embrace, For Thou art nigh.",
+                3: "While the deepning Shadows fall, Heart of Love, enfolding all, Thru the glory and the grace Of the stars that veil Thy face, Our hearts ascend.",
+                4: "When for ever from our sight Pass the stars, the day, the night, Lord of angles, on our eyes Let eternal morning rise, And Shadows end."
+            },
+            chorus: "Holy, holy,holy, Lord God of Hosts! Heav'n and earth are full of Thee! Heav'n and earth are praising Thee, O Lord most high!",
+            song_url: `${path_name}109-DayIsDyInginTheWest.mp3`,
+            author: "Mary A. Lathbury"
+        },
+        "ThanksToGod": {
+            title: "Thanks To God!",
+            stanzas: {
+                1: "Thanks, O God, for boundless mercy From Thy gracious throne above; Thanksfor every need provided From the fullness of Thy love. Thanks for daily toil and labor And for rest when Shadows fall; Thanks for love of friend and neighbor And Thy goodness unto all.",
+                2: "Thanks for throns as well as roses, Thanks for weakness and for health; Thanks for clouds as well as sunshine, Thanks for poverty and wealth. Thanks for pain as well as pleasure All Thou sendest day by day; And Thy Word, our dearest treasure, Shedding light up on our way.",
+                3: "Thanks, O God, for home and fire side, Where we share our daily bread; Thanks for hours of sweet communion, When by Thee our souls are fed. Thanks for grace in time of sorrow And for joy and peace in Thee; Thanks for hope today, tomorrow, And for all eternity!"
+            },
+            chorus: "",
+            song_url: `${path_name}110-ThanksToGod.mp3`,
+            author: "August Ludvig Storm"
+        },
     }
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let songs2 = {
-    "Amens": {
-        title: "",
-        stanzas: {
-            1: "Amen"
-        },
-        chorus: "",
-        song_url: `${path_name}101-.mp3`,
-        author: ""
-    },
-    "GoOutWithJoy!": {
-        title: "",
-        stanzas: {
-            1: "Go out go out with joy, to live in the pow'r of the Risen Christ!"
-        },
-        chorus: "",
-        song_url: `${path_name}102-.mp3`,
-        author: ""
-    },
-    "TheLordBlessYouAndKeepYou": {
-        title: "",
-        stanzas: {
-            1: "The Lord bless you and keeo you, The Lord make His face to shine up on you and be gracious unto you; The lord lift up His countenance up on you and give you peace, and give you peace. In the name of the Father and of the Son and of the Holy Spirit. Amen."
-        },
-        chorus: "",
-        song_url: `${path_name}103-.mp3`,
-        author: ""
-    },
-    "LordDismissUsWithThyBlessing": {
-        title: "",
-        stanzas: {
-            1: "Lord, dismiss us with Thy blessing, Fill our hearts with joy and peace; Let us each, Thy love possessing Triumph in redeeming grace: O refresh us, O refresh us, Trav'ling thru this wilderness,",
-            2: "Thanks we give and adoration For Thy gospel's joyful sound; May the fruits of Thy salvation In our hearts and lives abound: Ever faithful, ever faithful To the truth may we be found",
-            3: "So that when Thy love shall call us, Savior, from the world away, Fear of death shall not appall us; Glad Thy summons to obey, May we ever, may we ever Reign with Thee in endless day."
-        },
-        chorus: "",
-        song_url: `${path_name}104-.mp3`,
-        author: ""
-    },
-    "GodBeWithYou": {
-        title: "",
-        stanzas: {
-            1: "God be with you till we meet again, By His counsels guide, uphold you, With His sheep securely fold you God be with you till we meet again.",
-            2: "God be with you till we meet again, Neath His wings protecting hide you, Daily man na still provide you God be with you till we meet again.",
-            3: "God be with you till we meet again, When life's perils thick confound you, Put His arms unfailing round you God be with you till we meet again.",
-            4: "God be with you till we meet again, Keep love's banner floating o'er you; Smite death's threat'ning wave before you God be with you till we meet again."
-        },
-        chorus: "",
-        song_url: `${path_name}105-.mp3`,
-        author: ""
-    },
-    "SaviorAgainToThyDearName": {
-        title: "",
-        stanzas: {
-            1: "Savior, again to Thy dear name we raise With one accord our parting hymn of praise; Once more we bless Thee ere our worship cease, Then, lowly kneeling wait Thy word of peace.",
-            2: "Grant us Thy peace up on our home ward way: With Thee be hearts from shame, that in this house have call up on Thy name."
-        },
-        chorus: "",
-        song_url: `${path_name}106-.mp3`,
-        author: ""
-    },
-    "Goodbye": {
-        title: "",
-        stanzas: {
-            1: "Goodbye our God it watching o'er you, Goodbye His mercy go before you; Goodbye and we'll be praying for you, So goodbye may God bless you."
-        },
-        chorus: "",
-        song_url: `${path_name}107-.mp3`,
-        author: ""
-    },
-    "NowTheDayIsOver": {
-        title: "",
-        stanzas: {
-            1: "Now the day is over, Night is drawing nigh; Shadows of the evening Steal across the sky.",
-            2: "Jesus, give the weary Calm and sweet repose; With Thy tend'rest blessing May mine eye lids close.",
-            3: "Thru the long night watches May Thine angles spread Their white wings above me, Watching round my bed.",
-            4: "When the morning wakens, Then may i arise Pure and fresh and sinless In Thy holy eyes."
-        },
-        chorus: "",
-        song_url: `${path_name}108-.mp3`,
-        author: ""
-    },
-    "DayIsDyinginTheWest": {
-        title: "",
-        stanzas: {
-            1: "Day is dying in the west, Heav'n is touching earth with rest; Wait and worship Wnile the night Sets her evening lamps alight Thru all the sky.",
-            2: "Lord of life, beneath the dome Of the universe, Thy home, Gather us Who seek Thy face To the fold of Thy embrace, For Thou art nigh.",
-            3: "While the deepning Shadows fall, Heart of Love, enfolding all, Thru the glory and the grace Of the stars that veil Thy face, Our hearts ascend.",
-            4: "When for ever from our sight Pass the stars, the day, the night, Lord of angles, on our eyes Let eternal morning rise, And Shadows end."
-        },
-        chorus: "Holy, holy,holy, Lord God of Hosts! Heav'n and earth are full of Thee! Heav'n and earth are praising Thee, O Lord most high!",
-        song_url: `${path_name}109-.mp3`,
-        author: ""
-    },
-    "ThanksToGod!": {
-        title: "",
-        stanzas: {
-            1: "Thanks, O God, for boundless mercy From Thy gracious throne above; Thanksfor every need provided From the fullness of Thy love. Thanks for daily toil and labor And for rest when Shadows fall; Thanks for love of friend and neighbor And Thy goodness unto all.",
-            2: "Thanks for throns as well as roses, Thanks for weakness and for health; Thanks for clouds as well as sunshine, Thanks for poverty and wealth. Thanks for pain as well as pleasure All Thou sendest day by day; And Thy Word, our dearest treasure, Shedding light up on our way.",
-            3: "Thanks, O God, for home and fire side, Where we share our daily bread; Thanks for hours of sweet communion, When by Thee our souls are fed. Thanks for grace in time of sorrow And for joy and peace in Thee; Thanks for hope today, tomorrow, And for all eternity!"
-        },
-        chorus: "",
-        song_url: `${path_name}110-.mp3`,
-        author: ""
-    },
 
 
 
