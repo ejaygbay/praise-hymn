@@ -1028,126 +1028,123 @@ let songs = {
             song_url: `${path_name}090-SpiritOfTheLivingGod.mp3`,
             author: "Daniel Iverson"
         },
+        "BringBackTheSpringtime": {
+            title: "Bring Back The Springtime",
+            stanzas: {
+                1: "When in the spring the flow'rs are blooming bright and fair After the gray of winter's gone, Once again the lark begins its tuning Back in the the meadowsof my home.",
+                2: "Lord, make me like the stream that flows so cool and clear Down from the mountain high above; I will tell the world that wondrous story of the stream that flowed from Calvary."
+            },
+            chorus: "Lord, To my heart bring back the spring-time, Take away the cold and dark of sin; O return to me, sweet Holy Spirit, May I warm and tender be again.",
+            song_url: `${path_name}091-BringBackTheSpringtime.mp3`,
+            author: "Kurt Kaiser"
+        },
+        "ChannelsOnly": {
+            title: "Channels Only",
+            stanzas: {
+                1: "How I praise Thee, precious savior, That Thy love laid hold of me; Thou hast saved and cleansed  and filled me that I might Thy Channel be.",
+                2: "Emptied that Thou shouldest fill me, A clean vessel in Thy hand, with no pow'r but as Thou givest Graciously with each command.",
+                3: "Witnessing Thy pow'r to save me, Setting free from self and sin, Thou who boughtest to posess me, In Thy fullness, Lord, come in.",
+                4: "Jesus, fill now with With Thy Spirit Hearts that full surrander Known, That the streams of living water From Our inner man may flow."
+            },
+            chorus: "Channels only, blessed Master But with all Thy wonderous pow'r Flowing thru us, Thou canst use us Ev'ry day ev'ry hour.",
+            song_url: `${path_name}092-ChannelsOnly.mp3`,
+            author: "Mary E. Maxwell"
+        },
+        "TheComforterHasCome": {
+            title: "The Comforter Has Come",
+            stanzas: {
+                1: "O spread the tidings 'round wherever man is found, Wherevery human hearts and human woes abound; Let ev'ry Christian tongue proclaim the joyful sound: The Comforter has come!",
+                2: "Lo, the great King of kings, with healing in His wings, To ev'ry captive soul a full deliv'rance brings; And thru vacant cella the song of triumph rings: The Comforter has come!",
+                3: "O boundless devine! how shall this tongue of mine To wond'ring mortals tell the matchless grace divine That I, a child of hell, should in  His image shine! The Comforter has come!"
+            },
+            chorus: "The Comforter has come, the Comforter has come! The Holy Ghost from heav'n the Father promise giv'n; O spread the tidingd 'round wherever man is found The Comforter has come!",
+            song_url: `${path_name}093-TheComforterHasCome.mp3`,
+            author: "Francis Bottome"
+        },
+        "FillMeNow": {
+            title: "Fill Me Now",
+            stanzas: {
+                1: "Hover o'er me, Holy Spirit, Bathe my trembling heart and brow; Fill me with Thy hallow'd presence, Come, O come and fill me.",
+                2: "Thou canst fill me, gracious spirit, Tho I cannot tell thee how; But I need Thee, greatly need Thee, Come, O come and fill me.",
+                3: "I am weakness, full of weakness, At thy sacread feet I bow; Blest, devine, eternal Spirit, Fill with pow'r, and fill me now.",
+                4: "Cleanse and comfort, bless and save me, Bathe, O bathe my heart and brow; Thou art comforting and saving, Thou art sweetly Filing now."
+            },
+            chorus: "Fill me now, fill me now, Jesus, come and fill me now; Fill me with Thy hallow'd presence Come, o come and fill me now.",
+            song_url: `${path_name}094-FillMeNow.mp3`,
+            author: "Elwood H. Stokes"
+        },
+        "PentecostalPower": {
+            title: "Pentecostal Power",
+            stanzas: {
+                1: "Lord, as of old at Pentecost Thou didst Thy pow'r display, With cleansing, purifying flame Descend on us today.",
+                2: "For mighty works for Thee prepare And strengthen ev'ry heart; Come, taken possession of Thine And nevermore depart.",
+                3: "All self consume, all sin distory! With earnest zeal endue Each waiting heart to work for Thee O Lord, our faith renew!",
+                4: "Speak, Lord ! Before Thy throne we wait, Thy promise we believe, And will not let Thee go until The blessing we recieve"
+            },
+            chorus: "Lord, send the old-time power , the Pentecostal power! Thy floodgates of blessing on us throw open wide! Lord send the old-time power, the Pentecostal power,That sinners be converted and Thy name glorified!",
+            song_url: `${path_name}095-PentecostalPower.mp3`,
+            author: "Charles H. Gabriel"
+        },
+        "OldTimePower": {
+            title: "Old-Time Power",
+            stanzas: {
+                1: "We are gathered for Thy blessing, We will wait upon our God; We will trust in Him who loved us And who bought us with His blood.",
+                2: "We will glory in Thy power We Will sing of wondrous grace; In our midst, as Thou hast promised, Come, O come and take Thy place.",
+                3: "Bring us low in prayer before Thee And with faith our souls inspire, Till we claim, by faith, the promise of the Holy Ghost and fire."
+            },
+            chorus: "Spirit, now melt and move All of our heart with love; Breathe on us from above With old-time pow'r.",
+            song_url: `${path_name}096-OldTimePower.mp3`,
+            author: "Paul Rader"
+        },
+        "GreaterIsHeThatIsInMe": {
+            title: "Greater Is He That Is In Me",
+            stanzas: {
+                1: "Saint's like a roaring lion roaming to and fro, Seeking whom may devonr the Bible tells us so; Many soul have been his pray to fall in fall in some weak hour; But God has promised us today His over coming pow'r.",
+                2: "On the day of Pentecost, a rushing mighty wind Blew into the upper room, and baptism all of them with a power greater than any earthly foe; And I'm so glad I've got it too I'll let the whole world know."
+            },
+            chorus: "Greater is He that is in me, Grater is He that is in me, Grater is He that is in me, Than he that is in the world.",
+            song_url: `${path_name}097-GreaterIsHeThatIsInMe.mp3`,
+            author: "Lanny Wolfe"
+        },
+        "WhereTheSpiritOfTheLordIs": {
+            title: "Where The Spirit Of The Lord Is",
+            stanzas: {
+                1: "Where the Spirit of the Lord is, there is peace; Where the Spirit of the Lord is, there is love; There is comfort in life's darkest hour, There is light and life, there is help and pow'r In the spirit, in the Spirit of the Lord."
+            },
+            chorus: "",
+            song_url: `${path_name}098-WhereTheSpiritOfTheLordIs.mp3`,
+            author: "Stephen R. Adams"
+        },
+        "BlessedQuietness": {
+            title: "Blessed Quietness",
+            stanzas: {
+                1: "Joy are flowing like a river Since the Comforter has come; He abides with us forever, Makes the trusting heart His home.",
+                2: "Bringing life and health and gladness All around, this heav'nly Guest Banished unbelief and sadness, Chang'd our weariness to rest.",
+                3: "Like the rain that falls from heaven, Like the sunlight from the sky, So the Holy Ghost is given, Coming on us from on high.",
+                4: "See, a fruitful field is growing, Blessed fruit of righteous; And the streams of life are flowing In the lonely wilderness.",
+                5: "What a wonderful salvation, Where we always see His face! What a perfect habitation, What a quiet resting place!"
+            },
+            chorus: "Blessed Quietness, holy quietness What assurance in my soul! On the stormy sea He speak peace to me How the billows cease to roll!",
+            song_url: `${path_name}099-BlessedQuietness.mp3`,
+            author: "Manie Payne Ferguson"
+        },
+        "ODayOfRestAndGladness": {
+            title: "O Day Of Rest And Gladness",
+            stanzas: {
+                1: "O day of rest and gladness, O day of joy and light, O blame of care and sadness, Most beautiful, most bright: On thee the high and lowly, Thru ages joined in tune, Sing Holy, holy, holy To the great God Triune.",
+                2: "On thee, at the creation, The light first had its brith; On thee, for our salvation,Christ rose from depths of earth; On thee our Lord victorious The Spirit sent from heav'n; And thus on thee, most glorious, A triple light was giv'n.",
+                3: "Today on weary nations The heav'nly manna falls; To holy convocation The silver trumpet calls, Where gospel light is glowing with pure and radiant beams, And living water flowing With soul refreshing stream.",
+                4: "New grace ever gaining From this our day of rest, We reach the rest remaining To spirits of thr blest; To Holy Ghost be praises, To father, and to son: the Church her voice up-raises To Thee, blest Thee in One."
+            },
+            chorus: "",
+            song_url: `${path_name}100-ODayOfRestAndGladness.mp3`,
+            author: "Christopher Wordsworth"
+        },
     }
 }
 
 
 let songs2 = {
-    "BringBackSpringtime": {
-        title: "",
-        stanzas: {
-            1: "When in the spring the flow'rs are blooming bright and fair After the gray of winter's gone, Once again the lark begins its tuning Back in the the meadowsof my home.",
-            2: "Lord, make me like the stream that flows so cool and clear Down from the mountain high above; I will tell the world that wondrous story of the stream that flowed from Calvary."
-        },
-        chorus: "Lord, To my heart bring back the spring-time, Take away the cold and dark of sin; O return to me, sweet Holy Spirit, May I warm and tender be again.",
-        song_url: `${path_name}091-.mp3`,
-        author: ""
-    },
-    "ChannelsOnly": {
-        title: "",
-        stanzas: {
-            1: "How I praise Thee, precious savior, That Thy love laid hold of me; Thou hast saved and cleansed  and filled me that I might Thy Channel be.",
-            2: "Emptied that Thou shouldest fill me, A clean vessel in Thy hand, with no pow'r but as Thou givest Graciously with each command.",
-            3: "Witnessing Thy pow'r to save me, Setting free from self and sin, Thou who boughtest to posess me, In Thy fullness, Lord, come in.",
-            4: "Jesus, fill now with With Thy Spirit Hearts that full surrander Known, That the streams of living water From Our inner man may flow."
-        },
-        chorus: "Channels only, blessed Master But with all Thy wonderous pow'r Flowing thru us, Thou canst use us Ev'ry day ev'ry hour.",
-        song_url: `${path_name}092-.mp3`,
-        author: ""
-    },
-    "TheComforterHasCome": {
-        title: "",
-        stanzas: {
-            1: "O spread the tidings 'round wherever man is found, Wherevery human hearts and human woes abound; Let ev'ry Christian tongue proclaim the joyful sound: The Comforter has come!",
-            2: "Lo, the great King of kings, with healing in His wings, To ev'ry captive soul a full deliv'rance brings; And thru vacant cella the song of triumph rings: The Comforter has come!",
-            3: "O boundless devine! how shall this tongue of mine To wond'ring mortals tell the matchless grace divine That I, a child of hell, should in  His image shine! The Comforter has come!"
-        },
-        chorus: "The Comforter has come, the Comforter has come! The Holy Ghost from heav'n the Father promise giv'n; O spread the tidingd 'round wherever man is found The Comforter has come!",
-        song_url: `${path_name}093-.mp3`,
-        author: ""
-    },
-    "FillMeNow": {
-        title: "",
-        stanzas: {
-            1: "Hover o'er me, Holy Spirit, Bathe my trembling heart and brow; Fill me with Thy hallow'd presence, Come, O come and fill me.",
-            2: "Thou canst fill me, gracious spirit, Tho I cannot tell thee how; But I need Thee, greatly need Thee, Come, O come and fill me.",
-            3: "I am weakness, full of weakness, At thy sacread feet I bow; Blest, devine, eternal Spirit, Fill with pow'r, and fill me now.",
-            4: "Cleanse and comfort, bless and save me, Bathe, O bathe my heart and brow; Thou art comforting and saving, Thou art sweetly Filing now."
-        },
-        chorus: "Fill me now, fill me now, Jesus, come and fill me now; Fill me with Thy hallow'd presence Come, o come and fill me now.",
-        song_url: `${path_name}094-.mp3`,
-        author: ""
-    },
-    "PentecostalPower": {
-        title: "",
-        stanzas: {
-            1: "Lord, as of old at Pentecost Thou didst Thy pow'r display, With cleansing, purifying flame Descend on us today.",
-            2: "For mighty works for Thee prepare And strengthen ev'ry heart; Come, taken possession of Thine And nevermore depart.",
-            3: "All self consume, all sin distory! With earnest zeal endue Each waiting heart to work for Thee O Lord, our faith renew!",
-            4: "Speak, Lord ! Before Thy throne we wait, Thy promise we believe, And will not let Thee go until The blessing we recieve"
-        },
-        chorus: "Lord, send the old-time power , the Pentecostal power! Thy floodgates of blessing on us throw open wide! Lord send the old-time power, the Pentecostal power,That sinners be converted and Thy name glorified!",
-        song_url: `${path_name}095-.mp3`,
-        author: ""
-    },
-    "Old-TimePower": {
-        title: "",
-        stanzas: {
-            1: "We are gathered for Thy blessing, We will wait upon our God; We will trust in Him who loved us And who bought us with His blood.",
-            2: "We will glory in Thy power We Will sing of wondrous grace; In our midst, as Thou hast promised, Come, O come and take Thy place.",
-            3: "Bring us low in prayer before Thee And with faith our souls inspire, Till we claim, by faith, the promise of the Holy Ghost and fire."
-        },
-        chorus: "Spirit, now melt and move All of our heart with love; Breathe on us from above With old-time pow'r.",
-        song_url: `${path_name}096-.mp3`,
-        author: ""
-    },
-    "GreaterIsHeThatIsInMe": {
-        title: "",
-        stanzas: {
-            1: "Saint's like a roaring lion roaming to and fro, Seeking whom may devonr the Bible tells us so; Many soul have been his pray to fall in fall in some weak hour; But God has promised us today His over coming pow'r.",
-            2: "On the day of Pentecost, a rushing mighty wind Blew into the upper room, and baptism all of them with a power greater than any earthly foe; And I'm so glad I've got it too I'll let the whole world know."
-        },
-        chorus: "Greater is He that is in me, Grater is He that is in me, Grater is He that is in me, Than he that is in the world.",
-        song_url: `${path_name}097-.mp3`,
-        author: ""
-    },
-    "WhereTheSpiritOfTheLordIs": {
-        title: "",
-        stanzas: {
-            1: "Where the Spirit of the Lord is, there is peace; Where the Spirit of the Lord is, there is love; There is comfort in life's darkest hour, There is light and life, there is help and pow'r In the spirit, in the Spirit of the Lord."
-        },
-        chorus: "",
-        song_url: `${path_name}098-.mp3`,
-        author: ""
-    },
-    "BlessedQuietness": {
-        title: "",
-        stanzas: {
-            1: "Joy are flowing like a river Since the Comforter has come; He abides with us forever, Makes the trusting heart His home.",
-            2: "Bringing life and health and gladness All around, this heav'nly Guest Banished unbelief and sadness, Chang'd our weariness to rest.",
-            3: "Like the rain that falls from heaven, Like the sunlight from the sky, So the Holy Ghost is given, Coming on us from on high.",
-            4: "See, a fruitful field is growing, Blessed fruit of righteous; And the streams of life are flowing In the lonely wilderness.",
-            5: "What a wonderful salvation, Where we always see His face! What a perfect habitation, What a quiet resting place!"
-        },
-        chorus: "Blessed Quietness, holy quietness What assurance in my soul! On the stormy sea He speak peace to me How the billows cease to roll!",
-        song_url: `${path_name}099-.mp3`,
-        author: ""
-    },
-    "ODayOFRestAndGladness": {
-        title: "",
-        stanzas: {
-            1: "O day of rest and gladness, O day of joy and light, O blame of care and sadness, Most beautiful, most bright: On thee the high and lowly, Thru ages joined in tune, Sing Holy, holy, holy To the great God Triune.",
-            2: "On thee, at the creation, The light first had its brith; On thee, for our salvation,Christ rose from depths of earth; On thee our Lord victorious The Spirit sent from heav'n; And thus on thee, most glorious, A triple light was giv'n.",
-            3: "Today on weary nations The heav'nly manna falls; To holy convocation The silver trumpet calls, Where gospel light is glowing with pure and radiant beams, And living water flowing With soul refreshing stream.",
-            4: "New grace ever gaining From this our day of rest, We reach the rest remaining To spirits of thr blest; To Holy Ghost be praises, To father, and to son: the Church her voice up-raises To Thee, blest Thee in One."
-        },
-        chorus: "",
-        song_url: `${path_name}100-.mp3`,
-        author: ""
-    },
-
-
-
     "Amens": {
         title: "",
         stanzas: {
