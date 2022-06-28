@@ -1244,6 +1244,104 @@ let songs = {
             song_url: `${path_name}110-ThanksToGod.mp3`,
             author: "August Ludvig Storm"
         },
+        "ComeYeThankfullPeople": {
+            title: "Come, Ye Thankfull People",
+            stanzas: {
+                1: "Come, ye thankfull people, come Raise the song of harvest home: All is safely gathered in Ere the winter storms begin, God, our Maker, doth provide For our wants to be supplied: Come to God's own temple, come Raise the song of harvest home.",
+                2: "All the world is God's own field, Fruit unto His praise to yield: Wheat and tares together sown, Unto joy of sorrow grown. First the blade and then the ear, Then the full corn shall appear: Lord of harvest, grant that we Wholesome grain and pure maybe.",
+                3: "For the Lord our God shall come And shall take His harvest home: From His field shall in that day All of fenses purge away Give His angles charge at last In the fire the tares to cast, But the fruitful ears to store In His garner ever more.",
+                4: "Even so, Lord, quickly come To Thy final harvest home: Gather Thou Thy people in, Free from sorrow, free from sin; There, forever purified, In Thy presence to abide: Come, with all Thine angles, come Raise the glorious harvest home."
+            },
+            chorus: "",
+            song_url: `${path_name}111-ComeYeThankfullPeople.mp3`,
+            author: "Henry Alford"
+        },
+        "GreatGodWeSingThatMightyHand": {
+            title: "Great God, We Sing That Mighty Hand",
+            stanzas: {
+                1: "Great God, we sing that mighty hand By which supported still we stand; The op'ning year Thy mercy shows, That mercy crowns it till it close.",
+                2: "By day, by night, at home, abroad, Still are we guarded by our God, By His incessant bounty fed, By His unerring counsel led.",
+                3: "With grateful hearts the past we own: The future, all to us unknown, We to Thy guardian care commit And, peaceful, leave before Thy feet.",
+                4: "In scenes exalted or depressed, Thou art our joy and Thou our rest; Thy goodness all our hopes shall raise, Adored through all our changing days."
+            },
+            chorus: "",
+            song_url: `${path_name}112-GreatGodWeSingThatMightyHand.mp3`,
+            author: "Philip Doddridge"
+        },
+        "LetUsWithAGladsomeMind": {
+            title: "Let Us With A Gladsome Mind",
+            stanzas: {
+                1: "Let us with a gladsome mind Praise the Lord, for He is Kind:",
+                2: "Let us sound His name abroad, For of gods He is the God:",
+                3: "He with all commanding might Filled the new made world with light:",
+                4: "He with strength did interpose To redeem us from our foes:",
+                5: "He doth all things living feed His full hand supplies their need:",
+                6: "Let us then with gladsome mind Praise the Lord, for He is kind:"
+            },
+            chorus: "For His mercies shall endure Ever faithful, ever sure!",
+            song_url: `${path_name}113-LetUsWithAGladsomeMind.mp3`,
+            author: "John Milton"
+        },
+        "AnotherYearIsDawning": {
+            title: "Another Year Is Dawning",
+            stanzas: {
+                1: "Another year is dawning: Dear Father, let it be, In working or in waiting, Another year with Thee; Another year of progress, Another year of praise, Another year of proving Thy presence all the days;",
+                2: "Another year of mercies, Of faithfulness and grace; Another year of gladness In the shinning of Thy face; Another year of leaning Up on Thy loving breast; Another year of trusting, Of quiet, happy rest;",
+                3: "Another year of service, Of witness for Thy love; Another year of training For holier work above. Another year is dawning: Dear Father, let it be, On earth or else in heaven, Another year for Thee."
+            },
+            chorus: "",
+            song_url: `${path_name}114-AnotherYearIsDawning.mp3`,
+            author: "Frances Ridley Havergal"
+        },
+        "TheChurchOLordIsThine": {
+            title: "The Church, O Lord, Is Thine",
+            stanzas: {
+                1: "The Church, O Lord, is Thine, Is Thine forevermore From age to age, from pole to pole, From shore to farthest shore.",
+                2: "The Church, O Lord, is theirs, Whose toil this day hath brought Their faith, their hope and fearless love Our heritage hath bought.",
+                3: "The Church, O Lord, is ours, Is ours at highest cost Thy cross, its shame and sacrifice, And all the martyred host.",
+                4: "The Church, O Lord, is mine, And to its call I yield To be as scattered, living seed In God's own harvest field.",
+                5: "The Church, O Lord, is Thine, And we who bear Thy name, Until that day Thou dost appear Thy chosen Bride to claim."
+            },
+            chorus: "The Church, O Lord, is Thine, Is Thine forevermore!",
+            song_url: `${path_name}115-TheChurchOLordIsThine.mp3`,
+            author: "David P. Haney"
+        },
+        "WeBidYouWelcome": {
+            title: "We Bid You Welcome",
+            stanzas: {
+                1: "We bid you welcome in the name Of Jesus, Our exalted Head: Come as a servent so He came, And we receive you in His stead.",
+                2: "Come as a shepherd guard and keep This fold from harm of earth and sin; Nourish the lambs and feed the sheep, The wounded heal, the lost bring in.",
+                3: "Come as a teacher sent from God, Charged His Whole counsel to declare; Lift o'er ranks the prophet's rod, While we up hold your hands with prayer."
+            },
+            chorus: "",
+            song_url: `${path_name}116-WeBidYouWelcome.mp3`,
+            author: "James Montgomery"
+        },
+        "LordGodOurThanksToTheeWeRaise": {
+            title: "Lord God, Our Thanks To Thee We Raise",
+            stanzas: {
+                1: "Lord, God, our thanks to Thee we raise For those who built this house of  praise, Who long ago together stood To form a Christian brother hood.",
+                2: "Here have our children known Thy care And raised their tho'ts to Thee in prayer; Here have we shared the Wine, the Bread Here have our living souls been fed.",
+                3: "Still thru the years be Thou our guide, Keep us from enmity and pride; Still help us choose the better part A humble and a thankful heart.",
+                4: "Be this our common enterprise, That truth be preach'd and prayer arise, That each may seek the other's good And live and love as Jesus would!",
+                5: "Create in us the word, the deed, That ours may be a living creed; And cause Thy grace in us to dwell Abide with us, Immanuel!"
+            },
+            chorus: "",
+            song_url: `${path_name}117-LordGodOurThanksToTheeWeRaise.mp3`,
+            author: "Frederick K. Brewster"
+        },
+        "WeComeUntoOurFathersGod": {
+            title: "We Come Unto Our Fathers' God",
+            stanzas: {
+                1: "We come unto our fathers' God, Their Rock is our salvation; The eternal arms, their dear abode, We make our habitation. We bring Thee, Lord, the praise they brought, we seek Thee as Thy saints have sought In ev'ry generation.",
+                2: "The fire divine their steps that led Still goeth bright before us; The heav'nly shield around them spread Is still high holden o'er us. The grace those sinners subdued, The strength those weaklings that renewed, Doth vanquish, doth restore us.",
+                3: "Their joy unto their Lord we bring, Their song to us descendeth; The Spirit who in them did sing To us His music lendeth. His song in them, in us, is one: We raise it high, we send it on The song that never endeth.",
+                4: "Ye saints to come, take up the strain, The same swee theme endeavor; Unbroken be the golden chain! Keep on the song forever! Safe in the same dear dwelling place, Rich with the same eternal grace, Bless the same boundless Giver."
+            },
+            chorus: "",
+            song_url: `${path_name}118-WeComeUntoOurFathersGod.mp3`,
+            author: "Thomas H. Gill"
+        }
     }
 }
 
@@ -1281,123 +1379,6 @@ let songs = {
 
 
 let songs2 = {
-
-
-
-    "ComeYeThankfullPeople": {
-        title: "",
-        stanzas: {
-            1: "Come, ye thankfull people, come Raise the song of harvest home: All is safely gathered in Ere the winter storms begin, God, our Maker, doth provide For our wants to be supplied: Come to God's own temple, come Raise the song of harvest home.",
-            2: "All the world is God's own field, Fruit unto His praise to yield: Wheat and tares together sown, Unto joy of sorrow grown. First the blade and then the ear, Then the full corn shall appear: Lord of harvest, grant that we Wholesome grain and pure maybe.",
-            3: "For the Lord our God shall come And shall take His harvest home: From His field shall in that day All of fenses purge away Give His angles charge at last In the fire the tares to cast, But the fruitful ears to store In His garner ever more.",
-            4: "Even so, Lord, quickly come To Thy final harvest home: Gather Thou Thy people in, Free from sorrow, free from sin; There, forever purified, In Thy presence to abide: Come, with all Thine angles, come Raise the glorious harvest home."
-        },
-        chorus: "",
-        song_url: `${path_name}111-.mp3`,
-        author: ""
-    },
-    "GreatGodWeSingThatMightyHand": {
-        title: "",
-        stanzas: {
-            1: "Great God, we sing that mighty hand By which supported still we stand; The op'ning year Thy mercy shows, That mercy crowns it till it close.",
-            2: "By day, by night, at home, abroad, Still are we guarded by our God, By His incessant bounty fed, By His unerring counsel led.",
-            3: "With grateful hearts the past we own: The future, all to us unknown, We to Thy guardian care commit And, peaceful, leave before Thy feet.",
-            4: "In scenes exalted or depressed, Thou art our joy and Thou our rest; Thy goodness all our hopes shall raise, Adored through all our changing days."
-        },
-        chorus: "",
-        song_url: `${path_name}112-.mp3`,
-        author: ""
-    },
-    "LetUsWithaGladsomeMind": {
-        title: "",
-        stanzas: {
-            1: "Let us with a gladsome mind Praise the Lord, for He is Kind:",
-            2: "Let us sound His name abroad, For of gods He is the God:",
-            3: "He with all commanding might Filled the new made world with light:",
-            4: "He with strength did interpose To redeem us from our foes:",
-            5: "He doth all things living feed His full hand supplies their need:",
-            6: "Let us then with gladsome mind Praise the Lord, for He is kind:"
-        },
-        chorus: "For His mercies shall endure Ever faithful, ever sure!",
-        song_url: `${path_name}113-.mp3`,
-        author: ""
-    },
-    "AnotherYearIsDawning": {
-        title: "",
-        stanzas: {
-            1: "Another year is dawning: Dear Father, let it be, In working or in waiting, Another year with Thee; Another year of progress, Another year of praise, Another year of proving Thy presence all the days;",
-            2: "Another year of mercies, Of faithfulness and grace; Another year of gladness In the shinning of Thy face; Another year of leaning Up on Thy loving breast; Another year of trusting, Of quiet, happy rest;",
-            3: "Another year of service, Of witness for Thy love; Another year of training For holier work above. Another year is dawning: Dear Father, let it be, On earth or else in heaven, Another year for Thee."
-        },
-        chorus: "",
-        song_url: `${path_name}114-.mp3`,
-        author: ""
-    },
-    "TheChurchOLordIsThine": {
-        title: "",
-        stanzas: {
-            1: "The Church, O Lord, is Thine, Is Thine forevermore From age to age, from pole to pole, From shore to farthest shore.",
-            2: "The Church, O Lord, is theirs, Whose toil this day hath brought Their faith, their hope and fearless love Our heritage hath bought.",
-            3: "The Church, O Lord, is ours, Is ours at highest cost Thy cross, its shame and sacrifice, And all the martyred host.",
-            4: "The Church, O Lord, is mine, And to its call I yield To be as scattered, living seed In God's own harvest field.",
-            5: "The Church, O Lord, is Thine, And we who bear Thy name, Until that day Thou dost appear Thy chosen Bride to claim."
-        },
-        chorus: "The Church, O Lord, is Thine, Is Thine forevermore!",
-        song_url: `${path_name}115-.mp3`,
-        author: ""
-    },
-    "WeBidYouWelcome": {
-        title: "",
-        stanzas: {
-            1: "We bid you welcome in the name Of Jesus, Our exalted Head: Come as a servent so He came, And we receive you in His stead.",
-            2: "Come as a shepherd guard and keep This fold from harm of earth and sin; Nourish the lambs and feed the sheep, The wounded heal, the lost bring in.",
-            3: "Come as a teacher sent from God, Charged His Whole counsel to declare; Lift o'er ranks the prophet's rod, While we up hold your hands with prayer."
-        },
-        chorus: "",
-        song_url: `${path_name}116-.mp3`,
-        author: ""
-    },
-    "LordGodOurThanksToTheeWeRaise": {
-        title: "",
-        stanzas: {
-            1: "Lord, God, our thanks to Thee we raise For those who built this house of  praise, Who long ago together stood To form a Christian brother hood.",
-            2: "Here have our children known Thy care And raised their tho'ts to Thee in prayer; Here have we shared the Wine, the Bread Here have our living souls been fed.",
-            3: "Still thru the years be Thou our guide, Keep us from enmity and pride; Still help us choose the better part A humble and a thankful heart.",
-            4: "Be this our common enterprise, That truth be preach'd and prayer arise, That each may seek the other's good And live and love as Jesus would!",
-            5: "Create in us the word, the deed, That ours may be a living creed; And cause Thy grace in us to dwell Abide with us, Immanuel!"
-        },
-        chorus: "",
-        song_url: `${path_name}117-.mp3`,
-        author: ""
-    },
-    "WeComeUntoOurFathers'God": {
-        title: "",
-        stanzas: {
-            1: "We come unto our fathers' God, Their Rock is our salvation; The eternal arms, their dear abode, We make our habitation. We bring Thee, Lord, the praise they brought, we seek Thee as Thy saints have sought In ev'ry generation.",
-            2: "The fire divine their steps that led Still goeth bright before us; The heav'nly shield around them spread Is still high holden o'er us. The grace those sinners subdued, The strength those weaklings that renewed, Doth vanquish, doth restore us.",
-            3: "Their joy unto their Lord we bring, Their song to us descendeth; The Spirit who in them did sing To us His music lendeth. His song in them, in us, is one: We raise it high, we send it on The song that never endeth.",
-            4: "Ye saints to come, take up the strain, The same swee theme endeavor; Unbroken be the golden chain! Keep on the song forever! Safe in the same dear dwelling place, Rich with the same eternal grace, Bless the same boundless Giver."
-        },
-        chorus: "",
-        song_url: `${path_name}118-.mp3`,
-        author: ""
-    },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     "OpenMyEyes": {
         title: "",
         stanzas: {
