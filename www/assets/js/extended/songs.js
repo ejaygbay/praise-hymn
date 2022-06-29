@@ -1487,6 +1487,109 @@ let songs = {
             song_url: `${path_name}120-ThyWordHaveIHidInMyHeart.mp3`,
             author: "Ernest O. Sellers"
         },
+        "StandingOnThePromises1": {
+            song_num: 121,
+            title: "Standing On The Promises",
+            stanzas: {
+                1: "Standing on the promises of Christ my King, Through eternal ages let His praises ring! Glory in the highest I will shout and sing Standing on the promises of God, Standing on the promises of God!",
+                2: "Standing on the promises that cannot fail When the howling storms of doubt and fear as sail; By the living word of God I shall prevail Standing on the promises of God, Standing on the promises of God!",
+                3: "Standing on the promises of Christ the Lord, Bound to Him eternally by love's strong cord, Over coming daily with the Spirit's sword Standing on the promises of God, Standing on the promises of God!",
+                4: "Standing on the promises I cannot fail, List'ning every moment to the Spirit's call, Resting in my Savior as my all in all Standing on the promises of God, Standing on the promises of God!"
+            },
+            chorus: "Standing, standing, Standing on the promises of God, my Savior; Standing, standing, I'm standing on the promises of God.",
+            song_url: `${path_name}121-StandingOnThePromises1.mp3`,
+            author: "R. Kelso Carter"
+        },
+        "StandingOnThePromises2": {
+            song_num: 122,
+            title: "Standing On The Promises",
+            stanzas: {
+                1: "Standing on the promises of Christ my King, Through eternal ages let His praises ring! Glory in the highest I will shout and sing Standing on the promises of God, Standing on the promises of God!",
+                2: "Standing on the promises that cannot fail When the howling storms of doubt and fear as sail; By the living word of God I shall prevail Standing on the promises of God, Standing on the promises of God!",
+                3: "Standing on the promises of Christ the Lord, Bound to Him eternally by love's strong cord, Over coming daily with the Spirit's sword Standing on the promises of God, Standing on the promises of God!",
+                4: "Standing on the promises I cannot fail, List'ning every moment to the Spirit's call, Resting in my Savior as my all in all Standing on the promises of God, Standing on the promises of God!"
+            },
+            chorus: "Standing, standing, Standing on the promises of God, my Savior; Standing, standing, I'm standing on the promises of God.",
+            song_url: `${path_name}122-StandingOnThePromises1.mp3`,
+            author: "R. Kelso Carter"
+        },
+        "BreakThouTheBreadOfLife": {
+            song_num: 123,
+            title: "Break Thou The Bread Of Life",
+            stanzas: {
+                1: "Break Thou the bread of life, Dear Lord, to me, As Thou didst break the loaves Beside the sea: Beyond the sacred page I seek Thee, Lord; My spirit pants for Thee, O living Word.",
+                2: "Bless Thou the truth, dear Lord, To me to me, As Thou didst bless the bread By Galilee: Then shall all bondage cease, All fetters fall, And I shall find my peace, My All in All.",
+                3: "Thou art the bread of life, O Lord, to me; Thy holy Word the truth That saveth me: Give me to eat and live With Thee above; Teach me to love Thy truth, For Thou art love.",
+                4: "O send Thy Spirit, Lors Now unto me, That He may touch my eyes And make me see: Show me the truth conceled With in Thy Word, And in Thy book revealed I see Thee, Lord."
+            },
+            chorus: "",
+            song_url: `${path_name}123-BreakThouTheBreadOfLife.mp3`,
+            author: "Mary Lathbury and Alexander Groves"
+        },
+        "HolyBibleBookDivine": {
+            song_num: 124,
+            title: "Holy Bible, Book Divine",
+            stanzas: {
+                1: "Holy Bible, book divine, Precious treasure, thou art mine: Mine to tell me whence I came, Mine to teach me what I am;",
+                2: "Mine to chide me when I rove, Mine to show a Savior's love; Mine thou art to guide and guard, Mine to punish or reward;",
+                3: "Mine to comfort in distress Suffering in this wilderness; Mine to show, by living faith, Man can triumph over death;",
+                4: "Mine to tell of joys to come And the rebel sinner's doom: O thou holy book divine, Precious treasure, thou art mine."
+            },
+            chorus: "",
+            song_url: `${path_name}124-HolyBibleBookDivine.mp3`,
+            author: "John Burton, Sr."
+        },
+        "AlmightyGodThyWordIsCast": {
+            song_num: 125,
+            title: "Almighty God, Thy Word Is Cast",
+            stanzas: {
+                1: "Almighty God, Thy word is cast Like seed in to the ground; Now let the dew of heav'n descend And righteous fruits abound.",
+                2: "Let not the foe of Christ and man This holy seed remove, But give it root in every heart, To bring forth fruits of love.",
+                3: "Let not the world's deceitful cares The rising plant destory, But let it yield a hundred fold The fruits of peace and joy.",
+                4: "Oft as the precious seed is sown, Thy quickning grace bestow, That all whose souls the truth receive its saving pow'r may know."
+            },
+            chorus: "",
+            song_url: `${path_name}125-AlmightyGodThyWordIsCast.mp3`,
+            author: "John Cawood"
+        },
+        "HowWonderfulThatBookDivine": {
+            song_num: 126,
+            title: "How Wonderful That Book Divine",
+            stanzas: {
+                1: "How wonderful that Book Divine, By inspiration giv'n! Bright as a lamp its doctrines shine To guide our souls to heav'n.",
+                2: "Its light, descending from above, Our sin-sick world to cheer, Displays a Savior's boundless love And brings His glories near.",
+                3: "It shows to man his wand'ring ways And where his feet have trod, And brings to view the matchless grace Of our forgiving God.",
+                4: "It lights our path, it lifts our hearts, A-long the up-ward way; It life and joy and peace im-parts Till dawns e-ter-nal day."
+            },
+            chorus: "",
+            song_url: `${path_name}126-HowWonderfulThatBookDivine.mp3`,
+            author: "John Fawcett"
+        },
+        "TheSpiritBreathesUponTheWord": {
+            song_num: 127,
+            title: "The Spirit Breathes Upon The Word",
+            stanzas: {
+                1: "The Spirit breathes up on the Word And brings the truth to sight: Precepts and promises afford A sanctifying light.",
+                2: "A glorygilds the sacred page, Majestic like the sun; It gives a light to ev'ry age It gives, but borrows none.",
+                3: "The hand that gave it still supplies The gracious light and heat; His truths upon the nations rise They rise, but never set.",
+                4: "Let ever lastning thanks be Thine For such a bright display As makes a world of darkness shine With beams of heav'nly day!"
+            },
+            chorus: "",
+            song_url: `${path_name}127-TheSpiritBreathesUponTheWord.mp3`,
+            author: "William Cowper"
+        },
+        "WonderfulWordsOfLife": {
+            song_num: 128,
+            title: "Wonderful Words Of Life",
+            stanzas: {
+                1: "Sing them over again to me Wounderful words of Life; Words of life and beauty, Teach me faith and duty:",
+                2: "Christ, the blessed one, gives to all Wounderful words of Life; All so freely given, Wooing us to heaven:",
+                3: "sweetly echo the gospel call Wounderful words of Life; Jesus, only Savior, Sanctify forever:"
+            },
+            chorus: "Beautiful words, wonderful words, Wounderful words of Life; Beautiful words, wonderful words, Wounderful words of Life.",
+            song_url: `${path_name}128-WonderfulWordsOfLife.mp3`,
+            author: "Philip P. Bliss"
+        }
     }
 }
 
@@ -1524,90 +1627,8 @@ let songs = {
 
 
 let songs2 = {
-    "StandingOnThePromises": {
-        title: "",
-        stanzas: {
-            1: "Standing on the promises of Christ my King, Through eternal ages let His praises ring! Glory in the highest I will shout and sing Standing on the promises of God, Standing on the promises of God!",
-            2: "Standing on the promises that cannot fail When the howling storms of doubt and fear as sail; By the living word of God I shall prevail Standing on the promises of God, Standing on the promises of God!",
-            3: "Standing on the promises of Christ the Lord, Bound to Him eternally by love's strong cord, Over coming daily with the Spirit's sword Standing on the promises of God, Standing on the promises of God!",
-            4: "Standing on the promises I cannot fail, List'ning every moment to the Spirit's call, Resting in my Savior as my all in all Standing on the promises of God, Standing on the promises of God!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "BreakThouTheBreadOfLife": {
-        title: "",
-        stanzas: {
-            1: "Break Thou the bread of life, Dear Lord, to me, As Thou didst break the loaves Beside the sea: Beyond the sacred page I seek Thee, Lord; My spirit pants for Thee, O living Word.",
-            2: "Bless Thou the truth, dear Lord, To me to me, As Thou didst bless the bread By Galilee: Then shall all bondage cease, All fetters fall, And I shall find my peace, My All in All.",
-            3: "Thou art the bread of life, O Lord, to me; Thy holy Word the truth That saveth me: Give me to eat and live With Thee above; Teach me to love Thy truth, For Thou art love.",
-            4: "O send Thy Spirit, Lors Now unto me, That He may touch my eyes And make me see: Show me the truth conceled With in Thy Word, And in Thy book revealed I see Thee, Lord."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "HolyBibleBookDivine": {
-        title: "",
-        stanzas: {
-            1: "Holy Bible, book divine, Precious treasure, thou art mine: Mine to tell me whence I came, Mine to teach me what I am;",
-            2: "Mine to chide me when I rove, Mine to show a Savior's love; Mine thou art to guide and guard, Mine to punish or reward;",
-            3: "Mine to comfort in distress Suffering in this wilderness; Mine to show, by living faith, Man can triumph over death;",
-            4: "Mine to tell of joys to come And the rebel sinner's doom: O thou holy book divine, Precious treasure, thou art mine."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "AlmightyGodThyWordIsCast": {
-        title: "",
-        stanzas: {
-            1: "Almighty God, Thy word is cast Like seed in to the ground; Now let the dew of heav'n descend And righteous fruits abound.",
-            2: "Let not the foe of Christ and man This holy seed remove, But give it root in every heart, To bring forth fruits of love.",
-            3: "Let not the world's deceitful cares The rising plant destory, But let it yield a hundred fold The fruits of peace and joy.",
-            4: "Oft as the precious seed is sown, Thy quickning grace bestow, That all whose souls the truth receive its saving pow'r may know."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "TheSpiritBreathesUponTheWord": {
-        title: "",
-        stanzas: {
-            1: "The Spirit breathes up on the Word And brings the truth to sight: Precepts and promises afford A sanctifying light.",
-            2: "A glorygilds the sacred page, Majestic like the sun; It gives a light to ev'ry age It gives, but borrows none.",
-            3: "The hand that gave it still supplies The gracious light and heat; His truths upon the nations rise They rise, but never set.",
-            4: "Let ever lastning thanks be Thine For such a bright display As makes a world of darkness shine With beams of heav'nly day!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "WonderfulWordOfLife": {
-        title: "",
-        stanzas: {
-            1: "Sing them over again to me Wounderful words of Life; Words of life and beauty, Teach me faith and duty:",
-            2: "Christ, the blessed one, gives to all Wounderful words of Life; All so freely given, Wooing us to heaven:",
-            3: "sweetly echo the gospel call Wounderful words of Life; Jesus, only Savior, Sanctify forever:"
-        },
-        chorus: "Beautiful words, wonderful words, Wounderful words of Life; Beautiful words, wonderful words, Wounderful words of Life.",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
     "GloriousThingsOfTheeAreSpoken": {
+        song_num: 129,
         title: "",
         stanzas: {
             1: "Glorious things of thee are spoken, Zion, city of our God; He whose word can not be broken Formed thee for His own abode: On the Rock of Ages founded, What can shake thy sure repose? With salavation's walls surrounded, Thou mayst smile at all Thy foes.",
@@ -1615,12 +1636,11 @@ let songs2 = {
             3: "Round each habitation hovering, See the cloud and fire appear For a glory and a cov'ring, Showing that the Lord is near! Glorious things of thee are spoken, Zion, city of our God; He whose word can not be broken Formed thee for His own abode."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "ChristIsMadeTheSureFoundation": {
+        song_num: 130,
         title: "",
         stanzas: {
             1: "The Church's one foundation Is Jesus Christ her Lord; She is His new creation By water and the Word: From heav'n He came and sought her To be His holy bride; With His own blood He bought her, And for her life He died.",
@@ -1629,12 +1649,11 @@ let songs2 = {
             4: "Yet she on earth hath union With God the Three in One, And mystic sweet communion With those whose rest is won: O happy ones and holy! Lord, give us grace that we, Like them, the meek and lowly, On high may dwell with Thee."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "TheChurch'sOneFoundation": {
+        song_num: 131,
         title: "",
         stanzas: {
             1: "The Church's one foundation Is Jesus Christ her Lord; She is His new creation By water and the Word: From heav'n He came and sought her To be His holy bride; With His own blood He bought her, And for her life He died.",
@@ -1643,12 +1662,11 @@ let songs2 = {
             4: "Yet she on earth hath union With God the Three in One, And mystic sweet communion With those whose rest is won: O happy ones and holy! Lord, give us grace that we, Like them, the meek and lowly, On high may dwell with Thee."
         },
         chorus: "",
-
         song_url: `${path_name}`,
-        author: "",
-
+        author: ""
     },
     "OnwardChristianSoldiers": {
+        song_num: 132,
         title: "",
         stanzas: {
             1: "Onward, Christian soldiers, Marching as to war, With the cross of Jesus Going on before! Christ, the royal Master, Leads against the foe; For ward into battle See His banners go!",
