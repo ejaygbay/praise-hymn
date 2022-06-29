@@ -8,6 +8,10 @@ if (localStorage.getItem('favorite-songs')) {
 
 const loadSongs = (song_group) => {
     let parent_ele = document.getElementById(song_group);
+    window.scroll({
+        top: 0,
+        behavior: "smooth"
+    })
 
     if (songs[song_group.replaceAll('-', '_')]) {
         parent_ele.innerHTML = "";
