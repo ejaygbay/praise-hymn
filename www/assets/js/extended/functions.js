@@ -1,4 +1,9 @@
 const switchSection = (id) => {
+    window.scroll({
+        top: 0,
+        behavior: "smooth"
+    })
+
     document.querySelectorAll('.show-ele').forEach(ele => ele.classList.replace('show-ele', 'hide-ele'));
     document.getElementById(id).classList.add('show-ele');
 
