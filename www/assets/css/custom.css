@@ -148,6 +148,20 @@
     color: #FFF;
 }
 
+.splide.is-active .splide__list {
+    position: fixed;
+    margin-top: -10px !important;
+    z-index: 2;
+}
+
+.tab-content {
+    margin-top: 60px;
+}
+
+.header-large-title {
+    margin-top: -20px;
+}
+
 
 /* .playing .play-icon {
     display: none;
