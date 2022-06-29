@@ -137,7 +137,7 @@ const loadFavoriteSongs = () => {
             let id = ele.split('_');
             let song_id = id[0];
             let song_group = id[2];
-            let single_song = songs[song_group][song_id];
+            let single_song = songs[song_group.replaceAll('-', '_')][song_id];
             let song_title = single_song.title;
             let author = single_song.author;
 
