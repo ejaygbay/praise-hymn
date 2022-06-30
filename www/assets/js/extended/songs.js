@@ -1866,7 +1866,136 @@ let songs = {
             chorus: "",
             song_url: `${path_name}150-LordOfLifeAndKingOfGlory.mp3`,
             author: "Christian Burke"
-        }
+        },
+        "FaithOfOurMothers": {
+            song_num: 151,
+            title: "Faith Of Our Mothers",
+            stanzas: {
+                1: "Faith of our mothers, living still In cradle song and bedtime prayer, In nursery lore and fireside love, Thy presence still pervades the air: Faith of our mothers, living faith, We will be true to thee till death!",
+                2: "Faith of our mothers, living faith, Fount of our childhood's trust and grace, O may Thy consecration prove Source of a finer, nobler race: Faith of our mothers, loving faith, We will be true to thee till death!",
+                3: "Faith of our mothers, guiding faith, For youthful longing, youthful doubt, How blurred our vision, blind our way, Thy providentail care without: Faith of our mothers, guiding faith, We will be true to thee till death!",
+                4: "Faith of our mothers, Christian faith, In truth beyound our stumbling creeds, Still serve the home and save the Church And breaths thy spirit thru our deeds: Faith of our mothers, Christian faith, We will be true to thee till death!"
+            },
+            chorus: "",
+            song_url: `${path_name}151-FaithOfOurMothers.mp3`,
+            author: "A. B. Patten"
+        },
+        "ThouGraciousGodWhoseMercyLends": {
+            song_num: 152,
+            title: "Thou Gracious God, Whose Mercy Lends",
+            stanzas: {
+                1: "Thou gracious God, whose mercy lends the light of home, the smile of friends, our gathered flock thine arms enfold as in the peaceful days of old.",
+                2: "Wilt thou not hear us while we raise in sweet accord of solemn praise the voices that have mingled long in joyous flow of mirth and song?",
+                3: "For all the blessings life has brought, for all its sorrowing hours have taught, for all we mourn, for all we keep, the hands we clasp, the loved that sleep.",
+                4: "The noontide sunshine of the past, these brief, bright moments fading fast, the stars that gild our darkening years, the twilight ray from holier spheres.",
+                5: "We thank thee, Father; let thy grace our loving circle still embrace, thy mercy shed its heavenly store, thy peace be with us evermore."
+            },
+            chorus: "",
+            song_url: `${path_name}152-ThouGraciousGodWhoseMercyLends.mp3`,
+            author: "Oliver Wendell Holmes, Sr."
+        },
+        "InJordanStream": {
+            song_num: 153,
+            title: "In Jordan's Stream",
+            stanzas: {
+                1: "In Jordan's stream Savior stood Fullfilling righteousness; And like a dove the Spirit came His heart and life to bless.",
+                2: "Today we gather in Thy name, And 'tis a sacred hour; Bless these who follow in Thy steps, Desend in love and power.",
+                3: "Our witness to the world around Of Thy redeeming grace; A witness of our love for Thee, Our hope to see Thy face.",
+                4: "Nor would we cease to follow Thee, Content with this alone; On thru the garden, Calvary, Thy lot shall be our own."
+            },
+            chorus: "",
+            song_url: `${path_name}153-InJordanStream.mp3`,
+            author: "John W. Peterson"
+        },
+        "WeBlessTheNameOfChristTheLord": {
+            song_num: 154,
+            title: "We Bless The Name Of Christ, The Lord",
+            stanzas: {
+                1: "We bless the name of Christ the Lord, we bless him for his holy Word, who loved to do his Father's will, and all his righteousness fulfill.",
+                2: "We follow him with pure delight to sanctify his sacred rite, and thus our faith with water seal, to prove obedience that we feel.",
+                3: "Baptized in God the Father, Son, and Holy Spirit—-Three-in-One, with conscience free, we rest in God, in love and peace through Jesus' blood.",
+                4: "By grace we “Abba, Father” cry; by grace the Comforter comes nigh; and for thy grace our love shall be forever, only, Lord, for thee."
+            },
+            chorus: "",
+            song_url: `${path_name}154-WeBlessTheNameOfChristTheLord.mp3`,
+            author: "Samuel F. Coffman"
+        },
+        "SeeIsraelGentleShepherdStand": {
+            song_num: 155,
+            title: "See Israel's Gentle Shepherd Stand",
+            stanzas: {
+                1: "See Israel's gentle Shepherd stand With all-engaging charms; Hark! how He calls the tender lambs, And folds them in His arms.",
+                2: "Permit them to approach, He cries, Nor scorn their humble name; For 'twas to bless such souls, as these The Lord of angels came.",
+                3: "We bring them, Lord, in thankful hands, And yield them up to Thee; O gentle Saviour, we are Thine, Thine let our children be."
+            },
+            chorus: "",
+            song_url: `${path_name}155-SeeIsraelGentleShepherdStand.mp3`,
+            author: "Philip Doddridge"
+        },
+        "ThisChildWeDedicateToThee": {
+            song_num: 156,
+            title: "This Child We Dedicate To Thee",
+            stanzas: {
+                1: "This child we dedicate to Thee, O God of grace and purity! In Thy great love its life prolong, Shield it, we pray, from sin and wrong.",
+                2: "O may Thy Spirit gently draw Its willing soul to keep Thy law; May virtue, piety, and truth Dawn even with its dawning youth."
+            },
+            chorus: "",
+            song_url: `${path_name}156-ThisChildWeDedicateToThee.mp3`,
+            author: "Samuel Gilman"
+        },
+        "HereOMyLordISeeTheeFaceToFace": {
+            song_num: 157,
+            title: "Here, O My Lord, I See Thee Face To Face",
+            stanzas: {
+                1: "This Child We Dedicate to Thee Here would I touch and handle things unseen; Here grasp with firmer hand eternal grace, And all my weariness upon Thee lean.",
+                2: "Here would I feed upon the bread of God; Here drink with Thee the royal wine of heaven; Here would I lay aside each earthly load, Here taste afresh the calm of sin forgiven.",
+                3: "I have no help but Thine, nor do I need Another arm save Thine to lean upon; It is enough, my Lord, enough indeed; My strength is in Thy might, Thy might alone.",
+                4: "Mine is the sin, but Thine the righteousness: Mine is the guilt, but Thine the cleansing blood; Here is my robe, my refuge, and my peace; Thy Blood, Thy righteousness, O Lord my God!"
+            },
+            chorus: "",
+            song_url: `${path_name}157-HereOMyLordISeeTheeFaceToFace.mp3`,
+            author: "Horatius Bonar"
+        },
+        "AccordingToThyGraciousWord": {
+            song_num: 158,
+            title: "According To Thy Gracious Word",
+            stanzas: {
+                1: "According to Thy gracious word, In meek humility, This will I do, my dying Lord, I will remember Thee.",
+                2: "According to Thy gracious word My bread from heaven shall be; Thy testamen cup I take, And thus remember Thee?",
+                3: "Gethsemane, can I forget? Or there Thy conflict see, Thine agony and bloody sweat, And not remember Thee?",
+                4: "When to the cross I turn mine eyes And rest on Calvary, O Lamb of God, my sacrifice, I must remember Thee.",
+                5: "Remember Thee and all Thy pains And all Thy love to me; Yea, while a breath or pulse remains, Will I remember Thee.",
+                6: "And when these failing lips grow dumb, And mind and memory flee, When Thou shalt in Thy Kingdom come, Then, Lord, remember me."
+            },
+            chorus: "",
+            song_url: `${path_name}158-AccordingToThyGraciousWord.mp3`,
+            author: "James Montgomery"
+        },
+        "JesusThouJoyOfLovingHearts": {
+            song_num: 159,
+            title: "Jesus, Thou Joy Of Loving Hearts",
+            stanzas: {
+                1: "Jesus, Thou Joy of loving hearts, Thou Fount of life, Thou Light of men, From the best bliss that earth imparts, We turn unfilled to Thee again.",
+                2: "Thy truth unchanged hath ever stood; Thou savest those that on Thee call; To them that seek Thee Thou art good, To them that find Thee, all in all.",
+                3: "We taste Thee, O Thou living Bread, And long to feast upon Thee still; We drink of Thee, the Fountainhead, And thirst our souls from Thee to fill.",
+                4: "Our restless spirits yearn for Thee, Where'er our changeful lot is cast; Glad, when Thy gracious smile we see, Blest, when our faith can hold Thee fast.",
+                5: "O Jesus, ever with us stay, Make all our moments calm and bright; O chase the dark night of sin away, Shed o'er the world Thy holy light."
+            },
+            chorus: "",
+            song_url: `${path_name}159-JesusThouJoyOfLovingHearts.mp3`,
+            author: "Bernard of Clairvaux"
+        },
+        "BreadOfTheWorld": {
+            song_num: 160,
+            title: "Bread Of The World",
+            stanzas: {
+                1: "Bread of the world, in mercy broken, Wine of the soul, in mercy shed, By Whom the words of life were spoken, And in Whose death our sins are dead;",
+                2: "Look on the heart by sorrow broken, Look on the tears by sinners shed; And be Thy feast to us the token That by Thy grace our souls are fed."
+            },
+            chorus: "",
+            song_url: `${path_name}160-BreadOfTheWorld.mp3`,
+            author: "Reginald Heber"
+        },
     }
 }
 
@@ -1904,135 +2033,6 @@ let songs = {
 
 
 let songs2 = {
-    "FaithOfOurMothers": {
-        song_num: 151,
-        title: "",
-        stanzas: {
-            1: "Faith of our mothers, living still In cradle song and bedtime prayer, In nursery lore and fireside love, Thy presence still pervades the air: Faith of our mothers, living faith, We will be true to thee till death!",
-            2: "Faith of our mothers, living faith, Fount of our childhood's trust and grace, O may Thy consecration prove Source of a finer, nobler race: Faith of our mothers, loving faith, We will be true to thee till death!",
-            3: "Faith of our mothers, guiding faith, For youthful longing, youthful doubt, How blurred our vision, blind our way, Thy providentail care without: Faith of our mothers, guiding faith, We will be true to thee till death!",
-            4: "Faith of our mothers, Christian faith, In truth beyound our stumbling creeds, Still serve the home and save the Church And breaths thy spirit thru our deeds: Faith of our mothers, Christian faith, We will be true to thee till death!"
-        },
-        chorus: "",
-        song_url: `${path_name}151-.mp3`,
-        author: ""
-    },
-    "ThouGraciousGodWhoseMercyLends": {
-        song_num: 152,
-        title: "",
-        stanzas: {
-            1: "Thou gracious God, whose mercy lends the light of home, the smile of friends, our gathered flock thine arms enfold as in the peaceful days of old.",
-            2: "Wilt thou not hear us while we raise in sweet accord of solemn praise the voices that have mingled long in joyous flow of mirth and song?",
-            3: "For all the blessings life has brought, for all its sorrowing hours have taught, for all we mourn, for all we keep, the hands we clasp, the loved that sleep.",
-            4: "The noontide sunshine of the past, these brief, bright moments fading fast, the stars that gild our darkening years, the twilight ray from holier spheres.",
-            5: "We thank thee, Father; let thy grace our loving circle still embrace, thy mercy shed its heavenly store, thy peace be with us evermore."
-        },
-        chorus: "",
-        song_url: `${path_name}152-.mp3`,
-        author: ""
-    },
-    "InJordan'sStream": {
-        song_num: 153,
-        title: "",
-        stanzas: {
-            1: "In Jordan's stream Savior stood Fullfilling righteousness; And like a dove the Spirit came His heart and life to bless.",
-            2: "Today we gather in Thy name, And 'tis a sacred hour; Bless these who follow in Thy steps, Desend in love and power.",
-            3: "Our witness to the world around Of Thy redeeming grace; A witness of our love for Thee, Our hope to see Thy face.",
-            4: "Nor would we cease to follow Thee, Content with this alone; On thru the garden, Calvary, Thy lot shall be our own."
-        },
-        chorus: "",
-        song_url: `${path_name}153-.mp3`,
-        author: ""
-    },
-    "WeBlessTheNameOfChristTheLord": {
-        song_num: 154,
-        title: "",
-        stanzas: {
-            1: "We bless the name of Christ the Lord, we bless him for his holy Word, who loved to do his Father's will, and all his righteousness fulfill.",
-            2: "We follow him with pure delight to sanctify his sacred rite, and thus our faith with water seal, to prove obedience that we feel.",
-            3: "Baptized in God the Father, Son, and Holy Spirit—-Three-in-One, with conscience free, we rest in God, in love and peace through Jesus' blood.",
-            4: "By grace we “Abba, Father” cry; by grace the Comforter comes nigh; and for thy grace our love shall be forever, only, Lord, for thee."
-        },
-        chorus: "",
-        song_url: `${path_name}154-.mp3`,
-        author: ""
-    },
-    "SeeIsrael'sGentleShepherdStand": {
-        song_num: 155,
-        title: "",
-        stanzas: {
-            1: "See Israel's gentle Shepherd stand With all-engaging charms; Hark! how He calls the tender lambs, And folds them in His arms.",
-            2: "Permit them to approach, He cries, Nor scorn their humble name; For 'twas to bless such souls, as these The Lord of angels came.",
-            3: "We bring them, Lord, in thankful hands, And yield them up to Thee; O gentle Saviour, we are Thine, Thine let our children be."
-        },
-        chorus: "",
-        song_url: `${path_name}155-.mp3`,
-        author: ""
-    },
-    "ThisChildWeDedicateToThee": {
-        song_num: 156,
-        title: "",
-        stanzas: {
-            1: "This child we dedicate to Thee, O God of grace and purity! In Thy great love its life prolong, Shield it, we pray, from sin and wrong.",
-            2: "O may Thy Spirit gently draw Its willing soul to keep Thy law; May virtue, piety, and truth Dawn even with its dawning youth."
-        },
-        chorus: "",
-        song_url: `${path_name}156-.mp3`,
-        author: ""
-    },
-    "HereOMyLordISeeTheeFaceToFace": {
-        song_num: 157,
-        title: "",
-        stanzas: {
-            1: "This Child We Dedicate to Thee Here would I touch and handle things unseen; Here grasp with firmer hand eternal grace, And all my weariness upon Thee lean.",
-            2: "Here would I feed upon the bread of God; Here drink with Thee the royal wine of heaven; Here would I lay aside each earthly load, Here taste afresh the calm of sin forgiven.",
-            3: "I have no help but Thine, nor do I need Another arm save Thine to lean upon; It is enough, my Lord, enough indeed; My strength is in Thy might, Thy might alone.",
-            4: "Mine is the sin, but Thine the righteousness: Mine is the guilt, but Thine the cleansing blood; Here is my robe, my refuge, and my peace; Thy Blood, Thy righteousness, O Lord my God!"
-        },
-        chorus: "",
-        song_url: `${path_name}157-.mp3`,
-        author: ""
-    },
-    "AccordingToThyGraciousWord": {
-        song_num: 158,
-        title: "",
-        stanzas: {
-            1: "According to Thy gracious word, In meek humility, This will I do, my dying Lord, I will remember Thee.",
-            2: "According to Thy gracious word My bread from heaven shall be; Thy testamen cup I take, And thus remember Thee?",
-            3: "Gethsemane, can I forget? Or there Thy conflict see, Thine agony and bloody sweat, And not remember Thee?",
-            4: "When to the cross I turn mine eyes And rest on Calvary, O Lamb of God, my sacrifice, I must remember Thee.",
-            5: "Remember Thee and all Thy pains And all Thy love to me; Yea, while a breath or pulse remains, Will I remember Thee.",
-            6: "And when these failing lips grow dumb, And mind and memory flee, When Thou shalt in Thy Kingdom come, Then, Lord, remember me."
-        },
-        chorus: "",
-        song_url: `${path_name}158-.mp3`,
-        author: ""
-    },
-    "JesusThouJoyOfLovingHearts": {
-        song_num: 159,
-        title: "",
-        stanzas: {
-            1: "Jesus, Thou Joy of loving hearts, Thou Fount of life, Thou Light of men, From the best bliss that earth imparts, We turn unfilled to Thee again.",
-            2: "Thy truth unchanged hath ever stood; Thou savest those that on Thee call; To them that seek Thee Thou art good, To them that find Thee, all in all.",
-            3: "We taste Thee, O Thou living Bread, And long to feast upon Thee still; We drink of Thee, the Fountainhead, And thirst our souls from Thee to fill.",
-            4: "Our restless spirits yearn for Thee, Where'er our changeful lot is cast; Glad, when Thy gracious smile we see, Blest, when our faith can hold Thee fast.",
-            5: "O Jesus, ever with us stay, Make all our moments calm and bright; O chase the dark night of sin away, Shed o'er the world Thy holy light."
-        },
-        chorus: "",
-        song_url: `${path_name}159-.mp3`,
-        author: ""
-    },
-    "Bread of the World": {
-        song_num: 160,
-        title: "",
-        stanzas: {
-            1: "Bread of the world, in mercy broken, Wine of the soul, in mercy shed, By Whom the words of life were spoken, And in Whose death our sins are dead;",
-            2: "Look on the heart by sorrow broken, Look on the tears by sinners shed; And be Thy feast to us the token That by Thy grace our souls are fed."
-        },
-        chorus: "",
-        song_url: `${path_name}160-.mp3`,
-        author: ""
-    },
     "O Lamb of God": {
         song_num: 161,
         title: "",
