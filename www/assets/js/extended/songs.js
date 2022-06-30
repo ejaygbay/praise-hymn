@@ -1590,6 +1590,155 @@ let songs = {
             song_url: `${path_name}128-WonderfulWordsOfLife.mp3`,
             author: "Philip P. Bliss"
         }
+    },
+    the_church: {
+        "GloriousThingsOfTheeAreSpoken": {
+            song_num: 129,
+            title: "Glorious Things Of Thee Are Spoken",
+            stanzas: {
+                1: "Glorious things of thee are spoken, Zion, city of our God; He whose word can not be broken Formed thee for His own abode: On the Rock of Ages founded, What can shake thy sure repose? With salavation's walls surrounded, Thou mayst smile at all Thy foes.",
+                2: "See, the streams of living waters, Springing from eternal love, Well supply thy sons and daughters And all fear of want remove: Who can faint while such a river Ever flows their thirst to assuage? Grace which, like the Lord, the giver, Never fails from age to age",
+                3: "Round each habitation hovering, See the cloud and fire appear For a glory and a cov'ring, Showing that the Lord is near! Glorious things of thee are spoken, Zion, city of our God; He whose word can not be broken Formed thee for His own abode."
+            },
+            chorus: "",
+            song_url: `${path_name}129-GloriousThingsOfTheeAreSpoken.mp3`,
+            author: "John Newton"
+        },
+        "ChristIsMadeTheSureFoundation": {
+            song_num: 130,
+            title: "Christ Is Made The Sure Foundation",
+            stanzas: {
+                1: "The Church's one foundation Is Jesus Christ her Lord; She is His new creation By water and the Word: From heav'n He came and sought her To be His holy bride; With His own blood He bought her, And for her life He died.",
+                2: "Elect from ev'ry nation, Yet one o'er all the earth, Her charter of salavation One Lord, one faith, one birth; One holy name she blesses, Partakes one holy food, And to one hope she presses, With ev'ry grace endued.",
+                3: "Mid toil and tribulation And tumult of her war, She waits the consummation Of peace forevermore; Till with the vision glorious Her longing eyes are blest, And the great Church victorious Shall be the Church at rest.",
+                4: "Yet she on earth hath union With God the Three in One, And mystic sweet communion With those whose rest is won: O happy ones and holy! Lord, give us grace that we, Like them, the meek and lowly, On high may dwell with Thee."
+            },
+            chorus: "",
+            song_url: `${path_name}130-ChristIsMadeTheSureFoundation.mp3`,
+            author: "Henry Smart"
+        },
+        "TheChurchOneFoundation": {
+            song_num: 131,
+            title: "The Church's One Foundation",
+            stanzas: {
+                1: "The Church's one foundation Is Jesus Christ her Lord; She is His new creation By water and the Word: From heav'n He came and sought her To be His holy bride; With His own blood He bought her, And for her life He died.",
+                2: "Elect from ev'ry nation, Yet one o'er all the earth, Her charter of salavation One Lord, one faith, one birth; One holy name she blesses, Partakes one holy food, And to one hope she presses, With ev'ry grace endued.",
+                3: "Mid toil and tribulation And tumult of her war, She waits the consummation Of peace forevermore; Till with the vision glorious Her longing eyes are blest, And the great Church victorious Shall be the Church at rest.",
+                4: "Yet she on earth hath union With God the Three in One, And mystic sweet communion With those whose rest is won: O happy ones and holy! Lord, give us grace that we, Like them, the meek and lowly, On high may dwell with Thee."
+            },
+            chorus: "",
+            song_url: `${path_name}131-TheChurchOneFoundation.mp3`,
+            author: "Samuel J. Stone"
+        },
+        "OnwardChristianSoldiers": {
+            song_num: 132,
+            title: "Onward Christian Soldiers",
+            stanzas: {
+                1: "Onward, Christian soldiers, Marching as to war, With the cross of Jesus Going on before! Christ, the royal Master, Leads against the foe; For ward into battle See His banners go!",
+                2: "At the sign of triumph Satan's host doth flee; On, then, Christian soldiers, On to victory! Hell's foundations quiver At the shout of praise; Brothers, lift your Voices, Loud your anthems raise!",
+                3: "Like a mighty army Moves the Church of God; Brothers, we are treading Where the saints have trod. We are not divided, All one body we One in hope and doctrine, One in charity.",
+                4: "Onward, then, ye people, Join our happy throng; Blend with ours your voices In the triumph song. Glory, laud and honor Unto Christ the King This thru countless ages Men and angles sing."
+            },
+            chorus: "Onward, Christian soldiers, Marching as to war, With the cross of Jesus Going on before!",
+            song_url: `${path_name}132-OnwardChristianSoldiers.mp3`,
+            author: "Sabine Baring-Gould"
+        },
+        "FaithOfOurFathers": {
+            song_num: 133,
+            title: "Faith Of Our Fathers",
+            stanzas: {
+                1: "Faith of our fathers, living still In spite of dungeon, fire and sword O how our hearts beat high with joy When e'er we hear that glorious word!",
+                2: "Our fathers, chained in prisons dark, Were still in heart and conscience free; How sweet would be their children's fate If they, like them, could die for thee!",
+                3: "Faith of our fathers, we will love Both friend and foe in all our strife; And preach thee too, as love knows how, By kindly words and virtuous life."
+            },
+            chorus: "Faith of our fathers, holy faith, We will be true to thee till death!",
+            song_url: `${path_name}133-FaithOfOurFathers.mp3`,
+            author: "Frederick W. Faber"
+        },
+        "ILoveThyKingdomLord": {
+            song_num: 134,
+            title: "I Love Thy Kingdom, Lord!",
+            stanzas: {
+                1: "I love Thy kingdom, Lord! The house of Thine abode The Church our blest Redeemer saved With His own precious blood.",
+                2: "I love Thy Church, O God! Her walls before Thee stand, Dear as the apple of Thine eye And graven on Thy hand.",
+                3: "For her my tears shall fall, For her my prayers ascend, To her my cares and toils be giv'n Till toils and cares shall end.",
+                4: "Beyound my highest joy I prize her heav'nly ways Her sweet communion, solemn vows, Her hymns of love and praise.",
+                5: "Sure as Thy truth shall last, To Zion shall be giv'n The brightest glories earth can yield, And brighter bliss of heav'n."
+            },
+            chorus: "",
+            song_url: `${path_name}134-ILoveThyKingdomLord.mp3`,
+            author: "Timothy Dwight"
+        },
+        "BlestBeTheTieThatBinds": {
+            song_num: 135,
+            title: "Blest Be The Tie That Binds",
+            stanzas: {
+                1: "Blest be the tie that binds Our hearts in Christian love! The fellowship of kindred minds Is like to that above.",
+                2: "Before our Father's throne We pour our ardent prayers; Our fears, our hopes, our aims are one, Our comforts and our cares.",
+                3: "We share our mutual woes, Our mutual burdens bear; And often for each other flows The sympathizing tear.",
+                4: "When we asunder part It gives us inward pain; But we shall be joined in heart, And hope to meet again."
+            },
+            chorus: "",
+            song_url: `${path_name}135-BlestBeTheTieThatBinds.mp3`,
+            author: "John Fawcett"
+        },
+        "PraiseGodForTheBody": {
+            song_num: 136,
+            title: "Praise God For The Body!",
+            stanzas: {
+                1: "Praise God for the Body! Praise God for the Son! Praise God for the Life that Binds our hearts in one!",
+                2: "Guard your circle, brothers, Clasp your hand to hand; Satan can not break the Bond where in we stand!",
+                3: "Shed your extra clothing, Keep your baggage light; Rough will be the battle, Tough will be the fight!",
+                4: "Suffer hardness, brothers, Serve God night or noon; Live or die for Jesus Heav'n is coming soon!"
+            },
+            chorus: "Joy is the food we share, Love is our home; Brothers, praise God for the Body Shalom, shalom! for the Body Shalom, shalom!",
+            song_url: `${path_name}136-PraiseGodForTheBody.mp3`,
+            author: "Anne Ortlund"
+        },
+        "TheBondOfLove": {
+            song_num: 137,
+            title: "The Bond Of Love",
+            stanzas: {
+                1: "We are one in the bond of love, We are one in the bond of love; We have joined our spirit with the Spirit of God We are one in the bond of love.",
+                2: "Let us sing now, ev'ryone, Let us feel His love begun; Let us join our hands that the would will know We are one in the bond of love."
+            },
+            chorus: "",
+            song_url: `${path_name}137-TheBondOfLove.mp3`,
+            author: "Otis Skillings"
+        },
+        "TheFamilyOfGod": {
+            song_num: 138,
+            title: "The Family Of God",
+            stanzas: {
+                1: "I'm so glad I'm a part of the family of God I've been washed in the fountain, cleansed by His blood! Joint heirs with Jesus as we travel this sod For I'm part of the family, the family of God."
+            },
+            chorus: "",
+            song_url: `${path_name}138-TheFamilyOfGod.mp3`,
+            author: "William J. Gaither and Gloria Gaither",
+        },
+        "ChristianLove": {
+            song_num: 139,
+            title: "Christian Love",
+            stanzas: {
+                1: "Christian love, Christian love! In the Spirit we are one: We partake of great salvation, By His cross we're blood relation Christian love, Christian love, Christian love!",
+                2: "Christian love, Christian love! Grace and faith have made it plain: Justified as God now sees us, We rejoice and live in Jesus Christian love, Christian love, Christian love!",
+                3: "Christian love, Christian love! How the angles stand amazed: Join these Christians by the hand, Shout and sing to glory land Christian love, Christian love, Christian love!"
+            },
+            chorus: "",
+            song_url: `${path_name}139-ChristianLove.mp3`,
+            author: "Louis Paul Lehman"
+        },
+        "ThereIsAQuietUnderstanding": {
+            song_num: 140,
+            title: "There's A Quiet Understanding",
+            stanzas: {
+                1: "There's a quiet Understanding When we're gathered in the Spirit, It's a promise that He gives us When we gather in His name; There's a love we feel in Jesus, There's a manna that He feeds us, It's a promise that He gives us When we gather in His name.",
+                2: "And we know when we're together, Sharing love and Understanding, That our brothers and our sisters Feel the oneness that He brings; Thank You, thank You, thank You, Jesus For the way You love and feed us, For the many ways You lead us Thank You, thank You, Lord."
+            },
+            chorus: "",
+            song_url: `${path_name}140-ThereIsAQuietUnderstanding.mp3`,
+            author: "Tedd Smith"
+        },
     }
 }
 
@@ -1627,163 +1776,6 @@ let songs = {
 
 
 let songs2 = {
-    "GloriousThingsOfTheeAreSpoken": {
-        song_num: 129,
-        title: "",
-        stanzas: {
-            1: "Glorious things of thee are spoken, Zion, city of our God; He whose word can not be broken Formed thee for His own abode: On the Rock of Ages founded, What can shake thy sure repose? With salavation's walls surrounded, Thou mayst smile at all Thy foes.",
-            2: "See, the streams of living waters, Springing from eternal love, Well supply thy sons and daughters And all fear of want remove: Who can faint while such a river Ever flows their thirst to assuage? Grace which, like the Lord, the giver, Never fails from age to age",
-            3: "Round each habitation hovering, See the cloud and fire appear For a glory and a cov'ring, Showing that the Lord is near! Glorious things of thee are spoken, Zion, city of our God; He whose word can not be broken Formed thee for His own abode."
-        },
-        chorus: "",
-        song_url: `${path_name}`,
-        author: ""
-    },
-    "ChristIsMadeTheSureFoundation": {
-        song_num: 130,
-        title: "",
-        stanzas: {
-            1: "The Church's one foundation Is Jesus Christ her Lord; She is His new creation By water and the Word: From heav'n He came and sought her To be His holy bride; With His own blood He bought her, And for her life He died.",
-            2: "Elect from ev'ry nation, Yet one o'er all the earth, Her charter of salavation One Lord, one faith, one birth; One holy name she blesses, Partakes one holy food, And to one hope she presses, With ev'ry grace endued.",
-            3: "Mid toil and tribulation And tumult of her war, She waits the consummation Of peace forevermore; Till with the vision glorious Her longing eyes are blest, And the great Church victorious Shall be the Church at rest.",
-            4: "Yet she on earth hath union With God the Three in One, And mystic sweet communion With those whose rest is won: O happy ones and holy! Lord, give us grace that we, Like them, the meek and lowly, On high may dwell with Thee."
-        },
-        chorus: "",
-        song_url: `${path_name}`,
-        author: ""
-    },
-    "TheChurch'sOneFoundation": {
-        song_num: 131,
-        title: "",
-        stanzas: {
-            1: "The Church's one foundation Is Jesus Christ her Lord; She is His new creation By water and the Word: From heav'n He came and sought her To be His holy bride; With His own blood He bought her, And for her life He died.",
-            2: "Elect from ev'ry nation, Yet one o'er all the earth, Her charter of salavation One Lord, one faith, one birth; One holy name she blesses, Partakes one holy food, And to one hope she presses, With ev'ry grace endued.",
-            3: "Mid toil and tribulation And tumult of her war, She waits the consummation Of peace forevermore; Till with the vision glorious Her longing eyes are blest, And the great Church victorious Shall be the Church at rest.",
-            4: "Yet she on earth hath union With God the Three in One, And mystic sweet communion With those whose rest is won: O happy ones and holy! Lord, give us grace that we, Like them, the meek and lowly, On high may dwell with Thee."
-        },
-        chorus: "",
-        song_url: `${path_name}`,
-        author: ""
-    },
-    "OnwardChristianSoldiers": {
-        song_num: 132,
-        title: "",
-        stanzas: {
-            1: "Onward, Christian soldiers, Marching as to war, With the cross of Jesus Going on before! Christ, the royal Master, Leads against the foe; For ward into battle See His banners go!",
-            2: "At the sign of triumph Satan's host doth flee; On, then, Christian soldiers, On to victory! Hell's foundations quiver At the shout of praise; Brothers, lift your Voices, Loud your anthems raise!",
-            3: "Like a mighty army Moves the Church of God; Brothers, we are treading Where the saints have trod. We are not divided, All one body we One in hope and doctrine, One in charity.",
-            4: "Onward, then, ye people, Join our happy throng; Blend with ours your voices In the triumph song. Glory, laud and honor Unto Christ the King This thru countless ages Men and angles sing."
-        },
-        chorus: "Onward, Christian soldiers, Marching as to war, With the cross of Jesus Going on before!",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "FaithOfOurFathers": {
-        title: "",
-        stanzas: {
-            1: "Faith of our fathers, living still In spite of dungeon, fire and sword O how our hearts beat high with joy When e'er we hear that glorious word!",
-            2: "Our fathers, chained in prisons dark, Were still in heart and conscience free; How sweet would be their children's fate If they, like them, could die for thee!",
-            3: "Faith of our fathers, we will love Both friend and foe in all our strife; And preach thee too, as love knows how, By kindly words and virtuous life."
-        },
-        chorus: "Faith of our fathers, holy faith, We will be true to thee till death!",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "ILoveThyKingdomLord!": {
-        title: "",
-        stanzas: {
-            1: "I love Thy kingdom, Lord! The house of Thine abode The Church our blest Redeemer saved With His own precious blood.",
-            2: "I love Thy Church, O God! Her walls before Thee stand, Dear as the apple of Thine eye And graven on Thy hand.",
-            3: "For her my tears shall fall, For her my prayers ascend, To her my cares and toils be giv'n Till toils and cares shall end.",
-            4: "Beyound my highest joy I prize her heav'nly ways Her sweet communion, solemn vows, Her hymns of love and praise.",
-            5: "Sure as Thy truth shall last, To Zion shall be giv'n The brightest glories earth can yield, And brighter bliss of heav'n."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "BlestBeTheTieThatBinds": {
-        title: "",
-        stanzas: {
-            1: "Blest be the tie that binds Our hearts in Christian love! The fellowship of kindred minds Is like to that above.",
-            2: "Before our Father's throne We pour our ardent prayers; Our fears, our hopes, our aims are one, Our comforts and our cares.",
-            3: "We share our mutual woes, Our mutual burdens bear; And often for each other flows The sympathizing tear.",
-            4: "When we asunder part It gives us inward pain; But we shall be joined in heart, And hope to meet again."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "PraiseGodForTheBody!": {
-        title: "",
-        stanzas: {
-            1: "Praise God for the Body! Praise God for the Son! Praise God for the Life that Binds our hearts in one!",
-            2: "Guard your circle, brothers, Clasp your hand to hand; Satan can not break the Bond where in we stand!",
-            3: "Shed your extra clothing, Keep your baggage light; Rough will be the battle, Tough will be the fight!",
-            4: "Suffer hardness, brothers, Serve God night or noon; Live or die for Jesus Heav'n is coming soon!"
-        },
-        chorus: "Joy is the food we share, Love is our home; Brothers, praise God for the Body Shalom, shalom! for the Body Shalom, shalom!",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "TheBondOfLove": {
-        title: "",
-        stanzas: {
-            1: "We are one in the bond of love, We are one in the bond of love; We have joined our spirit with the Spirit of God We are one in the bond of love.",
-            2: "Let us sing now, ev'ryone, Let us feel His love begun; Let us join our hands that the would will know We are one in the bond of love."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "TheFamilyOfGod": {
-        title: "",
-        stanzas: {
-            1: "I'm so glad I'm a part of the family of God I've been washed in the fountain, cleansed by His blood! Joint heirs with Jesus as we travel this sod For I'm part of the family, the family of God."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "ChristianLove": {
-        title: "",
-        stanzas: {
-            1: "Christian love, Christian love! In the Spirit we are one: We partake of great salvation, By His cross we're blood relation Christian love, Christian love, Christian love!",
-            2: "Christian love, Christian love! Grace and faith have made it plain: Justified as God now sees us, We rejoice and live in Jesus Christian love, Christian love, Christian love!",
-            3: "Christian love, Christian love! How the angles stand amazed: Join these Christians by the hand, Shout and sing to glory land Christian love, Christian love, Christian love!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "There'sAQuietUnderstanding": {
-        title: "",
-        stanzas: {
-            1: "There's a quiet Understanding When we're gathered in the Spirit, It's a promise that He gives us When we gather in His name; There's a love we feel in Jesus, There's a manna that He feeds us, It's a promise that He gives us When we gather in His name.",
-            2: "And we know when we're together, Sharing love and Understanding, That our brothers and our sisters Feel the oneness that He brings; Thank You, thank You, thank You, Jesus For the way You love and feed us, For the many ways You lead us Thank You, thank You, Lord."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
     "RenewThyChurchHerMinistriesRestore": {
         title: "",
         stanzas: {
