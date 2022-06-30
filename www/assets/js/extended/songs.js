@@ -1739,6 +1739,134 @@ let songs = {
             song_url: `${path_name}140-ThereIsAQuietUnderstanding.mp3`,
             author: "Tedd Smith"
         },
+        "RenewThyChurchHerMinistriesRestore": {
+            song_num: 141,
+            title: "Renew Thy Church, Her Ministries Restore",
+            stanzas: {
+                1: "Renew Thy church, her Ministries restore: Both to serve and adore. Make her again as salt through out the land, And as light from a stand. Mid somber shadows of the night Where greed and hatred spreed their blight, O send us forth with pow'r endued: Help us, Lord be renewed!",
+                2: "Teach us Thy Word, reveal its truth divine: On our path let it shine. Tell of Thy works, Thy mighty acts of grace: From each page show Thy face. As Thou hast loved us, sent Thy Son, And our salvation now is won, O let our hearts with love be stirred: Help us, Lord, know Thy Word!",
+                3: "Teach us to pray, for Thou art ever near: Thy still voice let us here. Our souls are restless till they rest in Thee: This our glad destiny. Before Thy presence keep us still, That we may find for us Thy will And seek Thy guidance ev'ry day: Teach us, Lord, how to pray!",
+                4: "Teach us to love, with strength of heart and mind, Everyone, all mankind. Break down old walls of prejudice and hate: Leave us not to our fate. As Thou hast loved and giv'n Thy life To end hostility and strife, O share Thy grace from heav'n above: Teach us, Lord, how to love!"
+            },
+            chorus: "",
+            song_url: `${path_name}141-RenewThyChurchHerMinistriesRestore.mp3`,
+            author: "Kenneth L. Cober"
+        },
+        "ThereShallBeShowersOfBlessing": {
+            song_num: 142,
+            title: "There Shall Be Showers Of Blessing",
+            stanzas: {
+                1: "There shall be showers of blessing This is the promise of love; There shall be seasons refreshing, Sent from the Savior above.",
+                2: "There shall be showers of blessing Precious reviving again; Over the hills and the valleys, Sound of abundance of rain.",
+                3: "There shall be showers of blessing Send them up on us, O Lord; Grant to us now a refreshing, Come and now honor Your Word.",
+                4: "There shall be showers of blessing O that today they might fall, Now as to God we're confessing, Now as on Jesus we call!"
+            },
+            chorus: "Showers of blessing, Showers of blessing we need; Mercy drops round us are falling, But for the showers we plead.",
+            song_url: `${path_name}142-ThereShallBeShowersOfBlessing.mp3`,
+            author: "Daniel W. Whittle"
+        },
+        "ShineThouUponUsLord": {
+            song_num: 143,
+            title: "Shine Thou Upon Us, Lord",
+            stanzas: {
+                1: "Shine Thou upon us, Lord, True light of men today, And through the written Word Thy very self display, That so, from hearts which burn With gazing on Thy face, Thy little ones may learn The wonders of Thy grace.",
+                2: "Breath Thou upon us, Lord, Thy Spirit's living flame, That so with one accord Our lips may  tell Thy name; Give Thou the hearing ear, Fix Thou the wand'ring thought, That those we teach may hear The great things Thou hast wrought.",
+                3: "Speak Thou for us, O Lord, In all we say of Thee: According to Thy Word Let all our teaching be, That so Thy lambs may know Their own true Shepherd's voice, Where'er He leads them go, And in His love rejoice.",
+                4: "Live Thou within us, Lord Thy mind and will be ours: Be Thou beloved, adored And served with all our pow'rs, That so our lives may teach Thy children what Thou art, And plead, by more than speech, For Thee with ev'ry heart."
+            },
+            chorus: "",
+            song_url: `${path_name}143-ShineThouUponUsLord.mp3`,
+            author: "John Ellerton"
+        },
+        "OGrantUsLight": {
+            song_num: 144,
+            title: "O Grant Us Light",
+            stanzas: {
+                1: "O grant us light, that we may know The wisdom Thou alone canst give, That truth may guide where'er we go, And virtue bless where'er we live.",
+                2: "O grant us light, that we may see Where error lurks in human lore, And turn our doubting minds to Thee, And love Thy simple Word the more.",
+                3: "O grant us light, that we may learn How dead is life from Thee apart, How sure is joy for all who turn To Thee an undivided heart."
+            },
+            chorus: "",
+            song_url: `${path_name}144-OGrantUsLight.mp3`,
+            author: "Lawrence Tuttiett"
+        },
+        "AStudentPrayer": {
+            song_num: 145,
+            title: "A Student's Prayer",
+            stanzas: {
+                1: "God, the all wise, and Creator Of the human in tellect, Guide our search for truth and knowledge, All our thoughts and ways direct. Help us blind the tow'rs of learning That would make us wise, astute, On the rock of Holy Scripture: Truth revealed and absolute.",
+                2: "O how vest the shores of learning There are still uncharted seas, And they call to bold adventure Those who turn from sloth and ease. But we need Your hand to guide us In the studies we pursue, And the presence of Your Spirit To illumine all we do.",
+                3: "May the things we learn, so meager, Never lift our hearts in pride Till in foolish selfreliance We would wander from Your side. Let them only bind us closer, Lord, to You, in whom we find Very fountain head of wisdom, Light and life of all mankind."
+            },
+            chorus: "",
+            song_url: `${path_name}145-AStudentPrayer.mp3`,
+            author: "John W. Peterson"
+        },
+        "MyLordIDoNotAskToStand": {
+            song_num: 146,
+            title: "My Lord, I Do Not Ask To Stand",
+            stanzas: {
+                1: "My Lord, I do not ask to stand As king or prince of high degree; I only pray that hand in hand A child and I may come to Thee.",
+                2: "To teach a tender voice to pray, Two childish eyes Thy face to see, Two feet to guide in Thy straight way This fervently I ask of Thee.",
+                3: "O grant Thy patience to impart Thy holy law, Thy words of truth; Give, Lord, Thy grace that my whole heart May overflow with love for youth.",
+                4: "As step by step we tread the way, Trusting and confident and free, A child and I shall day by day Find sweet companionship with Thee."
+            },
+            chorus: "",
+            song_url: `${path_name}146-MyLordIDoNotAskToStand.mp3`,
+            author: "Norman E. Richardson and Florence I. Judson-Bradley"
+        },
+        "AChristianHome": {
+            song_num: 147,
+            title: "A Christian Home",
+            stanzas: {
+                1: "O give us homes built firm upon the Savior, Where Christ is head and conselor and guide; Where every child is taught His love and favor And gives his heart to Christ, the crucified: How sweet to know that tho his footsteps waver His faithful Lord is walking by his side!",
+                2: "O give us homes with godly fathers, mothers, Who always place their hope and trust in Him; Whose tender patience turmoil never bothers, Whose calm and courage trouble can not dim; A home where each finds joy in serving others, And love still shines tho days be dark and grim.",
+                3: "O give us homes where Christ is Lord and Master, The Bible read, the orecious hymns still sung; Where prayer comes first in peace or in disaster, And praise is natural speech to every tongue; Where mountains move before a faith that's vaster, And Christ sufficient is for old and young.",
+                4: "O Lord, our God, our homes are Thine forever! We trust to Thee their problems, toil and care; Their bonds of love no enemy can sever If Thou art always Lord and Master there: Be Thou the center of our least endeavor Be Thou our guest, cur hearts and homes to share."
+            },
+            chorus: "",
+            song_url: `${path_name}147-AChristianHome.mp3`,
+            author: "Barbara B. Hart"
+        },
+        "HappyTheHomeWhenGodIsThere": {
+            song_num: 148,
+            title: "Happy The Home When God Is There",
+            stanzas: {
+                1: "Happy the home when God is there And love fills every nreast, When one their wish and one their paryer And one their heav'nly rest.",
+                2: "Happy the home where Jesus name is sweet to every ear, Where children early lisp His fame And parents hold Him dear.",
+                3: "Happy the home where prayer is heard And praise is wont to rise, Where parents love the sacred Word And all its wisdom prize.",
+                4: "Lord, let us in our homes agree This blessed peace to gain; Unite our hearts in love to Thee, And love to all will reign."
+            },
+            chorus: "",
+            song_url: `${path_name}148-HappyTheHomeWhenGodIsThere.mp3`,
+            author: "Henry Ware, the younger"
+        },
+        "OurThanksOGodForParents": {
+            song_num: 149,
+            title: "Our Thanks, O God, For Parents",
+            stanzas: {
+                1: "Our thanks, O God, for parents Who follow in Thy way, And who, with glad and trusting hearts, Exalt Thee every day.",
+                2: "Our thanks, O God, for parents Who show, by word and deed, Commitment to Thy will and plan, And Thy commandments heed.",
+                3: "Our thanks, O God, for parents Who meet Thee oft in prayer, And who, for all life's toil and care, Fine strength and wisdom there.",
+                4: "How blessed are the children Who in their parents see The tender Father love of God, And find their way to Thee."
+            },
+            chorus: "",
+            song_url: `${path_name}149-OurThanksOGodForParents.mp3`,
+            author: "Lois S. Johnson"
+        },
+        "LordOfLifeAndKingOfGlory": {
+            song_num: 150,
+            title: "Lord Of Life And King Of Glory",
+            stanzas: {
+                1: "Lord of the life and King of glory, Who didst deign a child to be, Cradled on a mother's bosom, Throned upon a mother's knee: For the children Thou hast given We must answer unto Thee.",
+                2: "Grant to us pure hearts, and patient, Thaat in all we do or say Little ones our deeds may copy And be never led astray, Little feet our steps may follow In a safe and narrow way.",
+                3: "When our growing sons and daughters Look on life with eager eyes, Grant us then a deeper in sight And new new powers of sacrifice: Hope to trust them, faith to guide them, Love that nothing good denies.",
+                4: "May we keep our holy calling Stainless in its fair renown, That, when all the work is over And we lay the burden down, Then the children Thou hast given Still may be our joy and crown."
+            },
+            chorus: "",
+            song_url: `${path_name}150-LordOfLifeAndKingOfGlory.mp3`,
+            author: "Christian Burke"
+        }
     }
 }
 
@@ -1776,145 +1904,8 @@ let songs = {
 
 
 let songs2 = {
-    "RenewThyChurchHerMinistriesRestore": {
-        title: "",
-        stanzas: {
-            1: "Renew Thy church, her Ministries restore: Both to serve and adore. Make her again as salt through out the land, And as light from a stand. Mid somber shadows of the night Where greed and hatred spreed their blight, O send us forth with pow'r endued: Help us, Lord be renewed!",
-            2: "Teach us Thy Word, reveal its truth divine: On our path let it shine. Tell of Thy works, Thy mighty acts of grace: From each page show Thy face. As Thou hast loved us, sent Thy Son, And our salvation now is won, O let our hearts with love be stirred: Help us, Lord, know Thy Word!",
-            3: "Teach us to pray, for Thou art ever near: Thy still voice let us here. Our souls are restless till they rest in Thee: This our glad destiny. Before Thy presence keep us still, That we may find for us Thy will And seek Thy guidance ev'ry day: Teach us, Lord, how to pray!",
-            4: "Teach us to love, with strength of heart and mind, Everyone, all mankind. Break down old walls of prejudice and hate: Leave us not to our fate. As Thou hast loved and giv'n Thy life To end hostility and strife, O share Thy grace from heav'n above: Teach us, Lord, how to love!"
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "ThereShallBeShowersOfBlessing": {
-        title: "",
-        stanzas: {
-            1: "There shall be showers of blessing This is the promise of love; There shall be seasons refreshing, Sent from the Savior above.",
-            2: "There shall be showers of blessing Precious reviving again; Over the hills and the valleys, Sound of abundance of rain.",
-            3: "There shall be showers of blessing Send them up on us, O Lord; Grant to us now a refreshing, Come and now honor Your Word.",
-            4: "There shall be showers of blessing O that today they might fall, Now as to God we're confessing, Now as on Jesus we call!"
-        },
-        chorus: "Showers of blessing, Showers of blessing we need; Mercy drops round us are falling, But for the showers we plead.",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "ShineThouUponUsLord": {
-        title: "",
-        stanzas: {
-            1: "Shine Thou upon us, Lord, True light of men today, And through the written Word Thy very self display, That so, from hearts which burn With gazing on Thy face, Thy little ones may learn The wonders of Thy grace.",
-            2: "Breath Thou upon us, Lord, Thy Spirit's living flame, That so with one accord Our lips may  tell Thy name; Give Thou the hearing ear, Fix Thou the wand'ring thought, That those we teach may hear The great things Thou hast wrought.",
-            3: "Speak Thou for us, O Lord, In all we say of Thee: According to Thy Word Let all our teaching be, That so Thy lambs may know Their own true Shepherd's voice, Where'er He leads them go, And in His love rejoice.",
-            4: "Live Thou within us, Lord Thy mind and will be ours: Be Thou beloved, adored And served with all our pow'rs, That so our lives may teach Thy children what Thou art, And plead, by more than speech, For Thee with ev'ry heart."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "OGrantUsLight": {
-        title: "",
-        stanzas: {
-            1: "O grant us light, that we may know The wisdom Thou alone canst give, That truth may guide where'er we go, And virtue bless where'er we live.",
-            2: "O grant us light, that we may see Where error lurks in human lore, And turn our doubting minds to Thee, And love Thy simple Word the more.",
-            3: "O grant us light, that we may learn How dead is life from Thee apart, How sure is joy for all who turn To Thee an undivided heart."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "AStudent'sPrayer": {
-        title: "",
-        stanzas: {
-            1: "God, the all wise, and Creator Of the human in tellect, Guide our search for truth and knowledge, All our thoughts and ways direct. Help us blind the tow'rs of learning That would make us wise, astute, On the rock of Holy Scripture: Truth revealed and absolute.",
-            2: "O how vest the shores of learning There are still uncharted seas, And they call to bold adventure Those who turn from sloth and ease. But we need Your hand to guide us In the studies we pursue, And the presence of Your Spirit To illumine all we do.",
-            3: "May the things we learn, so meager, Never lift our hearts in pride Till in foolish selfreliance We would wander from Your side. Let them only bind us closer, Lord, to You, in whom we find Very fountain head of wisdom, Light and life of all mankind."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "MyLordIDoNotAskToStand": {
-        title: "",
-        stanzas: {
-            1: "My Lord, I do not ask to stand As king or prince of high degree; I only pray that hand in hand A child and I may come to Thee.",
-            2: "To teach a tender voice to pray, Two childish eyes Thy face to see, Two feet to guide in Thy straight way This fervently I ask of Thee.",
-            3: "O grant Thy patience to impart Thy holy law, Thy words of truth; Give, Lord, Thy grace that my whole heart May overflow with love for youth.",
-            4: "As step by step we tread the way, Trusting and confident and free, A child and I shall day by day Find sweet companionship with Thee."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "AChristianHome": {
-        title: "",
-        stanzas: {
-            1: "O give us homes built firm upon the Savior, Where Christ is head and conselor and guide; Where every child is taught His love and favor And gives his heart to Christ, the crucified: How sweet to know that tho his footsteps waver His faithful Lord is walking by his side!",
-            2: "O give us homes with godly fathers, mothers, Who always place their hope and trust in Him; Whose tender patience turmoil never bothers, Whose calm and courage trouble can not dim; A home where each finds joy in serving others, And love still shines tho days be dark and grim.",
-            3: "O give us homes where Christ is Lord and Master, The Bible read, the orecious hymns still sung; Where prayer comes first in peace or in disaster, And praise is natural speech to every tongue; Where mountains move before a faith that's vaster, And Christ sufficient is for old and young.",
-            4: "O Lord, our God, our homes are Thine forever! We trust to Thee their problems, toil and care; Their bonds of love no enemy can sever If Thou art always Lord and Master there: Be Thou the center of our least endeavor Be Thou our guest, cur hearts and homes to share."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "HappyTheHomeWhenGodIsThere": {
-        title: "",
-        stanzas: {
-            1: "Happy the home when God is there And love fills every nreast, When one their wish and one their paryer And one their heav'nly rest.",
-            2: "Happy the home where Jesus name is sweet to every ear, Where children early lisp His fame And parents hold Him dear.",
-            3: "Happy the home where prayer is heard And praise is wont to rise, Where parents love the sacred Word And all its wisdom prize.",
-            4: "Lord, let us in our homes agree This blessed peace to gain; Unite our hearts in love to Thee, And love to all will reign."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "OurThanksO GodForParents": {
-        title: "",
-        stanzas: {
-            1: "Our thanks, O God, for parents Who follow in Thy way, And who, with glad and trusting hearts, Exalt Thee every day.",
-            2: "Our thanks, O God, for parents Who show, by word and deed, Commitment to Thy will and plan, And Thy commandments heed.",
-            3: "Our thanks, O God, for parents Who meet Thee oft in prayer, And who, for all life's toil and care, Fine strength and wisdom there.",
-            4: "How blessed are the children Who in their parents see The tender Father love of God, And find their way to Thee."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
-    "LordOfLifeAndKingOfGlory": {
-        title: "",
-        stanzas: {
-            1: "Lord of the life and King of glory, Who didst deign a child to be, Cradled on a mother's bosom, Throned upon a mother's knee: For the children Thou hast given We must answer unto Thee.",
-            2: "Grant to us pure hearts, and patient, Thaat in all we do or say Little ones our deeds may copy And be never led astray, Little feet our steps may follow In a safe and narrow way.",
-            3: "When our growing sons and daughters Look on life with eager eyes, Grant us then a deeper in sight And new new powers of sacrifice: Hope to trust them, faith to guide them, Love that nothing good denies.",
-            4: "May we keep our holy calling Stainless in its fair renown, That, when all the work is over And we lay the burden down, Then the children Thou hast given Still may be our joy and crown."
-        },
-        chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
-    },
     "FaithOfOurMothers": {
+        song_num: 151,
         title: "",
         stanzas: {
             1: "Faith of our mothers, living still In cradle song and bedtime prayer, In nursery lore and fireside love, Thy presence still pervades the air: Faith of our mothers, living faith, We will be true to thee till death!",
@@ -1923,12 +1914,11 @@ let songs2 = {
             4: "Faith of our mothers, Christian faith, In truth beyound our stumbling creeds, Still serve the home and save the Church And breaths thy spirit thru our deeds: Faith of our mothers, Christian faith, We will be true to thee till death!"
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}151-.mp3`,
+        author: ""
     },
     "ThouGraciousGodWhoseMercyLends": {
+        song_num: 152,
         title: "",
         stanzas: {
             1: "Thou gracious God, whose mercy lends the light of home, the smile of friends, our gathered flock thine arms enfold as in the peaceful days of old.",
@@ -1938,12 +1928,11 @@ let songs2 = {
             5: "We thank thee, Father; let thy grace our loving circle still embrace, thy mercy shed its heavenly store, thy peace be with us evermore."
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}152-.mp3`,
+        author: ""
     },
     "InJordan'sStream": {
+        song_num: 153,
         title: "",
         stanzas: {
             1: "In Jordan's stream Savior stood Fullfilling righteousness; And like a dove the Spirit came His heart and life to bless.",
@@ -1952,12 +1941,11 @@ let songs2 = {
             4: "Nor would we cease to follow Thee, Content with this alone; On thru the garden, Calvary, Thy lot shall be our own."
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}153-.mp3`,
+        author: ""
     },
     "WeBlessTheNameOfChristTheLord": {
+        song_num: 154,
         title: "",
         stanzas: {
             1: "We bless the name of Christ the Lord, we bless him for his holy Word, who loved to do his Father's will, and all his righteousness fulfill.",
@@ -1966,12 +1954,11 @@ let songs2 = {
             4: "By grace we “Abba, Father” cry; by grace the Comforter comes nigh; and for thy grace our love shall be forever, only, Lord, for thee."
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}154-.mp3`,
+        author: ""
     },
     "SeeIsrael'sGentleShepherdStand": {
+        song_num: 155,
         title: "",
         stanzas: {
             1: "See Israel's gentle Shepherd stand With all-engaging charms; Hark! how He calls the tender lambs, And folds them in His arms.",
@@ -1979,24 +1966,22 @@ let songs2 = {
             3: "We bring them, Lord, in thankful hands, And yield them up to Thee; O gentle Saviour, we are Thine, Thine let our children be."
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}155-.mp3`,
+        author: ""
     },
     "ThisChildWeDedicateToThee": {
+        song_num: 156,
         title: "",
         stanzas: {
             1: "This child we dedicate to Thee, O God of grace and purity! In Thy great love its life prolong, Shield it, we pray, from sin and wrong.",
             2: "O may Thy Spirit gently draw Its willing soul to keep Thy law; May virtue, piety, and truth Dawn even with its dawning youth."
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}156-.mp3`,
+        author: ""
     },
     "HereOMyLordISeeTheeFaceToFace": {
+        song_num: 157,
         title: "",
         stanzas: {
             1: "This Child We Dedicate to Thee Here would I touch and handle things unseen; Here grasp with firmer hand eternal grace, And all my weariness upon Thee lean.",
@@ -2005,12 +1990,11 @@ let songs2 = {
             4: "Mine is the sin, but Thine the righteousness: Mine is the guilt, but Thine the cleansing blood; Here is my robe, my refuge, and my peace; Thy Blood, Thy righteousness, O Lord my God!"
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}157-.mp3`,
+        author: ""
     },
     "AccordingToThyGraciousWord": {
+        song_num: 158,
         title: "",
         stanzas: {
             1: "According to Thy gracious word, In meek humility, This will I do, my dying Lord, I will remember Thee.",
@@ -2021,12 +2005,11 @@ let songs2 = {
             6: "And when these failing lips grow dumb, And mind and memory flee, When Thou shalt in Thy Kingdom come, Then, Lord, remember me."
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}158-.mp3`,
+        author: ""
     },
     "JesusThouJoyOfLovingHearts": {
+        song_num: 159,
         title: "",
         stanzas: {
             1: "Jesus, Thou Joy of loving hearts, Thou Fount of life, Thou Light of men, From the best bliss that earth imparts, We turn unfilled to Thee again.",
@@ -2036,36 +2019,32 @@ let songs2 = {
             5: "O Jesus, ever with us stay, Make all our moments calm and bright; O chase the dark night of sin away, Shed o'er the world Thy holy light."
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}159-.mp3`,
+        author: ""
     },
     "Bread of the World": {
+        song_num: 160,
         title: "",
         stanzas: {
             1: "Bread of the world, in mercy broken, Wine of the soul, in mercy shed, By Whom the words of life were spoken, And in Whose death our sins are dead;",
             2: "Look on the heart by sorrow broken, Look on the tears by sinners shed; And be Thy feast to us the token That by Thy grace our souls are fed."
-
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}160-.mp3`,
+        author: ""
     },
     "O Lamb of God": {
+        song_num: 161,
         title: "",
         stanzas: {
             1: "O Lamb of God, that takest away the sins of the world, have mercy upon us. O Lamb of God, that takest away the sins of the world, grant us thy peace."
         },
         chorus: "",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}161-.mp3`,
+        author: ""
     },
     "LetUsBreakBreadTogether": {
+        song_num: 162,
         title: "",
         stanzas: {
             1: "Let us break bread together on our knees. Let us break bread together on our knees.",
@@ -2073,11 +2052,21 @@ let songs2 = {
             3: "Let us praise God together on our knees. Let us praise God together on our knees."
         },
         chorus: "When I fall on my knees with my face to the rising sun, O Lord have mercy on me.",
-
-        song_url: `${path_name}`,
-        author: "",
-
+        song_url: `${path_name}162-.mp3`,
+        author: ""
     },
+
+
+
+
+
+
+
+
+
+
+
+
     "YesterdayTodayAndTomorrow": {
         title: "",
         stanzas: {
