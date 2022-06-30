@@ -1996,6 +1996,28 @@ let songs = {
             song_url: `${path_name}160-BreadOfTheWorld.mp3`,
             author: "Reginald Heber"
         },
+        "OLambOfGod": {
+            song_num: 161,
+            title: "O Lamb Of God",
+            stanzas: {
+                1: "O Lamb of God, that takest away the sins of the world, have mercy upon us. O Lamb of God, that takest away the sins of the world, grant us thy peace."
+            },
+            chorus: "",
+            song_url: `${path_name}161-OLambOfGod.mp3`,
+            author: "Norman Johnson"
+        },
+        "LetUsBreakBreadTogether": {
+            song_num: 162,
+            title: "Let Us Break Bread Together",
+            stanzas: {
+                1: "Let us break bread together on our knees. Let us break bread together on our knees.",
+                2: "Let us drink wine together on our knees. Let us drink wine together on our knees.",
+                3: "Let us praise God together on our knees. Let us praise God together on our knees."
+            },
+            chorus: "When I fall on my knees with my face to the rising sun, O Lord have mercy on me.",
+            song_url: `${path_name}162-LetUsBreakBreadTogether.mp3`,
+            author: "Traditional"
+        }
     }
 }
 
@@ -2033,40 +2055,6 @@ let songs = {
 
 
 let songs2 = {
-    "O Lamb of God": {
-        song_num: 161,
-        title: "",
-        stanzas: {
-            1: "O Lamb of God, that takest away the sins of the world, have mercy upon us. O Lamb of God, that takest away the sins of the world, grant us thy peace."
-        },
-        chorus: "",
-        song_url: `${path_name}161-.mp3`,
-        author: ""
-    },
-    "LetUsBreakBreadTogether": {
-        song_num: 162,
-        title: "",
-        stanzas: {
-            1: "Let us break bread together on our knees. Let us break bread together on our knees.",
-            2: "Let us drink wine together on our knees. Let us drink wine together on our knees.",
-            3: "Let us praise God together on our knees. Let us praise God together on our knees."
-        },
-        chorus: "When I fall on my knees with my face to the rising sun, O Lord have mercy on me.",
-        song_url: `${path_name}162-.mp3`,
-        author: ""
-    },
-
-
-
-
-
-
-
-
-
-
-
-
     "YesterdayTodayAndTomorrow": {
         title: "",
         stanzas: {
