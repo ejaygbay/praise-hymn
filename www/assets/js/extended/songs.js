@@ -2127,7 +2127,7 @@ let songs = {
         },
         "OComeOComeEmmanuel": {
             song_num: 171,
-            title: "",
+            title: "O Come, O Come, Emmanuel",
             stanzas: {
                 1: "O come, O come, Immanuel, And ransom captive Israel, That mourns in lonely exile here Until the Son of God appear.",
                 2: "O come, Thou Rod of Jesse, free Thine own from Satan's tyranny; From depths of hell Thy people save And give them vict'ry o'er the grave.",
@@ -2135,35 +2135,35 @@ let songs = {
                 4: "O come, Thou Key of David, come And open wide our heavenly home; Make safe the way that leads on high, And close the path to misery."
             },
             chorus: "Rejoice! Rejoice! Immanuel Shall come to Thee, O Israel!",
-            song_url: `${path_name}171-.mp3`,
-            author: ""
+            song_url: `${path_name}171-OComeOComeEmmanuel.mp3`,
+            author: "John M. Neale"
         },
-        "ComeThoulong-expectedJesus": {
+        "ComeThouLongExpectedJesus": {
             song_num: 172,
-            title: "",
+            title: "Come, Thou Long-Expected Jesus",
             stanzas: {
                 1: "Come, Thou long-expected Jesus, Born to set Thy people free; From our fears and sins release us; Let us find our rest in Thee. Israel's strength and consolation, Hope of all the earth Thou art; Dear desire of every nation, Joy of every longing heart.",
                 2: "Born Thy people to deliver, Born a child, and yet a King, Born to reign in us forever, Now Thy gracious kingdom bring. By Thine own eternal Spirit, Rule in all our hearts alone: By Thine all-sufficient merit, Raise us to Thy glorious throne."
             },
             chorus: "",
-            song_url: `${path_name}172-.mp3`,
-            author: ""
+            song_url: `${path_name}172-ComeThouLongExpectedJesus.mp3`,
+            author: "Charles Wesley"
         },
         "OThouJoyfulOThouWonderful": {
             song_num: 173,
-            title: "",
+            title: "O Thou Joyful, O Thou Wonderful",
             stanzas: {
                 1: "O thou joyful, O thou wonderful Grace revealing Christmastide! Jesus came to win us From all sin within us; Glorify, glorify the Holy Child!",
                 2: "O thou joyful, O thou wonderful Love revealing Christmastide! Loud hosannas singing, And all praises bringing, May Thy love, may Thy love with us abide.",
                 3: "O thou joyful, O thou wonderful Peace revealing Christmastide! Darkness disappeareth, God's own light now neareth, Peace and joy, peace and joy to all betide."
             },
             chorus: "",
-            song_url: `${path_name}173-.mp3`,
-            author: ""
+            song_url: `${path_name}173-OThouJoyfulOThouWonderful.mp3`,
+            author: "Johannes D. Falk"
         },
         "LiftUpYourHeads": {
             song_num: 174,
-            title: "",
+            title: "Lift Up Your Heads",
             stanzas: {
                 1: "Lift up your heads, ye mighty gates! Behold, the King of glory waits; The King of kings is drawing near, The Saviour of the world is here.",
                 2: "O blest the land, the city blest, Where Christ the Ruler is confessed! O happy hearts and happy homes To whom this King in triumph comes!",
@@ -2172,57 +2172,57 @@ let songs = {
                 5: "So shall your Sovereign enter in, Let new and nobler life begin. Thy Holy Spirit guide us, Until the glorious crown ne won."
             },
             chorus: "",
-            song_url: `${path_name}174-.mp3`,
-            author: ""
+            song_url: `${path_name}174-LiftUpYourHeads.mp3`,
+            author: "Georg Weisell"
         },
-        "Hark! the Glad Sound!": {
+        "HarkTheGladSound": {
             song_num: 175,
-            title: "",
+            title: "Hark! The Glad Sound!",
             stanzas: {
                 1: "Hark! the glad sound! The Savior comes! The Savior promised long! Let ev'ry heart prepare a throne, and ev'ry voice a song.",
                 2: "Joyful glad hosannas, Prince of Peace, thy welcome shall proclaim, While  heav'n's eternal arches ring with thy beloved name."
             },
             chorus: "",
-            song_url: `${path_name}175-.mp3`,
-            author: ""
+            song_url: `${path_name}175-HarkTheGladSound.mp3`,
+            author: "Philip Doddridge"
         },
         "GoTellItOnTheMountain": {
             song_num: 176,
-            title: "",
+            title: "Go Tell It On The Mountain",
             stanzas: {
                 1: "While shepherds kept their watching o'er silent flocks by night, behold throughout the heavens there shone a holy light.",
                 2: "The shepherds feared and trembled when lo! above the earth rang out the angel chorus that hailed our Savior's birth.",
                 3: "Down in a lowly manger the humble Christ was born, and God sent us salvation that blessed Christmas morn."
             },
             chorus: "Go tell it on the mountain, over the hills and everywhere; go tell it on the mountain that Jesus Christ is born!",
-            song_url: `${path_name}176-.mp3`,
-            author: ""
+            song_url: `${path_name}176-GoTellItOnTheMountain.mp3`,
+            author: "Traditional"
         },
         "LetAllMortalFleshKeepSilence": {
             song_num: 177,
-            title: "",
+            title: "Let All Mortal Flesh Keep Silence",
             stanzas: {
                 1: "Let all mortal flesh keep silence, And with fear and trembling stand; Ponder nothing earthly minded, For with blessing in His hand, Christ our God to earth descendeth, Our full homage to demand."
             },
             chorus: "",
-            song_url: `${path_name}177-.mp3`,
-            author: ""
+            song_url: `${path_name}177-LetAllMortalFleshKeepSilence.mp3`,
+            author: "Liturgy of St. James"
         },
         "OComeAllYeFaithful": {
             song_num: 178,
-            title: "",
+            title: "O Come, All Ye Faithful",
             stanzas: {
                 1: "O come, all ye faithful, joyful and triumphant, O come ye, O come ye, to Bethlehem; Come and behold Him, born the King of angels.",
                 2: "Sing, choirs of angels, sing in exultation, O sing, all ye bright hosts of heav'n above; Glory to God, all glory in the highest.",
                 3: "Yea, Lord, we greet Thee, born this happy morning; Jesus, to Thee be al glory giv'n; Word of the Father, now in flesh appearing."
             },
             chorus: "O come, let us adore Him, O come, let us adore Him, O come, let us adore Him, Christ the Lord.",
-            song_url: `${path_name}178-.mp3`,
-            author: ""
+            song_url: `${path_name}178-OComeAllYeFaithful.mp3`,
+            author: "Wade's Cantus Diversi"
         },
         "AngelsWeHaveHeardOnHigh": {
             song_num: 179,
-            title: "",
+            title: "Angels We Have Heard On High",
             stanzas: {
                 1: "Angels we have heard on high, Sweetly singing o'er the plains, And the mountains in reply Echo back their joyous strains.",
                 2: "Shepherds, why the jubilee? Why your joyous strains prolong? Say what may the tidings be, Which inspire your heavenly song?",
@@ -2230,21 +2230,30 @@ let songs = {
                 4: "See within a manger laid, Jesus, Lord of heaven and earth! Mary, Joseph, lend your aid, With us sing our Saviour's birth."
             },
             chorus: "Glo-ria in exelsis Deo, Glo-ria in exelsis Deo.",
-            song_url: `${path_name}179-.mp3`,
-            author: ""
+            song_url: `${path_name}179-AngelsWeHaveHeardOnHigh.mp3`,
+            author: "French carol"
         },
-        "WhatChildIsThis?": {
+        "WhatChildIsThis": {
             song_num: 180,
-            title: "",
+            title: "What Child Is This?",
             stanzas: {
                 1: "What Child is this, who, laid to rest, On Mary's lap is sleeping? Whom angels greet with anthems sweet, While shepherds watch are keeping? This, this is Christ, the King, Whom shepherds guard and angels sing: Haste, haste to bring Him laud, The Babe, the Son of Mary!",
                 2: "Why lies He in such mean estate, Good Christian, fear: for sinners here The silent Word is pleading. Nails, spear shall pierce Him thru, The cross be borne for me, for you: Hail, hail the Word made flesh The babe, the son of Mary!",
                 3: "So bring Him incense, gold, and myrrh, Come, peasant, king to own Him. The King of kings salvation brings; Let loving hearts enthrone Him. Raise, raise the song on high The virgin sings her lullaby: Joy, joy, for Christ is born The babe, the son of Mary!"
             },
             chorus: "",
-            song_url: `${path_name}180-.mp3`,
-            author: ""
+            song_url: `${path_name}180-WhatChildIsThis.mp3`,
+            author: "William C. Dix"
         },
+
+
+
+
+
+
+
+
+
         "HarkTheHeraldAnglesSing ": {
             song_num: 181,
             title: "",
