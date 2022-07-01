@@ -2371,27 +2371,22 @@ let songs = {
             song_url: `${path_name}190-RingTheBells.mp3`,
             author: "Harry Bollback"
         },
-
-
-
-
-
-        "WhileByMySheep": {
+        "WhileByOurSheep": {
             song_num: 191,
-            title: "",
+            title: "While By Our Sheep",
             stanzas: {
-                1: " While by the sheep we watched at night glad tidings brought an angel bright.",
+                1: "While by the sheep we watched at night glad tidings brought an angel bright.",
                 2: "There shall be born, so he did say, in Bethlehem a child today.",
                 3: "There shall the child lie in a stall, this child who shall redeem us all.",
                 4: "This gift of God we'll cherish well, Jesus, our Lord Emmanuel:"
             },
             chorus: "How great our joy! Great our joy! Joy, joy, joy! Joy, joy, joy! Praise we the Lord in heaven on high! Praise we the Lord in heaven on high!",
-            song_url: `${path_name}191-.mp3`,
-            author: ""
+            song_url: `${path_name}191-WhileByOurSheep.mp3`,
+            author: "German carol"
         },
         "OLittleTownOfBethlehem": {
             song_num: 192,
-            title: "",
+            title: "O Little Town Of Bethlehem",
             stanzas: {
                 1: "O little town of Bethlehem, how still we see thee lie! Above thy deep and dreamless sleep the silent stars go by. the silent stars go by. the everlasting light; the hopes and fears of all the years are met in thee tonight.",
                 2: "For Christ is born of Mary, and gathered all above, while mortals sleep, the angels keep their watch of wond'ring love. O morning stars, together proclaim the holy birth! And praises sing to God the King, And peace to man on earth!",
@@ -2399,12 +2394,12 @@ let songs = {
                 4: "O holy Child of Bethlehem, descend to us, we pray, cast out our sin, and enter in, be born in us today! We hear the Christmas angels the great glad tidings tell. O come to us, abide with us, our Lord Emmanuel."
             },
             chorus: "",
-            song_url: `${path_name}192-.mp3`,
-            author: ""
+            song_url: `${path_name}192-OLittleTownOfBethlehem.mp3`,
+            author: "Phillips Brooks"
         },
-        "ItcameuponTheMidnightClear": {
+        "ItCameUponTheMidnightClear": {
             song_num: 193,
-            title: "",
+            title: "It Came Upon The Midnight Clear",
             stanzas: {
                 1: "It came upon the midnight clear, That glorious song of old, From angels bending near the earth To touch their harps of gold; Peace on the earth, good-will to men, From heaven's all-gracious King; The world in solemn stillness lay To hear the angels sing.",
                 2: "Still through the cloven skies they come, With peaceful wings unfurled; And still their heavenly music floats O'er all the weary world: Above its sad and lonely plains They bend on hovering wing, And ever o'er its Babel sounds The blessèd angels sing.",
@@ -2412,12 +2407,12 @@ let songs = {
                 4: "For lo, the days are hastening on, By prophets seen of old, When with the ever-circling years, Shall come the time foretold, When the new heaven and earth shall own The Prince of Peace their King, And the whole world send back the song Which now the angels sing."
             },
             chorus: "",
-            song_url: `${path_name}193-.mp3`,
-            author: ""
+            song_url: `${path_name}193-ItCameUponTheMidnightClear.mp3`,
+            author: "Edmund H. Sears"
         },
-        "AswithGladnessMenOfOld": {
+        "AsWithGladnessMenOfOld": {
             song_num: 194,
-            title: "",
+            title: "As With Gladness Men Of Old",
             stanzas: {
                 1: "As with gladness men of old did the guiding star behold, as with joy they hailed its light, leading onward, beaming bright; so, most gracious God, may we evermore be led to thee.",
                 2: "As with joyful steps they sped, Savior, to thy lowly bed, there to bend the knee before thee whom heav'n and earth adore; so may we with willing feet ever seek thy mercy seat.",
@@ -2425,12 +2420,12 @@ let songs = {
                 4: "Holy Jesus, ev'ry day keep us in the narrow way, and, when earthly things are past, bring our ransomed souls at last where they need no star to guide, where no clouds thy glory hide."
             },
             chorus: "",
-            song_url: `${path_name}194-.mp3`,
-            author: ""
+            song_url: `${path_name}194-AsWithGladnessMenOfOld.mp3`,
+            author: "William C. Dix"
         },
         "NowShineAThousandCandlesBright": {
             song_num: 195,
-            title: "",
+            title: "Now Shine A Thousand Candles Bright",
             stanzas: {
                 1: "Now shine a thousand candles bright Upon the world's dark sphere; The deep blue sky is set alight As myriad flames appear.",
                 2: "In suburb, ghet to, farm and town They spread the news abroad That Jesus Christ is born tonight, Our Savior and our God.",
@@ -2438,12 +2433,12 @@ let songs = {
                 4: "To every dark and anguished heat Send down your ray divine, And may the light of God's own love Like Christmas candles shine."
             },
             chorus: "",
-            song_url: `${path_name}195-.mp3`,
-            author: ""
+            song_url: `${path_name}195-NowShineAThousandCandlesBright.mp3`,
+            author: "Emmy Köhler"
         },
         "IHeardTheBellsOnChristmasDay": {
             song_num: 196,
-            title: "",
+            title: "I Heard The Bells On Christmas Day",
             stanzas: {
                 1: "I heard the bells on Christmas day Their old familiar carols play, And wild and sweet the words repeat Of peace of earth, goodwill to men.",
                 2: "I thought how, as the day had come, The belfries of all Christendom Had rolled along th'unbroken song Of peace on earth, goodwill to men.",
@@ -2452,12 +2447,12 @@ let songs = {
                 5: "Till, ringing, singing on its way, The world revolved from night to day, A voice, a chime, a chant sublime, Of peace on earth, goodwill to men!"
             },
             chorus: "",
-            song_url: `${path_name}196-.mp3`,
-            author: ""
+            song_url: `${path_name}196-IHeardTheBellsOnChristmasDay.mp3`,
+            author: "Henry W. Longfellow"
         },
-        "WeThreeKingsOfOrientAre": {
+        "WeThreeKings": {
             song_num: 197,
-            title: "",
+            title: "We Three Kings",
             stanzas: {
                 1: "We three kings of Orient are, Bearing gifts we traverse afar Field and fountain, moor and mountain, Following yonder star.",
                 2: "Born a King on Bethlehem's plain, Gold I bring to crown Him again, King forever, ceasing never Over us all to reign.",
@@ -2466,43 +2461,43 @@ let songs = {
                 5: "Glorious now behold Him arise, King and God and Sacrifice; Alleluia, Alleluia! Earth  to heav'n replies."
             },
             chorus: "O star of wonder, star of night, Star with loyal beauty bright, Westward leading, still proceeding, Guide us to thy perfect light.",
-            song_url: `${path_name}197-.mp3`,
-            author: ""
+            song_url: `${path_name}197-WeThreeKings.mp3`,
+            author: "John H. Hopkins, Jr."
         },
-        "GoodChristianMenRejoice!": {
+        "GoodChristianMenRejoice": {
             song_num: 198,
-            title: "",
+            title: "Good Christian Men, Rejoice",
             stanzas: {
                 1: "Good Christian men, rejoice With heart and soul and voice; Give ye heed to what we say: News! news! Jesus Christ is born today! Ox and ass before Him bow, And He is in the manger now; Christ is born today! Christ is born today!",
                 2: "Good Christian men, rejoice With heart and soul and voice; Now ye hear of endless bliss: Joy! joy! Jesus Christ was born for this! He hath opened heaven's door, And man is blessed evermore: Christ was born for this! Christ was born for this!",
                 3: "Good Christian men, rejoice With heart and soul and voice; Now ye need not fear the grave: Jesus Christ was born to save! Calls you one and calls you all To gain His everlasting hall: Christ was born to save! Christ was born to save!"
             },
             chorus: "",
-            song_url: `${path_name}198-.mp3`,
-            author: ""
+            song_url: `${path_name}198-GoodChristianMenRejoice.mp3`,
+            author: "Latin carol, 14th century"
         },
         "LoveWasWhen": {
             song_num: 199,
-            title: "",
+            title: "Love Was When",
             stanzas: {
                 1: "Love was when God became a man Locked in time and space without rank or place Love was God born of Jewish kin Just a carpenter with some fishermen Love was when Jesus walked in history Lovingly He brought a new life that's free Love was God nailed to bleed and die To reach and love one such as I",
                 2: "Love was when God became a man Down where I could see love that reached to me Love was God dying for my sin And so trapped was I my whole world caved in Love was when Jesus rose to walk with me Lovingly He brought a new life that's free Love was God only He would try To reach and love one such as I To love one such as I"
             },
             chorus: "",
-            song_url: `${path_name}199-.mp3`,
-            author: ""
+            song_url: `${path_name}199-LoveWasWhen.mp3`,
+            author: "John E. Walvoord"
         },
         "TheHealer": {
             song_num: 200,
-            title: "",
+            title: "The Healer",
             stanzas: {
                 1: "On the cross crucified, in greatest sorrow He died The giver of life was He; Yet my Lord was despised and rejected of men, This Jesus of Calvary.",
                 2: "Came the leper to Chirst, saying Surely I know That Thou, Lord, canst make me whole! Wheh his great faith was seen, Jesus, Yes, I will, And touched him and made him clean.",
                 3: "He has healed my sick soul, made me ev'ry whit whole, And He'll do the same for you; He's the same yesterday and for aye, This healer of men today."
             },
             chorus: "He was wounded for our transgressions, He was bruised for our iniquities; Surely He bore our sorrows, And by His stripes we are healed.",
-            song_url: `${path_name}200-.mp3`,
-            author: ""
+            song_url: `${path_name}200-TheHealer.mp3`,
+            author: "Lois Irwin"
         }
     }
 }
