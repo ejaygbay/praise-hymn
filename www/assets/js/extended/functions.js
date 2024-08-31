@@ -18,6 +18,9 @@ const switchSection = (id) => {
     } else if (id === 'favorites-section') {
         document.querySelector(`.${id}`).classList.add('active');
         loadFavoriteSongs();
+    } else if (id === 'all-songs-section') {
+        document.querySelector(`.${id}`).classList.add('active');
+        loadAllSongs();
     }
 
     stopSongOnSectionSwitch();
@@ -131,6 +134,8 @@ const loadFavoriteSongs = () => {
     let parent_ele = document.getElementById('favorites-section');
     let count = 1;
     parent_ele.innerHTML = "";
+    console.log("favorite_songs", favorite_songs);
+
 
     if (favorite_songs.length > 0) {
         favorite_songs.forEach(ele => {
@@ -164,6 +169,83 @@ const loadFavoriteSongs = () => {
     }
 }
 
+const loadAllSongs = () => {
+    let all_songs_parent_ele = document.getElementById('all-songs');
+    let all_songs_obj = {};
+    let all_songs_key = [];
+
+    all_songs_parent_ele.innerHTML = "";
+
+    for (let key in songs) {
+        all_songs_key.push(...Object.keys(songs[key]));
+        all_songs_key = all_songs_key.sort();
+        let category_obj = songs[key];
+
+        for (let song in category_obj) {
+            let new_obj = category_obj[song];
+            new_obj.category = key;
+            all_songs_obj[song] = new_obj;
+        }
+    }
+
+    all_songs_key.forEach((key, count) => {
+        let html = `<article class="song_search song" id="${all_songs_obj[key].title}-search">
+            <div class="title-sec" onclick="openFullSong('${key}_${all_songs_obj[key].category}')">
+                <span class="song-num">${count + 1}.</span>
+                <div>
+                    <div class="song-title">${all_songs_obj[key].title}</div>
+                    <div class="author">By: ${all_songs_obj[key].author} <span class="author">| Hymn #: ${all_songs_obj[key].song_num}</span></div>
+                </div>
+            </div>
+            <div id="${key}_parent" class="action-sec" onclick="actionButtonsHandler(event)">
+                <ion-icon id="${key}_play_worship" class="play-icon action-icons md hydrated" name="play" role="img" aria-label="play"></ion-icon>
+                <ion-icon id="${key}_unlike_worship" class="unlike-icon action-icons md hydrated" name="heart-outline" role="img" aria-label="heart outline"></ion-icon>
+            </div>
+        </article>`;
+
+        all_songs_parent_ele.insertAdjacentHTML('beforeend', html);
+    })
+
+    // console.log(keys);
+    // let filtered_keys = keys.filter(ele => ele.includes(value));
+    // loadSongs(".songs tbody", filtered_keys);
+
+    // let parent_ele = document.getElementById('favorites-section');
+    // let count = 1;
+    // parent_ele.innerHTML = "";
+
+    // if (favorite_songs.length > 0) {
+    //     favorite_songs.forEach(ele => {
+    //         let id = ele.split('_');
+    //         let song_id = id[0];
+    //         let song_group = id[2];
+    //         let single_song = songs[song_group.replaceAll('-', '_')][song_id];
+    //         let song_title = single_song.title;
+    //         let author = single_song.author;
+
+    //         let html = `<article class="song">
+    //         <div class="title-sec" onclick="openFullSong('${song}_${song_group}')">
+    //             <span class="song-num">${count}.</span>
+    //             <div>
+    //                 <div class="song-title">${song_title}</div>
+    //                 <div class="author">By: ${author}</div>
+    //             </div>
+    //         </div>
+    //         <div id="${song}_parent3" class="action-sec" onclick="actionButtonsHandler(event)">
+    //             <ion-icon id="${song}_play3_${song_group}" class="play-icon action-icons" name="play"></ion-icon>
+    //             <ion-icon onclick="unlikeSong('${song_id}_like_${song_group}')" class="unlike-icon action-icons" name="close-circle-outline"></ion-icon>
+    //         </div>
+    //     </article>`;
+
+    //         parent_ele.insertAdjacentHTML('beforeend', html);
+    //         count += 1;
+    //     })
+    // } else {
+    //     let html = `<p style="margin-top: 50%; text-align: center;">No Favorite</p>`;
+    //     parent_ele.insertAdjacentHTML('beforeend', html);
+    // }
+}
+
 const unlikeSong = (song_id) => {
     favorite_songs.splice(favorite_songs.indexOf(song_id), 1);
     localStorage.setItem('favorite-songs', JSON.stringify(favorite_songs));
@@ -183,3 +265,30 @@ const goBack = () => {
 
 // document.querySelector("#back").addEventListener("click", goBack, false);
 document.addEventListener("backbutton", goBack, false);
+
+let search_icon_ele = document.getElementById("song-search-element");
+let song_list = "";
+
+document.getElementById("song-search-icon").addEventListener('click', (e) => {
+    song_list = document.querySelectorAll('.song_search');
+    // console.log(song_list);
+})
+
+document.getElementById("song-search-input-element").addEventListener('input', (e) => {
+    let value = e.target.value;
+    let filter = value.toLowerCase();
+
+
+
+    song_list.forEach(song => {
+        let song_id = song.id;
+        let song_ele = document.getElementById(song_id);
+
+        if (song_id.toLowerCase().includes(filter)) {
+            console.log(song_id, filter);
+            song_ele.classList.remove('d-none');
+        } else {
+            song_ele.classList.add('d-none');
+        }
+    })
+})

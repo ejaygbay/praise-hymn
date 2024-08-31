@@ -466,7 +466,7 @@ let songs = {
         },
         "Doxology1": {
             song_num: 38,
-            title: "Doxology",
+            title: "Doxology - 1",
             stanzas: {
                 1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below: Alleluia, Alleluia! Praise Him above, ye heav'nly host; Praise Father, Son and Holy Ghost: Alleluia, Alleluia! Alleluia, Alleluia! Alleluia!"
             },
@@ -476,7 +476,7 @@ let songs = {
         },
         "Doxology2": {
             song_num: 39,
-            title: "Doxology",
+            title: "Doxology - 2",
             stanzas: {
                 1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below; Praise Him above, ye heav'nly host; Praise Father, Son, Holy Ghost. Aman."
             },
@@ -486,7 +486,7 @@ let songs = {
         },
         "Doxology3": {
             song_num: 40,
-            title: "Doxology",
+            title: "Doxology - 3",
             stanzas: {
                 1: "Praise God, from whom all blessings flow; Praise Him, all creatures here below. Praise Him above, ye heav'nly host; Praise Father, Son and Holy Ghost. Amen."
             },
@@ -509,7 +509,7 @@ let songs = {
         },
         "GloriaPatri1": {
             song_num: 42,
-            title: "Gloria Patri",
+            title: "Gloria Patri - 1",
             stanzas: {
                 1: "Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning, is now and evermore shall be, world without end. Aman, Aman."
             },
@@ -519,7 +519,7 @@ let songs = {
         },
         "GloriaPatri2": {
             song_num: 43,
-            title: "Gloria Patri",
+            title: "Gloria Patri - 2",
             stanzas: {
                 1: "Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning, is now and evermore shall be, world without end. Aman, Aman."
             },
@@ -1489,7 +1489,7 @@ let songs = {
         },
         "StandingOnThePromises1": {
             song_num: 121,
-            title: "Standing On The Promises",
+            title: "Standing On The Promises - 1",
             stanzas: {
                 1: "Standing on the promises of Christ my King, Through eternal ages let His praises ring! Glory in the highest I will shout and sing Standing on the promises of God, Standing on the promises of God!",
                 2: "Standing on the promises that cannot fail When the howling storms of doubt and fear as sail; By the living word of God I shall prevail Standing on the promises of God, Standing on the promises of God!",
@@ -1502,7 +1502,7 @@ let songs = {
         },
         "StandingOnThePromises2": {
             song_num: 122,
-            title: "Standing On The Promises",
+            title: "Standing On The Promises - 2",
             stanzas: {
                 1: "Standing on the promises of Christ my King, Through eternal ages let His praises ring! Glory in the highest I will shout and sing Standing on the promises of God, Standing on the promises of God!",
                 2: "Standing on the promises that cannot fail When the howling storms of doubt and fear as sail; By the living word of God I shall prevail Standing on the promises of God, Standing on the promises of God!",
@@ -1510,7 +1510,7 @@ let songs = {
                 4: "Standing on the promises I cannot fail, List'ning every moment to the Spirit's call, Resting in my Savior as my all in all Standing on the promises of God, Standing on the promises of God!"
             },
             chorus: "Standing, standing, Standing on the promises of God, my Savior; Standing, standing, I'm standing on the promises of God.",
-            song_url: `${path_name}122-StandingOnThePromises1.mp3`,
+            song_url: `${path_name}122-StandingOnThePromises2.mp3`,
             author: "R. Kelso Carter"
         },
         "BreakThouTheBreadOfLife": {
@@ -2310,7 +2310,7 @@ let songs = {
         },
         "AwayInAManger1": {
             song_num: 186,
-            title: "Away In A Manger",
+            title: "Away In A Manger - 1",
             stanzas: {
                 1: "Away in a manger, no crib for a bed, The little Lord Jesus laid down His sweet head. The stars in the sky all looked down where He lay, The little Lord Jesus, asleep on the hay.",
                 2: "The cattle are lowing, the Baby awakes, The little Lord Jesus, no crying He makes. I love Thee, Lord Jesus! Look down from the sky, And stay by my side until morning is nigh.",
@@ -2322,7 +2322,7 @@ let songs = {
         },
         "AwayInAManger2": {
             song_num: 187,
-            title: "Away In A Manger",
+            title: "Away In A Manger - 2",
             stanzas: {
                 1: "Away in a manger, no crib for a bed, The little Lord Jesus laid down His sweet head. The stars in the sky all looked down where He lay, The little Lord Jesus, asleep on the hay.",
                 2: "The cattle are lowing, the Baby awakes, The little Lord Jesus, no crying He makes. I love Thee, Lord Jesus! Look down from the sky, And stay by my side until morning is nigh.",
@@ -2809,7 +2809,7 @@ let songs = {
         },
         AlasAndDidMySaviorBleed: {
             song_num: 225,
-            title: "Alas! and Did My Savior Bleed?",
+            title: "Alas! And Did My Savior Bleed?",
             stanzas: {
                 1: "Alas! and did my Savior bleed, and did my Sovereign die! Would he devote that sacred head for sinners such as I?",
                 2: "Was it for crimes that I have done, he groaned upon the tree? Amazing pity! Grace unknown! And love beyond degree!",
@@ -3467,16 +3467,16 @@ let songs = {
             song_url: `${path_name}425-OnlyBelieve.Mp3`,
             author: "Paul Rader"
         },
-        "YieldNotT0Temption": {
+        "YieldNotToTemptation": {
             song_num: 426,
-            title: "Yield Not T0 Temption",
+            title: "Yield Not To Temptation",
             stanzas: {
                 1: "Yield not to temptation,For yielding is sin;Each vict'ry will help you, Some other to win; Fight valiantly onward, Evil passions subdue; Look ever to Jesus, He will carry you through.Refrain:Ask the Savior to help you,Comfort, strengthen and keep you He is willing to aid you,He will carry you through.",
                 2: "Shun evil companions,Bad language disdain;God's name hold in rev'rence,Nor take it in vain;Be thoughtful and earnest,Kindhearted and true;Look ever to Jesus,He will carry you through. [Refrain]",
                 3: "To him that o'ercometh,God giveth a crown;Through faith we will conquer,Though often cast down; He who is our Savior,Our strength will renew;Look ever to Jesus,He will carry you through. [Refrain]"
             },
             chorus: "",
-            song_url: `${path_name}426-YieldNotToTempation.Mp3`,
+            song_url: `${path_name}426-YieldNotToTemptation.Mp3`,
             author: "H. R. Palmer "
         },
         "ReachOutToJesus": {

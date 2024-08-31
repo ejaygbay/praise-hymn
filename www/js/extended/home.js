@@ -22,7 +22,7 @@ const displaySongs = (section_selector) => {
         //         </td>
         //     </tr>`;
 
-        
+
 
         let html = `<tr>
             <td>${index + 1}.</td>

@@ -35,7 +35,7 @@
         </div>
         <div class="pageTitle">Songs</div>
         <div class="right">
-            <a href="#" class="headerButton toggle-searchbox">
+            <a href="#" id="song-search-icon" class="headerButton toggle-searchbox">
                 <ion-icon name="search-outline"></ion-icon>
             </a>
         </div>
@@ -46,7 +46,7 @@
     <div id="search" class="appHeader">
         <form class="search-form">
             <div class="form-group searchbox">
-                <input type="text" class="form-control" placeholder="Search...">
+                <input type="text" id="song-search-input-element" class="form-control" placeholder="Enter song title or number">
                 <i class="input-icon">
                     <ion-icon name="search-outline"></ion-icon>
                 </i>
@@ -336,6 +336,11 @@
                 </div>
             </section>
 
+            <!-- All Songs Section -->
+            <section id="all-songs-section" class="hide-ele">
+                <div class="section mt-3 mb-3" id="all-songs"></div>
+            </section>
+
             <!-- About Section -->
             <section id="about-section" class="hide-ele">
 
@@ -401,11 +406,11 @@
                 <ion-icon name="settings-outline"></ion-icon>
             </div>
         </div>
-        <a href="#sidebarPanel" class="item" data-bs-toggle="offcanvas">
+        <div class="item all-songs-section" onclick="switchSection('all-songs-section')">
             <div class="col">
-                <ion-icon name="menu-outline"></ion-icon>
+                <ion-icon name="list-outline"></ion-icon>
             </div>
-        </a>
+        </div>
     </div>
     <!-- * App Bottom Menu -->
 
@@ -504,6 +509,7 @@
     </div>
     <!-- * App Sidebar -->
 
+
     <!-- ============== Js Files ==============  -->
     <script src="cordova.js"></script>
 
@@ -524,6 +530,10 @@
     <script src="assets/js/extended/functions.js"></script>
     <script src="assets/js/extended/home.js"></script>
     <script src="assets/js/extended/download.js"></script>
+
+    <script>
+        // alert("hi");
+    </script>
 </body>
 
 </html>
