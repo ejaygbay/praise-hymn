@@ -74,7 +74,7 @@ let songs = {
     },
     "We've a Story to Tell to the Nations": {
         song_num: 502,
-        title: "We've a Story to Tell to the Nations",
+        title: "We've a Story to tell to the Nations",
         stanzas: {
             1: "We've a story to tell to the nations, That shall turn their hearts to the right, A story of truth and mercy, A story of peace and light, A story of peace and light.",
             2: "We've a song to be sung to the nations, That shall lift their hearts to the Lord, A song that shall conquer evil, And shatter the spear and sword, And shatter the spear and sword.",
@@ -82,7 +82,7 @@ let songs = {
             4: "We've a Savior to show to the nations, Who the path of sorrow hath trod, That all of the world's great peoples Might come to the truth of God, Might come to the truth of God."
         },
         chorus: "For the darkness shall turn to dawning, And the dawning to noonday bright, And Christ's great kingdom shall come on earth, The kingdom of love and light.",
-        song_url: `${path_name}502-We'veAStoryToTellToTheNations.mp3`,
+        song_url: `${path_name}502-WeveAStoryToTellToTheNations.mp3`,
         author: "H. Ernest Nichol"
     },
     "The Church of God is Debtor": {
@@ -101,16 +101,16 @@ let songs = {
         song_num: 504,
         title: "Go Ye into All the World",
         stanzas: {
-            1: "Far, far away, in death and darkness dwelling, Millions of souls forever may be lost; Who, who will go, salvation's story telling, Looking to Jesus, heeding not the cost? ",
-            2: "See o'er the world wide open doors inviting, Soldiers of Christ, arise and enter in! Christians, awake! your forces all uniting, Send forth the gospel, break the chains of sin.",
+            1: "Far, far away, in death and darkness dwelling, Millions of souls forever may be lost; Who, who will go, salvation’s story telling, Looking to Jesus, heeding not the cost? ",
+            2: "See o’er the world wide open doors inviting, Soldiers of Christ, arise and enter in! Christians, awake! your forces all uniting, Send forth the gospel, break the chains of sin.",
             3: "Why will ye die?” the voice of God is calling; Why will you die?” re-echo in His name; Jesus has died to save from death appalling, Life and salvation, therefore, go proclaim.",
             4: "God speed the day, when those of every nation Glory to God! triumphantly shall sing; Ransomed, redeemed, rejoicing in salvation, Shout Hallelujah, for the Lord is King."
         },
-        chorus: "All pow'r is given unto Me, All pow'r is given unto Me, Go ye into all the world and preach the gospel, And lo, I am with you alway.",
+        chorus: "All pow’r is given unto Me, All pow’r is given unto Me, Go ye into all the world and preach the gospel, And lo, I am with you alway.",
         song_url: `${path_name}504-GoYeIntoAllTheWorld.mp3`,
         author: "James McGranaham"
     },
-    "Charles H. Gabriel": {
+    "Send the Light!": {
         song_num: 505,
         title: "Send the Light!",
         stanzas: {
@@ -120,7 +120,7 @@ let songs = {
             4: "Let us not grow weary in the work of love, Send the light! Send the light! Let us gather jewels for a crown above, Send the light! Send the light!"
         },
         chorus: "Send the light, the blessed gospel light; Let it shine from shore to shore! Send the light, the blessed gospel light; Let it shine forevermore!",
-        song_url: `${path_name}505-SendTheLight!.mp3`,
+        song_url: `${path_name}505-SendTheLight.mp3`,
         author: "Charles H. Gabriel"
     },
     "The Breaking of the Bread": {
@@ -205,19 +205,19 @@ let songs = {
             1: "With eternity's values in view, Lord with eternity's values in view -- May i do each day's work for Jesus with eternity's values in view.",
         },
         chorus: "",
-        song_url: `${path_name}512-WithEternity'sValuesInView.mp3`,
+        song_url: `${path_name}512-WithEternitysValuesInView.mp3`,
         author: "Alfred B. Smith"
     },
     "I'll Go Where You Want Me to Go": {
         song_num: 513,
         title: "I'll Go Where You Want Me to Go",
         stanzas: {
-            1: "It may not be on the mountain's height Or over the stormy sea, It may not be at the battle's front My Lord will have need of me; But if by a still, small voice He calls To paths I do not know, I'll answer, dear Lord, with my hand in Thine, I'll go where You want me to go.",
-            2: "Perhaps today there are loving words Which Jesus would have me speak, There may be now, in the paths of sin, Some wand'rer whom I should seek; O Savior, if Thou wilt be my Guide, Tho dark and rugged the way, My voice shall echo the message sweet, I'll say what You want me to say.",
-            3: "There's surely somewhere a lowly place In earth's harvest fields so wide, Where I may labor thru life's short day For Jesus the Crucified; So, trusting my all unto Thy care-- I know Thou lovest me I'll do Thy will with a heart sincere, I'll be what You want me to be."
+            1: "It may not be on the mountain’s height Or over the stormy sea, It may not be at the battle’s front My Lord will have need of me; But if by a still, small voice He calls To paths I do not know, I’ll answer, dear Lord, with my hand in Thine, I’ll go where You want me to go.",
+            2: "Perhaps today there are loving words Which Jesus would have me speak, There may be now, in the paths of sin, Some wand’rer whom I should seek; O Savior, if Thou wilt be my Guide, Tho dark and rugged the way, My voice shall echo the message sweet, I’ll say what You want me to say.",
+            3: "There’s surely somewhere a lowly place In earth’s harvest fields so wide, Where I may labor thru life’s short day For Jesus the Crucified; So, trusting my all unto Thy care-- I know Thou lovest me I’ll do Thy will with a heart sincere, I’ll be what You want me to be."
         },
-        chorus: "I'll go where You want me to go, dear Lord, O'er mountain or plain or sea; I'll say what you want me to say, dear Lord, I'll be what You want me to be.",
-        song_url: `${path_name}513-I'llGoWhereYouWantMeToGo.mp3`,
+        chorus: "I’ll go where You want me to go, dear Lord, O'er mountain or plain or sea; I’ll say what you want me to say, dear Lord, I’ll be what You want me to be.",
+        song_url: `${path_name}513-IllGoWhereYouWantMeToGo.mp3`,
         author: "Charles E. Prior"
     },
     "Who Will Tell Them?": {
@@ -229,14 +229,14 @@ let songs = {
             3: "Millions still have never heard that the Savior lives; They await the glorious word that new life he gives. WHo will tell them, who will tell them -- Lost and dying men-- who will tell them, who will tell them Christ lives again!"
         },
         chorus: "",
-        song_url: `${path_name}514-WhoWillTellThem?.mp3`,
+        song_url: `${path_name}514-WhoWillTellThem.mp3`,
         author: "John W. Peterson"
     },
     "Rescue the Perishing": {
         song_num: 515,
         title: "Rescue the Perishing",
         stanzas: {
-            1: "Rescue the perishing, Care for the dying, Snatch them in pity from sin and the grave; Weep o'er the erring one, lift up the fallen, Tell them of Jesus the mighty to save.",
+            1: "Rescue the perishing, Care for the dying, Snatch them in pity from sin and the grave; Weep o’er the erring one, lift up the fallen, Tell them of Jesus the mighty to save.",
             2: "Though they are slighting Him, Still He is waiting, Waiting the penitent child to receive; Plead with them earnestly, plead with them gently; He will forgive if they only believe.",
             3: "Down in the human heart, Crushed by the tempter, Feelings lie buried that grace can restore; Touched by a loving heart, wakened by kindness, Chords that were broken will vibrate once more.",
             4: "Rescue the perishing, Duty demands it; Strength for thy labor the Lord will provide; Back to the narrow way patiently win them; Tell the poor wanderer a Savior has died. "
@@ -254,7 +254,7 @@ let songs = {
             3: "I love to tell the story, for those who know it best seem hungering and thirsting to hear it like the rest. And when in scenes of glory I sing the new, new song, 'twill be the old, old story that I have loved so long."
         },
         chorus: "I love to tell the story; 'twill be my theme in glory to tell the old, old story of Jesus and his love.",
-        song_url: `${path_name}song_num-ILoveToTellTheStory.mp3`,
+        song_url: `${path_name}516-ILoveToTellTheStory.mp3`,
         author: "Catherine Hankey"
     },
     "Freely, Freely": {
@@ -309,10 +309,10 @@ let songs = {
         song_num: 521,
         title: "I've Found a Friend",
         stanzas: {
-            1: "I've found a Friend, O such a Friend! He loved me ere I knew Him; He drew me with the cords of love, And thus He bound me to Him; And round my heart still closely twine Those ties which naught can sever, For I am His, and He is mine, Forever and forever.",
-            2: "I've found a Friend, O such a Friend! He bled, He died to save me; And not alone the gift of life, But His own self He gave me. Naught that I have mine own I call, I'll hold it for the giver; My heart, my strength, my life, my all Are His, and His forever.",
+            1: "I’ve found a Friend, O such a Friend! He loved me ere I knew Him; He drew me with the cords of love, And thus He bound me to Him; And round my heart still closely twine Those ties which naught can sever, For I am His, and He is mine, Forever and forever.",
+            2: "I’ve found a Friend, O such a Friend! He bled, He died to save me; And not alone the gift of life, But His own self He gave me. Naught that I have mine own I call, I’ll hold it for the giver; My heart, my strength, my life, my all Are His, and His forever.",
             3: "I've found a friend, O such a friend! All pow'r to him is given to guard me on my onward course and bring me safe to heaven. Th'e - ter - nal glories gleam afar to nerve my faint endeavor: SO now to watch, to work, to war, And then to rest forever.",
-            4: "I've found a Friend, O such a Friend! So kind and true and tender, So wise a counsellor and guide, So mighty a defender! From Him who loves me now so well, What power my soul shall sever? Shall life or death, shall earth or hell? No! I am His forever.",
+            4: "I’ve found a Friend, O such a Friend! So kind and true and tender, So wise a counsellor and guide, So mighty a defender! From Him who loves me now so well, What power my soul shall sever? Shall life or death, shall earth or hell? No! I am His forever.",
         },
         chorus: "",
         song_url: `${path_name}521-I'veFoundAFriend.mp3`,
@@ -328,7 +328,7 @@ let songs = {
             4: "When with the ransomed in glory his face i at last shall see, 'Till be my joy thru the ages to sing of his love for me."
         },
         chorus: "How marvelous! how wonderful! And my song shall ever be: How marvelous, how wonderful is my savior's love for me!",
-        song_url: `${path_name}522-MySavior'sLove.mp3`,
+        song_url: `${path_name}522-MySaviorsLove.mp3`,
         author: "Charles H. Gabriel"
     },
     "Saved, Saved!": {
@@ -340,7 +340,7 @@ let songs = {
             3: "When poor and needy and all alone, In love He said to me, Come unto Me and I'll lead you home To live with Me eternally."
         },
         chorus: "Saved by His pow'r, by His pow'r divine, Saved to new life, to new life sublime! Life now is sweet and my joy is complete, For I'm saved, saved, saved.",
-        song_url: `${path_name}523-SavedSaved!.mp3`,
+        song_url: `${path_name}523-SavedSaved.mp3`,
         author: "Jack P. Scholfield"
     },
     "At Calvary": {
@@ -387,7 +387,7 @@ let songs = {
             1: "Got any rivers you think are uncrossable? Got any mountains you can't tunnel thru? God specializes in things tho't impossible-- He does the things others can-not do."
         },
         chorus: "",
-        song_url: `${path_name}527-GotAnyRivers?.mp3`,
+        song_url: `${path_name}527-GotAnyRivers.mp3`,
         author: "Oscar Elison"
     },
     "Without Him": {
@@ -412,7 +412,7 @@ let songs = {
             5: "Was e'er a gift like the Savior given? No, not one! no, not one! Will He refuse us a home in heaven? No, not one! no, not one!"
         },
         chorus: "Jesus knows about our struggles, he will guide till the day is done; There's not a friend like the lowly Jesus-- NO, not one! no, not one!",
-        song_url: `${path_name}529-NoNotOne!.mp3`,
+        song_url: `${path_name}529-NoNotOne.mp3`,
         author: "Johnson Oatman Jr."
     },
     "He Was There All The Time": {
@@ -438,7 +438,7 @@ let songs = {
         },
         chorus: "What a wonderful Savior is Jesus, my Jesus! What a wonderful Savior is Jesus, my Lord!",
         song_url: `${path_name}531-WhatAWonderfulSavior.mp3`,
-        author: "Elisha A. HOFFMAN"
+        author: "Elisha A. Hoffman"
     },
     "He Touched Me": {
         song_num: 532,
@@ -455,11 +455,11 @@ let songs = {
         song_num: 533,
         title: "I believe in Miracles",
         stanzas: {
-            1: "Creation shows the pow'r of God There's glory all around And those who see must stand in awe For miracles abound.",
-            2: "I cannot doubt the work of God It's plain for all to see The miracles that He has wrought Should lead to Calvary.",
-            3: "The love of God O pow'r divine 'Tis wonderful to see The miracle of grace performed Within the heart of me."
+            1: "Creation shows the pow’r of God There’s glory all around And those who see must stand in awe For miracles abound.",
+            2: "I cannot doubt the work of God It’s plain for all to see The miracles that He has wrought Should lead to Calvary.",
+            3: "The love of God O pow’r divine ’Tis wonderful to see The miracle of grace performed Within the heart of me."
         },
-        chorus: "I believe in miracles I've seen a soul set free Miraculous the change in one Redeemed thru Calvary I've seen the lily push its way Up through the stubborn sod I believe in miracles For I believe in God",
+        chorus: "I believe in miracles I’ve seen a soul set free Miraculous the change in one Redeemed thru Calvary I’ve seen the lily push its way Up through the stubborn sod I believe in miracles For I believe in God",
         song_url: `${path_name}533-IBelieveInMiracles.mp3`,
         author: "Carlton C. Buck"
     },
@@ -481,7 +481,7 @@ let songs = {
         stanzas: {
             1: "All my life I had a longing For a drink from some clear spring, That I hoped would quench the burning Of the thirst I felt within.",
             2: "Feeding on the husks around me, Till my strength was almost gone, Longed my soul for something better, Only still to hunger on.",
-            3: "Poor I was, and sought for riches, Something that would satisfy, But the dust I gathered round me Only mocked my soul's sad cry."
+            3: "Poor I was, and sought for riches, Something that would satisfy, But the dust I gathered round me Only mocked my soul’s sad cry."
         },
         chorus: "Hallelujah! I have found Him Whom my soul so long has craved! Jesus satisfies my longings, Through His blood I now am saved.",
         song_url: `${path_name}535-Satisfied.mp3`,
@@ -506,7 +506,7 @@ let songs = {
             3: "Come with your sin-burdened heart, Christ will his cleansing impart; He will forgive - in him you'll live, O how the joy bells will start."
         },
         chorus: "New Life in Christ! Abundant and free! What glories shine, what joys are mine, What wondrous blessings I see! My past with its sin, The searching and strife, Forever gone, there's a bright new dawn! For in Christ I have found New Life!",
-        song_url: `${path_name}537-NewLife!.mp3`,
+        song_url: `${path_name}537-NewLife.mp3`,
         author: "John W. Peterson. "
     },
     "Now I Belong to Jesus": {
@@ -531,7 +531,7 @@ let songs = {
             4: " I will sing of my Redeemer, And His heav'nly love to me; He from death to life hath brought me, Son of God, with Him to be."
         },
         chorus: "Sing, oh, sing of my Redeemer, With His blood He purchased me; On the cross He sealed my pardon, Paid the debt and made me free.",
-        song_url: `${path_name}531-IWillSingOfMy Redeemer.mp3`,
+        song_url: `${path_name}531-IWillSingOfMyRedeemer.mp3`,
         author: "Philip P. Bliss. "
     },
     "I Can Do All Things": {
@@ -597,10 +597,10 @@ let songs = {
             1: "In loving kindness Jesus came My soul in mercy to reclaim, And from the depths of sin and shame Through grace He lifted me.",
             2: "He called me long before I heard, Before my sinful heart was stirred, But when I took Him at His word, Forgiven He lifted me.",
             3: "His brow was pierced with many a thorn, His hands by cruel nails were torn, When from my guilt and grief, forlorn, In love He lifted me.",
-            4: "Now on a higher plane I dwell, And with my soul I know 'tis well; Yet how or why, I cannot tell, He should have lifted me."
+            4: "Now on a higher plane I dwell, And with my soul I know ’tis well; Yet how or why, I cannot tell, He should have lifted me."
         },
         chorus: "From sinking sand He lifted me, With tender hand He lifted me, From shades of night to plains of light, O praise His name, He lifted me!",
-        song_url: `${path_name}545-HeLiftedME.mp3`,
+        song_url: `${path_name}545-HeLiftedMe.mp3`,
         author: "Charles H. Gabriel. "
     },
     "I Will Sing Wonderous Story": {
@@ -636,7 +636,7 @@ let songs = {
             1: " I am so wondrously saved from sin, Jesus so sweetly abides within; There at the cross where he took me in; Glory to his name!Down at the cross where my Savior died, Down where for cleansing from sin I cried, There to my heart was the blood applied; Glory to his name!",
             2: "I am so wondrously saved from sin, Jesus so sweetly abides within; There at the cross where he took me in; Glory to his name!",
             3: "Oh, precious fountain that saves from sin, I am so glad I have entered in; There Jesus saves me and keeps me clean; Glory to his name!",
-            4: "Come to this fountain so rich and sweet, Cast thy poor soul at the Savior's feet; Plunge in today, and be made complete; Glory to his name!"
+            4: "Come to this fountain so rich and sweet, Cast thy poor soul at the Savior’s feet; Plunge in today, and be made complete; Glory to his name!"
         },
         chorus: "Glory to his name, Glory to his name; There to my heart was the blood applied; Glory to his name!",
         song_url: `${path_name}548-GloryToHisName.mp3`,
@@ -649,18 +649,18 @@ let songs = {
             1: "In the stars his hand-i - work i see, On the wind he speaks with majesty, Tho he ruleth over land and sea, what is that to me? Iwill celebrate Nativity, for it has a place in history; SUre, He came to set his people free-- WHat is that to me? Till by faith i met him face to face And i felt the wonder of his grace Then i knew that he was more than just a God who didn't care that i lived away out there and now he walks beside me day by day, Ever  watching o'er me lest i stray, Helping me to find that narrow way-- He's everything to me. He's everything to me."
         },
         chorus: "",
-        song_url: `${path_name}549-He'sEverythingToMe.mp3`,
+        song_url: `${path_name}549-HesEverythingToMe.mp3`,
         author: "Ralph Carmichael"
     },
     "He Lives": {
         song_num: 550,
         title: "He Lives",
         stanzas: {
-            1: "I serve a risen Savior He's in the world today. I know that He is living, Whatever men may say. I see His hand of mercy; I hear His voice of cheer; And just the time I need Him He's always near.",
+            1: "I serve a risen Savior He’s in the world today. I know that He is living, Whatever men may say. I see His hand of mercy; I hear His voice of cheer; And just the time I need Him He’s always near.",
             2: "In all the world around me I see His loving care, And though my heart grows weary, I never will despair; know that He is leading, Through all the stormy blast; The day of His appearing Will come at last.",
             3: "Rejoice, rejoice, O Christian, Lift up your voice and sing Eternal hallelujahs To Jesus Christ the King! The Hope of all who seek Him, The Help of all who find, None other is so loving, So good and kind."
         },
-        chorus: "He lives, He lives, Christ Jesus lives today! He walks with me and talks with me along life's narrow way. He lives, He lives, salvation to impart! You ask me how I know He lives? He lives within my heart.",
+        chorus: "He lives, He lives, Christ Jesus lives today! He walks with me and talks with me along life’s narrow way. He lives, He lives, salvation to impart! You ask me how I know He lives? He lives within my heart.",
         song_url: `${path_name}550-HeLives.mp3`,
         author: "Alfred H. Ackley"
     }

@@ -74,7 +74,7 @@ const openFullSong = (song_id) => {
     let title_header = `<div>
         <h2 class="lyric-title">${song.title}</h2>
         <article class="important-info">
-            <span>By: ${song.author}</span>
+            <span>By: ${song.author} | Hymn #: ${song.song_num}</span>
             <a href="#${song_id}_history" onclick="switchSection('song-history-section')">Read History</a>
         </article>
     </div>`;
