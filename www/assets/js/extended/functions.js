@@ -189,8 +189,11 @@ const loadAllSongs = () => {
     }
 
     all_songs_key.forEach((key, count) => {
+        let modified_category = all_songs_obj[key].category.replaceAll('_', '-');
+        console.log("KKKKKKEy", modified_category);
+
         let html = `<article class="song_search song" id="${all_songs_obj[key].title}-search">
-            <div class="title-sec" onclick="openFullSong('${key}_${all_songs_obj[key].category}')">
+            <div class="title-sec" onclick="openFullSong('${key}_${modified_category}')">
                 <span class="song-num">${count + 1}.</span>
                 <div>
                     <div class="song-title">${all_songs_obj[key].title}</div>

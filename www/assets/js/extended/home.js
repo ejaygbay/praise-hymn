@@ -63,6 +63,8 @@ const makeSongTabActive = (ele) => {
 }
 
 const openFullSong = (song_id) => {
+    console.log("openFullSong", song_id);
+
     switchSection('song-lyrics-section');
     let id = song_id.split('_')[0];
     let song_group = song_id.split('_')[1];
