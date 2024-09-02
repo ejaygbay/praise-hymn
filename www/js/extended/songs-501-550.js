@@ -72,7 +72,7 @@ let songs = {
         song_url: `${path_name}501-SoSendIYou.mp3`,
         author: "E. Margaret Clarkson"
     },
-    "We've a Story to Tell to the Nations": {
+    "WeveAStoryToTellToTheNations": {
         song_num: 502,
         title: "We've a Story to tell to the Nations",
         stanzas: {
@@ -85,7 +85,7 @@ let songs = {
         song_url: `${path_name}502-WeveAStoryToTellToTheNations.mp3`,
         author: "H. Ernest Nichol"
     },
-    "The Church of God is Debtor": {
+    "TheChurchOfGodIsDebtor": {
         song_num: 503,
         title: "The Church of God is Debtor",
         stanzas: {
@@ -97,7 +97,7 @@ let songs = {
         song_url: `${path_name}504-TheChurchOfGodIsDebtor.mp3`,
         author: "E. Magaret Clarkson"
     },
-    "Go Ye into All the World": {
+    "GoYeIntoAllTheWorld": {
         song_num: 504,
         title: "Go Ye into All the World",
         stanzas: {
@@ -110,7 +110,7 @@ let songs = {
         song_url: `${path_name}504-GoYeIntoAllTheWorld.mp3`,
         author: "James McGranaham"
     },
-    "Send the Light!": {
+    "SendTheLight": {
         song_num: 505,
         title: "Send the Light!",
         stanzas: {
@@ -123,7 +123,7 @@ let songs = {
         song_url: `${path_name}505-SendTheLight.mp3`,
         author: "Charles H. Gabriel"
     },
-    "The Breaking of the Bread": {
+    "TheBreakingOfTheBread": {
         song_num: 506,
         title: "The Breaking of the Bread",
         stanzas: {
@@ -135,7 +135,7 @@ let songs = {
         song_url: `${path_name}506-TheBreakingOfTheBread.mp3`,
         author: "Beatrice Bush Bixler"
     },
-    "Pass it on": {
+    "PassItOn": {
         song_num: 507,
         title: "Pass it on",
         stanzas: {
@@ -147,7 +147,7 @@ let songs = {
         song_url: `${path_name}507-PassItOn.mp3`,
         author: "Kurt Kaiser"
     },
-    "O Master, Let Me Walk with Thee": {
+    "OMasterLetMeWalkWithThee": {
         song_num: 508,
         title: "O Master, Let Me Walk withe Thee",
         stanzas: {
@@ -160,7 +160,7 @@ let songs = {
         song_url: `${path_name}508-OMasterLetMeWalkWithThee.mp3`,
         author: "Washington Gladden"
     },
-    "In Christ There Is No East or West": {
+    "InChristThereIsNoEastOrWest": {
         song_num: 509,
         title: "In Christ THere Is No East or West",
         stanzas: {
@@ -173,7 +173,7 @@ let songs = {
         song_url: `${path_name}509-InChristThereIsNoEastOrWest.mp3`,
         author: "Vice and Mission"
     },
-    "Lord, Speak to Me": {
+    "LordSpeaktoMe": {
         song_num: 510,
         title: "Lord, Speak to Me",
         stanzas: {
@@ -186,7 +186,7 @@ let songs = {
         song_url: `${path_name}510-LordSpeaktoMe.mp3`,
         author: "Frances R. Havergal"
     },
-    "Show a Little Bit of Love and Kindness": {
+    "ShowALittleBitOfLoveAndKindness": {
         song_num: 511,
         title: "Show a Little Bit of Love and Kindness",
         stanzas: {
@@ -198,7 +198,7 @@ let songs = {
         song_url: `${path_name}511-ShowALittleBitOfLoveAndKindness.mp3`,
         author: "John W. Peterson"
     },
-    "With Eternity's Values in View": {
+    "WithEternitysValuesInView": {
         song_num: 512,
         title: "With Eternity's Values in View",
         stanzas: {
@@ -208,7 +208,7 @@ let songs = {
         song_url: `${path_name}512-WithEternitysValuesInView.mp3`,
         author: "Alfred B. Smith"
     },
-    "I'll Go Where You Want Me to Go": {
+    "IllGoWhereYouWantMeToGo": {
         song_num: 513,
         title: "I'll Go Where You Want Me to Go",
         stanzas: {
@@ -220,7 +220,7 @@ let songs = {
         song_url: `${path_name}513-IllGoWhereYouWantMeToGo.mp3`,
         author: "Charles E. Prior"
     },
-    "Who Will Tell Them?": {
+    "WhoWillTellThem": {
         song_num: 514,
         title: "Who Will Tell Them?",
         stanzas: {
@@ -232,7 +232,7 @@ let songs = {
         song_url: `${path_name}514-WhoWillTellThem.mp3`,
         author: "John W. Peterson"
     },
-    "Rescue the Perishing": {
+    "RescueThePerishing": {
         song_num: 515,
         title: "Rescue the Perishing",
         stanzas: {
@@ -245,7 +245,7 @@ let songs = {
         song_url: `${path_name}515-RescueThePerishing.mp3`,
         author: "Fanny J. Crosby"
     },
-    "I Love to Tell the Story": {
+    "ILoveToTellTheStory": {
         song_num: 516,
         title: "I Love to Tell the Story",
         stanzas: {
@@ -257,7 +257,7 @@ let songs = {
         song_url: `${path_name}516-ILoveToTellTheStory.mp3`,
         author: "Catherine Hankey"
     },
-    "Freely, Freely": {
+    "FreelyFreely": {
         song_num: 517,
         title: "Freely, Freely",
         stanzas: {
@@ -268,7 +268,7 @@ let songs = {
         song_url: `${path_name}517-FreelyFreely.mp3`,
         author: "Carol Owens"
     },
-    "It Took A Miracle": {
+    "ItTookAMiracle": {
         song_num: 518,
         title: "It Took A Miracle",
         stanzas: {
@@ -280,7 +280,7 @@ let songs = {
         song_url: `${path_name}518-ItTookAMiracle.mp3`,
         author: "John W. Peterson"
     },
-    "Love Lifted Me": {
+    "LoveLiftedMe": {
         song_num: 519,
         title: "Love Lifted Me",
         stanzas: {
@@ -292,7 +292,7 @@ let songs = {
         song_url: `${path_name}519-LoveLiftedMe.mp3`,
         author: "James Rowe"
     },
-    "O How I Love Jesus": {
+    "OHowILoveJesus": {
         song_num: 520,
         title: "O How I Love Jesus",
         stanzas: {
@@ -305,7 +305,7 @@ let songs = {
         song_url: `${path_name}520-OHowILoveJesus.mp3`,
         author: "Frederick Whitefield"
     },
-    "I've Found a Friend": {
+    "I'veFoundAFriend": {
         song_num: 521,
         title: "I've Found a Friend",
         stanzas: {
@@ -318,7 +318,7 @@ let songs = {
         song_url: `${path_name}521-I'veFoundAFriend.mp3`,
         author: "James G. Small"
     },
-    "My Savior's Love": {
+    "MySaviorsLove": {
         song_num: 522,
         title: "My Savior's Love",
         stanzas: {
@@ -331,7 +331,7 @@ let songs = {
         song_url: `${path_name}522-MySaviorsLove.mp3`,
         author: "Charles H. Gabriel"
     },
-    "Saved, Saved!": {
+    "SavedSaved": {
         song_num: 523,
         title: "Saved, Saved!",
         stanzas: {
@@ -343,7 +343,7 @@ let songs = {
         song_url: `${path_name}523-SavedSaved.mp3`,
         author: "Jack P. Scholfield"
     },
-    "At Calvary": {
+    "AtCalvary": {
         song_num: 524,
         title: "At Calvary",
         stanzas: {
@@ -356,7 +356,7 @@ let songs = {
         song_url: `${path_name}524-AtCalvary.mp3`,
         author: "Daniel B. Towner"
     },
-    "Heaven Came Down": {
+    "HeavenCameDown": {
         song_num: 525,
         title: "Heaven Came Down",
         stanzas: {
@@ -368,7 +368,7 @@ let songs = {
         song_url: `${path_name}525-HeavenCameDown.mp3`,
         author: "John W. Peterson"
     },
-    "Victory in Jesus": {
+    "VictoryInJesus": {
         song_num: 526,
         title: "Victory in Jesus",
         stanzas: {
@@ -380,7 +380,7 @@ let songs = {
         song_url: `${path_name}526-VictoryInJesus.mp3`,
         author: "Eugene M. Bartlett"
     },
-    "Got any Rivers?": {
+    "GotAnyRivers": {
         song_num: 527,
         title: "Got any Rivers?",
         stanzas: {
@@ -390,7 +390,7 @@ let songs = {
         song_url: `${path_name}527-GotAnyRivers.mp3`,
         author: "Oscar Elison"
     },
-    "Without Him": {
+    "WithoutHim": {
         song_num: 528,
         title: "Without Him",
         stanzas: {
@@ -401,7 +401,7 @@ let songs = {
         song_url: `${path_name}528-WithoutHim.mp3`,
         author: "Mylon R. Lefevre"
     },
-    "No, Not One!": {
+    "NoNotOne": {
         song_num: 529,
         title: "No, Not One!",
         stanzas: {
@@ -415,7 +415,7 @@ let songs = {
         song_url: `${path_name}529-NoNotOne.mp3`,
         author: "Johnson Oatman Jr."
     },
-    "He Was There All The Time": {
+    "HeWasThereAllTheTime": {
         song_num: 530,
         title: "He Was There All The Time",
         stanzas: {
@@ -427,7 +427,7 @@ let songs = {
         song_url: `${path_name}530-HeWasThereAllTheTime.mp3`,
         author: "Gary S. Paxton"
     },
-    "What a Wonderful Savior": {
+    "WhatAWonderfulSavior": {
         song_num: 531,
         title: "What a Wonderful Savior",
         stanzas: {
@@ -440,7 +440,7 @@ let songs = {
         song_url: `${path_name}531-WhatAWonderfulSavior.mp3`,
         author: "Elisha A. Hoffman"
     },
-    "He Touched Me": {
+    "HeTouchedMe": {
         song_num: 532,
         title: "He Touched Me",
         stanzas: {
@@ -451,7 +451,7 @@ let songs = {
         song_url: `${path_name}532-HeTouchedMe.mp3`,
         author: "William J. Gaither"
     },
-    "I believe in Miracles": {
+    "IBelieveInMiracles": {
         song_num: 533,
         title: "I believe in Miracles",
         stanzas: {
@@ -463,7 +463,7 @@ let songs = {
         song_url: `${path_name}533-IBelieveInMiracles.mp3`,
         author: "Carlton C. Buck"
     },
-    "Love Found a Way": {
+    "LoveFoundAWay": {
         song_num: 534,
         title: "Love Found a Way",
         stanzas: {
@@ -487,7 +487,7 @@ let songs = {
         song_url: `${path_name}535-Satisfied.mp3`,
         author: "Clara Tear Williams. "
     },
-    "My Tribute": {
+    "MyTribute": {
         song_num: 536,
         title: "My Tribute",
         stanzas: {
@@ -497,7 +497,7 @@ let songs = {
         song_url: `${path_name}536-MyTribute.mp3`,
         author: "Adrae Crouch. "
     },
-    "New Life!": {
+    "NewLife!": {
         song_num: 537,
         title: "New Life!",
         stanzas: {
@@ -509,7 +509,7 @@ let songs = {
         song_url: `${path_name}537-NewLife.mp3`,
         author: "John W. Peterson. "
     },
-    "Now I Belong to Jesus": {
+    "NowIBelongToJesus": {
         song_num: 538,
         title: "Now I Belong to Jesus",
         stanzas: {
@@ -521,7 +521,7 @@ let songs = {
         song_url: `${path_name}538-NowIBelongToJesus.mp3`,
         author: "Norman J. Clayton."
     },
-    "I Will Sing of My Redeemer": {
+    "IWillSingOfMyRedeemer": {
         song_num: 539,
         title: "I Will Sing of My Redeemer",
         stanzas: {
@@ -534,7 +534,7 @@ let songs = {
         song_url: `${path_name}531-IWillSingOfMyRedeemer.mp3`,
         author: "Philip P. Bliss. "
     },
-    "I Can Do All Things": {
+    "ICanDoAllThings": {
         song_num: 540,
         title: "I Can Do All Things",
         stanzas: {
@@ -544,7 +544,7 @@ let songs = {
         song_url: `${path_name}540-ICanDoAllThings.mp3`,
         author: "Homer W. Grimes. "
     },
-    "In the Garden": {
+    "InTheGarden": {
         song_num: 541,
         title: "In the Garden",
         stanzas: {
@@ -556,7 +556,7 @@ let songs = {
         song_url: `${path_name}541-InTheGarden.mp3`,
         author: "C. Austin Miles. "
     },
-    "Jesus Loves Even Me": {
+    "JesusLovesEvenMe": {
         song_num: 542,
         title: "Jesus Loves Even Me",
         stanzas: {
@@ -568,7 +568,7 @@ let songs = {
         song_url: `${path_name}531-JesusLovesEvenMe.mp3`,
         author: "Philip P. Bliss. "
     },
-    "Through It All": {
+    "ThroughItAll": {
         song_num: 543,
         title: "Through It All",
         stanzas: {
@@ -580,7 +580,7 @@ let songs = {
         song_url: `${path_name}543-ThroughItAll.mp3`,
         author: "Andrae Crouch."
     },
-    "Something Beautiful": {
+    "SomethingBeautiful": {
         song_num: 544,
         title: "Something Beautiful",
         stanzas: {
@@ -590,7 +590,7 @@ let songs = {
         song_url: `${path_name}544-SomethingBeautiful.mp3`,
         author: "Gloria Gaither. "
     },
-    "He Lifted Me": {
+    "HeLiftedMe": {
         song_num: "545",
         title: "He Lifted Me",
         stanzas: {
@@ -603,7 +603,7 @@ let songs = {
         song_url: `${path_name}545-HeLiftedMe.mp3`,
         author: "Charles H. Gabriel. "
     },
-    "I Will Sing Wonderous Story": {
+    "IWillSingWonderousStory": {
         song_num: 546,
         title: "I Will Sing Wonderous Story",
         stanzas: {
@@ -616,7 +616,7 @@ let songs = {
         song_url: `${path_name}546-IWillSingWonderousStory.mp3`,
         author: "Francis Rowley"
     },
-    "No Other Song": {
+    "NoOtherSong": {
         song_num: 547,
         title: "No Other Song",
         stanzas: {
@@ -629,7 +629,7 @@ let songs = {
         song_url: `${path_name}547-NoOtherSong.mp3`,
         author: "John W. Peterson"
     },
-    "Glory to His Name": {
+    "GloryToHisName": {
         song_num: 548,
         title: "Glory to His Name",
         stanzas: {
@@ -642,7 +642,7 @@ let songs = {
         song_url: `${path_name}548-GloryToHisName.mp3`,
         author: "John H. Stockton"
     },
-    "He's Everything to Me": {
+    "HesEverythingToMe": {
         song_num: 549,
         title: "He's Everything to Me",
         stanzas: {
@@ -652,7 +652,7 @@ let songs = {
         song_url: `${path_name}549-HesEverythingToMe.mp3`,
         author: "Ralph Carmichael"
     },
-    "He Lives": {
+    "HeLives": {
         song_num: 550,
         title: "He Lives",
         stanzas: {
