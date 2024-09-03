@@ -4433,12 +4433,12 @@ let songs = {
             song_num: 403,
             title: "Near The Cross",
             stanzas: {
-                1: "Jesus, keep me near the cross,There a precious fountain—Free to all, a healing stream-Flows from Calv'ry's mountain.Refrain:In the cross, in the cross, Be my glory ever; Till my raptured soul shall find Rest beyond the river.",
-                2: " Near the cross, a trembling soul,Love and Mercy found me;There the bright and morning star Sheds its beams around me. [Refrain]",
-                3: "Near the cross! O Lamb of God,Bring its scenes before me;Help me walk from day to day,With its shadows o'er me. [Refrain]",
-                4: "Near the cross I'll watch and waitHoping, trusting ever,Till I reach the golden strand,Just beyond the river. [Refrain]",
+                1: "Jesus, keep me near the cross,There a precious fountain—Free to all, a healing stream-Flows from Calv'ry's mountain.",
+                2: " Near the cross, a trembling soul,Love and Mercy found me;There the bright and morning star Sheds its beams around me.",
+                3: "Near the cross! O Lamb of God,Bring its scenes before me;Help me walk from day to day,With its shadows o'er me.",
+                4: "Near the cross I'll watch and waitHoping, trusting ever,Till I reach the golden strand,Just beyond the river.",
             },
-            chorus: "",
+            chorus: "In the cross, in the cross, Be my glory ever; Till my raptured soul shall find Rest beyond the river.",
             song_url: `${path_name}403-NearTheCross.Mp3`,
             author: "Frances J. Crosby"
         },
@@ -4501,13 +4501,12 @@ let songs = {
             song_num: 408,
             title: "I Must Tell Jesus",
             stanzas: {
-                1: "I must tell Jesus all of my trials;I cannot bear these burdens alone;In my distress He kindly will help me; He ever loves and cares for His own.  Refrain: I must tell Jesus!I must tell Jesus!I cannot bear my burdens alone;I must tell Jesus!I must tell Jesus!Jesus can help me, Jesus alone.",
-                2: " I must tell Jesus all of my troubles;He is a kind, compassionate friend;If I but ask Him, He will deliver, Make of my troubles quickly an end. [Refrain]",
-                3: "Tempted and tried, I need a great Savior,One who can help my burdens to bear;I must tell Jesus, I must tell Jesus He all my cares and sorrows will share. [Refrain]",
-                4: "O how the world to evil allures me!O how my heart is tempted to sin!I must tell Jesus, and He will help meOver the world the vict'ry to win. [Refrain]",
-
+                1: "I must tell Jesus all of my trials;I cannot bear these burdens alone;In my distress He kindly will help me; He ever loves and cares for His own.",
+                2: " I must tell Jesus all of my troubles;He is a kind, compassionate friend;If I but ask Him, He will deliver, Make of my troubles quickly an end.",
+                3: "Tempted and tried, I need a great Savior,One who can help my burdens to bear;I must tell Jesus, I must tell Jesus He all my cares and sorrows will share.",
+                4: "O how the world to evil allures me!O how my heart is tempted to sin!I must tell Jesus, and He will help meOver the world the vict'ry to win.",
             },
-            chorus: "",
+            chorus: "I must tell Jesus!I must tell Jesus!I cannot bear my burdens alone;I must tell Jesus!I must tell Jesus!Jesus can help me, Jesus alone.",
             song_url: `${path_name}408-IMustTellJesus.Mp3`,
             author: "E. A. Hoffman "
 
@@ -4517,12 +4516,12 @@ let songs = {
             song_num: 409,
             title: "Teach Me To Pray",
             stanzas: {
-                1: "Teach me to pray, Lord, teach me to pray;This is my heart- cry day unto day I long to know Thy will and Thy way; Teach me to pray, Lord, teach me to pray.Refrain:Living in Thee, Lord, and Thou in me;  Constant abiding, this is my plea; Grant me Thy power, boundless and free:Power with men and power with Thee.",
-                2: " Power in prayer, Lord, power in prayer,Here 'mid earth's sin and sorrow and care;  Men lost and dying, souls in despair;O give me power, power in prayer!(Refrain)",
-                3: "My weakened will, Lord, Thou canst renew;My sinful nature Thou canst subdue; Fill me just now with power anew,Power to pray and power to do!(Refrain)",
-                4: "Teach me to pray, Lord, teach me to pray;Thou art my pattern, day unto day; Thou art my surety, now and for aye; Teach me to pray, Lord, teach me to pray. (Refrain)",
+                1: "Teach me to pray, Lord, teach me to pray;This is my heart- cry day unto day I long to know Thy will and Thy way; Teach me to pray, Lord, teach me to pray.",
+                2: " Power in prayer, Lord, power in prayer,Here 'mid earth's sin and sorrow and care;  Men lost and dying, souls in despair;O give me power, power in prayer!",
+                3: "My weakened will, Lord, Thou canst renew;My sinful nature Thou canst subdue; Fill me just now with power anew,Power to pray and power to do!",
+                4: "Teach me to pray, Lord, teach me to pray;Thou art my pattern, day unto day; Thou art my surety, now and for aye; Teach me to pray, Lord, teach me to pray.",
             },
-            chorus: "",
+            chorus: "Living in Thee, Lord, and Thou in me;  Constant abiding, this is my plea; Grant me Thy power, boundless and free:Power with men and power with Thee.",
             song_url: `${path_name}409-TeachMeToPray.Mp3`,
             author: "Albert Simpson Reitz"
         },
@@ -4530,11 +4529,11 @@ let songs = {
             song_num: 410,
             title: "Near To The Heart Of God",
             stanzas: {
-                1: "There is a place of quiet rest,near to the heart of God,a place where sin cannot molest,near to the heart of God. Refrain: O Jesus, blest Redeemer, sent from the heart of God, hold us, who wait before thee,near to the heart of God.",
-                2: "There is a place of comfort sweet,near to the heart of God, a place where we our Savior meet,near to the heart of God. [Refrain]",
-                3: "There is a place of full release,near to the heart of God,a place where all is joy and peace,near to the heart of God. [Refrain"
+                1: "There is a place of quiet rest,near to the heart of God,a place where sin cannot molest,near to the heart of God.",
+                2: "There is a place of comfort sweet,near to the heart of God, a place where we our Savior meet,near to the heart of God.",
+                3: "There is a place of full release,near to the heart of God,a place where all is joy and peace,near to the heart of God."
             },
-            chorus: "",
+            chorus: "O Jesus, blest Redeemer, sent from the heart of God, hold us, who wait before thee,near to the heart of God.",
             song_url: `${path_name}410-NearToTheHeartOfGod.Mp3`,
             author: "Cleland Boyd McAfee "
         },
@@ -4720,7 +4719,7 @@ let songs = {
                 2: " Fear not, little flock, He goeth ahead,Your Shepherd selecteth the path you must tread;The waters of Marah He'll sweeten for thee,He drank all the bitter in Gethsemane.",
                 3: ". Fear not, little flock, whatever your lot,He enters all rooms, “the doors being shut,”He never forsakes; He never is gone,So count on His presence in darkness and dawn."
             },
-            chorus: "Refrain:Only believe, only believe; All things are possible, only believe; Only believe, only believe;All things are possible, only believe.",
+            chorus: "Only believe, only believe; All things are possible, only believe; Only believe, only believe;All things are possible, only believe.",
             song_url: `${path_name}425-OnlyBelieve.Mp3`,
             author: "Paul Rader"
         },
@@ -4728,11 +4727,11 @@ let songs = {
             song_num: 426,
             title: "Yield Not To Temptation",
             stanzas: {
-                1: "Yield not to temptation,For yielding is sin;Each vict'ry will help you, Some other to win; Fight valiantly onward, Evil passions subdue; Look ever to Jesus, He will carry you through.Refrain:Ask the Savior to help you,Comfort, strengthen and keep you He is willing to aid you,He will carry you through.",
-                2: "Shun evil companions,Bad language disdain;God's name hold in rev'rence,Nor take it in vain;Be thoughtful and earnest,Kindhearted and true;Look ever to Jesus,He will carry you through. [Refrain]",
-                3: "To him that o'ercometh,God giveth a crown;Through faith we will conquer,Though often cast down; He who is our Savior,Our strength will renew;Look ever to Jesus,He will carry you through. [Refrain]"
+                1: "Yield not to temptation,For yielding is sin;Each vict'ry will help you, Some other to win; Fight valiantly onward, Evil passions subdue; Look ever to Jesus, He will carry you through.",
+                2: "Shun evil companions,Bad language disdain;God's name hold in rev'rence,Nor take it in vain;Be thoughtful and earnest,Kindhearted and true;Look ever to Jesus,He will carry you through.",
+                3: "To him that o'ercometh,God giveth a crown;Through faith we will conquer,Though often cast down; He who is our Savior,Our strength will renew;Look ever to Jesus,He will carry you through."
             },
-            chorus: "",
+            chorus: "Ask the Savior to help you,Comfort, strengthen and keep you He is willing to aid you,He will carry you through.",
             song_url: `${path_name}426-YieldNotToTemptation.Mp3`,
             author: "H. R. Palmer "
         },
@@ -4776,13 +4775,13 @@ let songs = {
             song_num: 430,
             title: "Count Your Blessings",
             stanzas: {
-                1: "When upon life's billows you are tempest tossed,When you are discouraged, thinking all is lost,Count your many blessings, name them one by one,And it will surprise you what the Lord hath done.Refrain:Count your blessings, name them one by one;Count your blessings, see what God hath done;Count your blessings, name them one by one;Count your many blessings, see what God hath done.",
+                1: "When upon life's billows you are tempest tossed,When you are discouraged, thinking all is lost,Count your many blessings, name them one by one,And it will surprise you what the Lord hath done.",
                 2: "Are you ever burdened with a load of care?Does the cross seem heavy you are called to bear?Count your many blessings, ev'ry doubt will fly,And you will be singing as the days go by.",
                 3: "When you look at others with their lands and gold,Think that Christ has promised you His wealth untold Count your many blessings, money cannot buy Your reward in heaven, nor your home on high.",
                 4: "So, amid the conflict, whether great or small,Do not be discouraged, God is over all;Count your many blessings, angels will attend,Help and comfort give you to your journey's end. ",
 
             },
-            chorus: "",
+            chorus: "Count your blessings, name them one by one;Count your blessings, see what God hath done;Count your blessings, name them one by one;Count your many blessings, see what God hath done.",
             song_url: `${path_name}430-CountYourBlessings.Mp3`,
             author: "Johnson Oatman, Jr."
         },
@@ -4814,11 +4813,11 @@ let songs = {
             song_num: 433,
             title: "Little Is Much When God Is In It",
             stanzas: {
-                1: "In the harvest field now ripened There's a work for all to do; Hark! the voice of God is calling To the harvest calling you. Refrain: Little is much when God is in it Labor not for wealth or fame; There's a crown, and you can win it,If you go in Jesus' name.",
+                1: "In the harvest field now ripened There's a work for all to do; Hark! the voice of God is calling To the harvest calling you.",
                 2: "Does the place you're called to labor Seem too small and little known? It is great if God is in it,And He'll not forget His own.",
                 3: "When the conflict here is ended And our race on earth is run, He will say, if we are faithful,Welcome home, My child, well done!",
             },
-            chorus: "",
+            chorus: "Little is much when God is in it Labor not for wealth or fame; There's a crown, and you can win it,If you go in Jesus' name.",
             song_url: `${path_name}433-LittleIsMuchWhenGodIsInIt.Mp3`,
             author: "Kittie L. Suffield ("
         },
@@ -4889,11 +4888,11 @@ let songs = {
             song_num: 439,
             title: "I'll Live For Him",
             stanzas: {
-                1: "My life, my love I give to Thee,Thou Lamb of God who died for me;O may I ever faithful be,My Savior and my God!Refrain:I'll live for him who died for me,How happy then my life shall be!I'll live for him who died for me,My Savior and my God!",
-                2: "I now believe thou dost receive,For Thou hast died That I might live;And now henceforth I'll trust in Thee,My Savior and my God! [Refrain]",
-                3: "O Thou who died on Calvary,To save my soul and make me free;I'll consecrate My life to Thee,My Savior and my God! [Refrain]"
+                1: "My life, my love I give to Thee,Thou Lamb of God who died for me;O may I ever faithful be,My Savior and my God!",
+                2: "I now believe thou dost receive,For Thou hast died That I might live;And now henceforth I'll trust in Thee,My Savior and my God!",
+                3: "O Thou who died on Calvary,To save my soul and make me free;I'll consecrate My life to Thee,My Savior and my God!"
             },
-            chorus: "",
+            chorus: "I'll live for him who died for me,How happy then my life shall be!I'll live for him who died for me,My Savior and my God!",
             song_url: `${path_name}439-IllLiveForHim.Mp3`,
             author: "R. E. Hudson "
         },
@@ -4901,11 +4900,11 @@ let songs = {
             song_num: 440,
             title: "Follow On",
             stanzas: {
-                1: "Down in the valley with my Saviour I would go,where the flowers are blooming and the sweet waters flow,everywhere he leads me I would follow, follow on,walking in his footsteps till the crown be won.Refrain Follow, follow, I would follow Jesus,anywhere, everywhere, I would follow on. Follow, follow, I would follow Jesus.Everywhere he leads me I would follow on.",
-                2: " Down in the valley with my Saviour I would go,where the storms are sweeping and the dark waters flow,with his hand to lead me I will never, never fear;danger cannot fright me if my Lord is near. [Refrain]",
-                3: " Down in the valley or upon the mountain steep,close beside my Saviour would my soul ever keep.He will lead me safely in the path that he has trod, up to where they gather on the hills of God. [Refrain]"
+                1: "Down in the valley with my Saviour I would go,where the flowers are blooming and the sweet waters flow,everywhere he leads me I would follow, follow on,walking in his footsteps till the crown be won.",
+                2: " Down in the valley with my Saviour I would go,where the storms are sweeping and the dark waters flow,with his hand to lead me I will never, never fear;danger cannot fright me if my Lord is near.",
+                3: " Down in the valley or upon the mountain steep,close beside my Saviour would my soul ever keep.He will lead me safely in the path that he has trod, up to where they gather on the hills of God."
             },
-            chorus: "",
+            chorus: "Follow, follow, I would follow Jesus,anywhere, everywhere, I would follow on. Follow, follow, I would follow Jesus.Everywhere he leads me I would follow on.",
             song_url: `${path_name}440-FllowOn.Mp3`,
             author: "W. O. Cushing"
         },
@@ -5797,7 +5796,7 @@ let songs = {
             song_num: 501,
             title: "So Send I You",
             stanzas: {
-                1: "So send I you to labor unrewarded, To serve unpaid, unloved, unsought, unknown, To bear rebuke, to suffer scorn and scoffing, So send i you, to toil for Me a lone.",
+                1: "So send I you to labor unrewarded, To serve unpaid, unloved, unsought, unknown, To bear rebuke, to suffer scorn and scoffing, So send I you, to toil for Me a lone.",
                 2: "So send I you to bind the bruised and broken, O'er wand'ring souls to work, to weep, to wake, To bear the burdens of a world a-weary, So send I you, to suffer for My sake.",
                 3: "So send I you to loneliness and longing, With heart a-hung'ring for the loved and known, Forsaking home and kindred, friend and dear one, So send I you, to know My love alone.",
                 4: "So send I you to leave your life's ambition, To die to dear desire, self-will resign, To labor long, and love where men revile you, So send I you, to lose your life in Mine.",
@@ -5867,7 +5866,7 @@ let songs = {
                 2: "Long years have passed passed, and few have heard That Jesus Christ has bled that they might feed on Him who died to be that Living Bread; To gods of stone and wood they cry, Yet they are never fed, For they have been omited in the breaking of the bread.",
                 3: "Great God, who gave Thine only son, Help us now Spirit led To tell the story of THy love To those who ask for bread; Then gladly will we go or send Till this blest has spread And they have been included in breaking of the bread."
             },
-            chorus: "Lord, I would gie them the Bread of Life, The Living Water too; My heart cries out, O here am i ready thy will to do!",
+            chorus: "Lord, I would gie them the Bread of Life, The Living Water too; My heart cries out, O here am I ready thy will to do!",
             song_url: `${path_name}506-TheBreakingOfTheBread.mp3`,
             author: "Beatrice Bush Bixler"
         },
@@ -5877,7 +5876,7 @@ let songs = {
             stanzas: {
                 1: "It only takes a spark to get a fire going, And soon those around can warm up in th its glowing; That's how it is with God's love, once you've experienced it: You spread his love to every-one, you want to pass it on.",
                 2: "What a wondrous time is spring when all the trees are budding, The birds begin to sing, the flowers start their blooming; That's how it is with God's love, once you've experienced it: you want to sing, it's fresh like spring, you want to pass it on.",
-                3: "I wish for you, my friend, this happiness that i've found you can depend on him, it matters not where you're bound; I'll shout it from the mountain top, i want my world to know: THe Lord of love has come to me, I want to pass it on."
+                3: "I wish for you, my friend, this happiness that I've found you can depend on him, it matters not where you're bound; I'll shout it from the mountain top, I want my world to know: THe Lord of love has come to me, I want to pass it on."
             },
             chorus: "",
             song_url: `${path_name}507-PassItOn.mp3`,
@@ -5913,8 +5912,8 @@ let songs = {
             song_num: 510,
             title: "Lord, Speak To Me",
             stanzas: {
-                1: "Lord, speak to me, that i may speak in living echoes of thy tone; As thou hast sought, so let me seek thy erring children lost and lone.",
-                2: "O teach me, LOrd, that i may teach the precious things thou dost impart; And when my words that they may reach the hidden depths of many a heart.",
+                1: "Lord, speak to me, that I may speak in living echoes of thy tone; As thou hast sought, so let me seek thy erring children lost and lone.",
+                2: "O teach me, LOrd, that I may teach the precious things thou dost impart; And when my words that they may reach the hidden depths of many a heart.",
                 3: "O fill me with thy fullness, Lord, until my very heart o'erflows In kindling thought and glowing word, Your love to tell, your praise to show.",
                 4: "Oh, use me, Lord, use even me, Just as you will, and when, and where Until your blessed face I see, Your rest, your joy, your glory share.",
             },
@@ -5938,7 +5937,7 @@ let songs = {
             song_num: 512,
             title: "With Eternity's Values In View",
             stanzas: {
-                1: "With eternity's values in view, Lord with eternity's values in view -- May i do each day's work for Jesus with eternity's values in view.",
+                1: "With eternity's values in view, Lord with eternity's values in view -- May I do each day's work for Jesus with eternity's values in view.",
             },
             chorus: "",
             song_url: `${path_name}512-WithEternitysValuesInView.mp3`,
@@ -5986,7 +5985,7 @@ let songs = {
             title: "I Love To Tell The Story",
             stanzas: {
                 1: "I love to tell the story of unseen things above, of Jesus and his glory, of Jesus and his love. I love to tell the story because I know it's true; it satisfies my longings as nothing else can do.",
-                2: "I love to tell the story 'tis pleasant to repeat what seems, each time i tell it, more wonderfully sweet; I love to tell the story, for some have never heard the message of salvation from God's own holy word.",
+                2: "I love to tell the story 'tis pleasant to repeat what seems, each time I tell it, more wonderfully sweet; I love to tell the story, for some have never heard the message of salvation from God's own holy word.",
                 3: "I love to tell the story, for those who know it best seem hungering and thirsting to hear it like the rest. And when in scenes of glory I sing the new, new song, 'twill be the old, old story that I have loved so long."
             },
             chorus: "I love to tell the story; 'twill be my theme in glory to tell the old, old story of Jesus and his love.",
@@ -5997,10 +5996,10 @@ let songs = {
             song_num: 517,
             title: "Freely, Freely",
             stanzas: {
-                1: "Good forgave my sin in Jesus' name, i've been born again in Jesus' name; And in Jesus' name i come to you to share his love as he told me to:",
-                2: "All pow'r is giv'n in Jesus' name, in earth and heav'n in Jesu' name; And in Jesus' name i come to you to share his pow'r as he told me to:"
+                1: "Good forgave my sin in Jesus' name, I've been born again in Jesus' name; And in Jesus' name I come to you to share his love as he told me to:",
+                2: "All pow'r is giv'n in Jesus' name, in earth and heav'n in Jesu' name; And in Jesus' name I come to you to share his pow'r as he told me to:"
             },
-            chorus: "He said, Free - ly, free - ly you have received free-ly, free-ly give; Go in my name and, be-cause you be-lieve, Others will know that i live.",
+            chorus: "He said, Free - ly, free - ly you have received free-ly, free-ly give; Go in my name and, be-cause you be-lieve, Others will know that I live.",
             song_url: `${path_name}517-FreelyFreely.mp3`,
             author: "Carol Owens"
         },
@@ -6036,7 +6035,7 @@ let songs = {
             stanzas: {
                 1: "There is a name I love to hear, I love to sing its worth; it sounds like music in my ear, the sweetest name on earth.",
                 2: "It tells me of a Savior's love, who died to set me free; it tells me of his precious blood, the sinner's perfect plea.",
-                3: "It tells me what my father hath in store for ev-'ry day, And, tho i tread a dark-some path, Yields sun-shine all the way.",
+                3: "It tells me what my father hath in store for ev-'ry day, And, tho I tread a dark-some path, Yields sun-shine all the way.",
                 4: "It tells of one whose loving heart can feel my deepest woe; who in each sorrow bears a part that none can bear below."
             },
             chorus: "O how I love Jesus, O how I love Jesus, O how I love Jesus, because he first loved me!",
@@ -6063,7 +6062,7 @@ let songs = {
                 1: "I stand amazed in the presence of Jesus the Nazarene, And wonder how he could love me, A sinner condemned, unclean.",
                 2: "For me it was in the garden he prayed, 'Not my will, but thine', He had no tears for his own griefs but sweat-drops of blood for mine.",
                 3: "He took my sins and my sorrows, He made them his very own; He bore the burden to Calvary and suffered and died alone.",
-                4: "When with the ransomed in glory his face i at last shall see, 'Till be my joy thru the ages to sing of his love for me."
+                4: "When with the ransomed in glory his face I at last shall see, 'Till be my joy thru the ages to sing of his love for me."
             },
             chorus: "How marvelous! how wonderful! And my song shall ever be: How marvelous, how wonderful is my savior's love for me!",
             song_url: `${path_name}522-MySaviorsLove.mp3`,
@@ -6098,9 +6097,9 @@ let songs = {
             song_num: 525,
             title: "Heaven Came Down",
             stanzas: {
-                1: "Oh what a wonderful, wonderful day -- Day i will never forget; After i'd wandered in darkness away, Jesus my Savior i met. O what a tender, compassionate friend-- he met the need of my heart; Shadows dispelling, with Joy i am telling, He made all darkness depart!",
-                2: "Born of the Spirit with life from above in to God's family divine; justifiefully thru calvary's love, O what a standing is mine! And transaction so quickly was made when a siner i came, Took of the offer of grace he did proffer-- He saved me, O praise his dear bame!",
-                3: "Now i've a hope that will surely endure after the passing of time; I have a future in heaven for sure, There in those mansions sub lime. And it's because of that wonderful day when at the cross i believed; Riches eternal and blessings supernal from his precious hand i received.",
+                1: "Oh what a wonderful, wonderful day -- Day I will never forget; After I'd wandered in darkness away, Jesus my Savior I met. O what a tender, compassionate friend-- he met the need of my heart; Shadows dispelling, with Joy I am telling, He made all darkness depart!",
+                2: "Born of the Spirit with life from above in to God's family divine; justifiefully thru calvary's love, O what a standing is mine! And transaction so quickly was made when a siner I came, Took of the offer of grace he did proffer-- He saved me, O praise his dear bame!",
+                3: "Now I've a hope that will surely endure after the passing of time; I have a future in heaven for sure, There in those mansions sub lime. And it's because of that wonderful day when at the cross I believed; Riches eternal and blessings supernal from his precious hand I received.",
             },
             chorus: "Heaven came down and glory filled my soul, filled my soul, when at the cross the savior made me whole; made me whole; sins were washed away and my night was turned to day-- Heaven came down and glory filled my soul! filled my soul! Heaven came down and glory filled my soul!",
             song_url: `${path_name}525-HeavenCameDown.mp3`,
@@ -6132,10 +6131,10 @@ let songs = {
             song_num: 528,
             title: "Without Him",
             stanzas: {
-                1: "Without hime i could do nothing, without him i'd surely fail; Without him i would be drifting like a ship without a sail.",
-                2: "Without him i would be dying, without him i'd be enslaved; without him life would be hopeless-- But with Jesus, thank God, i'm saved.",
+                1: "Without hime I could do nothing, without him I'd surely fail; Without him I would be drifting like a ship without a sail.",
+                2: "Without him I would be dying, without him I'd be enslaved; without him life would be hopeless-- But with Jesus, thank God, I'm saved.",
             },
-            chorus: "Jesus, O Jesus! Do you know him today? Do not turn him away! O Jesus, Oh Jesus, without him, how lost i would be.",
+            chorus: "Jesus, O Jesus! Do you know him today? Do not turn him away! O Jesus, Oh Jesus, without him, how lost I would be.",
             song_url: `${path_name}528-WithoutHim.mp3`,
             author: "Mylon R. Lefevre"
         },
@@ -6157,8 +6156,8 @@ let songs = {
             song_num: 530,
             title: "He Was There All The Time",
             stanzas: {
-                1: "Time after time i went searching for peace in some void-- I was trying to blame all my ills on this world i was in; Surface relationships used me till i was done in and all the while some-one was begging to free me from sin!",
-                2: "Never  again will i look for a fake rainbow's end-- Now that i have the answer my life is just starting to rhyme; Sharing each new day with him is a cup of fresh life",
+                1: "Time after time I went searching for peace in some void-- I was trying to blame all my ills on this world I was in; Surface relationships used me till I was done in and all the while some-one was begging to free me from sin!",
+                2: "Never  again will I look for a fake rainbow's end-- Now that I have the answer my life is just starting to rhyme; Sharing each new day with him is a cup of fresh life",
             },
             chorus: "He was there all the time, he was there all the time; Waiting patiently in line, he was there all the time!",
             song_url: `${path_name}530-HeWasThereAllTheTime.mp3`,
@@ -6181,10 +6180,10 @@ let songs = {
             song_num: 532,
             title: "He Touched Me",
             stanzas: {
-                1: "Shackled by a heavy burden, neath a load of guilt and shame-- Then the hand of Jesus touched me, And now i am no longer the same.",
-                2: "SInce i met this blessed savior, SInce he cleansed and made me whole, I will never cease to praise him-- I'll shout it while eternity rolls."
+                1: "Shackled by a heavy burden, neath a load of guilt and shame-- Then the hand of Jesus touched me, And now I am no longer the same.",
+                2: "SInce I met this blessed savior, SInce he cleansed and made me whole, I will never cease to praise him-- I'll shout it while eternity rolls."
             },
-            chorus: "He touched me, O He touched me, And O the joy that floods my soul! something happened, and now i know he touched me and made me whole.",
+            chorus: "He touched me, O He touched me, And O the joy that floods my soul! something happened, and now I know he touched me and made me whole.",
             song_url: `${path_name}532-HeTouchedMe.mp3`,
             author: "William J. Gaither"
         },
@@ -6321,7 +6320,7 @@ let songs = {
             song_num: 544,
             title: "Something Beautiful",
             stanzas: {
-                1: "Something beautiful, something good-- ALl my confusion he understood; All i had to offer him was brokenness and strife, but he made some-thing beautiful of my life."
+                1: "Something beautiful, something good-- ALl my confusion he understood; All I had to offer him was brokenness and strife, but he made some-thing beautiful of my life."
             },
             chorus: "",
             song_url: `${path_name}544-SomethingBeautiful.mp3`,
@@ -6357,12 +6356,12 @@ let songs = {
             song_num: 547,
             title: "No Other Song",
             stanzas: {
-                1: "No other song have i but that of Jesus, The son of God who came to seek and save, who paid the price for pardon and redemption ehrn on the cross his life he freely gave.",
-                2: "The purple robe, the crown of thorns they gave Him, The cross he stained with his own blood so dear, The empty tomb, the hope of his returning of these i'll sing to every listening ear.",
-                3: "No other song have i but that of Jesus, and even when i gain the other shore i'll join me in the great angelic anthem and sing my Savior's praise forevermore."
+                1: "No other song have I but that of Jesus, The son of God who came to seek and save, who paid the price for pardon and redemption ehrn on the cross his life he freely gave.",
+                2: "The purple robe, the crown of thorns they gave Him, The cross he stained with his own blood so dear, The empty tomb, the hope of his returning of these I'll sing to every listening ear.",
+                3: "No other song have I but that of Jesus, and even when I gain the other shore I'll join me in the great angelic anthem and sing my Savior's praise forevermore."
 
             },
-            chorus: "No other song have i to sing but Jesus, No other theme but Christ and Calvary; In every glad refrain i would be telling the wonders of his mighty love for me.",
+            chorus: "No other song have I to sing but Jesus, No other theme but Christ and Calvary; In every glad refrain I would be telling the wonders of his mighty love for me.",
             song_url: `${path_name}547-NoOtherSong.mp3`,
             author: "John W. Peterson"
         },
@@ -6383,7 +6382,7 @@ let songs = {
             song_num: 549,
             title: "He's Everything To Me",
             stanzas: {
-                1: "In the stars his hand-i - work i see, On the wind he speaks with majesty, Tho he ruleth over land and sea, what is that to me? Iwill celebrate Nativity, for it has a place in history; SUre, He came to set his people free-- WHat is that to me? Till by faith i met him face to face And i felt the wonder of his grace Then i knew that he was more than just a God who didn't care that i lived away out there and now he walks beside me day by day, Ever  watching o'er me lest i stray, Helping me to find that narrow way-- He's everything to me. He's everything to me."
+                1: "In the stars his hand-i - work I see, On the wind he speaks with majesty, Tho he ruleth over land and sea, what is that to me? Iwill celebrate Nativity, for it has a place in history; SUre, He came to set his people free-- WHat is that to me? Till by faith I met him face to face And I felt the wonder of his grace Then I knew that he was more than just a God who didn't care that I lived away out there and now he walks beside me day by day, Ever  watching o'er me lest I stray, Helping me to find that narrow way-- He's everything to me. He's everything to me."
             },
             chorus: "",
             song_url: `${path_name}549-HesEverythingToMe.mp3`,
@@ -6400,7 +6399,273 @@ let songs = {
             chorus: "He lives, He lives, Christ Jesus lives today! He walks with me and talks with me along life's narrow way. He lives, He lives, salvation to impart! You ask me how I know He lives? He lives within my heart.",
             song_url: `${path_name}550-HeLives.mp3`,
             author: "Alfred H. Ackley"
-        }
+        },
+        "JesusChristIsTheWay": {
+            song_num: 551,
+            title: "Jesus Christ Is The Way",
+            stanzas: {
+                1: "Je-sus Christ is the Way, Je - sus Christ is the Truth Je - sus Christ is the Life— And He's mine, mine, mine.",
+            },
+            chorus: "",
+            song_url: `${path_name} 551-JesusChristIsTheWay.mp3`,
+            author: "ELEANOR S. MURRAY"
+        },
+        "InMyHeartThereRingsAMelody": {
+            song_num: 552,
+            title: "In My Heart There Rings A Melody",
+            stanzas: {
+                1: "I have a song that Je - sus gave me, It was sent from heav'n a - bove, There nev-er was a sweet- er mel - o - dy, Tis-a mel-o- dy of love.",
+                2: "I love the Christ who died on Calvary for he washed my sins a - way; He put with-in my heart a mel - o - dy, And I know it's there to stay. ",
+                3: "'Twill be my end- less theme in glo -ry, With the an - gels I will sing; Twill be a song with glo -rious har- mo-ny, When the courts of heav-en ring."
+            },
+            chorus: "In my heart there rings a mel-o-dy,There ringsa mel- o-dy with heav-en's har-mo-ny; In my heart there rings a mel - o-dy, There rings a mel- o-dy of love.",
+            song_url: `${path_name}552-InMyHeartThereRingsAMelody.mp3`,
+            author: "ELTON M. ROTH"
+        },
+        "IsntTheLoveOfJesusSomethingWonderful": {
+            song_num: 553,
+            title: "Isn't The Love Of Jesus Something Wonderful!",
+            stanzas: {
+                1: "There will nev-er be a sweet -er sto - ry— Sto - ry of the  Sav - iors love di - vine, Love that bro't Him from the realms of glo - ry Just to save a sin - ful soul like mine",
+                2: "Bound-less as the u - ni-verse a - round me, Reach-ing to the far - thest soul a - way— Sav - ing, keep- ing love it was that found me, That is why my heart can tru-ly say",
+                3: "Love be-yond our hu -man com -pre - hend - ing, Love of God in Christ—how can it be! This will be my theme and nev - er end - ing, Great re-deem-ing love of Cal-va- ry."
+            },
+            chorus: "Is-n't the love of Je - sus some-thing won-der-ful, Won-der-ful, won-der-ful; O is-n't the love of Je-sus something won-der-ful! Won-der-ful it is to me",
+            song_url: `${path_name}553-IsntTheLoveOfJesusSomethingWonderful.mp3`,
+            author: "John W Peterson"
+        },
+        "TheOldRuggedCross": {
+            song_num: 554,
+            title: "The Old Rugged Cross",
+            stanzas: {
+                1: "On a hill far away stood an old rugged cross,the emblem of suffering and shame;and I love that old cross where the dearest and bestfor a world of lost sinners was slain.",
+                2: "O that old rugged cross, so despised by the world,has a wondrous attraction for me;for the dear Lamb of God left his glory aboveto bear it to dark Calvary. ",
+                3: "In that old rugged cross, stained with blood so divine,a wondrous beauty I see,for 'twas on that old cross Jesus suffered and died,to pardon and sanctify me.",
+                4: "To that old rugged cross I will ever be true,its shame and reproach gladly bear;then he'll call me some day to my home far away,where his glory forever I'll share."
+            },
+            chorus: "So I'll cherish the old rugged cross,till my trophies at last I lay down;I will cling to the old rugged cross,and exchange it some day for a crown.",
+            song_url: `${path_name}554-TheOldRuggedCross.mp3`,
+            author: "George Bennard"
+        },
+        "JesusLovesMe": {
+            song_num: 555,
+            title: "Jesus Loves Me",
+            stanzas: {
+                1: "Jesus loves me, this I know,for the Bible tells me so.Little ones to him belong;they are weak, but he is strong. ",
+                2: "Jesus loves me he who died heaven's gate to open wide.He will wash away my sin,let his little child come in.",
+                3: "Je - sus loves me! He will stay Close be-side me all the way; He's pre-pared a home for me, And some day His face I'll see."
+            },
+            chorus: "Yes, Jesus loves me! Yes, Jesus loves me! Yes, Jesus loves me! The Bible tells me so. ",
+            song_url: `${path_name}555-JesusLovesMe.mp3`,
+            author: "WILLIAM B. BRADBURY"
+        },
+        "JesusIsAllTheWorldToMe": {
+            song_num: 556,
+            title: "Jesus Is All The World To Me",
+            stanzas: {
+                1: " Jesus is all the world to me,My life, my joy, my all;He is my strength from day to day,Without him I would fall:When I am sad, to him I go,No other one can cheer me so;When I am sad, he makes me glad,He's my friend.",
+                2: " Jesus is all the world to me,My friend in trials sore;I go to him for blessings, andHe gives them o'er and o'er:He sends the sunshine and the rain,He sends the harvest's golden grain;Sunshine and rain, harvest of grain,He's my friend.",
+                3: " Jesus is all the world to me,And true to him I'll be;Oh, how could I this friend deny,When he's so true to me?Following him I know I'm right,He watches o'er me day and night;Following him by day and night,He's my friend.",
+                4: " Jesus is all the world to me,I want no better friend;I trust him now, I'll trust him whenLife's fleeting days shall end:Beautiful life with such a friend,Beautiful life that has no end;Eternal life, eternal joy,He's my friend."
+            },
+            chorus: "",
+            song_url: `${path_name}556-JesusIsAllTheWorldToMe.mp3`,
+            author: "WILL L. THOMPSON"
+        },
+        "Redeemed": {
+            song_num: 557,
+            title: "Redeemed",
+            stanzas: {
+                1: "Re - deemed—how I love to pro - claim it! Re-deemed by the blood of the Lamb! Re - deemed thru His in - fin-ite mer - cy, His child, and for - ev - er, I am.",
+                2: "Re - deemed—and so hap-py in Je - sus, No lan - guage my rap - ture can tell; I know that the light of His pres - ence With me does con-tin -ual - ly dwell.",
+                3: "I think of my bless-ed Re - deem - er, I wor - ship Him all the day long; I sing, for I can- not be si - lent! His love is the theme of my song.",
+                4: "I know I shall see in His beau -ty The King in whose law I de - light, Who lov - ing - ly guards all my foot - steps And gives to me songs in the night"
+            },
+            chorus: "Re - deemed, re -deemed, Re - deemed by the blood of the Lamb; Re-deemed, re - deemed, His child, and for-ev -er, I am.",
+            song_url: `${path_name}557-Redeemed.mp3`,
+            author: "WILLIAM J. KIRKPATRICK"
+        },
+        "SpringsOfLivingWater": {
+            song_num: 558,
+            title: "Springs Of Living Water",
+            stanzas: {
+                1: "I thirst-ed in the bar-ren land of sin and shame, And noth-ing sat - is-fying there I found; But to the bless- ed cross of Christ one day I came, Where springs of liv -ing wa-ter did a - bound.",
+                2: "How sweet the liv-ing wa-ter from the hills of God, It makes me glad and happy all the way; Now glo - ry, grace and bless - ing mark the path I've trod, I'm shout- ing “Hal - le - lu-jah” ev - ry day.",
+                3: "O sin-ner,won'tyoucometoday to Cal -va - ry? A foun-tain there is flowing deep and wide; The Sav -ior now in - vites you to the water free Where thirst-ing spir-its can be sat-is -fied"
+            },
+            chorus: "Drink-ing at the springs of liv - ing wa - ter, Hap - py now am I, My soul they sat - is - fy; Drink-ing at the springs of living water, O wonderful and bountiful supply",
+            song_url: `${path_name}558-SpringsOfLivingWater.mp3`,
+            author: "JOHN W. PETERSON"
+        },
+        "SunshineInTheSoul": {
+            song_num: 559,
+            title: "Sunshine In The Soul",
+            stanzas: {
+                1: " There is sunshine in my soul today,More glorious and bright Than glows in any earthly sky,For Jesus is my light.",
+                2: "There is music in my soul today,A carol to my King, And Jesus, listening, can hearThe songs I cannot sing",
+                3: "There is springtime in my soul today,For when the Lord is near,The dove of peace sings in my heart,The flowers of grace appear.",
+                4: "There is gladness in my soul today,And hope and praise and loveFor blessings which He gives me now,For joys laid up above."
+            },
+            chorus: "O there's sunshine, blessed sunshine,When the peaceful happy moments roll:When Jesus shows His smiling face,There is sunshine in the soul.",
+            song_url: `${path_name}559-SunshineInTheSoul.mp3`,
+            author: "John R Sweney"
+        },
+        "YesHeDid": {
+            song_num: 560,
+            title: "Yes, He Did!",
+            stanzas: {
+                1: "He took my feet fromthe mir-y clay Yes HE Did! Yes, He did! And placed them on the Rock to stay—",
+                2: "O my Lord did just what He said— Yes, He did! Yes, He did! He healed the sick and He raised the dead",
+                3: "He died on the cross to save my soul— Yes, He did! Yes, He did! He ran -somed me and He made me whole",
+                4: "O Je - sus washed my sins a- way— Yes, He did! Yes, He did! And made me hap - py all the day"
+            },
+            chorus: "Yes, He did! Yes, He did! | can tell the world a - bout this,I can tell the na - tions I'm blest, Tell them that Je - susmade me whole, And He brought joy, joy to my soul!",
+            song_url: `${path_name}560-YesHeDid.mp3`,
+            author: "Frank Anderson"
+        },
+        "SinceJesusCameIntoMyHeart": {
+            song_num: 561,
+            title: "Since Jesus Came Into My Heart",
+            stanzas: {
+                1: "What a wonderful change in my life has been wrought Since Jesus came into my heart! I have light in my soul for which long I have sought, Since Jesus came into my heart!",
+                2: "I have ceased from my wand'ring and going astray, Since Jesus came into my heart! And my sins which were many are all washed away, Since Jesus came into my heart!",
+                3: "I shall go there to dwell in that city, I know, Since Jesus came into my heart! And I'm happy, so happy, as onward I go,Since Jesus came into my heart!"
+            },
+            chorus: "Since Jesus came into my heart, Since Jesus came into my heart, Floods of joy o'er my soul like the sea billows roll,Since Jesus came into my heart.",
+            song_url: `${path_name}561-SinceJesusCameIntoMyHeart.mp3`,
+            author: "CHARLES H. GABRIEL"
+        },
+        "YouCanHaveASongInYourHeart": {
+            song_num: 562,
+            title: "You Can Have A Song In Your Heart",
+            stanzas: {
+                1: "You can have a melody down in your heart,When it's aching, almost breaking. Even tho' the sorrow makes the teardrop start,You can have a melody down in your heart.",
+                2: "Do not let your worries drive your song away, Though tomorrow brings its sorrow,Just remember after night time comes the day.Do not let your worries drive your song away.",
+                3: "Soon the night will pass and morning brings the day; I am longing for its dawning, until then we'll labor here and watch and pray, Soon the night will pass and morning bring the day."
+            },
+            chorus: "You can have a song in your heart in the night, After every trial, after every mile.Anyone can sing when the sun is shining bright,But you need a song in your heart at the night.",
+            song_url: `${path_name}562-YouCanHaveASongInYourHeart.mp3`,
+            author: "IRA F. STANPHILL"
+        },
+        "AllThatThrillsMySoul": {
+            song_num: 563,
+            title: "All That Thrills My Soul",
+            stanzas: {
+                1: "Who can cheer the heart like Jesus,by His presence all divine? True and tender, pure and precious,O how blest to call Him mine!",
+                2: "Love of Christ so freely given,grace of God beyond degree,mercy higher than the heaven,deeper than the deepest sea",
+                3: "What a wonderful redemption! Never can a mortal knowhow my sin, though red like crimson,can be whiter than the snow.",
+                4: "Every need His hand supplying,every good in Him I see; on His strength divine relying,He is all in all to me.",
+                5: "By the crystal flowing river with the ransomed I will sing,and forever and foreverpraise and glorify the King."
+            },
+            chorus: "All that thrills my soul is Jesus, He is more than life to me; and the fairest of ten thousand in my blessed Lord I see.",
+            song_url: `${path_name}563-AllThatThrillsMySoul.mp3`,
+            author: "Thoro Harris"
+        },
+        "HisBannerOverMeIsLove": {
+            song_num: 564,
+            title: "His Banner Over Me Is Love",
+            stanzas: {
+                1: " I am my Beloved's and He is mine—His banner over me is love,I am my Beloved's and He is mine—His banner over me is love; I am my Beloved's and He is mine—His banner over me is love,His banner over me is love.",
+                2: "He brought me to His banqueting table, His banner over me is love,He brought me to His banqueting table—His banner over me is love;He brought me to His banqueting table—His banner over me is love,His banner over me is love.",
+                3: "He's fairest of ten thousand to my soul—His banner over me is love,He's fairest of ten thousand to my soul—His banner over me is love;He's fairest of ten thousand to my soul—His banner over me is love,His banner over me is love."
+            },
+            chorus: "",
+            song_url: `${path_name}564-HisBannerOverMeIsLove.mp3`,
+            author: "Larry Leader"
+        },
+        "WonderfulWonderfulJesus": {
+            song_num: 565,
+            title: "Wonderful, Wonderful Jesus",
+            stanzas: {
+                1: "Won-der-ful, won-der-ful Je - sus, Who can com-pare with Thee! Won-der-ful, won-der-ful Je - sus, Fair -er than all art Thou to me! Won-der-ful, won-der-ful Je - sus, O how my soul loves Thee!hd Fair -er than all the fair est, Je-sus,art Thou to me"
+            },
+            chorus: "",
+            song_url: `${path_name}565-WonderfulWonderfulJesus.mp3`,
+            author: "BENJAMIN A. BAUR"
+        },
+        "HappinessIsTheLord": {
+            song_num: 566,
+            title: "Happiness Is The Lord",
+            stanzas: {
+                1: "Happiness is to know the SaviorLiving a life within His favorHaving a change in my behavior Happiness is the Lord",
+                2: "Happiness is a new creation Jesus and me in close relationHaving a part in His salvation Happiness is the Lord",
+                3: "Happiness is to be forgiven Living a life that's worth the livin'Taking a trip that leads to heaven Happiness is the Lord"
+            },
+            chorus: "Real joy is mine No matter if tear drops startI've found the secretIt's Jesus in my heart Lord, Happiness is the Lord Happiness is the Lord",
+            song_url: `${path_name}566-HappinessIsTheLord.mp3`,
+            author: "IRA F. STANPHILL"
+        },
+        "LearningToLean": {
+            song_num: 567,
+            title: "Learning To Lean",
+            stanzas: {
+                1: "A joy I can't ex- plain is fill- ing my soul Sincethe day I met Je -sus my King; His bless-ed Ho-ly Spir-it is lead-ing my way— is teach-ing, and I'm learn-ing to lean.",
+                2: "There's glo- ri-ous vic- try eachday now for me As I dwell in His peace so se - rene; He helps me with each task if on - ly I ask— Ev-ry day now I am learn-ing to lean"
+            },
+            chorus: "Learn-ing to lean, learn-ing to lean, I'm learn-ing to lean on Je-sus Find-ing more pow-er than I'd ev -er dreamed, I'm learn-ing to lean on Je - sus.",
+            song_url: `${path_name}567-LearningToLean.mp3`,
+            author: "JOHN STALLINGS"
+        },
+        "HesTheOne": {
+            song_num: 568,
+            title: "He's The One!",
+            stanzas: {
+                1: "Who can move the mountains That are hindering you today Who can pick them up like pebbles Clear them from the way Who can prove His power When a Christian kneels to pray It is Jesus He's the One",
+                2: "Who can heal the heartache That is crushing you within Who can pour the balm of heaven Where the hurt has been Who can chase the shadows Make the song of joy begin It is Jesus He's the One",
+                3: "Who can keep you from all harm And guide you by His hand Who can give you power For service and the strength to stand Who can give you grace For all that living may demand It is Jesus He's the One"
+            },
+            chorus: "Jesus holds all power In His mighty hands divine He's the One who healed the sick Turned the water into wine He makes all things possible And He's a friend of mine Blessed Jesus He's the One",
+            song_url: `${path_name}568-HesTheOne.mp3`,
+            author: "John W Peterson"
+        },
+        "HesTheSaviorOfMySoul": {
+            song_num: 569,
+            title: "He's The Savior Of My Soul",
+            stanzas: {
+                1: "He's the Sav-ior of my soul, My Je-sus, my Je-sus He's the Sav - ior of my soul, He's the Sav-ior of my soul. Jesus, Jesus, Jesus, Jesus.",
+            },
+            chorus: "",
+            song_url: `${path_name}569-HesTheSaviorOfMySoul.mp3`,
+            author: "Traditional"
+        },
+        "NoOneEverCaredForMeLikeJesus": {
+            song_num: 570,
+            title: "No One Ever Cared For Me Like Jesus",
+            stanzas: {
+                1: "I would love to tell you What I think of Jesus Since I found in Him A friend so strong and true I would tell you how He changed my life completely He did something That no other friend could do",
+                2: "All my life was full of sin When Jesus found me All my heart was full Of misery and woe Jesus placed His strong And loving arms around me And He led me in the way I ought to go",
+                3: "Ev'ry day He comes to me With new assurance More and more I understand His words of love But I'll never know Just why He came to save me Till someday I see His blessed face above"
+            },
+            chorus: "No one ever cared for me like Jesus There's no other friend so kind as He No one else could take the sin And darkness from me O how much He cared for me",
+            song_url: `${path_name}570-NoOneEverCaredForMeLikeJesus.mp3`,
+            author: "CHARLES F. WEIGLE"
+        },
+        "HappyAmI": {
+            song_num: 571,
+            title: "Happy Am I!",
+            stanzas: {
+                1: "Hap - py am I! Je - sus is mine for - ev er, Never to leave! Al - ways in each en - deav- or Lead - ing me on In a life end - ing nev - er Giv - ing a smile Ev-ery mine,",
+                2: "Hap - py am I! All of my sins for - giv -en, What a great day! Life is now worth the liv - in; One of these days I'l. be en - joy - ing heav - en, Now that I know Up-ward I'll go",
+                3: "Hap - py am I! How can I help but shout it? Every day Tell -ing the world a - bout it; Je - sus is real, Only believe Don't doubt it Then you will be Hap-py like me"
+            },
+            chorus: " Happy am I!",
+            song_url: `${path_name}571-HappyAmI.mp3`,
+            author: "MICKEY HOLIDAY"
+        },
+        "HeKeepsMeSinging": {
+            song_num: 572,
+            title: "He Keeps Me Singing",
+            stanzas: {
+                1: "There's within my heart a melody; Jesus whispers sweet and low, Fear not, I am with you, peace, be still, in all of life's ebb and flow.",
+                2: "All my life was wrecked by sin and strife, discord filled my heart with pain, Jesus swept across the broken strings, stirred the slumbering chords again.",
+                3: "Though sometimes He leads through waters deep, trials fall across the way; though sometimes the path seems rough and steep, see His footprints all the way.",
+                4: "Feasting on the riches of His grace, resting 'neath His sheltering wing, always looking on His smiling face, that is why I shout and sing.",
+                5: "Soon He's coming back to welcome me far beyond the starry sky; I shall wing my flight to worlds unknown, I shall reign with Him on high."
+            },
+            chorus: "Jesus, Jesus, Jesus, sweetest name I know, fills my every longing,keeps me singing as I go.",
+            song_url: `${path_name}572-HeKeepsMeSinging.mp3`,
+            author: "Luther B. Bridgers"
+        },
     }
 }
 
