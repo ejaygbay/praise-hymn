@@ -328,10 +328,10 @@ let songs = {
         song_num: 372,
         title: "The Branch Of Healing",
         stanzas: {
-            1: "",
-            2: "",
-            3: "",
-            4: ""
+            2: "There is a healing branch that grows Where ev'ry 'bitter water' flows; This is our health renewing tree: 'I am the Lord that healeth thee'",
+            3: "There is an old appointed way For those who hearken and obey; Above the gate these words we see 'I am the Lord that healeth thee'",
+            1: "There is a promise that has stood Since Is rael crossed the parted flood; It stands today for you and me 'I am the Lord that healeth thee'",
+            4: "There is agreat physician still Whose hand has all its ancient skill; At His command disease must flee 'I am the Lord that healeth thee'"
         },
         chorus: "",
         song_url: `${path_name}372-TheBranchOfHealing.mp3`,
@@ -341,11 +341,12 @@ let songs = {
         song_num: 373,
         title: "In Pleasant Places",
         stanzas: {
-            1: "",
-            2: "",
-            3: ""
+            1: "Sweet it is to follow the Saior, Sweet to have Him close by my side; Carefully the path way He chooses, He is sauch a wonderful guide.",
+            2: "E - ven when the storm clouds are threatning, There's no need to worry or fear; Jesus will be there to protect me, When I call for help He will hear.",
+            3: "Now my life in - dead is worth living, Christ has made the diff'rence for me; There's a joy, a glory, a wonder, Ev'ry day His goodness I see",
+            4: "Some day He will take me to heaven, Safely I'll be led by His hand; Pleasant are the places a waiting There with-in that beautiful land"
         },
-        chorus: "",
+        chorus: "In pleasant places Jesus leads me, Like a shepherd so gentle and kind; In pleasant places by still waters, O what pleasure and blessing I find.",
         song_url: `${path_name}373-InPleasantPlaces.mp3`,
         author: "John W. Peterson"
     },
@@ -353,8 +354,8 @@ let songs = {
         song_num: 374,
         title: "Precious Lord, Take My Hand",
         stanzas: {
-            1: "Precious Lord, take my hand, Lead me on, help me stand- I am tired, I am weak, I am worn; Thru the storm, thru the night, Lead me on to the light",
-            2: ""
+            1: "Precious Lord, take my hand, Lead me on, help me stand- I am tired, I am weak, I am worn; Thru the storm, thru the night, Lead me on to the light- Take my hand, precious Lord, lead me home.",
+            2: "When my way grows dear, Precious Lord, linger near- When my life is almost gone; Hear my cry, hear my call, Hold my hand lest I fall- Take my hand, precious Lord, lead me home."
         },
         chorus: "",
         song_url: `${path_name}374-PreciousLordTakeMyHand.mp3`,
