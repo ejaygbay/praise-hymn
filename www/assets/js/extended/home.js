@@ -77,7 +77,7 @@ const openFullSong = (song_id) => {
         <h2 class="lyric-title">${song.title}</h2>
         <article class="important-info">
             <span>By: ${song.author} | Hymn #: ${song.song_num}</span>
-            <a href="#${song_id}_history" onclick="switchSection('song-history-section')">Read History</a>
+            <a href="#${song_id}_history" onclick="switchSection('song-history-section')" style="margin-left: 36px;">Read History</a>
         </article>
     </div>`;
 
@@ -90,7 +90,9 @@ const openFullSong = (song_id) => {
 
     song_ele.innerHTML = "";
     song_ele.insertAdjacentHTML("beforeend", title_header);
-    song_ele.insertAdjacentHTML("beforeend", action_btn);
+
+    //! TO BE UNCOMMENTED AFTER TESTING
+    // song_ele.insertAdjacentHTML("beforeend", action_btn);
 
     if (song_lyrics_keys.includes('chorus')) {
         let stanza1 = `<div class=stanza>
