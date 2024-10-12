@@ -4067,7 +4067,7 @@ let songs = {
             song_url: `${path_name}324-TisSoSweetToTrustInJesus.mp3`,
             author: "Louisa M. R. Stead",
         },
-        JesusIAmResting: {
+        "JesusIAmResting": {
             song_num: 325,
             title: "Jesus, I Am Resting",
             stanzas: {
@@ -4080,8 +4080,319 @@ let songs = {
             song_url: `${path_name}325-JesusIAmResting.mp3`,
             author: "Jean Sophia Pigott",
         },
+        "AllThingsWorkOutForGood": {
+            song_num: 326,
+            title: "All Things Work Out For Good",
+            stanzas: {
+                1: "All things work out for good, we know Such is God's great design; He orders all our steps below For purposes divine, For purposes divine",
+                2: "This is the faith that keeps me still, No matter what the test, And let's me glory in His will For well I know 'tis best, For well I know 'tis best.",
+                3: "So now the future holds no fear, God guards the work begun; And mortals are immortal here Until their work is done, Until their work is done.",
+                4: "Some day the path He chose for me Will all be understood; In heaven's clearer light I'll see All things worked out for good, All things worked out for good.",
+            },
+            chorus: "",
+            song_url: `${path_name}326-AllThingsWorkOutForGood.mp3`,
+            author: "John W. Peterson",
+        },
+        "ChildrenOfTheHeavenlyFather": {
+            song_num: 327,
+            title: "Children Of The Heavenly Father",
+            stanzas: {
+                1: "Children of the heav'nly Father, safely in His bosom gather; nestling bird nor star in heaven such a refuge e'er was given.",
+                2: "God His own doth tend and nourish; in His holy courts they flourish. From all evil things He spares them; in His mighty arms He bears them.",
+                3: "Neither life nor death shall ever from the Lord His children sever; unto them His grace He showeth, and their sorrows all He knoweth.",
+                4: "Tho' He giveth or He taketh, God His children ne'er forsaketh; His the loving purpose solely to preserve them pure and holy.",
+            },
+            chorus: "",
+            song_url: `${path_name}327-ChildrenOfTheHeavenlyFather.mp3`,
+            author: "Lina Sandell",
+        },
+        "HeGotTheWholeWorldInHisHands": {
+            song_num: 328,
+            title: "He's Got The Whole World In His Hands",
+            stanzas: {
+                1: "He's got the whole wide world in his hands, He's got the big world in his hands. He's got the whole world in his hands. He's got the whole world in his hands.",
+                2: "He's got the wind and the rain in his hands, He's got the sun and the moon in his hands. He's got the wind and the rain in his hands, He's got the whole world in his hands.",
+                3: "He's got the little tiny baby in his hands, He's got the helpless little baby in his hands. He's got the little tiny baby in his hands. He's got the whole world in his hands.",
+                4: "He's got you and me, brother, in his hands, He's got you and me, sister in his hands. He's got you and me, brother in his hands. He's got the whole world in his hands.",
+                5: "He's got everybody in his hands, He's got everybody in his hands. He's got everybody in his hands. He's got the whole world in his hands.",
+            },
+            chorus: "",
+            song_url: `${path_name}328-HeGotTheWholeWorldInHisHands.mp3`,
+            author: "Frank Anderson",
+        },
+        "AnywhereWithJesus": {
+            song_num: 329,
+            title: "Anywhere With Jesus",
+            stanzas: {
+                1: "Anywhere with Jesus I can safely go, Anywhere He leads me in this world below; Anywhere without Him dearest joys would fade; Anywhere with Jesus I am not afraid.",
+                2: "Anywhere with Jesus I am not alone; Other friends may fail me, He is still my own; Tho' His hand may lead me over drearest ways, Anywhere with Jesus is a house of praise.",
+                3: "Anywhere with Jesus, over land and sea, Telling souls in darkness of salvation free; Ready as He summons me to go or stay, Anywhere with Jesus when He points the way.",
+                4: "Anywhere with Jesus I can go to sleep, When the dark'ning shadows round about me creep, Knowing I shall waken never more to roam; Anywhere with Jesus will be home, sweet home.",
+            },
+            chorus: "Anywhere, anywhere! Fear I cannot know; Anywhere with Jesus I can safely go.",
+            song_url: `${path_name}329-AnywhereWithJesus.mp3`,
+            author: "Jessie B. Pounds",
+        },
+        "MomentByMoment": {
+            song_num: 330,
+            title: "Moment By Moment",
+            stanzas: {
+                1: "Dying with Jesus, by death reckoned mine; Living with Jesus, a new life divine; Looking to Jesus till glory doth shine, Moment by moment, O Lord, I am thine.",
+                2: "Never a trial that he is not there, Never a burden that he doth not bear, Never a sorrow that he doth not share, Moment by moment, I'm under his care.",
+                3: "Never a weakness that he doth not feel, Never a sickness that he cannot heal; Moment by moment, in woe or in weal, Jesus, my Savior, abides with me still.",
+            },
+            chorus: "Moment by moment I'm kept in his love; Moment by moment I've life from above; Looking to Jesus till glory doth shine; Moment by moment, O Lord, I am thine.",
+            song_url: `${path_name}330-MomentByMoment.mp3`,
+            author: "D. W. Whittle",
+        },
+        "UntilThen": {
+            song_num: 331,
+            title: "Until Then",
+            stanzas: {
+                1: "My heart can sing when I pause to remember A heart-ache here is but a stepping stone Along a trail that's winding always upward, This troubled world is not my final home.",
+                2: "The things of earth will dim and lose their value If we recall they're borrowed for a while, And things of earth that cause the heart to tremble, Remembered there, will only bring a smile.",
+                3: "This weary world with all its toil and struggle May take its toll of misery and strife; The sould of man is like a waiting falcon, When it's released, it's destined for the skies.",
+            },
+            chorus: "But until then my heart will go on singing, Until then with joy I'll carry on, Until the day my eyes behold the city, Until the day God calls me home.",
+            song_url: `${path_name}331-UntilThen.mp3`,
+            author: "Stuart Hamblen",
+        },
+        "AllWillBeWell": {
+            song_num: 332,
+            title: "All Will Be Well",
+            stanzas: {
+                1: "Through the love of God our Saviour, all will be well. Free and changeless is his favour, all, all is well. Precious is the blood that healed us, perfect is the grace that sealed us, strong the hand stretched forth to shield us, all must be well.",
+                2: "Though we pass through tribulation, all will be well. Ours is such a full salvation, all, all is well. Happy, still in God confiding, fruitful, if in Christ abiding, holy, through the Spirit's guiding, all must be well.",
+                3: "We expect a bright tomorrow, all will be well. Faith can sing through days of sorrow, 'All, all is well.' On our Father's love relying, Jesus every need supplying, in our living, in our dying, all must be well.",
+            },
+            chorus: "",
+            song_url: `${path_name}332-AllWillBeWell.mp3`,
+            author: "Mary Peters",
+        },
+        "AMightyFortressIsOurGod": {
+            song_num: 333,
+            title: "A Mighty Fortress Is Our God",
+            stanzas: {
+                1: " A mighty fortress is our God, a bulwark never failing; our helper he, amid the flood of mortal ills prevailing. For still our ancient foe does seek to work us woe; his craft and power are great, and armed with cruel hate, on earth is not his equal.",
+                2: "Did we in our own strength confide, our striving would be losing, were not the right Man on our side, the Man of God's own choosing. You ask who that may be? Christ Jesus, it is he; Lord Sabaoth his name, from age to age the same; and he must win the battle.",
+                3: "And though this world, with devils filled, should threaten to undo us, we will not fear, for God has willed his truth to triumph through us. The prince of darkness grim, we tremble not for him; his rage we can endure, for lo! his doom is sure; one little word shall fell him.",
+                4: "That Word above all earthly powers no thanks to them abideth; the Spirit and the gifts are ours through him who with us sideth. Let goods and kindred go, this mortal life also; the body they may kill: God's truth abideth still; his kingdom is forever!",
+            },
+            chorus: "",
+            song_url: `${path_name}333-AMightyFortressIsOurGod.mp3`,
+            author: "Martin Luther",
+        },
+        "BeStillMySoul": {
+            song_num: 334,
+            title: "Be Still, My Soul",
+            stanzas: {
+                1: "Be still, my soul; the Lord is on thy side; bear patiently the cross of grief or pain. Leave to thy God to order and provide; in every change He faithful will remain. Be still, my soul; thy best, thy heav'nly Friend through thorny ways leads to a joyful end.",
+                2: "Be still, my soul; thy God doth undertake to guide the future as He has the past. Thy hope, thy confidence let nothing shake; all now mysterious shall be bright at last. Be still, my soul; the waves and winds still know His voice who ruled them while He dwelt below.",
+                3: "Be still, my soul; when dearest friends depart, and all is darkened in the veil of tears, then shalt thou better know His love, His heart, who comes to soothe thy sorrow and thy fears. Be still, my soul; thy Jesus can repay from His own fullness all He takes away.",
+                4: "Be still, my soul; the hour is hast'ning on when we shall be forever with the Lord, when disappointment, grief, and fear are gone, sorrow forgot, love's purest joys restored. Be still, my soul; when change and tears are past, all safe and blessed we shall meet at last.",
+            },
+            chorus: "",
+            song_url: `${path_name}334-BeStillMySoul.mp3`,
+            author: "Katharina von Schlegel",
+        },
+        "HeHidethMySoul": {
+            song_num: 335,
+            title: "He Hideth My Soul",
+            stanzas: {
+                1: " A wonderful Savior is Jesus my Lord, a wonderful Savior to me. He hideth my soul in the cleft of the rock, where rivers of pleasure I see.",
+                2: "A wonderful Savior is Jesus my Lord; he taketh my burden away. He holdeth me up, and I shall not be moved; he giveth me strength as my day.",
+                3: "With numberless blessings each moment he crowns, and filled with his fullness divine, I sing in my rapture,“Oh, glory to God for such a Redeemer as mine!”",
+                4: "When clothed in his brightness, transported I rise to meet him in clouds of the sky, his perfect salvation, his wonderful love, I'll shout with the millions on high.",
+            },
+            chorus: "He hideth my soul in the cleft of the rock that shadows a dry, thirsty land. He hideth my life in the depths of his love, and covers me there with his hand, and covers me there with his hand.",
+            song_url: `${path_name}335-HeHidethMySoul.mp3`,
+            author: "Fanny J. Crosby",
+        },
+        "YesterdayTodayForever": {
+            song_num: 336,
+            title: "Yesterday, Today, Forever",
+            stanzas: {
+                1: "Yesterday, today, for ever, Jesus is the same; all may change, but Jesus never, glory to his name! Glory to his name! Glory to his name! All may change, but Jesus never, glory to his name!",
+            },
+            chorus: "",
+            song_url: `${path_name}336-YesterdayTodayForever.mp3`,
+            author: "Albert B. Simpson",
+        },
+        "NothingIsImpossible": {
+            song_num: 337,
+            title: "Nothing Is Impossible",
+            stanzas: {
+                1: "Nothing is impossible when you put your trust in God; Nothing is impossible when you're trusting in His Word. Hearken to the voice of God to thee; 'Is there anything too hard for Me?' Then put your trust in God alone and rest up on His word, For everything. O everything. Yes, everything is possible with God!",
+            },
+            chorus: "",
+            song_url: `${path_name}337-NothingIsImpossible.mp3`,
+            author: "Eugene L. Clark",
+        },
+        "HowFirmAFoundation": {
+            song_num: 338,
+            title: "How Firm A Foundation",
+            stanzas: {
+                1: "How firm a foundation, ye saints of the Lord, is laid for your faith in God's excellent Word! What more can be said than to you God hath said, to you who for refuge to Jesus have fled?",
+                2: "'Fear not, I am with thee, O be not dismayed, for I am thy God, and will still give thee aid; I'll strengthen thee, help thee, and cause thee to stand, upheld by my righteous, omnipotent hand.",
+                3: "'When through the deep waters I call thee to go, the rivers of sorrow shall not overflow; for I will be near thee, thy troubles to bless, and sanctify to thee thy deepest distress.",
+                4: "'When through fiery trials thy pathway shall lie, my grace, all sufficient, shall be thy supply; the flame shall not hurt thee; I only design thy dross to consume, and thy gold to refine.",
+                5: "'The soul that on Jesus hath leaned for repose, I will not, I will not desert to its foes; that soul, though all hell should endeavor to shake, I'll never, no, never, no, never forsake.'",
+            },
+            chorus: "",
+            song_url: `${path_name}338-HowFirmAFoundation.mp3`,
+            author: "Robert Keen",
+        },
+        "IHaveChristInMyHeart": {
+            song_num: 339,
+            title: "I Have Christ In My Heart",
+            stanzas: {
+                1: "What tho wars may come, with marching feet and beat of the drum, For I have Christ in my heart! What tho nations rage as we approach the end of the age, For I have Christ in my heart! God is still on the throne, Almighty God He, And He cares for His own thru all eternity, so let come what may whatever it is, I only say That I have Christ in my heart, I have Christ in my heart!",
+            },
+            chorus: "",
+            song_url: `${path_name}339-IHaveChristInMyHeart.mp3`,
+            author: "Wendell P. Loveless",
+        },
+        "TheSolidRock": {
+            song_num: 340,
+            title: "The Solid Rock",
+            stanzas: {
+                1: "My hope is built on nothing less than Jesus' blood and righteousness; I dare not trust the sweetest frame, but wholly lean on Jesus' name.",
+                2: "When darkness veils his lovely face, I rest on his unchanging grace; in every high and stormy gale, my anchor holds within the veil.",
+                3: "His oath, his covenant, his blood, support me in the whelming flood; when all around my soul gives way, he then is all my hope and stay.",
+                4: "When he shall come with trumpet sound, O may I then in him be found: dressed in his righteousness alone, faultless to stand before the throne.",
+            },
+            chorus: "On Christ, the solid Rock, I stand: all other ground is sinking sand; all other ground is sinking sand.",
+            song_url: `${path_name}340-TheSolidRock.mp3`,
+            author: "Edward Mote",
+        },
+        "IKnowWhoHoldsTomorrow": {
+            song_num: 341,
+            title: "I Know Who Holds Tomorrow",
+            stanzas: {
+                1: "I don't know about tomorrow,I just live from day to day.I don't borrow from its sunshine,For its skies may turn to gray.I don't worry o'er the future,For I know what Jesus said,And today I'll walk beside Him,For He knows what is ahead.",
+                2: "Every step is getting brighter,As the golden stairs I climb;Every burden's getting lighter;Every cloud is silver lined.There the sun is always shining,There no tear will dim the eye,At the ending of the rainbow,Where the mountains touch the sky.",
+                3: "I don't know about tomorrow,It may bring me poverty;But the one who feeds the sparrow,Is the one who stands by me.And the path that be my portion,May be through the flame or flood,But His presence goes before me,And I'm covered with His blood."
+            },
+            chorus: "Many things about tomorrow,I don't seem to understand;But I know who holds tomorrow,And I know who holds my hand.",
+            song_url: `${path_name}341-IKnowWhoHoldsTomorrow.mp3`,
+            author: "Ira F. Stanphill"
+        },
+        "GodMovesInAMysteriousWay": {
+            song_num: 342,
+            title: "God Moves In A Mysterious Way",
+            stanzas: {
+                1: "God moves in a mysterious wayHis wonders to perform;He plants His footsteps in the seaand rides upon the storm.",
+                2: "Deep in unfathomable minesof never-failing skill;He treasures up His bright designs,and works His sov'reign will.",
+                3: "Ye fearful saints, fresh courage take;the clouds ye so much dreadare big with mercy and shall breakin blessings on your head.",
+                4: "Judge not the Lord by feeble sense,but trust Him for His grace; behind a frowning providenceHe hides a smiling face.",
+                5: "His purposes will ripen fast,unfolding every hour;the bud may have a bitter taste,but sweet will be the flow'r.",
+                6: "Blind unbelief is sure to err, and scan His work in vain; God is His own interpreter, and He will make it plain."
+            },
+            chorus: "",
+            song_url: `${path_name}342-GodMovesInAMysteriousWay.mp3`,
+            author: "William Cowper"
+        }
     },
     peace_and_comfort: {
+        "LikeARiverGlorious": {
+            song_num: 343,
+            title: "Like A River Glorious",
+            stanzas: {
+                1: "Like a river glorious is God's perfect peace,over all victorious in its bright increase:perfect, yet still flowing fuller every day;perfect, yet still growing deeper all the way.",
+                2: "Hidden in the hollow of his mighty hand,where no harm can follow, in his strength we stand.We may trust him fully all for us to do;those who trust him wholly find him wholly true."
+            },
+            chorus: "Trusting in the Father, hearts are fully blest,finding, as he promised, perfect peace and rest.",
+            song_url: `${path_name}343-LikeARiverGlorious.mp3`,
+            author: "Frances Ridley Havergal"
+        },
+        "AllYourAnxiety": {
+            song_num: 344,
+            title: "All Your Anxiety",
+            stanzas: {
+                1: "Is there a heart o'erbound by sorrow? Is there a life weighed down by care? Come to the cross, each burden bearing; All your anxiety—leave it there.",
+                2: "No other friend so swift to help you,No other friend so quick to hear,No other place to leave your burden,No other one to hear your prayer.",
+                3: "Come then at once; delay no longer!Heed His entreaty kind and sweet,You need not fear a disappointment;You shall find peace at the mercy seat."
+            },
+            chorus: "All your anxiety, all your care,Bring to the mercy seat, leave it there,Never a burden He cannot bear,Never a friend like Jesus!",
+            song_url: `${path_name}344-AllYourAnxiety.mp3`,
+            author: "Edward H. Joy"
+        },
+        "IHaveGotPeaceLikeARiver": {
+            song_num: 345,
+            title: "I've Got Peace Like A River",
+            stanzas: {
+                1: "I've got peace like a river,I've got peace like a river,I've got peace like a river in my soul.I've got peace like a river,I've got peace like a river,I've got peace like a river in my soul.",
+                2: "I've got love like a river,I've got love like a river,I've got love like a river in my soul.I've got love like a river,I've got love like a river,I've got love like a river in my soul",
+                3: "I've got joy like a river,I've got joy like a river,I've got joy like a river in my soul.I've got joy like a river,I've got joy like a river,I've got joy like a river in my soul."
+            },
+            chorus: "",
+            song_url: `${path_name}345-IHaveGotPeaceLikeARiver.mp3`,
+            author: "Traditional"
+        },
+        "JesusNeverFails": {
+            song_num: 346,
+            title: "Jesus Never Fails",
+            stanzas: {
+                1: "Earthly friends may prove untrue,Doubts and fears assail;One still loves and cares for you,One who will not fail.",
+                2: "Tho' the sky be dark and drear, Fierce and strong the gale; Just remember He is near, And He will not fail.",
+                3: "In life's dark and bitter hour Love will still prevail; Trust His everlasting pow'r Jesus will not fail."
+            },
+            chorus: "Jesus never fails, Jesus never fails; Heav'n and earth may pass away, But Jesus never fails.",
+            song_url: `${path_name}346-JesusNeverFails.mp3`,
+            author: "Arthur A. Luther"
+        },
+        "OLord": {
+            song_num: 347,
+            title: "O Lord!",
+            stanzas: {
+                1: "Someone's lonely, Lord—give him friends, Someone's lonely, Lord—give him friends, Someone's lonely, Lord—give him friends, O Lord, give him friends.",
+                2: "Someone's fighting, Lord—give him peace,Someone's fighting, Lord—give him peace,Someone's fighting, Lord—give him peace,O Lord, give him peace.",
+                3: "Someone's hating, Lord—give him love, Someone's hating, Lord—give him love, Someone's hating, Lord—give him love, O Lord, give him love.",
+                4: "Someone's doubting, Lord—give him faith,Someone's doubting, Lord—give him faith,Someone's doubting, Lord—give him faith,O Lord, give him faith.",
+                5: "We are living, Lord—help us care,We are living, Lord—help us care,We are living, Lord—help us care,O Lord, help us care."
+            },
+            chorus: "",
+            song_url: `${path_name}347-OLord.mp3`,
+            author: "Traditional"
+        },
+        "DoesJesusCare": {
+            song_num: 348,
+            title: "Does Jesus Care?",
+            stanzas: {
+                1: "Does Jesus care when my heart is pained Too deeply for mirth or song; As the burdens press, and the cares distress, And the way grows weary and long?",
+                2: "Does Jesus care when my way is dark With a nameless dread and fear? As the daylight fades into deep night shades, Does He care enough to be near?",
+                3: "Does Jesus care when I've tried and failed To resist some temptation strong; When for my deep grief I find no relief, Though my tears flow all the night long?",
+                4: "Does Jesus care when I've said goodbye To the dearest on earth to me,And my sad heart aches till it nearly breaks—Is it aught to Him? does He see?"
+            },
+            chorus: "O yes, He cares- I know He cares! His heart is touched with my grief; When the days are weary, the long nights dreary, I know my Savior cares.",
+            song_url: `${path_name}348-DoesJesusCare.mp3`,
+            author: "Frank E. Graeff"
+        },
+        "ThereIsABalmInGilead": {
+            song_num: 349,
+            title: "There Is a Balm in Gilead",
+            stanzas: {
+                1: "There is a balm in Gilead to make the wounded whole, there is a balm in Gilead to heal the sin-sick soul.",
+                2: "If you cannot preach like Peter, if you cannot pray like Paul, you can tell the love of Jesus and say, 'He died for all.'"
+            },
+            chorus: "There is a balm in Gileadto make the wounded whole, there is a balm in Gileadto heal the sin-sick soul.",
+            song_url: `${path_name}349-ThereIsABalmInGilead.mp3`,
+            author: "Traditional"
+        },
+        "WonderfulPeace": {
+            song_num: 350,
+            title: "Wonderful Peace",
+            stanzas: {
+                1: "Far away in the depths of my spirit tonight Rolls a melody sweeter than psalm; In celestial-like strains it unceasingly falls O'er my soul like an infinite calm.",
+                2: "What a treasure I have in this wonderful peace Buried deep in the heart of my soul, So secure that no power can mine it away While the years of eternity roll.",
+                3: "I am resting tonight in this wonderful peace, Resting sweetly in Jesus' control, For I'm kept from all danger by night and by day, And His glory is flooding my soul.",
+                4: "And me thinks when I rise to that city of peace Where the Author of peace I shall see, that one strain of the song which the ransomed will sing In that heavenly kingdom shall be:",
+                5: "Ah! soul, are you here without comfort and rest, Marching down the rough pathway of time? Make Jesus your friend ere the shadows grow dark O accept this sweet peace so sublime!"
+            },
+            chorus: "Peace, peace! wonderful peace, Coming down from the Father above, Sweep over my spirit forever, I pray, In fathomless billows of love.",
+            song_url: `${path_name}350-WonderfulPeace.mp3`,
+            author: "Warren Donald Cornell"
+        },
         "NoOneUnderstandsLikeJesus": {
             song_num: 351,
             title: "No One Understands Like Jesus",
