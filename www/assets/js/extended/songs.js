@@ -2994,7 +2994,7 @@ let songs = {
             song_url: `${path_name}239-ComeYeFaithfulRaiseTheStrain.mp3`,
             author: "John of Damascus",
         },
-        AllHailThePowerOfJesusName: {
+        AllHailThePowerOfJesusName1: {
             song_num: 240,
             title: "All Hail the Power of Jesus' Name",
             stanzas: {
@@ -3004,12 +3004,12 @@ let songs = {
                 4: "Oh, that with all the sacred throng we at his feet may fall! We'll join the everlasting song and crown him Lord of all. We'll join the everlasting song and crown him Lord of all.",
             },
             chorus: "",
-            song_url: `${path_name}240-AllHailThePowerOfJesusName.mp3`,
+            song_url: `${path_name}240-AllHailThePowerOfJesusName1.mp3`,
             author: "Edward Perronet",
         },
-        AllHailThePowerOfJesusName: {
+        AllHailThePowerOfJesusName2: {
             song_num: 241,
-            title: "All Hail the Power of Jesus' Name",
+            title: "All Hail The Power Of Jesus' Name",
             stanzas: {
                 1: "All hail the power of Jesus' name! Let angels prostrate fall. Bring forth the royal diadem, and crown him Lord of all. Bring forth the royal diadem, and crown him Lord of all!",
                 2: "O seed of Israel's chosen race now ransomed from the fall, hail him who saves you by his grace, and crown him Lord of all. Hail him who saves you by his grace, and crown him Lord of all!",
@@ -3017,7 +3017,7 @@ let songs = {
                 4: "Oh, that with all the sacred throng we at his feet may fall! We'll join the everlasting song and crown him Lord of all. We'll join the everlasting song and crown him Lord of all.",
             },
             chorus: "",
-            song_url: `${path_name}241-AllHailThePowerOfJesusName.mp3`,
+            song_url: `${path_name}241-AllHailThePowerOfJesusName2.mp3`,
             author: "Edward Perronet",
         },
         MajesticSweetnessSitsEnthroned: {
@@ -3226,11 +3226,12 @@ let songs = {
             song_num: 258,
             title: "Jesus Is Coming!",
             stanzas: {
-                1: "Marvelous message we bring, Glorious carol we sing, Wonderful word of the King, Jesus is coming again",
-                2: "Forest and flower exclaim Mountain and meadow the same All earth and heaven proclaim Jesus is coming again",
-                3: "Standing before Him at last Trial and trouble all past Crowns at His feet we will cast Jesus is coming again"
+                1: "Some-day when this age has run the course that God in-tend-ed, An-cient Bi-ble proph-e-cy will sure-ly be ful-filled; As the Sav-ior left the earth that day when He as-cend-ed, So He'll come a-gain the Fa-ther has willed.",
+                2: "O it is a bless-ed hope to those who know the Sav-ior, Bless-ed in the man-y joys that it will ush-er in; Pu-ri-fy-ing hope that has the pow'r to change be-hav-ior, Keep-ing from the world's de-file-ment and sin.",
+                3: "Man-y peo-ple doubt that Je-sus real-ly is re-turn-ing, \"Where's the prom-ise of His com-ing?\" mock-ing-ly they cry; Aft-er He has come and judg-ment fires a-round are burn-ing, They will know the truth that now they de-ny.",
+                4: "If you know Him not, then  let there be no hes-i-ta-tion, Trust Him as your Lord  and Sav-ior now with-out de-lay; By His grace and mer-cy you can be a new cre-a-tion, And be ready then to meet Him that day."
             },
-            chorus: "Coming again coming again Maybe morning maybe noon Maybe evening and maybe soon Coming again coming again Oh what a wonderful day it will be Jesus is coming again",
+            chorus: "Je-sus is com-ing, Though we know not when; yes, He is com-ing, Je-sus is com-ing a-gain.",
             song_url: `${path_name}258-JesusIsComing.mp3`,
             author: "John W. Peterson"
         },
@@ -4859,9 +4860,9 @@ let songs = {
             song_num: 387,
             title: "Near To Thy Heart",
             stanzas: {
-                1: "",
-                2: "",
-                3: ""
+                1: "Near to thy heart, O Christ divine, Leaning like John on thy breast- Till with Thy glory I will shine, Near to Thy heart I'd rest.",
+                2: "Near to thy heart O may I be, Hearing Thy sweet words of love, Learning Thy precious will for me, Seeking those things above.",
+                3: "Near to thy heart where all is peace, Lost in the light of Thy face, There will my faith and trust increase, There will I grow in grace."
             },
             chorus: "",
             song_url: `${path_name}387-NearToThyHeart.mp3`,
@@ -4910,9 +4911,7 @@ let songs = {
             song_num: 391,
             title: "My Desire",
             stanzas: {
-                1: "",
-                2: "",
-                3: ""
+                1: "My desire to be like Jesus, My desire- to be like Him! His Spirit fill me, His love o'er-whelm me: In deed and word to be like Him!"
             },
             chorus: "",
             song_url: `${path_name}391-MyDesire.mp3`,
@@ -7294,17 +7293,3 @@ let songs = {
         },
     }
 }
-
-// ,
-//         "": {
-//             song_num: 202,
-//             title: "",
-//             stanzas: {
-//                 1: "",
-//                 2: "",
-//                 3: ""
-//             },
-//             chorus: "",
-//             song_url: `${path_name}200-TheHealer.mp3`,
-//             author: ""
-//         }

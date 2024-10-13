@@ -519,9 +519,9 @@ let songs = {
         song_num: 387,
         title: "Near To Thy Heart",
         stanzas: {
-            1: "",
-            2: "",
-            3: ""
+            1: "Near to thy heart, O Christ divine, Leaning like John on thy breast- Till with Thy glory I will shine, Near to Thy heart I'd rest.",
+            2: "Near to thy heart O may I be, Hearing Thy sweet words of love, Learning Thy precious will for me, Seeking those things above.",
+            3: "Near to thy heart where all is peace, Lost in the light of Thy face, There will my faith and trust increase, There will I grow in grace."
         },
         chorus: "",
         song_url: `${path_name}387-NearToThyHeart.mp3`,
@@ -570,9 +570,7 @@ let songs = {
         song_num: 391,
         title: "My Desire",
         stanzas: {
-            1: "",
-            2: "",
-            3: ""
+            1: "My desire to be like Jesus, My desire- to be like Him! His Spirit fill me, His love o'er-whelm me: In deed and word to be like Him!"
         },
         chorus: "",
         song_url: `${path_name}391-MyDesire.mp3`,

@@ -93,9 +93,19 @@ const loadAllSongs = () => {
         }
     }
 
+    let num_arr = [];
+    for (i = 1; i < 573; i++) {
+        num_arr.push(i);
+    }
+    console.log(num_arr);
+
     all_songs_key.forEach((key, count) => {
         let modified_category = all_songs_obj[key].category.replaceAll('_', '-');
-        console.log("KKKKKKEy", modified_category);
+        console.log('num:', all_songs_obj[key].song_num);
+        let index = num_arr.indexOf(all_songs_obj[key].song_num);
+        // console.log('index:', index);
+        num_arr.splice(index, 1);
+        console.log(num_arr);
 
         let html = `<article class="song_search song" id="${all_songs_obj[key].title}-search">
             <div class="title-sec" onclick="openFullSong('${key}_${modified_category}')">
