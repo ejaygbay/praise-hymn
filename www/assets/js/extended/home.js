@@ -1,4 +1,5 @@
 let favorite_songs = [];
+let previous_song_group = "";
 
 if (localStorage.getItem('favorite-songs')) {
     favorite_songs = JSON.parse(localStorage.getItem('favorite-songs'));
@@ -7,7 +8,18 @@ if (localStorage.getItem('favorite-songs')) {
 }
 
 const loadSongs = (song_group) => {
+    /**
+     * If no song group is passed, then the previous song group will be used
+     * This is to solve the problem with like icon not changing when users switch from 
+     * one bottom icon (eg: Favorites) to another bottom icon (eg: Songs)
+     */
+    if (!song_group) {
+        song_group = previous_song_group;
+    }
+
     let parent_ele = document.getElementById(song_group);
+    previous_song_group = song_group;
+
     window.scroll({
         top: 0,
         behavior: "smooth"

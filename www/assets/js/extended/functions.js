@@ -11,6 +11,7 @@ const switchSection = (id) => {
 
     if (id === 'songs-section') {
         document.querySelector(`.${id}`).classList.add('active');
+        loadSongs();
     } else if (id === 'song-history-section') {
         document.querySelector(`.${id}`).classList.add('active');
     } else if (id === 'settings-section') {
@@ -139,7 +140,6 @@ const goBack = () => {
     } else {
         navigator.app.exitApp();
     }
-
 }
 
 // document.querySelector("#back").addEventListener("click", goBack, false);
@@ -156,8 +156,6 @@ document.getElementById("song-search-icon").addEventListener('click', (e) => {
 document.getElementById("song-search-input-element").addEventListener('input', (e) => {
     let value = e.target.value;
     let filter = value.toLowerCase();
-
-
 
     song_list.forEach(song => {
         let song_id = song.id;
