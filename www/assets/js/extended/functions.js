@@ -80,8 +80,7 @@ const loadAllSongs = () => {
     let all_songs_obj = {};
     let all_songs_key = [];
 
-    console.log("favorite_songs", favorite_songs);
-
+    document.getElementById('loader').setAttribute("style", "display: ''; background: transparent;");
 
     all_songs_parent_ele.innerHTML = "";
 
@@ -129,6 +128,10 @@ const loadAllSongs = () => {
 
         all_songs_parent_ele.insertAdjacentHTML('beforeend', html);
     })
+
+    setTimeout(() => {
+        document.getElementById('loader').setAttribute("style", "display: none; background: #fff;");
+    }, 1000);
 }
 
 const unlikeSong = (song_id) => {
