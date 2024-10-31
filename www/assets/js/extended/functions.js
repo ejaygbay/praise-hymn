@@ -80,6 +80,9 @@ const loadAllSongs = () => {
     let all_songs_obj = {};
     let all_songs_key = [];
 
+    console.log("favorite_songs", favorite_songs);
+
+
     all_songs_parent_ele.innerHTML = "";
 
     for (let key in songs) {
@@ -94,19 +97,19 @@ const loadAllSongs = () => {
         }
     }
 
-    let num_arr = [];
-    for (i = 1; i < 573; i++) {
-        num_arr.push(i);
-    }
-    console.log(num_arr);
-
     all_songs_key.forEach((key, count) => {
         let modified_category = all_songs_obj[key].category.replaceAll('_', '-');
-        console.log('num:', all_songs_obj[key].song_num);
-        let index = num_arr.indexOf(all_songs_obj[key].song_num);
-        // console.log('index:', index);
-        num_arr.splice(index, 1);
-        console.log(num_arr);
+        let fav_song_in_arr = `${key}_like_${modified_category}`;
+        let fav_icon_name = 'heart-outline';
+        let fav_icon_id = `${key}_unlike_${modified_category}`;
+
+        if (favorite_songs.includes(fav_song_in_arr)) {
+            fav_icon_name = 'heart';
+            fav_icon_id = `${key}_like_${modified_category}`;
+            console.log("Yes", fav_song_in_arr);
+        }
+
+
 
         let html = `<article class="song_search song" id="${all_songs_obj[key].title}-search">
             <div class="title-sec" onclick="openFullSong('${key}_${modified_category}')">
@@ -118,9 +121,11 @@ const loadAllSongs = () => {
             </div>
             <div id="${key}_parent" class="action-sec" onclick="actionButtonsHandler(event)">
                 <ion-icon id="${key}_play_worship" class="play-icon action-icons md hydrated" name="play" role="img" aria-label="play"></ion-icon>
-                <ion-icon id="${key}_unlike_worship" class="unlike-icon action-icons md hydrated" name="heart-outline" role="img" aria-label="heart outline"></ion-icon>
+                <ion-icon id=${fav_icon_id} class="unlike-icon action-icons" name=${fav_icon_name}></ion-icon>
             </div>
         </article>`;
+
+        // <ion-icon id="${key}_unlike_worship" class="unlike-icon action-icons md hydrated" name="heart-outline" role="img" aria-label="heart outline"></ion-icon>
 
         all_songs_parent_ele.insertAdjacentHTML('beforeend', html);
     })
