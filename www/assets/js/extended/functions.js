@@ -21,6 +21,7 @@ const switchSection = (id) => {
         loadFavoriteSongs();
     } else if (id === 'all-songs-section') {
         document.querySelector(`.${id}`).classList.add('active');
+        document.getElementById('loader').setAttribute("style", "display: ''; background: transparent;");
         loadAllSongs();
     }
 
@@ -80,37 +81,36 @@ const loadAllSongs = () => {
     let all_songs_obj = {};
     let all_songs_key = [];
 
-    document.getElementById('loader').setAttribute("style", "display: ''; background: transparent;");
 
     all_songs_parent_ele.innerHTML = "";
+    setTimeout(() => {
+        for (let key in songs) {
+            all_songs_key.push(...Object.keys(songs[key]));
+            all_songs_key = all_songs_key.sort();
+            let category_obj = songs[key];
 
-    for (let key in songs) {
-        all_songs_key.push(...Object.keys(songs[key]));
-        all_songs_key = all_songs_key.sort();
-        let category_obj = songs[key];
-
-        for (let song in category_obj) {
-            let new_obj = category_obj[song];
-            new_obj.category = key;
-            all_songs_obj[song] = new_obj;
-        }
-    }
-
-    all_songs_key.forEach((key, count) => {
-        let modified_category = all_songs_obj[key].category.replaceAll('_', '-');
-        let fav_song_in_arr = `${key}_like_${modified_category}`;
-        let fav_icon_name = 'heart-outline';
-        let fav_icon_id = `${key}_unlike_${modified_category}`;
-
-        if (favorite_songs.includes(fav_song_in_arr)) {
-            fav_icon_name = 'heart';
-            fav_icon_id = `${key}_like_${modified_category}`;
-            console.log("Yes", fav_song_in_arr);
+            for (let song in category_obj) {
+                let new_obj = category_obj[song];
+                new_obj.category = key;
+                all_songs_obj[song] = new_obj;
+            }
         }
 
+        all_songs_key.forEach((key, count) => {
+            let modified_category = all_songs_obj[key].category.replaceAll('_', '-');
+            let fav_song_in_arr = `${key}_like_${modified_category}`;
+            let fav_icon_name = 'heart-outline';
+            let fav_icon_id = `${key}_unlike_${modified_category}`;
+
+            if (favorite_songs.includes(fav_song_in_arr)) {
+                fav_icon_name = 'heart';
+                fav_icon_id = `${key}_like_${modified_category}`;
+                console.log("Yes", fav_song_in_arr);
+            }
 
 
-        let html = `<article class="song_search song" id="${all_songs_obj[key].title}-search">
+
+            let html = `<article class="song_search song" id="${all_songs_obj[key].title}-search">
             <div class="title-sec" onclick="openFullSong('${key}_${modified_category}')">
                 <span class="song-num">${count + 1}.</span>
                 <div>
@@ -124,14 +124,13 @@ const loadAllSongs = () => {
             </div>
         </article>`;
 
-        // <ion-icon id="${key}_unlike_worship" class="unlike-icon action-icons md hydrated" name="heart-outline" role="img" aria-label="heart outline"></ion-icon>
+            // <ion-icon id="${key}_unlike_worship" class="unlike-icon action-icons md hydrated" name="heart-outline" role="img" aria-label="heart outline"></ion-icon>
 
-        all_songs_parent_ele.insertAdjacentHTML('beforeend', html);
-    })
+            all_songs_parent_ele.insertAdjacentHTML('beforeend', html);
+        })
 
-    setTimeout(() => {
         document.getElementById('loader').setAttribute("style", "display: none; background: #fff;");
-    }, 1000);
+    }, 100);
 }
 
 const unlikeSong = (song_id) => {
