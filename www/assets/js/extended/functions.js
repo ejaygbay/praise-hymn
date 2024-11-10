@@ -1,3 +1,7 @@
+/**
+ * Switches between sections of the application.
+ * @param {string} id - The id of the section to switch to.
+ */
 const switchSection = (id) => {
     window.scroll({
         top: 0,
@@ -37,6 +41,12 @@ const switchSection = (id) => {
     }
 }
 
+/**
+ * Loads all the favorite songs from the local storage and displays them in the favorites section.
+ * It will loop through the favorite_songs array and display each song in a song component.
+ * Each song component will have a play button and an unlike button.
+ * If there are no favorite songs, it will display a message saying "No Favorite".
+ */
 const loadFavoriteSongs = () => {
     let parent_ele = document.getElementById('favorites-section');
     let count = 1;
@@ -54,18 +64,18 @@ const loadFavoriteSongs = () => {
             let author = single_song.author;
 
             let html = `<article class="song">
-            <div class="title-sec" onclick="openFullSong('${song}_${song_group}')">
-                <span class="song-num">${count}.</span>
-                <div>
-                    <div class="song-title">${song_title}</div>
-                    <div class="author">By: ${author}</div>
+                <div class="title-sec" onclick="openFullSong('${song_id}_${song_group}')">
+                    <span class="song-num">${count}.</span>
+                    <div>
+                        <div class="song-title">${song_title}</div>
+                        <div class="author">By: ${author}</div>
+                    </div>
                 </div>
-            </div>
-            <div id="${song}_parent3" class="action-sec" onclick="actionButtonsHandler(event)">
-                <ion-icon id="${song}_play3_${song_group}" class="play-icon action-icons" name="play"></ion-icon>
-                <ion-icon onclick="unlikeSong('${song_id}_like_${song_group}')" class="unlike-icon action-icons" name="close-circle-outline"></ion-icon>
-            </div>
-        </article>`;
+                <div id="${song_id}_parent3" class="action-sec" onclick="actionButtonsHandler(event)">
+                    <ion-icon id="${song_id}_play3_${song_group}" class="play-icon action-icons" name="play"></ion-icon>
+                    <ion-icon onclick="unlikeSong('${song_id}_like_${song_group}')" class="unlike-icon action-icons" name="close-circle-outline"></ion-icon>
+                </div>
+            </article>`;
 
             parent_ele.insertAdjacentHTML('beforeend', html);
             count += 1;
@@ -76,6 +86,11 @@ const loadFavoriteSongs = () => {
     }
 }
 
+/**
+ * @description This function is used to load all the songs from the all_songs json file and display them in the all songs section
+ * @param {None}
+ * @return {None}
+ */
 const loadAllSongs = () => {
     let all_songs_parent_ele = document.getElementById('all-songs');
     let all_songs_obj = {};
@@ -133,6 +148,11 @@ const loadAllSongs = () => {
     }, 100);
 }
 
+/**
+ * Removes a song from the favorite songs list
+ * @param {string} song_id The id of the song to unlike
+ * @return {None}
+ */
 const unlikeSong = (song_id) => {
     favorite_songs.splice(favorite_songs.indexOf(song_id), 1);
     localStorage.setItem('favorite-songs', JSON.stringify(favorite_songs));
@@ -140,6 +160,10 @@ const unlikeSong = (song_id) => {
     songStatistics();
 }
 
+/**
+ * Handles the back button click event. If the previous section is set, switch to that section and reset the previous section value. Otherwise, exit the app.
+ * @return {None}
+ */
 const goBack = () => {
     if (previous_section) {
         switchSection(previous_section);

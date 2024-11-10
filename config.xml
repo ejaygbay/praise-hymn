@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="cbc.praisehymn" version="3.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" android-versionCode="30000">
+<widget id="cbc.praisehymn" version="3.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" android-versionCode="30008">
     <name>Praise Hymn</name>
     <description>
-        Praise Hymn used in Calvary Baptist Church for singing.
+        Praise Hymn is an app used for congregational singing and worship.
     </description>
     <author email="emmanueljaygbay@gmail.com" href="https://comteched.com">
         Emmanuel Jaygbay

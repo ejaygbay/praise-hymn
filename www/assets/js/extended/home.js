@@ -7,6 +7,13 @@ if (localStorage.getItem('favorite-songs')) {
     localStorage.setItem('favorite-songs', JSON.stringify(favorite_songs))
 }
 
+/**
+ * This function is used to load all the songs from the selected song group and display them in the UI
+ * If no song group is passed, then the previous song group will be used
+ * This is to solve the problem with like icon not changing when users switch from 
+ * one bottom icon (eg: Favorites) to another bottom icon (eg: Songs)
+ * @param {string} song_group - The song group to be loaded
+ */
 const loadSongs = (song_group) => {
     /**
      * If no song group is passed, then the previous song group will be used
@@ -66,6 +73,10 @@ const loadSongs = (song_group) => {
     makeSongTabActive(`[href="#${song_group}"] .card`);
 }
 
+/**
+ * Makes the given song tab active by removing the active class from all the other tabs and then adding it to the given tab.
+ * @param {string} ele - The css selector of the element to make active.
+ */
 const makeSongTabActive = (ele) => {
     document.querySelectorAll('.active-song-tab').forEach(el => {
         el.classList.remove('active-song-tab');
@@ -74,6 +85,20 @@ const makeSongTabActive = (ele) => {
     document.querySelector(ele).classList.add('active-song-tab')
 }
 
+/**
+ * Opens the full song lyrics view for the specified song and populates the UI 
+ * with the song's title, author, hymn number, stanzas, and chorus if available.
+ * 
+ * @param {string} song_id - The ID of the song in the format 'songId_songGroup'.
+ *                           This is used to retrieve the song details from the
+ *                           `songs` object and to construct UI elements.
+ * 
+ * The function switches the current view to the song lyrics section, extracts
+ * the song details based on the provided `song_id`, and updates the `.song-lyrics`
+ * element with the song's title, author, hymn number, and lyrics. It handles
+ * both the presence and absence of a chorus. The song's play button is also 
+ * prepared but commented out for testing purposes.
+ */
 const openFullSong = (song_id) => {
     console.log("openFullSong", song_id);
 
@@ -143,6 +168,11 @@ const openFullSong = (song_id) => {
 
 // switchSection('downloads-section');
 
+/**
+ * Handles the click event on the action buttons (play, play2, stop, stop2, like, unlike).
+ * Depending on the action button clicked, it will either play the song, pause the song, like the song, unlike the song, or do nothing.
+ * @param {Event} e - The click event.
+ */
 const actionButtonsHandler = (e) => {
     let id = e.target.id.split('_');
     let song_id = id[0];
@@ -195,6 +225,21 @@ const addClass = (id, name) => document.getElementById(id).classList.add(name);
 
 const setAttributeValue = (ele, attr, value) => document.querySelector(ele).setAttribute(attr, value);
 
+/**
+ * Removes the 'playing' class from all elements that currently have it, 
+ * and updates their attributes to reflect a non-playing state.
+ * 
+ * The function iterates over each element with the 'playing' class,
+ * splits their ID to extract relevant parts, and then performs the
+ * following actions:
+ * - Removes the 'playing' class from the element.
+ * - Sets the 'name' attribute to 'play'.
+ * - Updates the 'id' attribute to indicate a non-playing state based 
+ *   on the current action ('stop' or 'stop2') and the provided song group.
+ * - Calls the `stopSong` function to halt any playing audio.
+ * 
+ * @param {string} song_group - The song group identifier used for updating IDs.
+ */
 const removePlayingClass = (song_group) => {
     document.querySelectorAll('.playing').forEach(ele => {
         let id = ele.id.split('_');
@@ -214,6 +259,11 @@ const removePlayingClass = (song_group) => {
 
 const removeFavoriteClass = (id, name) => document.getElementById(id).classList.remove(name);
 
+/**
+ * Play a song.
+ * @param {Array<string>} id - The ID of the song as an array of 3 strings.
+ * The first element of the array is the id of the song, the second element is the action to take - 'play' or 'play2', and the third element is the group of the song.
+ */
 const playSong = (id) => {
     let song_player = document.querySelector(".song-player");
     let song_id = id[0];
@@ -270,6 +320,10 @@ const playSong = (id) => {
     }
 }
 
+/**
+ * Stops the currently playing song and resets its playback position to the beginning.
+ * This is used when switching between different sections of the application.
+ */
 const stopSong = () => {
     let song_player = document.querySelector(".song-player");
 
@@ -277,6 +331,16 @@ const stopSong = () => {
     song_player.currentTime = 0;
 }
 
+/**
+ * Stops the currently playing song and resets its playback position to the beginning
+ * when switching between different sections of the application.
+ * 
+ * This ensures that the song does not continue playing in the background
+ * when the user navigates to a different section. The function checks if
+ * a song is currently playing by verifying that the song player's duration
+ * is greater than zero and that it is not paused. If both conditions are met,
+ * the song is paused and its current playback position is reset to zero.
+ */
 const stopSongOnSectionSwitch = () => {
     let song_player = document.querySelector(".song-player");
 
@@ -286,6 +350,9 @@ const stopSongOnSectionSwitch = () => {
     }
 }
 
+/**
+ * Updates the favorite songs number and total songs number on the page.
+ */
 const songStatistics = () => {
     let songs_key = Object.keys(songs);
     let count = 0;
