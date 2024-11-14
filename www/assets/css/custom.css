@@ -84,6 +84,8 @@
 .play-icon,
 .stop-icon {
     margin-right: 30px;
+    display: none;
+    /* To be removed */
 }
 
 .tab-pane {

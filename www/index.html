@@ -35,7 +35,7 @@
         </div>
         <div class="pageTitle">Songs</div>
         <div class="right">
-            <a href="#" class="headerButton toggle-searchbox">
+            <a href="#" id="song-search-icon" class="headerButton toggle-searchbox">
                 <ion-icon name="search-outline"></ion-icon>
             </a>
         </div>
@@ -46,7 +46,7 @@
     <div id="search" class="appHeader">
         <form class="search-form">
             <div class="form-group searchbox">
-                <input type="text" class="form-control" placeholder="Search...">
+                <input type="text" id="song-search-input-element" class="form-control" placeholder="Enter song title or number">
                 <i class="input-icon">
                     <ion-icon name="search-outline"></ion-icon>
                 </i>
@@ -300,10 +300,13 @@
 
             <!-- Downloads Section -->
             <section id="downloads-section" class="hide-ele">
-                <button type="button" class="btn btn-outline-primary shadowed btn-lg btn-block" id="download-songs-btn">
+                <!-- <button type="button" class="btn btn-outline-primary shadowed btn-lg btn-block" id="download-songs-btn">
                     <ion-icon name="arrow-down-circle-outline"></ion-icon>
                     DOWNLOAD ALL SONGS
-                </button>
+                </button> -->
+
+                <p style="font-size: 20px; margin-top: 50%; text-align: center;">Coming Soon!</p>
+
 
                 <!-- To be removed -->
                 <div id="obj"></div>
@@ -312,7 +315,8 @@
 
             <!-- Song History Section -->
             <section id="song-history-section" class="hide-ele">
-                <p style="margin-top: 50%; text-align: center;">No History</p>
+                <!-- <p style="margin-top: 50%; text-align: center;">No History</p> -->
+                <p style="font-size: 20px; margin-top: 50%; text-align: center;">Coming Soon!</p>
             </section>
 
             <!-- Settings Section -->
@@ -336,19 +340,26 @@
                 </div>
             </section>
 
+            <!-- All Songs Section -->
+            <section id="all-songs-section" class="hide-ele">
+                <div class="section mt-3 mb-3" id="all-songs"></div>
+            </section>
+
             <!-- About Section -->
             <section id="about-section" class="hide-ele">
 
                 <!-- app footer -->
                 <div class="appFooter">
-                    <img src="assets/img/logo.png" alt="icon" class="footer-logo mb-2">
-                    <div class="footer-title">
+                    <p style="font-size: 20px; margin-top: 50%; text-align: center;">Coming Soon!</p>
+
+                    <!-- <img src="assets/img/logo.png" alt="icon" class="footer-logo mb-2"> -->
+                    <!-- <div class="footer-title">
                         Copyright © Mobilekit <span class="yearNow"></span>. All Rights Reserved.
                     </div>
                     <div>Mobilekit is PWA ready Mobile UI Kit Template.</div>
-                    Great way to start your mobile websites and pwa projects.
+                    Great way to start your mobile websites and pwa projects. -->
 
-                    <div class="mt-2">
+                    <!-- <div class="mt-2">
                         <a href="#" class="btn btn-icon btn-sm btn-facebook">
                             <ion-icon name="logo-facebook"></ion-icon>
                         </a>
@@ -367,7 +378,7 @@
                         <a href="#" class="btn btn-icon btn-sm btn-secondary goTop">
                             <ion-icon name="arrow-up-outline"></ion-icon>
                         </a>
-                    </div>
+                    </div> -->
 
                 </div>
                 <!-- * app footer -->
@@ -391,21 +402,21 @@
                 <span class="badge badge-secondary" id="fav-num-tab">0</span>
             </div>
         </div>
-        <div class="item song-history-section" onclick="switchSection('song-history-section')">
+        <!-- <div class="item song-history-section" onclick="switchSection('song-history-section')">
             <div class="col">
                 <ion-icon name="book-outline"></ion-icon>
             </div>
-        </div>
+        </div> -->
         <div class="item settings-section" onclick="switchSection('settings-section')">
             <div class="col">
                 <ion-icon name="settings-outline"></ion-icon>
             </div>
         </div>
-        <a href="#sidebarPanel" class="item" data-bs-toggle="offcanvas">
+        <div class="item all-songs-section" onclick="switchSection('all-songs-section')">
             <div class="col">
-                <ion-icon name="menu-outline"></ion-icon>
+                <ion-icon name="list-outline"></ion-icon>
             </div>
-        </a>
+        </div>
     </div>
     <!-- * App Bottom Menu -->
 
@@ -443,7 +454,7 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="#sidebarPanel" data-bs-toggle="offcanvas" class="item" onclick="switchSection('downloads-section')">
                         <div class="icon-box bg-primary">
                             <ion-icon name="download-outline"></ion-icon>
@@ -452,8 +463,8 @@
                             <div>Downloads</div>
                         </div>
                     </a>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                     <a href="#sidebarPanel" data-bs-toggle="offcanvas" class="item" onclick="switchSection('song-history-section')">
                         <div class="icon-box bg-primary">
                             <ion-icon name="book-outline"></ion-icon>
@@ -462,7 +473,7 @@
                             <div>Songs History</div>
                         </div>
                     </a>
-                </li>
+                </li> -->
                 <li>
                     <a href="#sidebarPanel" data-bs-toggle="offcanvas" class="item" onclick="switchSection('settings-section')">
                         <div class="icon-box bg-primary">
@@ -473,7 +484,7 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="#sidebarPanel" data-bs-toggle="offcanvas" class="item" onclick="switchSection('about-section')">
                         <div class="icon-box bg-primary">
                             <ion-icon name="information-outline"></ion-icon>
@@ -482,7 +493,7 @@
                             <div>About</div>
                         </div>
                     </a>
-                </li>
+                </li> -->
             </ul>
         </div>
         <!-- sidebar buttons -->
@@ -504,6 +515,7 @@
     </div>
     <!-- * App Sidebar -->
 
+
     <!-- ============== Js Files ==============  -->
     <script src="cordova.js"></script>
 
@@ -524,6 +536,10 @@
     <script src="assets/js/extended/functions.js"></script>
     <script src="assets/js/extended/home.js"></script>
     <script src="assets/js/extended/download.js"></script>
+
+    <script>
+        // alert("hi");
+    </script>
 </body>
 
 </html>

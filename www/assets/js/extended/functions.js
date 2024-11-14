@@ -1,3 +1,7 @@
+/**
+ * Switches between sections of the application.
+ * @param {string} id - The id of the section to switch to.
+ */
 const switchSection = (id) => {
     window.scroll({
         top: 0,
@@ -11,6 +15,7 @@ const switchSection = (id) => {
 
     if (id === 'songs-section') {
         document.querySelector(`.${id}`).classList.add('active');
+        loadSongs();
     } else if (id === 'song-history-section') {
         document.querySelector(`.${id}`).classList.add('active');
     } else if (id === 'settings-section') {
@@ -18,6 +23,10 @@ const switchSection = (id) => {
     } else if (id === 'favorites-section') {
         document.querySelector(`.${id}`).classList.add('active');
         loadFavoriteSongs();
+    } else if (id === 'all-songs-section') {
+        document.querySelector(`.${id}`).classList.add('active');
+        document.getElementById('loader').setAttribute("style", "display: ''; background: transparent;");
+        loadAllSongs();
     }
 
     stopSongOnSectionSwitch();
@@ -32,105 +41,18 @@ const switchSection = (id) => {
     }
 }
 
-
-
-
-
-// let songs_keys = Object.keys(songs);
-// let favorites = [];
-// let previous_section = "";
-// let current_section = "songs";
-
-
-
-// const addEventToSongTitle = () => {
-//     document.querySelectorAll(".song-title").forEach(ele => {
-//         ele.addEventListener("click", e => {
-//             let id = e.target.id;
-//             let song_lyrics_keys = Object.keys(songs[id]);
-//             let stanzas = songs[id].stanzas;
-//             let song_ele = document.querySelector(".song");
-//             let stanzas_keys = Object.keys(stanzas);
-//             let title_header = `<div>
-//                 <h5>${songs[id].title}</h5>
-//                 <article class="important-info">
-//                     <span>By: ${songs[id].author}</span>
-//                     <a href="#">Read History</a>
-//                 </article>
-//             </div>`;
-//             let play_btn = `<a class="${id} btn-floating btn-large waves-effect waves-light">
-//                 <i class="material-icons play action-icons">play_arrow</i>
-//                 <i class="material-icons stop action-icons">stop</i>
-//             </a>`;
-
-//             previous_section = current_section;
-
-//             song_ele.innerHTML = "";
-//             song_ele.insertAdjacentHTML("beforeend", title_header);
-//             song_ele.insertAdjacentHTML("beforeend", play_btn);
-
-//             if (song_lyrics_keys.includes('chorus')) {
-//                 let stanza1 = `<div class=stanza>
-//                     <span>1.</span>
-//                     <article>
-//                         ${stanzas[1]}
-//                     </article>
-//                 </div>`;
-
-//                 let chorus = `<div class=stanza>
-//                     <span>Chorus</span>
-//                     <article>
-//                         ${songs[id].chorus}
-//                     </article>
-//                 </div>`;
-
-//                 song_ele.insertAdjacentHTML("beforeend", stanza1);
-//                 if (songs[id].chorus.length > 0) {
-//                     song_ele.insertAdjacentHTML("beforeend", chorus);
-//                 }
-
-//                 for (let i = 1; i < stanzas_keys.length; i++) {
-//                     let html = `<div class=stanza>
-//                         <span>${i + 1}.</span>
-//                         <article>
-//                             ${stanzas[i + 1]}
-//                         </article>
-//                     </div>`;
-//                     song_ele.insertAdjacentHTML("beforeend", html);
-//                 }
-//             } else {
-//                 stanzas_keys.forEach((ele, index) => {
-//                     let html = `<div class=stanza>
-//                     <span>${index + 1}</span>
-//                     <article>
-//                         ${stanzas[ele]}
-//                     </article>
-//                 </div>`;
-//                     song_ele.insertAdjacentHTML("beforeend", html);
-//                 })
-//             }
-
-//             document.querySelector(`.show`).classList.remove('show');
-//             document.querySelector(`.song`).classList.add("show");
-//             addEventToPlayIcon('song');
-//             addEventToStopIcon("song");
-//             stopSongOnSectionSwitch();
-//         })
-//     })
-// }
-
-// const showIcon = (show) => {
-//     document.querySelector(show).style = "display: block";
-// }
-
-// const hideIcon = (hide) => {
-//     document.querySelector(hide).style = "display: none";
-// }
-
+/**
+ * Loads all the favorite songs from the local storage and displays them in the favorites section.
+ * It will loop through the favorite_songs array and display each song in a song component.
+ * Each song component will have a play button and an unlike button.
+ * If there are no favorite songs, it will display a message saying "No Favorite".
+ */
 const loadFavoriteSongs = () => {
     let parent_ele = document.getElementById('favorites-section');
     let count = 1;
     parent_ele.innerHTML = "";
+    console.log("favorite_songs", favorite_songs);
+
 
     if (favorite_songs.length > 0) {
         favorite_songs.forEach(ele => {
@@ -142,18 +64,18 @@ const loadFavoriteSongs = () => {
             let author = single_song.author;
 
             let html = `<article class="song">
-            <div class="title-sec" onclick="openFullSong('${song}_${song_group}')">
-                <span class="song-num">${count}.</span>
-                <div>
-                    <div class="song-title">${song_title}</div>
-                    <div class="author">By: ${author}</div>
+                <div class="title-sec" onclick="openFullSong('${song_id}_${song_group}')">
+                    <span class="song-num">${count}.</span>
+                    <div>
+                        <div class="song-title">${song_title}</div>
+                        <div class="author">By: ${author}</div>
+                    </div>
                 </div>
-            </div>
-            <div id="${song}_parent3" class="action-sec" onclick="actionButtonsHandler(event)">
-                <ion-icon id="${song}_play3_${song_group}" class="play-icon action-icons" name="play"></ion-icon>
-                <ion-icon onclick="unlikeSong('${song_id}_like_${song_group}')" class="unlike-icon action-icons" name="close-circle-outline"></ion-icon>
-            </div>
-        </article>`;
+                <div id="${song_id}_parent3" class="action-sec" onclick="actionButtonsHandler(event)">
+                    <ion-icon id="${song_id}_play3_${song_group}" class="play-icon action-icons" name="play"></ion-icon>
+                    <ion-icon onclick="unlikeSong('${song_id}_like_${song_group}')" class="unlike-icon action-icons" name="close-circle-outline"></ion-icon>
+                </div>
+            </article>`;
 
             parent_ele.insertAdjacentHTML('beforeend', html);
             count += 1;
@@ -164,6 +86,73 @@ const loadFavoriteSongs = () => {
     }
 }
 
+/**
+ * @description This function is used to load all the songs from the all_songs json file and display them in the all songs section
+ * @param {None}
+ * @return {None}
+ */
+const loadAllSongs = () => {
+    let all_songs_parent_ele = document.getElementById('all-songs');
+    let all_songs_obj = {};
+    let all_songs_key = [];
+
+
+    all_songs_parent_ele.innerHTML = "";
+    setTimeout(() => {
+        for (let key in songs) {
+            all_songs_key.push(...Object.keys(songs[key]));
+            all_songs_key = all_songs_key.sort();
+            let category_obj = songs[key];
+
+            for (let song in category_obj) {
+                let new_obj = category_obj[song];
+                new_obj.category = key;
+                all_songs_obj[song] = new_obj;
+            }
+        }
+
+        all_songs_key.forEach((key, count) => {
+            let modified_category = all_songs_obj[key].category.replaceAll('_', '-');
+            let fav_song_in_arr = `${key}_like_${modified_category}`;
+            let fav_icon_name = 'heart-outline';
+            let fav_icon_id = `${key}_unlike_${modified_category}`;
+
+            if (favorite_songs.includes(fav_song_in_arr)) {
+                fav_icon_name = 'heart';
+                fav_icon_id = `${key}_like_${modified_category}`;
+                console.log("Yes", fav_song_in_arr);
+            }
+
+
+
+            let html = `<article class="song_search song" id="${all_songs_obj[key].title}-search">
+            <div class="title-sec" onclick="openFullSong('${key}_${modified_category}')">
+                <span class="song-num">${count + 1}.</span>
+                <div>
+                    <div class="song-title">${all_songs_obj[key].title}</div>
+                    <div class="author">By: ${all_songs_obj[key].author} <span class="author">| Hymn #: ${all_songs_obj[key].song_num}</span></div>
+                </div>
+            </div>
+            <div id="${key}_parent" class="action-sec" onclick="actionButtonsHandler(event)">
+                <ion-icon id="${key}_play_worship" class="play-icon action-icons md hydrated" name="play" role="img" aria-label="play"></ion-icon>
+                <ion-icon id=${fav_icon_id} class="unlike-icon action-icons" name=${fav_icon_name}></ion-icon>
+            </div>
+        </article>`;
+
+            // <ion-icon id="${key}_unlike_worship" class="unlike-icon action-icons md hydrated" name="heart-outline" role="img" aria-label="heart outline"></ion-icon>
+
+            all_songs_parent_ele.insertAdjacentHTML('beforeend', html);
+        })
+
+        document.getElementById('loader').setAttribute("style", "display: none; background: #fff;");
+    }, 100);
+}
+
+/**
+ * Removes a song from the favorite songs list
+ * @param {string} song_id The id of the song to unlike
+ * @return {None}
+ */
 const unlikeSong = (song_id) => {
     favorite_songs.splice(favorite_songs.indexOf(song_id), 1);
     localStorage.setItem('favorite-songs', JSON.stringify(favorite_songs));
@@ -171,6 +160,10 @@ const unlikeSong = (song_id) => {
     songStatistics();
 }
 
+/**
+ * Handles the back button click event. If the previous section is set, switch to that section and reset the previous section value. Otherwise, exit the app.
+ * @return {None}
+ */
 const goBack = () => {
     if (previous_section) {
         switchSection(previous_section);
@@ -178,8 +171,32 @@ const goBack = () => {
     } else {
         navigator.app.exitApp();
     }
-
 }
 
 // document.querySelector("#back").addEventListener("click", goBack, false);
 document.addEventListener("backbutton", goBack, false);
+
+let search_icon_ele = document.getElementById("song-search-element");
+let song_list = "";
+
+document.getElementById("song-search-icon").addEventListener('click', (e) => {
+    song_list = document.querySelectorAll('.song_search');
+    // console.log(song_list);
+})
+
+document.getElementById("song-search-input-element").addEventListener('input', (e) => {
+    let value = e.target.value;
+    let filter = value.toLowerCase();
+
+    song_list.forEach(song => {
+        let song_id = song.id;
+        let song_ele = document.getElementById(song_id);
+
+        if (song_id.toLowerCase().includes(filter)) {
+            console.log(song_id, filter);
+            song_ele.classList.remove('d-none');
+        } else {
+            song_ele.classList.add('d-none');
+        }
+    })
+})

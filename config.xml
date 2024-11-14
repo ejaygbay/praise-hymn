@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="cbc.praisehymn" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="cbc.praisehymn" version="3.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" android-versionCode="30008">
     <name>Praise Hymn</name>
     <description>
-        Praise Hymn used in Calvary Baptist Church for singing.
+        Praise Hymn is an app used for congregational singing and worship.
     </description>
-    <author email="emmanueljaygbay@gmail.com" href="https://kwagei.com">
+    <author email="emmanueljaygbay@gmail.com" href="https://comteched.com">
         Emmanuel Jaygbay
     </author>
     <content src="index.html" />
@@ -15,46 +15,27 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+
     <platform name="android">
-        <allow-intent href="market:*" />
+        <preference name="SplashScreen" value="screen" />
+        <preference name="SplashScreenDelay" value="3000" />
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="ShowSplashScreenSpinner" value="false" />
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/splashscreen.xml" />
+    </platform>
 
-        <!-- App Icon -->
-        <icon src="res/icon/android/icon-192.png" />
-        <icon density="mdpi" src="res/icon/android/icon-48.png" />
-        <icon density="hdpi" src="res/icon/android/icon-72.png" />
-        <icon density="xhdpi" src="res/icon/android/icon-96.png" />
-        <icon density="xxhdpi" src="res/icon/android/icon-144.png" />
-        <icon density="xxxhdpi" src="res/icon/android/icon-192.png" />
-
-        <!-- Splash screen -->
-        
-        <!-- Default -->
-        <splash src="res/screen/android/splash-port/hdpi.png" density="hdpi"/>
-        <splash src="res/screen/android/splash-port/ldpi.png" density="ldpi"/>
-        <splash src="res/screen/android/splash-port/mdpi.png" density="mdpi"/>
-        <splash src="res/screen/android/splash-port/xhdpi.png" density="xhdpi"/>
-        <splash src="res/screen/android/splash-port/xxhdpi.png" density="xxhdpi"/>
-
-        <!-- Landscape -->
-        <splash src="res/screen/android/splash-land/hdpi.png" density="land-hdpi" />
-        <splash src="res/screen/android/splash-land/ldpi.png" density="land-ldpi" />
-        <splash src="res/screen/android/splash-land/mdpi.png" density="land-mdpi" />
-        <splash src="res/screen/android/splash-land/xhdpi.png" density="land-xhdpi" />
-        <splash src="res/screen/android/splash-land/xxhdpi.png" density="land-xxhdpi" />
-        <splash src="res/screen/android/splash-land/xxxhdpi.png" density="land-xxxhdpi" />
-
-        <!-- Portrait -->
+    <!-- <platform name="android">
         <splash src="res/screen/android/splash-port/hdpi.png" density="port-hdpi" />
-        <splash src="res/screen/android/splash-port/ldpi.png" density="port-ldpi" />
         <splash src="res/screen/android/splash-port/mdpi.png" density="port-mdpi" />
+        <splash src="res/screen/android/splash-port/ldpi.png" density="port-ldpi" />
         <splash src="res/screen/android/splash-port/xhdpi.png" density="port-xhdpi" />
         <splash src="res/screen/android/splash-port/xxhdpi.png" density="port-xxhdpi" />
         <splash src="res/screen/android/splash-port/xxxhdpi.png" density="port-xxxhdpi" />
+    </platform> -->
 
+    
+    <!-- <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/splashscreen.xml" /> -->
 
-        <!-- <preference name="signed_bundle_keystore_path" value="./praisehymn.keystore" />
-        <preference name="signed_bundle_keystore_alias" value="nl.cnc.alias" /> -->
-    </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
