@@ -131,7 +131,7 @@ const loadAllSongs = () => {
 
 
 
-            let html = `<article class="song_search song" id="${all_songs_obj[key].title}-search">
+            let html = `<article class="song_search song" id="${all_songs_obj[key].title}-search" data-hymn_num="${all_songs_obj[key].song_num}">
             <div class="title-sec" onclick="openFullSong('${key}_${modified_category}')">
                 <span class="song-num">${count + 1}.</span>
                 <div>
@@ -197,8 +197,6 @@ document.getElementById("song-search-icon").addEventListener('click', (e) => {
     } else {
         song_list = document.querySelectorAll('.song_search');
     }
-
-
 })
 
 document.getElementById("song-search-input-element").addEventListener('input', (e) => {
@@ -206,11 +204,13 @@ document.getElementById("song-search-input-element").addEventListener('input', (
     let filter = value.toLowerCase();
 
     song_list.forEach(song => {
-        let song_id = song.id;
-        let song_ele = document.getElementById(song_id);
+        let hymn_num = song.getAttribute('data-hymn_num');;
+        let song_title = song.id;
 
-        if (song_id.toLowerCase().includes(filter)) {
-            console.log(song_id, filter);
+        let song_ele = document.getElementById(song_title);
+
+        if (song_title.toLowerCase().includes(filter) || hymn_num.includes(filter)) {
+            console.log(song_title, filter, hymn_num);
             song_ele.classList.remove('d-none');
         } else {
             song_ele.classList.add('d-none');
