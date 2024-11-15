@@ -133,7 +133,7 @@ const loadAllSongs = () => {
 
             let html = `<article class="song_search song" id="${all_songs_obj[key].title}-search" data-hymn_num="${all_songs_obj[key].song_num}">
             <div class="title-sec" onclick="openFullSong('${key}_${modified_category}')">
-                <span class="song-num">${count + 1}.</span>
+                <span class="song-num-search">${count + 1}.</span>
                 <div>
                     <div class="song-title">${all_songs_obj[key].title}</div>
                     <div class="author">By: ${all_songs_obj[key].author} <span class="author">| Hymn #: ${all_songs_obj[key].song_num}</span></div>
@@ -209,11 +209,33 @@ document.getElementById("song-search-input-element").addEventListener('input', (
 
         let song_ele = document.getElementById(song_title);
 
+        // console.log(song_ele);
+
         if (song_title.toLowerCase().includes(filter) || hymn_num.includes(filter)) {
-            console.log(song_title, filter, hymn_num);
+            // console.log(song_title, filter, hymn_num);
+
             song_ele.classList.remove('d-none');
         } else {
             song_ele.classList.add('d-none');
         }
+    })
+
+    let song_nums = document.querySelectorAll('.song-num-search');
+
+    // Filter out elements whose parent has the d-none class
+    let visible_song_nums = Array.from(song_nums).filter(el => {
+        // Check if any parent has the d-none class
+        let parent = el.parentElement;
+        while (parent) {
+            if (parent.classList.contains('d-none')) {
+                return false; // Exclude this element if a parent has d-none
+            }
+            parent = parent.parentElement;
+        }
+        return true; // Include only if no parent has d-none
+    });
+
+    visible_song_nums.forEach((ele, index) => {
+        ele.innerHTML = index + 1;
     })
 })
