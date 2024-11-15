@@ -1,3 +1,6 @@
+let previous_section = "";
+let current_section = "songs-section";
+
 /**
  * Switches between sections of the application.
  * @param {string} id - The id of the section to switch to.
@@ -7,6 +10,9 @@ const switchSection = (id) => {
         top: 0,
         behavior: "smooth"
     })
+
+    previous_section = current_section;
+    current_section = id;
 
     document.querySelectorAll('.show-ele').forEach(ele => ele.classList.replace('show-ele', 'hide-ele'));
     document.getElementById(id).classList.add('show-ele');
@@ -181,8 +187,18 @@ let song_list = "";
 
 document.getElementById("song-search-icon").addEventListener('click', (e) => {
     document.getElementById("song-search-input-element").value = "";
-    song_list = document.querySelectorAll('.song_search');
-    console.log(song_list);
+
+    if (current_section !== "all-songs-section") {
+        document.querySelector('.all-songs-section').click();
+
+        setTimeout(() => {
+            song_list = document.querySelectorAll('.song_search');
+        }, 100)
+    } else {
+        song_list = document.querySelectorAll('.song_search');
+    }
+
+
 })
 
 document.getElementById("song-search-input-element").addEventListener('input', (e) => {
