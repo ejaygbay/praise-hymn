@@ -180,8 +180,9 @@ let search_icon_ele = document.getElementById("song-search-element");
 let song_list = "";
 
 document.getElementById("song-search-icon").addEventListener('click', (e) => {
+    document.getElementById("song-search-input-element").value = "";
     song_list = document.querySelectorAll('.song_search');
-    // console.log(song_list);
+    console.log(song_list);
 })
 
 document.getElementById("song-search-input-element").addEventListener('input', (e) => {
